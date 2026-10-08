@@ -1,0 +1,568 @@
+[
+  {
+    "id": "sus-2025-ug-epfl-01",
+    "prize": "sustainability",
+    "team": "EPFL",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/epfl/sustainability",
+    "section": "Overview",
+    "function": "page-opening",
+    "text": "To evaluate how our project could contribute to sustainable development, we examined both sides of the wildfire problem: the escalating environmental impact of uncontrolled fires, and the collateral damage caused by current fire-fighting chemicals.\nWildfires and climate change form a reinforcing loop: drier conditions increase ignition risk, while each large burn releases vast amounts of CO₂. In addition, we found stark inequalities in global access to effective and safe fire-control technologies.",
+    "why_it_works": "Opens on the problem from two sides (the damage fires do, and the damage the fire-fighting chemicals do) before any SDG is named. Each goal chosen in the next paragraph already has a reason waiting for it.",
+    "teaches": [
+      "structure",
+      "clarity"
+    ]
+  },
+  {
+    "id": "sus-2025-ug-epfl-02",
+    "prize": "sustainability",
+    "team": "EPFL",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/epfl/sustainability",
+    "section": "Stakeholders",
+    "function": "stakeholder-entry",
+    "text": "The Mirror Foundation (Thailand) showed us how local teams cut firebreaks with leaf blowers and rely on satellite fire alerts delivered to their phones. They also highlighted stark gaps: few helicopters, limited protective gear, and at times even scarce drinking water, forcing responders to take serious risks. These realities shaped our approach: make drones an affordable, precise tool that complements (and doesn’t replace) their frontline efforts.",
+    "why_it_works": "Three beats in one paragraph: what the partner showed (leaf blowers, phone alerts), the gaps they named, and the design consequence in the last sentence. The reader can trace the feedback to the decision.",
+    "teaches": [
+      "loop-closing",
+      "structure",
+      "evidence"
+    ]
+  },
+  {
+    "id": "sus-2025-ug-epfl-03",
+    "prize": "sustainability",
+    "team": "EPFL",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/epfl/sustainability",
+    "section": "Stakeholders",
+    "function": "stakeholder-entry",
+    "text": "We observed inequalities in fire-management resources: some agencies operate full aerial fleets, while others face gaps in access and reach. BC Wildfire Service (Canada) encouraged us to ensure our hydrogel is compatible with existing pumps and retardant systems—so it can fit seamlessly into established operations—and noted their current focus remains on fixed-wing assets rather than drones. NAFC (Australia) encouraged us to calibrate expectations around small-UAV payloads and vast distances, guiding our proof-of-concept toward use cases where large aircraft aren’t available or fast to deploy.",
+    "why_it_works": "Reports the stakeholders who limited the project as well as those who backed it: BC Wildfire still flies fixed-wing aircraft, NAFC warned about small payloads. The team then narrows its use case. Scope set by a sceptic reads as stronger evidence than praise.",
+    "teaches": [
+      "limitation",
+      "loop-closing"
+    ]
+  },
+  {
+    "id": "sus-2025-ug-epfl-04",
+    "prize": "sustainability",
+    "team": "EPFL",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/epfl/sustainability",
+    "section": "Long-term Impact",
+    "function": "method",
+    "text": "Measuring equity outcomes. We propose tracking responder injuries, deployment time in low-resource districts, cost-per-hectare protected, and adoption rates to ensure benefits accrue where vulnerability is greatest and to inform equitable funding.",
+    "why_it_works": "Names four indicators someone could count: responder injuries, deployment time, cost per hectare, adoption rate. It is still a proposal with no baseline and no target, and a stronger version would give both.",
+    "teaches": [
+      "evidence",
+      "measurability"
+    ]
+  },
+  {
+    "id": "sus-2025-ug-epfl-05",
+    "prize": "sustainability",
+    "team": "EPFL",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/epfl/sustainability",
+    "section": "Long-term Impact",
+    "function": "other",
+    "text": "Reduction of CO₂ and Black-Carbon Emissions. Our hydrogel formulation (cellulose–chitosan–silica–SRSF1) demonstrated a significant reduction in burn rate and in surface temperature during laboratory tests, leading to a decrease in CO₂ emissions per wildfire event in field applications. Additionally, the hydrogel promotes char formation, stabilizing carbon in the soil and delaying its atmospheric release (Gaia Education, 2025)",
+    "why_it_works": "Counter-example. A lab result (lower burn rate and surface temperature) becomes a field claim (less CO₂ per wildfire event) inside one sentence, and no field test stands behind it. Put what was measured and what is expected in separate sentences.",
+    "teaches": [
+      "evidence",
+      "clarity"
+    ]
+  },
+  {
+    "id": "sus-2025-ug-epfl-06",
+    "prize": "sustainability",
+    "team": "EPFL",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/epfl/sustainability",
+    "section": "Long-term Impact",
+    "function": "evidence-with-numbers",
+    "text": "Low-Emission Deployment and Adaptation Technology. Unlike conventional kerosene-powered firefighting aircraft emitting up to 65 kg CO₂ per flight hour, Our drones operate electrically, emitting less than 0.1 kg CO₂ per hour, or potentially zero with renewable energy. The drones’ precision spraying minimizes resource use, while offering proactive climate adaptation capabilities such as fire-risk surveillance and pre-emptive gel application, crucial for resilience amid increasing droughts and heatwaves (UN DESA, 2025; Gaia Education, 2025)",
+    "why_it_works": "Sets two numbers in the same unit side by side (up to 65 kg against under 0.1 kg CO₂ per flight hour), so the reader does no arithmetic. What it leaves out: how many drone hours replace one aircraft hour, which the per-hour comparison quietly assumes.",
+    "teaches": [
+      "evidence",
+      "assumed-knowledge"
+    ]
+  },
+  {
+    "id": "sus-2025-og-aalto-01",
+    "prize": "sustainability",
+    "team": "Aalto-Helsinki",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/aalto-helsinki/sustainability",
+    "section": "What is Sustainability?",
+    "function": "page-opening",
+    "text": "The concept of sustainability is multi-dimensional in nature. It refers to the ability of going on without failure [1] and takes into account the intersection between ecological, economic and socio-political domains at both local and global scales. As these issues are highly complex, they require integrated approaches that balance environmental health, human livelihoods, and social and economic equity, while recognising the interconnected dynamics of our global system and their link to nature. They are often referred to as wicked problems as they are complex, interconnected, and continually evolving, thus having no clear solution and impossible to solve through only one perspective or one-dimensional thinking [2].",
+    "why_it_works": "Counter-example for a project page. This is the start of a 700-word essay on what sustainability means; the project is not named until the second section. Judges score the team's work, so a definition this long spends their attention before the evidence arrives.",
+    "teaches": [
+      "concision",
+      "structure"
+    ]
+  },
+  {
+    "id": "sus-2025-og-aalto-02",
+    "prize": "sustainability",
+    "team": "Aalto-Helsinki",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/aalto-helsinki/sustainability",
+    "section": "Our project in relation to Sustainable Development",
+    "function": "audience-framing",
+    "text": "Since we have accomplished only the preliminary stages of the development of AbsorBuddy, many questions remain open and much work remains to be done, however, we have transparently documented our work, including its potentials and limitations. In line with the iGEM requirements for the Sustainability Special Prize, we are showcasing on this page our critical reflections on how our project fits with global efforts for Sustainable Development, rather than promising that our work and solution are sustainable in every way. We hope that the reflections that emerged from our work, can be built upon by future iGEM teams and the broader research community.",
+    "why_it_works": "Says what stage the project is at and what the page will claim before any goal is discussed. The reader knows how to weigh everything that follows, and the team cannot be caught overclaiming later.",
+    "teaches": [
+      "voice",
+      "limitation"
+    ]
+  },
+  {
+    "id": "sus-2025-og-aalto-03",
+    "prize": "sustainability",
+    "team": "Aalto-Helsinki",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/aalto-helsinki/sustainability",
+    "section": "Responsible Consumption and Production",
+    "function": "evidence-with-numbers",
+    "text": "Then, through our stakeholder discussions, we shifted from unrealistic and speculative life-cycle modelling of an unscaled supplement toward a realistic assessment of our laboratory footprint. We categorised reagents by hazard level, identified chemicals with high environmental persistence (such as ethidium bromide, phenol, and chloroform), and ensured proper segregation and collection of hazardous liquid waste for centralised disposal. Some reuse practices, such as recycling Coomassie staining solutions and regenerating purification resins, further minimised hazardous waste output. Moreover, we quantified the plastic waste generated by our experiments (~ 4.4 kg) and evaluated recycling barriers linked to biosafety regulations.",
+    "why_it_works": "Explains why the method changed (an LCA of an unscaled supplement would be speculation), then reports the work in checkable verbs: categorised, identified, ensured, quantified. One measured number, about 4.4 kg of plastic, anchors the paragraph.",
+    "teaches": [
+      "evidence",
+      "loop-closing",
+      "method"
+    ]
+  },
+  {
+    "id": "sus-2025-og-aalto-04",
+    "prize": "sustainability",
+    "team": "Aalto-Helsinki",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/aalto-helsinki/sustainability",
+    "section": "Limitations and potentials tensions with other SDGs",
+    "function": "limitation",
+    "text": "Although our project indirectly touches upon it, our engagement has been primarily at the level of raising awareness and creating dialogue rather than influencing institutional accountability directly. We did not engage with policymakers, healthcare regulators, or institutional decision-makers, which would have been essential for encouraging greater transparency and responsiveness within formal governance structures. Instead, our efforts focused on lower levels of engagement to investigate and highlight ethical grey areas and bring underrepresented perspectives into public discussion.",
+    "why_it_works": "Names the people it did not reach (policymakers, regulators, institutional decision-makers) and says what that absence costs. A gap stated this plainly is easy for a judge to credit.",
+    "teaches": [
+      "limitation",
+      "voice"
+    ]
+  },
+  {
+    "id": "sus-2025-og-aalto-05",
+    "prize": "sustainability",
+    "team": "Aalto-Helsinki",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/aalto-helsinki/sustainability",
+    "section": "Limitations and potentials tensions with other SDGs",
+    "function": "limitation",
+    "text": "The first potential clash that we identified is in relation to SDG 8: Decent Work and Economic Growth since biotechnology innovation can unintentionally deepen inequalities if its benefits are not equitably distributed. Under Target 8.4 (“improve global resource efficiency in consumption and production”), scaling AbsorBuddy without clear access strategies could risk creating profit-oriented and exclusive health markets, particularly if production relies on patents that limit affordability.",
+    "why_it_works": "Counter-example. The worry is access and affordability, yet the quoted Target 8.4 is about resource efficiency. A quoted target has to match the claim beside it; here a reader who checks the target loses trust in the paragraph.",
+    "teaches": [
+      "consistency"
+    ]
+  },
+  {
+    "id": "sus-2024-ug-ubc-01",
+    "prize": "sustainability",
+    "team": "UBC-Vancouver",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/ubc-vancouver/sustainable",
+    "section": "Long Term Social, Environmental, and Economic Impacts",
+    "function": "other",
+    "text": "Currently data centers from small to large size require between $2.3-38.3 millions to just build the infrastructure, but require even more to support the land cost and energy costs 11. Although with current technology, DNA storage is very expensive with ~15 USD per terabyte, we are working towards creating a more cost-effective approach to DNA storage technology that will in turn, result in less long-term costs as DNA storage is stable at room temperature 12. Our proof of concept hopes to one day provide a way for data centres to require less energy and resources, and to occupy much less land due to the smaller size of the product.",
+    "why_it_works": "Counter-example. Here DNA storage costs about 15 USD per terabyte. In the SDG 8 section of the same page it costs 800 million USD per terabyte, and 15 USD is the price of tape. A number that appears twice on a page has to match.",
+    "teaches": [
+      "consistency",
+      "evidence"
+    ]
+  },
+  {
+    "id": "sus-2024-ug-ubc-02",
+    "prize": "sustainability",
+    "team": "UBC-Vancouver",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/ubc-vancouver/sustainable",
+    "section": "Solution to Problem #1 - Lowering Costs and Improving Access to Data Storage",
+    "function": "evidence-with-numbers",
+    "text": "Currently, DNA is not as cost-effective as the other alternatives. DNA storage is estimated to cost 800 million USD per terabyte of data. By contrast, tape storage costs approximately 15 USD per terabyte33. However, current trends in DNA synthesis technologies point to this changing soon. The IARPA has laid out a target roadmap towards a synthesis cost of $1 per TB by 2030 34. Thus by harnessing DNA synthesis for data storage, nuCloud has the potential to provide a long-lasting, cost-effective alternative to existing technologies in the future. In this regard we are aligning with Target 8.a, since we could make data storage technologies more accessible to small businesses and industries in developing countries.",
+    "why_it_works": "Admits the present gap in numbers (800 million against 15 USD per terabyte), then cites an outside roadmap for how it might close, and frames the Target 8.a claim as future potential. IARPA is never spelled out, which assumes the reader knows it.",
+    "teaches": [
+      "evidence",
+      "limitation",
+      "assumed-knowledge"
+    ]
+  },
+  {
+    "id": "sus-2024-ug-ubc-03",
+    "prize": "sustainability",
+    "team": "UBC-Vancouver",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/ubc-vancouver/sustainable",
+    "section": "nuCloud’s Potential Negative Impacts in Addressing SDG #8",
+    "function": "limitation",
+    "text": "While nuCloud offers many benefits, it may also create challenges. The reliance on scientific infrastructure, mainly a sequencer, as well as some base biology knowledge, might limit its accessibility to small enterprises in developing nations. This could hinder the inclusive economic growth advocated by Target 8.a, despite us previously claiming to be aligned with it. Another risk is the potential job displacement within traditional data storage sectors as DNA-based storage solutions replace older technologies. While technological progress is essential, it could lead to disruptions in employment if workers are not retrained for emerging sectors, impacting Target 8.5. In the next iteration of our project, we will look at ways to incorporate solutions to these issues.",
+    "why_it_works": "Turns back on its own earlier claim (\"despite us previously claiming to be aligned with it\") and names two harms tied to Targets 8.a and 8.5. The weak point is the last sentence, which promises a fix without naming one.",
+    "teaches": [
+      "limitation",
+      "consistency",
+      "voice"
+    ]
+  },
+  {
+    "id": "sus-2024-ug-ubc-04",
+    "prize": "sustainability",
+    "team": "UBC-Vancouver",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/ubc-vancouver/sustainable",
+    "section": "Feedback from relevant SDG stakeholder",
+    "function": "stakeholder-entry",
+    "text": "She gave us insight into key aspects to consider in our project from an investor standpoint. Nikita indicated that it is necessary to quantify the metrics our product will address to lessen costs and waste in comparison to standard methods. For instance, considering the reusability of our SPS platform vs the need to use several pipette tips for every experiment. Additionally, she indicated that while labels like “Reusability and Sustainability” are great, investors’ main goal is the profitability of the product. Our product needs to stand alone in terms of cost/revenue.",
+    "why_it_works": "The stakeholder asks for numbers, and the team reports the request plainly, including the uncomfortable part: investors judge profit first and sustainability labels second. The next sentence points to where the comparisons are.",
+    "teaches": [
+      "loop-closing",
+      "evidence"
+    ]
+  },
+  {
+    "id": "sus-2024-ug-ubc-05",
+    "prize": "sustainability",
+    "team": "UBC-Vancouver",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/ubc-vancouver/sustainable",
+    "section": "Solution to Problem 2",
+    "function": "other",
+    "text": "Of course, reading and writing DNA requires it’s own set of equipment, such as bioreactors for producing TdT, high-throughout automated microfluidic chips for synthesizing DNA and sequencing machines. While these machines will also take up land and energy useage, the storage of DNA will theoretically require less energy, since natural samples of DNA have been found to be recovered from around 400000 years14, the actual stability of DNA for data storage will be less; however, this stands to show that DNA can persist in conditions that are not always maintained in low temperatures and dry atmosphere.",
+    "why_it_works": "Counter-example. One sentence runs from equipment land use to energy to 400,000-year-old DNA samples to storage conditions, joined by commas. Split it into one claim per sentence, and mark which number is measured and which is an analogy.",
+    "teaches": [
+      "clarity",
+      "structure"
+    ]
+  },
+  {
+    "id": "sus-2024-ug-ubc-06",
+    "prize": "sustainability",
+    "team": "UBC-Vancouver",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/ubc-vancouver/sustainable/green-chemistry",
+    "section": "Enzymatic",
+    "function": "evidence-with-numbers",
+    "text": "However, the main environmental challenges arise from media used to grow the cells (950 mL of SOC), reagent transportation, and the total waste generated. Like in most laboratories, the amount of lab plastic waste is significant, around 1.695 Kg of plastic (LDPE, PVC, PP, PS, PE) in our case, and most of it cannot be reused due to contact with biohazardous substances. Moreover, to be properly disposed of, most waste must be autoclaved, which consumes significant energy and adds to the overall footprint of the laboratory processes involved. While chemical reagents, such as bleach, could be used as alternatives, this would make enzymatic synthesis dependent on toxic chemicals. That said, the disposal of organic solvents in chemical synthesis is much more environmentally taxing as it often requires inciniration or a specialized operation",
+    "why_it_works": "Reports the team's own inventory in units (950 mL of SOC, 1.695 kg of plastic, polymer types named) and weighs the obvious fix honestly: bleach would save autoclave energy and add a toxic chemical. A trade-off written as a trade-off.",
+    "teaches": [
+      "evidence",
+      "limitation"
+    ]
+  },
+  {
+    "id": "sus-2024-ug-ubc-07",
+    "prize": "sustainability",
+    "team": "UBC-Vancouver",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/ubc-vancouver/sustainable/green-chemistry",
+    "section": "Limitations",
+    "function": "limitation",
+    "text": "This LCA-inspired page has several key limitations that need to be addressed. First, we were unable to quantify the electrical and water usage of lab equipment, such as autoclaves, bioreactors, and common devices like PCR machines, which is crucial for a clearer understanding of the process’s resource demands. Additionally, we didn’t establish a chemical synthesis control reaction to accurately measure reagent consumption and waste generation, which would have enabled a better comparison between the two in terms of plastic waste and reagent use. Another important factor we couldn’t include, due to lack of data, is the ecological footprint of transporting reagents. Finally, this page lacks a standardized unit for quantitative comparison between chemical and enzymatic methods. Using a common environmental footprint unit would have allowed for a more thorough evaluation instead of relying solely on qualitative assessments. For the next iteration of this document, the above mentioned will be included.",
+    "why_it_works": "Four gaps, each concrete (equipment energy and water, no chemical control reaction, transport, no common unit), each with the reason it matters. A model limitations paragraph: a reader learns exactly how far to trust the comparison above it.",
+    "teaches": [
+      "limitation",
+      "structure"
+    ]
+  },
+  {
+    "id": "sus-2024-ug-ubc-08",
+    "prize": "sustainability",
+    "team": "UBC-Vancouver",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/ubc-vancouver/sustainable/green-engineering",
+    "section": "Culturing Efficiency",
+    "function": "method",
+    "text": "We assessed the initial growth rate by regularly measuring optical density at 600 nm (OD600) to monitor cell density over time and generate growth curves for both methods. We took the initial rate of the growth, defined as the average rate of OD600 increase for the third of the experiment (2 hours) as a comparison. We found a 2.5x difference in the rate of OD600 increase, favouring the bioreactor (0.430 per hr) in comparison to traditional methods (0.169 per hr).",
+    "why_it_works": "Defines the metric before reporting it (average OD600 rise over the first two hours) and gives both raw rates, so the reader can check the 2.5x ratio. Still missing: number of runs and spread.",
+    "teaches": [
+      "evidence",
+      "method"
+    ]
+  },
+  {
+    "id": "sus-2024-og-uzurich-01",
+    "prize": "sustainability",
+    "team": "UZurich",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/uzurich/sustainable",
+    "section": "Introduction",
+    "function": "page-opening",
+    "text": "In order to assess how our project could improve sustainability in agriculture, we first needed to get a good understanding of what makes an agrosystem sustainable and what sustainability challenges exist in agriculture today. Therefore, on top of a lot of individual research, we also reached out to various stakeholders, including agroecologists, farmers, ethicists, and lawyers, for further insight.\nWater availability, phytopathology and fertilizer use were at the core of our sustainability research as RhyzUp aims to improve crops' ability to retain water, resist drought, combat pathogens, and absorb nutrients.",
+    "why_it_works": "Method first (desk research plus named kinds of stakeholder), then one sentence that ties the three research themes to what the product does. The SDG list comes after the reader knows what was studied and why.",
+    "teaches": [
+      "structure",
+      "concision"
+    ]
+  },
+  {
+    "id": "sus-2024-og-uzurich-02",
+    "prize": "sustainability",
+    "team": "UZurich",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/uzurich/sustainable",
+    "section": "TARGET 2.4: 1.1) DROUGHT IN SWITZERLAND",
+    "function": "stakeholder-entry",
+    "text": "In our interview with Rahel Emmenegger, deputy managing director of the Swiss Grain Producers Association (SGPV), we learned that not all regions of Switzerland are equally prone to drought. According to her, especially the axis from the Lake Geneva area to the canton of Schaffhausen is at greater risk of drought than other areas of Switzerland. Also, certain alpine valleys, such as the Rhone Valley and the Engadine, are at higher risk of water scarcity. This shows that water availability is often a very local issue and that drought mitigation measures need to be implemented where they are most important.",
+    "why_it_works": "Gives the stakeholder's role, the regions she named, and the conclusion the team drew. Local detail (Lake Geneva to Schaffhausen, the Rhone Valley, the Engadine) makes the input checkable and shows it was heard.",
+    "teaches": [
+      "evidence",
+      "loop-closing"
+    ]
+  },
+  {
+    "id": "sus-2024-og-uzurich-03",
+    "prize": "sustainability",
+    "team": "UZurich",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/uzurich/sustainable",
+    "section": "TARGET 2.4: 3) IMPROVING FERTILIZATION",
+    "function": "stakeholder-entry",
+    "text": "The situation in Switzerland is no different. Because of the surplus of nitrogen and phosphorus in Swiss agriculture, the Swiss Federal Council decided on April 13, 2022, to reduce nitrogen and phosphorus by 2030.18 According to Rahel Emmenegger, this reduction path for fertilizers has strong implications for farmers. Because many farmers are forced to use less fertilizer, the protein content of crops is lower than before, which in turn negatively affects the selling prices of these crops. Fertilization efficiency is crucial to ensure that nutrients actually end up in the crops being produced.",
+    "why_it_works": "A dated policy (13 April 2022) plus a stakeholder shows the side effect of a sustainability measure: less fertilizer, lower protein, lower prices. An SDG interaction told through a farmer's income.",
+    "teaches": [
+      "evidence",
+      "trade-off"
+    ]
+  },
+  {
+    "id": "sus-2024-og-uzurich-04",
+    "prize": "sustainability",
+    "team": "UZurich",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/uzurich/sustainable",
+    "section": "TARGET 15.8: PREVENTING OUR BACTERIA FROM BECOMING INVASIVE",
+    "function": "limitation",
+    "text": "While designing our project, it was important to us to ensure that our engineered bacteria would not invade environments where we did not want them. To do this, we included a xylose sensing mechanism to initiate biofilm production, a kill switch when the bacteria would not be in the presence of xylose as a root exudate, and modes of implementation, such as adding the bacteria to microgranular fertilizers that would limit the spatial distribution of our bacteria.\nThinking about the ecological consequences of the use of your projects is crucial. Reto Flückiger of Andermatt Biocontrol, a company that sells products based on rhizobacteria, told us that in order to be approved for commercial use, the bacteria must be endemic to the region of application.",
+    "why_it_works": "Treats the risk of the team's own organism as an SDG question (Target 15.8, invasive species) and lists three concrete containment measures. The stakeholder adds a regulatory fact the design must meet. Note the slip into second person (\"your projects\").",
+    "teaches": [
+      "limitation",
+      "trade-off",
+      "voice"
+    ]
+  },
+  {
+    "id": "sus-2024-og-uzurich-05",
+    "prize": "sustainability",
+    "team": "UZurich",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/uzurich/sustainable",
+    "section": "TARGET 6.3: WATER POLLUTION OF FERTILIZERS AND PESTICIDES",
+    "function": "other",
+    "text": "Also, through improved pathogen resistance and competition to naturally occurring root pathogens, RhyzUp leads to a decrease in the use of pesticides. In this way, our project directly contributes to the UN Sustainable Development Target 6.3.",
+    "why_it_works": "Counter-example. \"Leads to a decrease\" states as fact what no field trial has shown, and the team's own stakeholders said earlier that pesticides are sometimes the only option. Write \"could reduce\" and say what would have to be measured.",
+    "teaches": [
+      "evidence",
+      "consistency"
+    ]
+  },
+  {
+    "id": "sus-2023-ug-thessaloniki-01",
+    "prize": "sustainability",
+    "team": "Thessaloniki",
+    "year": 2023,
+    "track": "UG",
+    "url": "https://2023.igem.wiki/thessaloniki/sustainable",
+    "section": "Why goal 15?",
+    "function": "section-intro",
+    "text": "We believe that Euphoresis could provide this, so we decided to focus on four subgoals of SDG 15 which are 15.3, which targets to combat desertification and restore this land as well as land that is affected by floods or droughts 15.4, which targets the conservation of mountain ecosystems and their biodiversity, 15.1 that ensures the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements and 15.2 that promotes the implementation of sustainable management of all types of forests, halt deforestation, restore degraded forests and substantially increase afforestation and reforestation globally. Even though the last two are on the Agenda by 2020 we believe that efforts are still in place and progress needs to be made.",
+    "why_it_works": "Counter-example. Four targets in one sentence, out of numeric order, each paraphrased at length, and none linked to a piece of evidence. A short list (target, one-line claim, where the evidence is) carries the same content in half the words.",
+    "teaches": [
+      "structure",
+      "concision"
+    ]
+  },
+  {
+    "id": "sus-2023-ug-thessaloniki-02",
+    "prize": "sustainability",
+    "team": "Thessaloniki",
+    "year": 2023,
+    "track": "UG",
+    "url": "https://2023.igem.wiki/thessaloniki/sustainable",
+    "section": "How does euphoresis contributes to SDG 12?",
+    "function": "method",
+    "text": "That is the reason why we tried to incorporate these principles in our project and after research we decided that our biopolymer will be created from waste of the food industry. Our hydrogel consists of two polysaccharides, pectin, and chitosan, that are obtained from food waste. More specifically, pectin’s main resource is citrus waste and chitosan is derived from chitin, a polymer that can be found in crustaceans’ shells.",
+    "why_it_works": "Ties an SDG to a design decision the reader can verify: the hydrogel's two polymers come from citrus and crustacean waste. The goal shaped a material choice, which is stronger than drawing a goal onto a finished product.",
+    "teaches": [
+      "loop-closing",
+      "evidence"
+    ]
+  },
+  {
+    "id": "sus-2023-ug-thessaloniki-03",
+    "prize": "sustainability",
+    "team": "Thessaloniki",
+    "year": 2023,
+    "track": "UG",
+    "url": "https://2023.igem.wiki/thessaloniki/sustainable",
+    "section": "Implementing the Sustainable Development Goals",
+    "function": "other",
+    "text": "We approached entities that were also directly related to the subsequences of climate change, such as the Ministry of the Environment and organizations that cope with those problems. They all agreed after a wildfire that O 2 levels drop as CO2 increases. That influences greenhouse effects, leading to an increasing pace of climate change. Our project is aiming for quicker and safer reforestation so that vegetation can be restored and the levels of gases mentioned before reversed. We also communicated with professors and environmental experts to guide us in finding the best actions to achieve our goal. Specifically, we had conversations with them, sharing our ideas, taking feedback, and organizing actions such as a webinar, etc.",
+    "why_it_works": "Counter-example. \"Entities\" and \"organizations\" are unnamed, \"they all agreed\" a textbook fact, and the paragraph ends on \"etc.\" Name who said what, and what changed because of it.",
+    "teaches": [
+      "clarity",
+      "evidence",
+      "loop-closing"
+    ]
+  },
+  {
+    "id": "sus-2023-ug-thessaloniki-04",
+    "prize": "sustainability",
+    "team": "Thessaloniki",
+    "year": 2023,
+    "track": "UG",
+    "url": "https://2023.igem.wiki/thessaloniki/sustainable",
+    "section": "Negative impact",
+    "function": "limitation",
+    "text": "First and foremost the creation of the biodegradable bioco-polymer can be a very expensive procedure for mass production. This parameter can stir companies away from this production, even if it could be the most sustainable solution to the problem.\nFor the environmental impact, chemical pectin extraction includes certain substances that could be harmful to the environment but unfortunately at the moment, it is the most affordable solution, especially in a scaled-up production.",
+    "why_it_works": "Two downsides of the team's own design choice, one sentence each: cost at scale, and a harmful chemical step in pectin extraction. It would be stronger with a figure for either.",
+    "teaches": [
+      "limitation",
+      "concision"
+    ]
+  },
+  {
+    "id": "sus-2023-ug-thessaloniki-05",
+    "prize": "sustainability",
+    "team": "Thessaloniki",
+    "year": 2023,
+    "track": "UG",
+    "url": "https://2023.igem.wiki/thessaloniki/sustainable",
+    "section": "Negative impact",
+    "function": "stakeholder-entry",
+    "text": "When it comes to SDG 15, even though the vast majority of scientists that we approached about feedback for our project were really positive about our approach, like Mr. Dimitrakopoulos Alexandros and Mr. Yiagkou Minas ( See Integrated Human Practices and Human Practices), we came across a couple of professors that were skeptical about the level of interference. One of these few negative feedbacks was given by Mr. Papaioannou, a professor at Aristotle University of Thessaloniki in the Department of Forestry (see Human Practices) We took all of that in mind and proceeded with great caution in our further research and experiments, trying to be as less invasive as possible and incorporating multifaceted feedback of experts in our practices.",
+    "why_it_works": "Reporting dissent is good, but the paragraph never says what Mr. Papaioannou objected to or what \"as less invasive as possible\" changed in the experiments. Dissent needs its content and its consequence.",
+    "teaches": [
+      "loop-closing",
+      "clarity"
+    ]
+  },
+  {
+    "id": "sus-2023-og-heidelberg-01",
+    "prize": "sustainability",
+    "team": "Heidelberg",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/heidelberg/sustainable",
+    "section": "Our learnings",
+    "function": "loop-closing",
+    "text": "After receiving this feedback, we realized that simply addressing the recycling of PET, as in our initial project design phase, would not resolve the core issue – the absence of an effective method for managing mixed plastic. Therefore, we invested substantial time into researching and developing a new approach, wherein co-culturing enables the degradation of different types of plastic through a single method.",
+    "why_it_works": "Names the first plan (PET only), why it fell short, and the redesign (a co-culture for mixed plastic). A learning that changed the project, in two sentences.",
+    "teaches": [
+      "loop-closing",
+      "concision"
+    ]
+  },
+  {
+    "id": "sus-2023-og-heidelberg-02",
+    "prize": "sustainability",
+    "team": "Heidelberg",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/heidelberg/sustainable",
+    "section": "Feedback on implementing ReMixHD:",
+    "function": "stakeholder-entry",
+    "text": "For Xuan, it is important that our solution could degrade plastic entirely without leaving microplastic. Also, she suggested we do a cost analysis of our bioreactor because people only see the incentive in buying such a bioreactor when it costs no more than 100 dollars.",
+    "why_it_works": "Two concrete asks, one with a number: no microplastic residue, and a price ceiling near 100 dollars. Elsewhere the page records the consequence: a central reactor for communities in place of one per household.",
+    "teaches": [
+      "evidence",
+      "loop-closing"
+    ]
+  },
+  {
+    "id": "sus-2023-og-heidelberg-03",
+    "prize": "sustainability",
+    "team": "Heidelberg",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/heidelberg/sustainable",
+    "section": "Risks",
+    "function": "limitation",
+    "text": "In countries without waste management infrastructure, recycling is mainly done by waste pickers, who collect specific types of plastic objects and sell them to recycling companies. The introduction of ReMixHD could impact their income negatively, as manual plastic waste sorting is no longer needed. This could undermine SDG 8 – decent work and economic growth. At the same time, new jobs can be created by ReMixHD, as technical experts are needed to operate and maintain the bioreactor.",
+    "why_it_works": "Names who loses (waste pickers), how (manual sorting is no longer needed), and which other goal is hurt (SDG 8), then gives the offsetting effect. A complete negative-interaction statement in four sentences.",
+    "teaches": [
+      "trade-off",
+      "structure"
+    ]
+  },
+  {
+    "id": "sus-2023-og-heidelberg-04",
+    "prize": "sustainability",
+    "team": "Heidelberg",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/heidelberg/sustainable",
+    "section": "Risks",
+    "function": "limitation",
+    "text": "ReMixHD relies on the biological recycling of Pseudomonas fluorescens, which occurs at 30 degrees Celsius, a much lower temperature than chemical recycling. However, the energy supply for operating ReMixHD could still be a challenge in regions with unreliable power infrastructure. ReMixHD might occupy the limited energy source of the local communities.",
+    "why_it_works": "Takes the project's own selling point (it runs at 30 °C) and says where it still fails: places with unreliable power. Short, specific, and aimed at the users who would bear the cost.",
+    "teaches": [
+      "trade-off",
+      "limitation"
+    ]
+  },
+  {
+    "id": "sus-2023-og-heidelberg-05",
+    "prize": "sustainability",
+    "team": "Heidelberg",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/heidelberg/sustainable",
+    "section": "Results by December 14th, 2023:",
+    "function": "evidence-with-numbers",
+    "text": "Out of the 9 trackers we released in Cardiff, 5 could be traced during their subsequent transportation, while 4 trackers sent their last signal 4 days after release, indicating the same location where they were discarded. Among the 5 trackers that exhibit further location changes, 2 of them last signaled at a distribution center near Bristol, where they are expected to be transported to other plastic waste processors (Tracker 2 and 4). Tracker 2 is also updating its location. Two trackers were able to update their locations in recycling companies after leaving Bristol (Tracker 1 and 3). So far, all the trackers stay in the UK according to their last signal.",
+    "why_it_works": "Accounts for every tracker, including the four that went silent, and stops at what the signals show. A dated heading, counts that add up (5 + 4 = 9), no extrapolation.",
+    "teaches": [
+      "evidence",
+      "limitation"
+    ]
+  },
+  {
+    "id": "sus-2023-og-heidelberg-06",
+    "prize": "sustainability",
+    "team": "Heidelberg",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/heidelberg/sustainable",
+    "section": "Feedback on implementing ReMixHD:",
+    "function": "other",
+    "text": "Our approach is designed to work efficiently with the available resources, making it a viable option even in resource-constrained environments. We are committed to assisting communities in their goal of achieving a substantial increase in recycling, targeting 12% of overall recycling within the next two years. Furthermore, our collaboration goes beyond waste management, as our co-culture approach can be adapted to support the similar recycling projects from Colombian research groups. By doing so, we aim not only to bolster their regional research efforts but also to assist them in translating their research findings into practical and impactful applications.",
+    "why_it_works": "Counter-example. The heading promises the stakeholder's feedback, but the text is the team's own pitch, and \"12% of overall recycling within the next two years\" has no baseline, source or owner. Keep stakeholder words and team claims apart.",
+    "teaches": [
+      "consistency",
+      "evidence",
+      "voice"
+    ]
+  }
+]

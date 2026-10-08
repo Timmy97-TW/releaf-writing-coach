@@ -1,0 +1,591 @@
+[
+  {
+    "id": "ent-2025-og-wur-01",
+    "prize": "entrepreneurship",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/entrepreneurship/index.html",
+    "section": "Judging criteria",
+    "function": "stakeholder-entry",
+    "text": "By integrating human practices into the entire decision making process, we made sure that our product, BCoated: Slow Release, is adjusted to market demands. For example, SeedForward told us that a seed coating to deliver insecticides to seeds is in high demand, yet no appropriate solution is available. Based on this information, we started working on developing seed coats that are both sustainable and tailored for the slow release of compounds, such as insecticides. Based on our promising wet lab results, Seed Forward has also expressed interest in helping us perform field trials with BCoated: Slow Release. If these field trials give promising results, we foresee a strong potential customer in Seed Forward. We have scheduled a visit to their headquarters in Osnabrück to discuss the possibilities.",
+    "why_it_works": "Names one company, quotes what it said it lacked, and ties the lab work that followed to that sentence. The customer claim is checkable because the customer is named.",
+    "teaches": [
+      "evidence",
+      "loop-closing",
+      "structure"
+    ]
+  },
+  {
+    "id": "ent-2025-og-wur-02",
+    "prize": "entrepreneurship",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/entrepreneurship/index.html",
+    "section": "Judging criteria",
+    "function": "limitation",
+    "text": "Scalability is, as with many biotechnological processes, a major challenge. We have shown that scaling up in accordance to the ex situ coating method is possible, but that scaling up the in situ method is a greater hurdle. For that reason, BCoated will initially focus on ex situ approaches to build a trusted customer base and develop ourselves as a company. Our R&D will focus on improving our in situ production and downstream processing. This will eventually enable us to enter the market with a novel product line: coated seeds straight from the bioreactor!",
+    "why_it_works": "Admits the harder of its two methods does not scale yet, then says which method the company will sell first because of it. The limitation changes the plan on the page.",
+    "teaches": [
+      "evidence",
+      "voice",
+      "structure"
+    ]
+  },
+  {
+    "id": "ent-2025-og-wur-03",
+    "prize": "entrepreneurship",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/entrepreneurship/index.html",
+    "section": "Serviceable obtainable market",
+    "function": "evidence-with-numbers",
+    "text": "Given that we have shown that our seed coating works as a slow-release system, and that we are based in the Netherlands, our SOM will include the use of slow-release system seed coatings in the Netherlands. It is reported that 33% of all seed coatings focus on slow-release systems13. Additionally, as the Netherlands imports 12% of all seeds in Europe, our SOM will be €640.5 million x 0.12 x 0.33 = €25.36 million12.",
+    "why_it_works": "Every factor in the SOM figure is named, sourced and multiplied out in the open, so a reader can redo the sum or dispute one input.",
+    "teaches": [
+      "evidence",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ent-2025-og-wur-04",
+    "prize": "entrepreneurship",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/entrepreneurship/index.html",
+    "section": "Cost analysis",
+    "function": "transition",
+    "text": "So far, we have seen that our solution is innovative, meets an unmet need, and has a potential market with some direct and indirect competitors. Below, we focus on the finance related aspects of our business.",
+    "why_it_works": "Two sentences: what the reader has been shown, and what comes next. A hinge between a market section and a money section, with no throat-clearing.",
+    "teaches": [
+      "concision",
+      "structure",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ent-2025-og-wur-05",
+    "prize": "entrepreneurship",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/entrepreneurship/index.html",
+    "section": "Exclusion of Small-scale Farmers",
+    "function": "limitation",
+    "text": "BCoated: Slow-release is set successfully enter the seed coating market. However, coating the seeds costs money, and thus our seeds will be sold at a premium compared to naked seeds. Due to this premium, our product may become inaccessible for small-scale farmers who have smaller budgets than large-scale farmers. As a result, small-scale farmers will have lower yields, making it even more difficult for them to compete with large-scale farmers. To prevent these social issues from occurring, we will stay in touch with these small-scale farmers and may make special price arrangements with seed coating companies that resell to small scale farmers.",
+    "why_it_works": "A negative impact written as a chain: premium price, lower yields for small farms, wider gap. Then one concrete mitigation, not a reassurance.",
+    "teaches": [
+      "structure",
+      "evidence",
+      "limitation"
+    ]
+  },
+  {
+    "id": "ent-2025-og-wur-06",
+    "prize": "entrepreneurship",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/entrepreneurship/index.html",
+    "section": "Minimum viable product",
+    "function": "definition",
+    "text": "The minimum viable product (MVP) is \"that version of a new product which allows a team to collect the maximum amount of validated learning about customers with the least effort\", or in other words, the minimum version of a product that will still allow one to learn31. The MVP for a given technology is subjective and context dependant. It takes judgment and speaking to customers about what they require.",
+    "why_it_works": "Defines MVP with a quotation, a plain-language gloss, and the admission that the definition is judgment-dependent. The jargon is unpacked where it first appears.",
+    "teaches": [
+      "assumed-knowledge",
+      "definition",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ent-2025-og-unil-07",
+    "prize": "entrepreneurship",
+    "team": "UNILausanne",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/unilausanne/entrepreneurship",
+    "section": "Why?",
+    "function": "section-intro",
+    "text": "There is an urgent need for a reliable, sustainable source of REE to power the electronics and clean-tech industries. Global supply chains are increasingly vulnerable because the majority of REE are sourced from primary mining, with China dominating both refining and exports. European manufacturers face bottlenecks and risk due to supply constraints and geopolitical tension, while current recycling efforts recover only a tiny fraction (<1%) of the REE contained in electronic waste.",
+    "why_it_works": "Four sentences carry the whole need: who needs it, why supply is fragile, who is exposed, and the one number that shows the gap is real.",
+    "teaches": [
+      "concision",
+      "evidence",
+      "structure"
+    ]
+  },
+  {
+    "id": "ent-2025-og-unil-08",
+    "prize": "entrepreneurship",
+    "team": "UNILausanne",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/unilausanne/entrepreneurship",
+    "section": "LCA and service-quality testing",
+    "function": "other",
+    "text": "These partners offer a balanced mix of technology development, industrial recycling, feedstock access, and analytical testing capabilities essential for pilot validation in Suisse-Romande. Establishing collaborations with them early could accelerate testing, refinement, and commercialization of your REE recycling service.",
+    "why_it_works": "A consultant's voice slips through: the page tells its own reader about \"your REE recycling service\". One leftover second-person line betrays text that was not written for this page.",
+    "teaches": [
+      "consistency",
+      "voice"
+    ]
+  },
+  {
+    "id": "ent-2025-og-unil-09",
+    "prize": "entrepreneurship",
+    "team": "UNILausanne",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/unilausanne/entrepreneurship",
+    "section": "Team's skills and capabilities",
+    "function": "reflection",
+    "text": "Nonetheless, we recognize areas for improvement, such as limited legal knowledge for handling regulatory complexities and a lack of experience in scaling up production processes. Along these lines, several of our team members are actively involved in the Swiss entrepreneurship ecosystem, participating in several grant competitions and start-up incubators, committed to progress and receiving the legal and entrepreneurial knowledge necessary to advance the project forward.",
+    "why_it_works": "Names two skill gaps outright, then says what the team is doing about each. The admission is specific enough to be checked a year later.",
+    "teaches": [
+      "voice",
+      "evidence",
+      "limitation"
+    ]
+  },
+  {
+    "id": "ent-2025-og-unil-10",
+    "prize": "entrepreneurship",
+    "team": "UNILausanne",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/unilausanne/entrepreneurship",
+    "section": "Incubators",
+    "function": "evidence-with-numbers",
+    "text": "In order to assess the feasibility of making our idea into a service that could potentially take on the market, we consulted with several startup incubator experts that could give us insights on the world of entrepreneurship, and which could potentially welcome our endeavour. Particularly helpful in revising our business plan and market study has been Erica Mazerolle, from Ucreate, an incubator that fosters startups from the HUB entrepreneurship and innovation at UNIL. As the REEvolutionaTe entrepreneurship team, Emma, Chloé and Julien signed up to Ucreate for the incubation period 2025-2026. Emma also signed up to Talent Kick, and promoted the REEvolutionate project at their PresentationPitch in Zürich the 22nd of September.",
+    "why_it_works": "Names the adviser, the programme, the three team members who signed up, the city and the date. Specifics do the work that adjectives would have done badly.",
+    "teaches": [
+      "evidence",
+      "concision"
+    ]
+  },
+  {
+    "id": "ent-2025-og-unil-11",
+    "prize": "entrepreneurship",
+    "team": "UNILausanne",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/unilausanne/entrepreneurship",
+    "section": "Key Points Summary",
+    "function": "other",
+    "text": "Global demand for recycled REE is growing rapidly, with a total addressable market (TAM) of approximately 40.2 kilotonnes/year worldwide and a serviceable market in the EU of 3.63 kilotonnes/year. Initial realistic market capture (SOM) is estimated at 0.56 kilotonnes/year.",
+    "why_it_works": "A summary card gives TAM and SOM as bare acronyms with no expansion anywhere above it, so the first reader to arrive here has to guess.",
+    "teaches": [
+      "assumed-knowledge",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ent-2025-ug-sustech-12",
+    "prize": "entrepreneurship",
+    "team": "SUSTech-BIO",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/sustech-bio/entrepreneurship",
+    "section": "2. Project Background",
+    "function": "evidence-with-numbers",
+    "text": "• Massive death toll: Approximately 3.8 million people die from fungal diseases globally each year (Denning, Lancet Infect Dis 2024), surpassing malaria (0.61 million in 2022) and tuberculosis (1.4 million).\n• Causal attribution gap: >60% of fungal-related deaths in low-income countries remain undercoded (GAFFI 2023), leading to systematic underestimation of the true burden.\n• Disease spectrum: Invasive fungal diseases (IFD) cause 6.5 million annual cases with a 58.5% fatality rate; superficial fungal infections affect 1.3 billion people (WHO 2023), ranking third in prevalence after dental caries and tension-type headache.",
+    "why_it_works": "Each claim carries its source inline, and the death toll is set beside malaria and tuberculosis so the reader can size it without knowing the field.",
+    "teaches": [
+      "evidence",
+      "clarity",
+      "audience-framing"
+    ]
+  },
+  {
+    "id": "ent-2025-ug-sustech-13",
+    "prize": "entrepreneurship",
+    "team": "SUSTech-BIO",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/sustech-bio/entrepreneurship",
+    "section": "6.2.4 Disclaimer",
+    "function": "limitation",
+    "text": "Although the team proactively consulted legal experts prior to the competition and implemented necessary preliminary measures (such as internal confidentiality agreements and document encryption) to protect its core technology, the inherent time constraints of the patent application process (typically requiring months or even years for examination) combined with the competition's urgent timeline ultimately prevented the team from obtaining patent authorization or entering substantive examination before the official competition commenced. Faced with this practical constraint, the team made a strategic decision after careful evaluation: to publicly disclose certain key technical details during the competition.",
+    "why_it_works": "Says plainly that the patent was not filed in time, why, and what was disclosed anyway. A risk the team could not fix is still written down.",
+    "teaches": [
+      "voice",
+      "limitation",
+      "evidence"
+    ]
+  },
+  {
+    "id": "ent-2025-ug-sustech-14",
+    "prize": "entrepreneurship",
+    "team": "SUSTech-BIO",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/sustech-bio/entrepreneurship",
+    "section": "9.1 Cost Assumptions",
+    "function": "method",
+    "text": "Considering R&D failure risks, PharmMole's 2023 China New Drug R&D Success Rate Report indicates that the overall success rate for domestic innovative drugs progressing from Phase I to market launch between 2013–2022 was only 9.7% (based on 1,283 pipeline samples). This necessitates risk-adjusted budgeting: RMB 100 million ÷ 9.7% ≈ RMB 1.03 billion. Thus, the risk-adjusted capital requirement is approximately RMB 1.03 billion. Regarding timelines: The NMPA's “Statistics on Average Clinical Trial Duration in China (2021-2023)” indicates Phase I trials for conventional drugs take 6–15 months (median 10 months). A conservative estimate of 12 months (1 year) is adopted. Mininet's “2022 China Clinical Trial Efficiency Report” indicates an average Phase IIa duration of 14.3 months, estimated at 15 months (1.25 years). Quarterly amortization: Phase I RMB 30 million spread over 4 quarters, approx. RMB 7.5 million per quarter; Phase IIa RMB 70 million spread over 5 quarters, approx. RMB 14 million per quarter.",
+    "why_it_works": "Takes a published success rate and divides the trial budget by it, naming both sources. The headline figure arrives as a stated method rather than an assertion.",
+    "teaches": [
+      "evidence",
+      "method",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ent-2025-ug-sustech-15",
+    "prize": "entrepreneurship",
+    "team": "SUSTech-BIO",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/sustech-bio/entrepreneurship",
+    "section": "5.2.2 Weaknesses",
+    "function": "limitation",
+    "text": "- Uncertainty in protein expression stability: Protein expression stability is a critical issue in biopharmaceuticals, particularly during large-scale production, potentially leading to therapeutic efficacy variations between batches. This instability may not only affect treatment outcomes but also complicate regulatory approval processes.\n- Lack of animal model studies and human trials, resulting in a complete absence of clinical data across all phases.\n- The “bacteria-fighting bacteria” approach conflicts with traditional medication logic: Primary care physicians generally lack confidence in live bacterial therapies.",
+    "why_it_works": "Three weaknesses in three short lines: a process risk, a missing-data risk, and the fact that prescribers do not trust the idea. No hedging around any of them.",
+    "teaches": [
+      "concision",
+      "limitation",
+      "voice"
+    ]
+  },
+  {
+    "id": "ent-2025-ug-sustech-16",
+    "prize": "entrepreneurship",
+    "team": "SUSTech-BIO",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/sustech-bio/entrepreneurship",
+    "section": "Comprehensive Conclusions",
+    "function": "other",
+    "text": "- Mechanism Determination: The exceptional killing efficiency (>99.9%) of Citrobacter watermelonis against Candida auris is primarily attributed to its T6SS secretion system, whose efficacy far surpasses traditional antifungal drugs.\n- Drug Efficiency Limitations: Even at concentrations reaching or exceeding their minimum effective concentrations (MBC/MIC), amorolfine hydrochloride and ketoconazole exhibited a maximum killing efficiency of 98%, indicating an inherent limitation in achieving complete fungal eradication.\n- Application Potential: Aspergillus citreus demonstrates significant potential as a highly effective biocontrol agent, offering a novel approach to address potential resistance or efficacy limitations associated with existing pharmaceutical treatments.",
+    "why_it_works": "The organism changes name three times inside one conclusion block, and none of the names matches the species tested earlier on the page. Results prose has to carry one name throughout.",
+    "teaches": [
+      "consistency",
+      "clarity",
+      "evidence"
+    ]
+  },
+  {
+    "id": "ent-2024-ug-padua-17",
+    "prize": "entrepreneurship",
+    "team": "Uni-Padua-IT",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/uni-padua-it/entrepreneurship",
+    "section": "Statement problem",
+    "function": "evidence-with-numbers",
+    "text": "When the filter is saturated, companies that supply GAC can reactivate it through thermal regeneration, with temperatures reaching up to 900 degrees. However, there are conflicting opinions on this matter. While some studies claim that degradation at very high temperatures (900-1000°C) is complete(2), others argue that the applied instruments do not allow for a clear distinction between volatilization and degradation(3). Recent studies emphasize that incineration of the filters may not completely eliminate PFAS and could even produce toxic by-products such as volatile organic fluorine (VOF), tetrafluoromethane (CF4), and hexafluoroethane (C2F6). These substances that are toxic both to the environment, due to their significant impact on global warming, and to humans, causing respiratory issues(4). This inconsistency highlights how delicate the process is and that its effectiveness depends on specific conditions and parameters that must be rigorously controlled.",
+    "why_it_works": "Sets two bodies of literature against each other, names the by-products at issue, and concludes that the process is conditional. Disagreement in the sources is reported, not smoothed over.",
+    "teaches": [
+      "evidence",
+      "structure",
+      "limitation"
+    ]
+  },
+  {
+    "id": "ent-2024-ug-padua-18",
+    "prize": "entrepreneurship",
+    "team": "Uni-Padua-IT",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/uni-padua-it/entrepreneurship",
+    "section": "Customer interview",
+    "function": "loop-closing",
+    "text": "The main issues we identified were related to the monitoring of the filtration process. Currently, water samples are taken approximately every two weeks and sent for analysis using mass spectrometry, which takes several days to yield results. The need for on-site sensors for faster analysis was emphasized, as this would enable prompt action in the event of a malfunction. Based on this feedback, we decided to develop our sensor using Raman technology, eliminating the need for laboratory processing and allowing for rapid, cost-effective water sample analysis in just a few minutes.",
+    "why_it_works": "The need is measured before it is solved: samples every two weeks, results in days. The last sentence names the design decision that came out of that one complaint.",
+    "teaches": [
+      "evidence",
+      "loop-closing",
+      "structure"
+    ]
+  },
+  {
+    "id": "ent-2024-ug-padua-19",
+    "prize": "entrepreneurship",
+    "team": "Uni-Padua-IT",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/uni-padua-it/entrepreneurship",
+    "section": "Costs",
+    "function": "evidence-with-numbers",
+    "text": "Furthermore, we need to consider the costs of maintaining conditions suitable for bacterial growth and the expenses for diluting the solutions to ensure compatibility with our Escherichia coli. In this regard, we based our analysis on results obtained from growth tests, which indicate that this bacterium can survive up to a maximum concentration of 0.75 M, equivalent to 150,000 moles of ethanol. Therefore, to the previously considered volume of water, we need to add 91,245.15 L for the dilution of the desorption solution, which amounts to $367.\nAs highlighted from an economic perspective, this alternative does not prove to be cost-effective.",
+    "why_it_works": "Carries a lab growth limit through to litres of dilution water and a dollar figure, then ends by saying the option is not cost-effective. The team publishes the number that kills its own first proposal.",
+    "teaches": [
+      "evidence",
+      "method",
+      "voice"
+    ]
+  },
+  {
+    "id": "ent-2024-ug-padua-20",
+    "prize": "entrepreneurship",
+    "team": "Uni-Padua-IT",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/uni-padua-it/entrepreneurship",
+    "section": "Lean Business Model",
+    "function": "other",
+    "text": "SurPFAS's unfair advantage lies in its proprietary integration of genetic engineering with environmental biotechnology. The project leverages a unique combination of engineered E. coli strains and a patent-pending Raman-SERS sensor technology, creating a solution that is both innovative and difficult to replicate. Additionally, our exclusive partnerships with leading academic institutions provide us with cutting-edge research capabilities and a continuous pipeline of innovation, ensuring that surPFAS remains at the forefront of PFAS degradation technologies. The proprietary methods for regenerating filters while maintaining their integrity further secure our position as a leader in the field.",
+    "why_it_works": "\"Unfair advantage\" is argued entirely with adjectives: proprietary, unique, exclusive, cutting-edge, leader. Nothing in it can be checked.",
+    "teaches": [
+      "concision",
+      "evidence",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ent-2024-ug-padua-21",
+    "prize": "entrepreneurship",
+    "team": "Uni-Padua-IT",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/uni-padua-it/entrepreneurship",
+    "section": "Marketing Strategy",
+    "function": "other",
+    "text": "SurPFAS represents more than just a startup; it is a young and innovative movement founded by a group of individuals in their twenties, driven by a clear mission—to eliminate PFAS and increase global awareness of an environmental crisis that demands immediate action.",
+    "why_it_works": "The opening of Marketing Strategy restates the opening of Marketing and Communication almost word for word. Two sections, one paragraph of content.",
+    "teaches": [
+      "concision",
+      "consistency",
+      "structure"
+    ]
+  },
+  {
+    "id": "ent-2024-og-utoronto-22",
+    "prize": "entrepreneurship",
+    "team": "UToronto",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/utoronto/entrepreneurship.html",
+    "section": "About Us",
+    "function": "page-opening",
+    "text": "At the forefront of biotech innovation, our iGEM team has translated our developed foundational models into an actionable, groundbreaking startup with the potential to revolutionize the field. Through rigorous market and stakeholder research, coupled with extensive mentorship, we have pinpointed a transformative application positioned to create significant impact. Our entrepreneurial journey has been furthered by participation in two prestigious incubator programs: the University of Toronto's flagship incubator (NEST 2024 – Hatchery) and the iGEM Startups Venture Creation Labs. Achieving the \"Go-to-Market\" stage at UofT and securing an opportunity to present at the Bioinnovation Fair in Paris exemplify our progress. With a comprehensive business plan and 24-month cash flow projections crafted under the guidance of Toronto-based venture capitalists, our roadmap spans from pre-seed funding to Series B in a span of 10 years. By engaging deeply with both academic and industry leaders, we have honed our value proposition, ensuring that our innovations align closely with market needs and opportunities.",
+    "why_it_works": "An opening built from adjectives: forefront, groundbreaking, revolutionize, rigorous, prestigious, transformative. The real facts in it, two incubators and a funding horizon, are buried.",
+    "teaches": [
+      "concision",
+      "clarity",
+      "voice"
+    ]
+  },
+  {
+    "id": "ent-2024-og-utoronto-23",
+    "prize": "entrepreneurship",
+    "team": "UToronto",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/utoronto/entrepreneurship.html",
+    "section": "iGEM Entrepreneurship Criteria",
+    "function": "stakeholder-entry",
+    "text": "Through direct engagement with academic leaders, biotechnology KOLs, and our mentors, we've identified and secured our first customers. We're proud to announce that we were approached by Tetsuwan Scientific, a San Francisco-based company, wanting to integrate our platform with their workflow. Our first customers have sent us a proposal for their project, and we're awaiting for our technology to be developed further in order to complete this project. Our future customers include pharmaceutical and biotechnology companies that conduct preclinical discovery as part of their pipeline. Our technology flawlessly integrates and expedites the preclinical discovery process, and projected to cut preclinical costs by ~70%.",
+    "why_it_works": "The first customer is named and the direction of contact is stated: they approached the team. The next sentence then stretches to a \"~70%\" cost cut with no source.",
+    "teaches": [
+      "evidence",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ent-2024-og-utoronto-24",
+    "prize": "entrepreneurship",
+    "team": "UToronto",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/utoronto/entrepreneurship.html",
+    "section": "iGEM Entrepreneurship Criteria",
+    "function": "limitation",
+    "text": "In our discussion with academics, we have confirmed that our usage of AI models to modify phage sequences/DNA alongside our protein interaction validation is at the cutting edge of synthetic biology. Given the proprietary nature of our competitors' technologies, we’re unable to verify how close our approach is to current methods.",
+    "why_it_works": "Claims novelty, then says in the same breath that the claim cannot be verified because rivals keep their methods private. The hedge sits where the claim is.",
+    "teaches": [
+      "voice",
+      "limitation",
+      "evidence"
+    ]
+  },
+  {
+    "id": "ent-2024-og-utoronto-25",
+    "prize": "entrepreneurship",
+    "team": "UToronto",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/utoronto/entrepreneurship.html",
+    "section": "Most Recent Status",
+    "function": "evidence-with-numbers",
+    "text": "The company has successfully completed UofT’s NEST 2024 incubator program and iGEM Startups’ pre-accelerator program. The company will present in Paris, France as part of iGEM Startups’ Showcase. The company has been selected to the “Go-to-Market” stage of UofT’s incubator, unlocking non-dilutive funding, legal, accounting, and other business development resources.",
+    "why_it_works": "Flat, dated, countable: programmes completed, stage reached, what that stage unlocks, headcount as of a date. The register the rest of the page needed.",
+    "teaches": [
+      "concision",
+      "evidence",
+      "voice"
+    ]
+  },
+  {
+    "id": "ent-2023-ug-tec-26",
+    "prize": "entrepreneurship",
+    "team": "Tec-Chihuahua",
+    "year": 2023,
+    "track": "UG",
+    "url": "https://2023.igem.wiki/tec-chihuahua/entrepreneurship",
+    "section": "Understanding their pains and unmet needs",
+    "function": "definition",
+    "text": "Our integrated human practices helped us learn that dairy producers and cattle owners need a treatment that effectively addresses bovine mastitis, without using antibiotics so milk isn’t discarded and their production isn’t reduced due to the milk withdrawal period. This treatment needs to be backed up by the recognition of veterinary zootechnicians and scientific evidence that compares and indicates how AureoBos is better than any other conventional treatment. They also communicated that they require a treatment that is easy to administer and integrate into their existing routines, ensuring minimal disruption to their operations. They are asking for a product which doesn’t harm the cattle, compromise the milk quality, and pose risks to humans. Finally, the treatment needs to be accessible in terms of availability and affordability in the geographical and economic situation.",
+    "why_it_works": "The unmet need is written as the customer's own list of conditions: no antibiotics, backed by vets and evidence, easy to administer, safe, affordable. Each one is testable against a product.",
+    "teaches": [
+      "structure",
+      "evidence",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ent-2023-ug-tec-27",
+    "prize": "entrepreneurship",
+    "team": "Tec-Chihuahua",
+    "year": 2023,
+    "track": "UG",
+    "url": "https://2023.igem.wiki/tec-chihuahua/entrepreneurship",
+    "section": "First Potential Customers",
+    "function": "definition",
+    "text": "After recognizing the presence of small, medium, and large-scale producers, as well as understanding how mastitis affects them, it becomes evident that these individuals, whether under the guidance of a veterinary zootechnician or not, are our ultimate end-users. However, after engaging with them and also with global veterinary pharmaceutical companies like MSD Animal Health and Zoetis, we identified the existence of two distinct customer types.\nWith this we refer to a division between large-scale producers and small to medium-sized producers. Initially, AureoBos will be sold directly to large-scale producers, whereas to reach small and medium-sized ones, an intermediary is required. Thus, the veterinary pharmacies in these regions would also become our clients, serving as the bridge to connect with the smaller producers.",
+    "why_it_works": "Splits one customer group into two by how each buys, and names the intermediary that becomes a customer as a result. The segmentation comes from interviews.",
+    "teaches": [
+      "structure",
+      "clarity",
+      "evidence"
+    ]
+  },
+  {
+    "id": "ent-2023-ug-tec-28",
+    "prize": "entrepreneurship",
+    "team": "Tec-Chihuahua",
+    "year": 2023,
+    "track": "UG",
+    "url": "https://2023.igem.wiki/tec-chihuahua/entrepreneurship",
+    "section": "Market Analysis: SOM, SAM & TAM",
+    "function": "method",
+    "text": "⚫SOM: This represents the market segment we can access in the short to medium term. Our initial focus was on determining the number of dairy cattle within our state. By obtaining this data from the Government of Mexico's Agricultural and Fishing Information Service7, we identified that there are approximately 62,759 dairy cows that become sick annually.\n⚫SAM: To expand our market, we turned our attention to our entire country, Mexico. Using data once again from the Government of Mexico's Agricultural and Fishing Information Service, we determined that there are about 535,711 dairy cows that become sick annually in Mexico.\n⚫TAM: Finally, aiming to scale our startup to the most extensive market, we considered the global population of dairy cows, which is approximately 271 million.8",
+    "why_it_works": "Builds the three market sizes from national livestock counts, smallest ring first, each with its source. The method is visible, so the figures can be re-derived.",
+    "teaches": [
+      "evidence",
+      "method",
+      "structure"
+    ]
+  },
+  {
+    "id": "ent-2023-ug-tec-29",
+    "prize": "entrepreneurship",
+    "team": "Tec-Chihuahua",
+    "year": 2023,
+    "track": "UG",
+    "url": "https://2023.igem.wiki/tec-chihuahua/entrepreneurship",
+    "section": "Solution",
+    "function": "other",
+    "text": "AureoBos is set to become a groundbreaking treatment that revolutionizes, completely, mastitis treatment. Through our integrated human practices, we learned that the best and wanted method of administration for our product is an intramammary infusion. This is because, as stated from several veterinary zootechnicians, intramammary infusions deliver the treatment directly into the affected udder quarters, ensuring the medication reaches the infection site precisely. It also allows for a high concentration of the treatment to be delivered into the infection site, becoming particularly important for combating bacterial infections effectively. Besides this, this method is something our users are already familiarized with, so it does not require complicated or highly specialized training.",
+    "why_it_works": "Opens with \"groundbreaking treatment that revolutionizes, completely\" and only then reaches the evidence, which is good: vets explained why intramammary delivery suits this product. The claim would have been stronger without the first sentence.",
+    "teaches": [
+      "concision",
+      "clarity",
+      "evidence"
+    ]
+  },
+  {
+    "id": "ent-2023-ug-tec-30",
+    "prize": "entrepreneurship",
+    "team": "Tec-Chihuahua",
+    "year": 2023,
+    "track": "UG",
+    "url": "https://2023.igem.wiki/tec-chihuahua/entrepreneurship",
+    "section": "Long-term Impacts",
+    "function": "limitation",
+    "text": "Emissions:\n🟥 The production of AureoBos requires cold storage, leading to increased energy consumption and operational costs. Emissions can also be produced by the transportation and disposal of the product.\n⭐We aim to counter this impact by using energy-efficient refrigeration systems and temperature control measures in cold storage facilities as well as exploring newable energy sources like solar energy to power the cold storage, reducing carbon emissions in the near future.",
+    "why_it_works": "A negative impact named with its cause, cold storage and transport, and a mitigation that is an engineering choice rather than a promise.",
+    "teaches": [
+      "limitation",
+      "evidence",
+      "concision"
+    ]
+  },
+  {
+    "id": "ent-2023-og-leiden-31",
+    "prize": "entrepreneurship",
+    "team": "Leiden",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/leiden/entrepreneurship",
+    "section": "Unmet needs & potential customers",
+    "function": "page-opening",
+    "text": "Each year an estimated 2 to 3 million tons of non-degradable, fossil-based plastics are used in agriculture1. These plastics are crucial for safeguarding our crop yields. However, they degrade into microplastics that make their way into our food and our bodies. Research has already found adverse effects of this on human health2. The extent of the harmful effects is not yet known, nonetheless, it is an absolute necessity to PHAse Out non-degradable plastics from agriculture and remove microplastics from our food.\nDespite this urgent need, there are currently no sustainable and cost competitive biodegradable plastics for agricultural use on the market3. Given that biodegradability is a highly attractive characteristic for plastics in agriculture4, this is a large unmet need.",
+    "why_it_works": "Opens on the tonnage, concedes the plastics are useful, states the harm with a citation, then names the gap in one sentence and calls it an unmet need.",
+    "teaches": [
+      "structure",
+      "evidence",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ent-2023-og-leiden-32",
+    "prize": "entrepreneurship",
+    "team": "Leiden",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/leiden/entrepreneurship",
+    "section": "Exit strategy",
+    "function": "limitation",
+    "text": "Despite having established that there is an unmet need and a growing market for sustainable PHA, we learned from stakeholders that setting up a PHA production company in the Netherlands ourselves may prove too challenging to be realistically implementable. Firstly, the Dutch bioplastics market is highly competitive, with numerous established players including companies that are already working with PHA5, 6. This creates intense financial and technological demands for market entry, which require financial and operational resources that could be very difficult to access. Moreover, the Netherlands has enforced stringent environmental regulations, particularly in waste management and sustainability, necessitating substantial compliance efforts and investments. As such, we would ideally horizontally merge with a company that already has an established customer base and production facilities.",
+    "why_it_works": "Reports that stakeholders talked the team out of its own plan, gives three reasons, and changes the exit strategy accordingly.",
+    "teaches": [
+      "loop-closing",
+      "evidence",
+      "voice"
+    ]
+  },
+  {
+    "id": "ent-2023-og-leiden-33",
+    "prize": "entrepreneurship",
+    "team": "Leiden",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/leiden/entrepreneurship",
+    "section": "Serviceable Obtainable Market",
+    "function": "evidence-with-numbers",
+    "text": "The Serviceable Obtainable Market (SOM) is an estimate of the available revenue from a market sector that a company is able to obtain15. In this case, PHAse Out would be located in the Netherlands which is ideal for capturing the European market. We would first establish ourselves within the Netherlands before attempting to expand further into Europe. The Dutch obtainable market for plastics is currently valued at around $9.6 billion18. Bioplastics make up around 2.5% of the plastic sector19, meaning that there is a current potential of $240 million in the Netherlands for bioplastics. Of these $240 million, 7% of bioplastics used in the Netherlands are PHA20, leaving a total of $16.8 million for the SOM of PHA we could currently achieve expanding into the European market.",
+    "why_it_works": "Chains four sourced percentages down from a national market to a single SOM figure. Each step is a separate sentence with its own reference.",
+    "teaches": [
+      "evidence",
+      "method",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ent-2023-og-leiden-34",
+    "prize": "entrepreneurship",
+    "team": "Leiden",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/leiden/entrepreneurship",
+    "section": "Serviceable Available Market",
+    "function": "other",
+    "text": "The Serviceable Available Market (SAM) is the proportion of the TAM targeted by our product that is within geographical reach15. By looking at our timeline of key activities below, we aim to sell PHA by 2032. In 2032, the market for PHA is forecasted to have grown significantly, with the largest segment being present in Europe and the second largest segment being Northern America. The expected market for PHA by 2030 is valued at $120 million in Europe and $100 million for Northern America16. This makes the TAM for PHAse Out $220 million in 2030.",
+    "why_it_works": "The section defines SAM, then ends by calling its own result the TAM. One wrong acronym at the end of a paragraph undoes the arithmetic above it.",
+    "teaches": [
+      "consistency",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ent-2023-og-leiden-35",
+    "prize": "entrepreneurship",
+    "team": "Leiden",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/leiden/entrepreneurship",
+    "section": "Need for environmentally friendly production",
+    "function": "definition",
+    "text": "A Life Cycle Assessment (LCA) serves as an instrument to evaluate the potential environmental consequences across the entire lifespan of a product. This includes activities such as acquiring natural resources, production, utilization, and waste management, including disposal and recycling. An LCA contributes to preventing the transfer of problems from one life cycle phase to another or from one type of environmental impact to another14.",
+    "why_it_works": "A folded box defines Life Cycle Assessment in three sentences for the reader who does not know the term, without interrupting the argument above it.",
+    "teaches": [
+      "assumed-knowledge",
+      "definition",
+      "concision"
+    ]
+  }
+]

@@ -1,0 +1,119 @@
+/* =============================================================================
+   Sustainability: what engage.css (the IHP soft style) does not already do.
+
+   The page speaks the Engagement pages' shared language: the four goals are
+   one segmented control with a chapter each (problem in a grey card, its
+   figures in a white chart box, the solution as the chapter's tinted close),
+   and the closing sections use the leaf-green blocks. This file keeps only
+   the goal index under the overview, the hero crop, and the lightbox.
+
+   COLOUR. Each goal takes one of the six chapter colours engage.css shares
+   with the IHP pipelines, picked near its UN colour: SDG 2 amber (pl-3),
+   SDG 4 blue (pl-5), SDG 10 plum (pl-4), SDG 15 green (pl-2). The same
+   class sits on the goal's card in the index, its button and its chapter.
+   ========================================================================== */
+
+/* the farm photograph: keep the line of students in frame at 21:9 */
+.sus .pagehead__hero img { object-position: center 60%; }
+
+/* ============================================================ GOAL INDEX ===
+   Four soft cards under the overview, one per goal. Each one opens its
+   chapter in the switch below.                          */
+
+.sus .goals {
+  display: grid;
+  gap: 1rem;
+  margin: var(--sp-6) 0 0;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 40rem) { .sus .goals { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 68rem) { .sus .goals { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+
+.engage a.goal {
+  display: flex;
+  flex-direction: column;
+  gap: .45rem;
+  padding: 1.35rem 1.4rem 1.5rem;
+  border-radius: 22px;
+  background: var(--well);
+  color: var(--ink);
+  text-decoration: none;
+  transition: background-color .25s ease, box-shadow .3s var(--ease), transform .3s var(--ease);
+}
+.engage a.goal:hover,
+.engage a.goal:focus-visible {
+  background: #fff;
+  color: var(--ink);
+  box-shadow: 0 0 0 1px rgb(0 0 0 / .06), 0 24px 44px -30px rgb(0 0 0 / .35);
+  transform: translateY(-2px);
+}
+.engage a.goal:focus-visible { outline: 2px solid var(--pl); outline-offset: 2px; }
+.sus .goal__no {
+  display: inline-grid; place-items: center;
+  width: 2.5rem; height: 2.5rem;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--pl) 12%, #fff);
+  color: var(--pl);
+  font-weight: 700; font-size: 1.0625rem; letter-spacing: -.02em;
+  font-variant-numeric: tabular-nums;
+}
+.sus .goal__name { margin-top: .35rem; font-size: 1.125rem; font-weight: 650; line-height: 1.25; letter-spacing: -.015em; }
+
+/* the solution closes each chapter: a long paragraph, so a step smaller
+   than the one-line closes the shared style was set for                  */
+.engage.sus .chap__end p:not(.chap__eyebrow) { font-size: clamp(1.0625rem, 1rem + .35vw, 1.25rem); line-height: 1.55; }
+
+/* a chart box sits on the white of a chapter: give it the grey well */
+.sus .chap > .chartbox { background: var(--well); }
+.sus .chap > .card + .chartbox { margin-top: 1.25rem; }
+
+/* =============================================================== PRINT ===== */
+
+@media print {
+  .sus .goals { grid-template-columns: 1fr 1fr; }
+  .sus .fig { break-inside: avoid; }
+  .sus .lightbox, .sitenav-spacer { display: none !important; }
+}
+
+/* ============================================================ LIGHTBOX =====
+   page.js builds the overlay; page.css gives it a backdrop at 88% opacity,
+   which lets body text show through under a pale photograph and leaves the
+   caption sitting on a muddy ground. Engineering solved this already: a
+   near-opaque backdrop, the image and the caption on the same 80% column,
+   and the caption left-aligned so a long one reads as a paragraph. Same
+   treatment here, scoped to this page.                                     */
+
+.sus .lightbox {
+  display: none;
+  place-items: initial;
+  flex-direction: column;
+  align-items: center; justify-content: center;
+  padding: 3vh 3vw;
+  background: rgb(8 20 15 / .97);
+}
+.sus .lightbox.is-open { display: flex; }
+.sus .lightbox figure { margin: 0; width: 80vw; display: grid; justify-items: center; }
+.sus .lightbox img {
+  max-width: 80vw; max-height: 76vh;
+  width: auto; height: auto;
+  object-fit: contain;
+  background: var(--white);
+}
+.sus .lightbox figcaption {
+  width: 80vw; max-width: 80vw;
+  margin: var(--sp-4) 0 0;
+  text-align: left;
+  color: var(--gray-200);
+  font-size: var(--text-sm); line-height: 1.6;
+}
+.sus .lightbox figcaption b { color: var(--white); }
+
+/* captions under the chapter figures: the soft box needs no rule beside them */
+.engage .chartbox figcaption { padding: 0; border: 0; }
+
+/* SDG 2: the problem and its one figure side by side */
+.sus .pair { display: grid; gap: 1.25rem; }
+.sus .pair > .chartbox { margin: 0; display: flex; flex-direction: column; justify-content: center; background: var(--well); }
+.sus .pair > .chartbox .charts--1 { width: 100%; }
+@media (min-width: 62rem) { .sus .pair { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
+.sus .chap > .chap__end { margin-top: 1.25rem; }

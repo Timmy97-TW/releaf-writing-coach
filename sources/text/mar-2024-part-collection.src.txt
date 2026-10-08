@@ -1,0 +1,188 @@
+<header
+    <title Part Collection>
+    <subtitle Enhancing Genetic Access for Dandelion Research and Biotechnology>
+    <image https://static.igem.wiki/teams/5088/wiki/images/part-collection/partcollection.webp>
+>
+
+<section Key achievements>
+
+<list <e We utilized <b transcriptomic analysis> to design a set of 31 constitutive regulatory parts for dandelion engineering.> <e Created a ratiometric measurement construct for effective and quantitative characterization of these parts.> <e Characterized our parts using <b three different plant transformation approaches>.> <e In total our dandelion part collection includes <b 37> characterized parts.> <e This suite of standardized basic parts will facilitate future efforts to engineer dandelion more efficiently and enable more advanced genetic modifications. By providing these tools, we aim to make <i Taraxacum kok-saghyz> a more accessible and versatile chassis for the plant synbio and iGEM community.>>
+
+
+<section Introduction>
+
+<i Taraxacum kok-saghyz> (TKS), commonly known as the Russian dandelion, has emerged as a promising sustainable source of natural rubber <doi 10.3390/plants9111561>. Beyond its potential in rubber production, TKS holds significant promise as a versatile chassis for plant Synthetic Biology, particularly within the iGEM community. Its capacity for <l <path /experiments> <content rapid stable genetic transformations>> makes it an ideal candidate for projects constrained by tight timelines, such as those in iGEM.
+
+
+Despite its advantages, <b TKS remains undomesticated>, presenting challenges that necessitate selective breeding and genetic engineering. Key agricultural traits – including larger seed size, synchronized flowering, enhanced seed germination rates, and optimized leaf morphology – require improvement to facilitate efficient cultivation and harvesting. <b Discussions with stakeholders> like dandelion breeder <l <path /human-practices/implementation/eickmeyer> <content Dr. Fred Eickmeyer>> and molecular biologist <l <path /human-practices/challenges/pruefer> <content Prof. Dr. Dirk Prüfer>> have underscored a critical bottleneck: <b the lack of essential basic regulatory parts needed to engineer these complex traits in TKS.>
+
+
+In Synthetic Biology, characterized and modular genetic parts like promoters and untranslated regions (UTRs) are fundamental <doi 10.1371/journal.pone.0016765>. However, plants <b – especially non-model species like TKS – have a highly limited repertoire of characterized genetic components.> The few existing parts are predominantly derived from model organisms such as Arabidopsis thaliana, tobacco, maize, or from viral and bacterial origins <doi 10.1021/sb4001504>. This scarcity is compounded by a general lack of characterization data in plants, hindering ambitious engineering efforts and the broader advancement of Plant Synthetic Biology.
+
+
+Recognizing this gap, we set out to design a comprehensive toolbox of endogenous regulatory elements tailored to TKS. A pivotal decision in our project was selecting the type of regulatory elements to include. After <l <path /human-practices/legal-political> <content extensive consultations with experts>> and considering upcoming changes to European Union (EU) regulations on genetically modified organisms (GMOs), we chose to focus on endogenous parts native to TKS. The EU Parliament is contemplating exemptions for certain plants developed through New Genomic Techniques (NGTs) – specifically NGT 1 plants, which are akin to conventionally bred varieties – from existing GMO laws. This category includes plants modified via methods like cisgenesis. By aligning our project with these potential regulatory shifts, we aim to ensure that our engineered TKS plants can be utilized within the EU.
+
+
+
+<section Design>
+
+The foundation of Synthetic Biology lies in applying <b engineering principles> to biological systems, with <b standardization> being a critical component <doi 10.1007/978-1-61779-412-4_2>. Standardization is particularly vital for developing and sharing biological parts that are easily exchangeable and functional across different platforms. In Plant Synthetic Biology, the availability of a diverse array of genetic parts for controlled transgene expression is essential to facilitate more complex engineering efforts. Recognizing this need, the <b Phytobrick standard> has been established as the common syntax and assembly framework within the plant community <doi 10.1111/nph.13532>. To align with this standard and promote interoperability, we decided that our collection of regulatory elements for <i Taraxacum kok-saghyz> (TKS) would also adhere to the Phytobrick specifications.
+
+
+To identify suitable regulatory parts for dandelion, <l <path /transcriptomics> <content we developed a computational pipeline>> designed to find regulatory elements with stable and consistent expression patterns. This pipeline integrates and analyzes publicly available transcriptomic data across multiple tissue types and developmental stages of TKS. By performing statistical analyses focusing on the mean and variance of gene expression across samples <doi 10.1186/s13059-014-0550-8>, we selected candidate genes exhibiting high mean expression and low variance. These traits are indicative of strong and ubiquitous promoters suitable for diverse applications in genetic engineering.
+
+
+Ensuring compatibility with the Phytobrick standard required us to address potential issues with illegal restriction enzyme recognition sites within the regulatory sequences. We meticulously screened and removed any candidates containing such sites from our list to comply with the standard's requirements. Based on our functional genomics analysis and expression profiling, we <b finalized a selection of 21 genes for inclusion in our toolbox>. These genes demonstrated a large dynamic range and low variance across different tissues and were associated with essential cellular functions, confirming their suitability as sources of constitutive regulatory elements.
+
+
+Once the candidate genes were identified, we extracted their upstream regulatory regions, encompassing approximately <b 2 kilobases upstream of the start codon>. These regions likely contain the core promoter elements and critical cis-regulatory sequences responsible for the observed gene expression patterns. By focusing on these upstream regions, we aimed to capture the key elements required for robust and stable gene expression in TKS.
+
+
+For the design of 3' untranslated regions (UTRs) and terminator sequences, <b we utilized the corresponding annotated sequences from the TKS reference genome>. To ensure we captured essential regulatory elements like far upstream elements (FUE), near upstream elements (NUE), and cleavage sites (CS), we extended these sequences by an additional 150 base pairs downstream. This approach was intended to include all necessary elements for proper transcript termination and polyadenylation, which are crucial for the stability and functionality of the expressed transgenes.
+
+
+<section Build>
+
+Following the identification and selection of suitable regulatory elements, the next phase of our project focused on the domestication and assembly of these parts using modular cloning techniques compatible with the <b Phytobrick standard>. We employed PCR amplification to isolate the promoter and 5' untranslated region (UTR) sequences directly from the <i Taraxacum kok-saghyz> (TKS) genome. Additionally, some promoter and 5'UTR candidates were submitted for DNA synthesis. However, due to the complexity and considerable length of these sequences, many proved challenging to synthesize.
+
+
+In contrast, the 3'UTRs are relatively short and less complex, which made them suitable for linear DNA synthesis. We designed all 3'UTR sequences accordingly.
+
+
+All PCR-amplified fragments and synthesized DNA were subsequently assembled using modular cloning methods. This approach ensured that our regulatory parts were fully compatible with the Phytobrick standard, facilitating ease of use and sharing within the plant Synthetic Biology community.
+
+
+<b Here, we proudly present our dandelion part collection:>
+
+
+<section Our Dandelion Toolbox>
+
+<el <url https://parts.igem.org/partsdb/search_1000.cgi?q=BBa_K5088000> <content Overview of all the parts we have created on the registry>>
+
+
+<subsection Working Endogenous <i T. kok-saghyz> Parts>
+
+<table
+<row <b Part Name> | <b Type> | <b Measurement Construct> | <b Short Description> | <b Source> | <b Organism> | <b Comment> >
+<row <el <url https://parts.igem.org/Part:BBa_K5088001> <content BBa_K5088001>> | Promoter + 5'UTR | <el <url https://parts.igem.org/Part:BBa_K5088501> <content BBa_K5088501>> | P_RPL28 | Transcriptomic analysis | <i T. kok-saghyz> | Large subunit ribosomal protein L28e>
+<row <el <url https://parts.igem.org/Part:BBa_K5088006> <content BBa_K5088006>> | Promoter + 5'UTR | <el <url https://parts.igem.org/Part:BBa_K5088506> <content BBa_K5088506>> | P_FKBP_4_5 | Transcriptomic analysis | <i T. kok-saghyz> | FK506-binding protein 4/5>
+<row <el <url https://parts.igem.org/Part:BBa_K5088007> <content BBa_K5088007>> | Promoter + 5'UTR | <el <url https://parts.igem.org/Part:BBa_K5088507> <content BBa_K5088507>> | P_CLTC | Transcriptomic analysis | <i T. kok-saghyz> | Clathrin>
+<row <el <url https://parts.igem.org/Part:BBa_K5088008> <content BBa_K5088008>> | Promoter + 5'UTR | <el <url https://parts.igem.org/Part:BBa_K5088508> <content BBa_K5088508>> | P_RPL31 | Transcriptomic analysis | <i T. kok-saghyz> | Large subunit ribosomal protein L31e>
+<row <el <url https://parts.igem.org/Part:BBa_K5088012> <content BBa_K5088012>> | Promoter + 5'UTR | <el <url https://parts.igem.org/Part:BBa_K5088512> <content BBa_K5088512>> | P_Tubulin | Transcriptomic analysis | <i T. kok-saghyz> | Tubulin>
+<row <el <url https://parts.igem.org/Part:BBa_K5088013> <content BBa_K5088013>> | Promoter + 5'UTR | <el <url https://parts.igem.org/Part:BBa_K5088513> <content BBa_K5088513>> | P_EIF5A | Transcriptomic analysis | <i T. kok-saghyz> | Translation initiation factor 5A>
+<row <el <url https://parts.igem.org/Part:BBa_K5088102> <content BBa_K5088102>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088600> <content BBa_K5088600>> | T_PTI1 | Transcriptomic analysis | <i T. kok-saghyz> | Protein tyrosine kinase>
+<row <el <url https://parts.igem.org/Part:BBa_K5088103> <content BBa_K5088103>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088601> <content BBa_K5088601>> | T_RPL28 | Transcriptomic analysis | <i T. kok-saghyz> | Large subunit ribosomal protein L28e>
+<row <el <url https://parts.igem.org/Part:BBa_K5088104> <content BBa_K5088104>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088602> <content BBa_K5088602>> | T_EPS15 | Transcriptomic analysis | <i T. kok-saghyz> | Epidermal growth factor receptor substrate 15>
+<row <el <url https://parts.igem.org/Part:BBa_K5088105> <content BBa_K5088105>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088603> <content BBa_K5088603>> | T_GSK3B | Transcriptomic analysis | <i T. kok-saghyz> | Glycogen synthase kinase 3>
+<row <el <url https://parts.igem.org/Part:BBa_K5088106> <content BBa_K5088106>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088604> <content BBa_K5088604>> | T_MGRN1 | Transcriptomic analysis | <i T. kok-saghyz> | E3 ubiquitin-protein ligase>
+<row <el <url https://parts.igem.org/Part:BBa_K5088107> <content BBa_K5088107>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088605> <content BBa_K5088605>> | T_RPL35A | Transcriptomic analysis | <i T. kok-saghyz> | Large subunit ribosomal protein L35Ae>
+<row <el <url https://parts.igem.org/Part:BBa_K5088108> <content BBa_K5088108>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088606> <content BBa_K5088606>> | T_betB | Transcriptomic analysis | <i T. kok-saghyz> | Betaine-aldehyde dehydrogenase>
+<row <el <url https://parts.igem.org/Part:BBa_K5088109> <content BBa_K5088109>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088607> <content BBa_K5088607>> | T_pgm | Transcriptomic analysis | <i T. kok-saghyz> | Phosphoglucomutase>
+<row <el <url https://parts.igem.org/Part:BBa_K5088110> <content BBa_K5088110>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088608> <content BBa_K5088608>> | T_ATPsynt | Transcriptomic analysis | <i T. kok-saghyz> | ATPase subunit gamma>
+<row <el <url https://parts.igem.org/Part:BBa_K5088111> <content BBa_K5088111>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088609> <content BBa_K5088609>> | T_EIF3B | Transcriptomic analysis | <i T. kok-saghyz> | Translation initiation factor 3 subunit B>
+<row <el <url https://parts.igem.org/Part:BBa_K5088112> <content BBa_K5088112>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088610> <content BBa_K5088610>> | T_RPL31 | Transcriptomic analysis | <i T. kok-saghyz> | Large subunit ribosomal protein L31e>
+<row <el <url https://parts.igem.org/Part:BBa_K5088113> <content BBa_K5088113>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088611> <content BBa_K5088611>> | T_TM9SF2 | Transcriptomic analysis | <i T. kok-saghyz> | Transmembrane 9 superfamily member 2/4>
+<row <el <url https://parts.igem.org/Part:BBa_K5088114> <content BBa_K5088114>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088612> <content BBa_K5088612>> | T_CUL1 | Transcriptomic analysis | <i T. kok-saghyz> | Cullin>
+<row <el <url https://parts.igem.org/Part:BBa_K5088115> <content BBa_K5088115>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088613> <content BBa_K5088613>> | T_PSMB6 | Transcriptomic analysis | <i T. kok-saghyz> | 20S proteasome subunit beta 1>
+<row <el <url https://parts.igem.org/Part:BBa_K5088116> <content BBa_K5088116>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088614> <content BBa_K5088614>> | T_RPSA | Transcriptomic analysis | <i T. kok-saghyz> | Small subunit ribosomal protein SAe>
+<row <el <url https://parts.igem.org/Part:BBa_K5088117> <content BBa_K5088117>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088615> <content BBa_K5088615>> | T_VPS4 | Transcriptomic analysis | <i T. kok-saghyz> | Vacuolar protein-sorting-associated protein 4>
+<row <el <url https://parts.igem.org/Part:BBa_K5088118> <content BBa_K5088118>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088616> <content BBa_K5088616>> | T_EIF2S3 | Transcriptomic analysis | <i T. kok-saghyz> | Translation initiation factor 2 subunit 3>
+
+
+>
+
+
+<subsection Additionally Tested Endogenous Parts>
+
+<table
+<row <b Part Name> | <b Type> | <b Measurement Construct> | <b Short Description> | <b Source> | <b Organism> | <b Comment> >
+<row <el <url https://parts.igem.org/Part:BBa_K5088000> <content BBa_K5088000>> | Promoter + 5'UTR | <el <url https://parts.igem.org/Part:BBa_K5088500> <content BBa_K5088500>> | P_PTI1 | Transcriptomic analysis | <i T. kok-saghyz> | Protein tyrosine kinase>
+<row <el <url https://parts.igem.org/Part:BBa_K5088002> <content BBa_K5088002>> | Promoter + 5'UTR | <el <url https://parts.igem.org/Part:BBa_K5088502> <content BBa_K5088502>> | P_GSK3B | Transcriptomic analysis | <i T. kok-saghyz> | Glycogen synthase kinase 3>
+<row <el <url https://parts.igem.org/Part:BBa_K5088003> <content BBa_K5088003>> | Promoter + 5'UTR | <el <url https://parts.igem.org/Part:BBa_K5088503> <content BBa_K5088503>> | P_MGRN1 | Transcriptomic analysis | <i T. kok-saghyz> | E3 ubiquitin-protein ligase>
+<row <el <url https://parts.igem.org/Part:BBa_K5088004> <content BBa_K5088004>> | Promoter + 5'UTR | <el <url https://parts.igem.org/Part:BBa_K5088504> <content BBa_K5088504>> | P_betB | Transcriptomic analysis | <i T. kok-saghyz> | Betaine-aldehyde dehydrogenase>
+<row <el <url https://parts.igem.org/Part:BBa_K5088005> <content BBa_K5088005>> | Promoter + 5'UTR | <el <url https://parts.igem.org/Part:BBa_K5088505> <content BBa_K5088505>> | P_pgm | Transcriptomic analysis | <i T. kok-saghyz> | Phosphoglucomutase>
+<row <el <url https://parts.igem.org/Part:BBa_K5088009> <content BBa_K5088009>> | Promoter + 5'UTR | <el <url https://parts.igem.org/Part:BBa_K5088509> <content BBa_K5088509>> | P_CUL1 | Transcriptomic analysis | <i T. kok-saghyz> | Cullin>
+<row <el <url https://parts.igem.org/Part:BBa_K5088010> <content BBa_K5088010>> | Promoter + 5'UTR | <el <url https://parts.igem.org/Part:BBa_K5088510> <content BBa_K5088510>> | P_VPS4 | Transcriptomic analysis | <i T. kok-saghyz> | Vacuolar protein-sorting-associated protein 4>
+<row <el <url https://parts.igem.org/Part:BBa_K5088011> <content BBa_K5088011>> | Promoter + 5'UTR | <el <url https://parts.igem.org/Part:BBa_K5088511> <content BBa_K5088511>> | P_EIF2S3 | Transcriptomic analysis | <i T. kok-saghyz> | Translation initiation factor 2 subunit 3>
+
+
+>
+
+
+
+
+<subsection Other Working Parts>
+
+<table
+<row <b Part Name> | <b Type> | <b Measurement Construct> | <b Short Description> | <b Source> | <b Organism> | <b Comment> >
+<row <el <url https://parts.igem.org/Part:BBa_K5088016> <content BBa_K5088016>> | Promoter + 5'UTR | <el <url https://parts.igem.org/Part:BBa_K5088514> <content BBa_K5088514>> | P_LHB:TMV | Distribution kit | <i A. thaliana> | LHB1B2 photosystem II light harvesting complex + TMV 5'UTR>
+<row <el <url https://parts.igem.org/Part:BBa_K5088017> <content BBa_K5088017>> | Promoter + 5'UTR | <el <url https://parts.igem.org/Part:BBa_K5088515> <content BBa_K5088515>> | P_MAS:TMV | Distribution kit | <i A. tumefaciens> | Mannopine Synhtase + TMV 5'UTR>
+<row <el <url https://parts.igem.org/Part:BBa_K5088015> <content BBa_K5088015>> | Promoter + 5'UTR | <el <url https://parts.igem.org/Part:BBa_K5088677> <content BBa_K5088677>> | P_35S:TMV | Distribution kit | CaMV | 35S + TMV 5'UTR>
+<row <el <url https://parts.igem.org/Part:BBa_K5088150> <content BBa_K5088150>> | Reporter | <el <url https://parts.igem.org/Part:BBa_K5088677> <content BBa_K5088677>> | plantGFP | Gene Synthesis | - | eGFP with St-IV2 Intron>
+<row <el <url https://parts.igem.org/Part:BBa_K5088119> <content BBa_K5088119>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088617> <content BBa_K5088617>> | T_EXT | Gene Synthesis | <i N. tabacum> | Extensin>
+<row <el <url https://parts.igem.org/Part:BBa_K5088120> <content BBa_K5088120>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088618> <content BBa_K5088618>> | T_OCS | Distribution Kit | <i A. tumefaciens> | Octopine Synthase>
+<row <el <url https://parts.igem.org/Part:BBa_K5088100> <content BBa_K5088100>> | 3'UTR | <el <url https://parts.igem.org/Part:BBa_K5088677> <content BBa_K5088677>> | T_35S | Distribution Kit | CaMV | 35S>
+
+>
+
+
+<subsection Composite Testing Constructs>
+
+
+
+<table
+<row <b Composite Testing Construct> | <b Short Description> | <b Reporter> | <b Comment> >
+<row <el <url https://parts.igem.org/Part:BBa_K5088675> <content BBa_K5088675>> | Tarakate – Test construct GFP | GFP| Test construct to validate functionality of GFP signal in <i N. benthamiana>, <i T. kok-saghyz> and <i T. officinale>>
+<row <el <url https://parts.igem.org/Part:BBa_K5088676> <content BBa_K5088676>> | Tarakate – Test construct RUBY | RUBY | Test construct to validate functionality of the RUBY reporter in <i N. benthamiana>, <i T. kok-saghyz> and <i T. officinale> >
+<row <el <url https://parts.igem.org/Part:BBa_K5088677> <content BBa_K5088677>> | Tarakate – Consensus measurement construct | GFP + mCherry | Ratiometric measurement construct that allow for functional characterization of regulatory elements in multiple plant species
+>
+>
+
+
+
+
+
+
+<section Test>
+
+Characterization of biological parts is essential in engineering and Synthetic Biology, as it determines how these components perform within a system <refs <doi 10.1038/nature04342> <doi 10.1038/nmeth.2404>>. In plants, this characterization is more challenging due to the complexity of multicellular organisms and their various developmental stages <doi 10.1021/acssynbio.2c00147>. Testing and quantifying gene expression is more difficult compared to microbial chassis, where conditions are more uniform and transformations are relatively straightforward.
+
+
+Our initial testing focused on evaluating whether the newly developed regulatory parts produce any gene expression outputs without yet assessing their performance in stably transformed plants. To achieve this, transient expression systems offer a powerful approach, providing quick and flexible platforms for testing multiple parts in a controlled environment. Two primary systems were proposed for these initial tests: protoplast assays and leaf infiltrations. These methods allow for transient gene expression, making them ideal for assessing the activity of the regulatory parts without the complexities associated with stable transformation. By utilizing these rapid readout systems, we can efficiently monitor the transcriptional output of the regulatory parts and optimize them before advancing to whole-plant tests.
+
+
+One of the challenges with transient expression methods is the high variability in transformation efficiency, which makes quantitative measurements of different regulatory parts difficult. To address this issue, we employed a ratiometric approach that allows for normalization across samples. Specifically, we used each regulatory element to drive the expression of green fluorescent protein (GFP) and normalized GFP expression to a constitutively expressed mCherry <doi 10.1038/nbt1037> fluorescent protein encoded on the same T-DNA construct. This strategy compensates for differences in transformation efficiency and enables more accurate quantitative comparisons of the activity of the regulatory elements under investigation.
+
+
+Initially, this ratiometric construct was designed employing avGFP, which is well-established for use in plants, and readily available as part of the iGEM distribution kit (<el <url https://parts.igem.org/Part:BBa_J428076> <content BBa_J428076>>). To test this, we built a proof-of-concept vector containing avGFP and evaluated its fluorescence intensity <doi 10.1002/jcp.1030590302>.
+
+
+However, <l <path /engineering> <content we learned>>, that the fluorescence intensity of avGFP was too low for precise measurements. To address this, we opted for a stronger fluorophore, settling on an eGFP variant, as recommended by Brophy et al. (2022) <doi 10.1126/science.abo4326>. This publication also demonstrated <i Agrobacterium's> ability to use the 35S promoter to express eGFP, which is later indistinguishable from the fluorescence of plant tissue. To prevent this, we inserted the potato ST-LS1 intron into the GFP coding sequence (CDS), rendering it nonfunctional in <i Agrobacterium> <doi 10.1126/science.abo4326>.
+
+
+For the second fluorophore, we selected mCherry, which has minimal overlap with eGFP in its excitation and emission spectra. Additionally, mCherry is included in the iGEM distribution kit (<el <url https://parts.igem.org/Part:BBa_J428079> <content BBa_J428079>>), making it readily accessible for future iGEM teams to use in their ratiometric constructs.
+
+
+By implementing this ratiometric approach in our transient expression assays, we aimed to gather reliable and quantifiable data on the performance of our regulatory parts. The construct is divided into two components: the measurement cassette and the normalization cassette. This arrangement was carefully chosen to minimize read-through effects that could influence GFP expression.
+
+
+
+
+<img <url https://static.igem.wiki/teams/5088/wiki/images/part-collection/consensus-sbol-trial1.webp> <caption Illustration of the reatiometric test construct in SBOL standard. As an example <el <url https://parts.igem.org/Part:BBa_K5088677> <content BBa_K5088677>> is shown.> <alt The ratiometric construct in SBOL format. In order from left to right, first the measurement cassette, which is built from the CaMV35s Promoter, TMV 5'UTR, eGFP CDS, CaMV35s 3'UTR. Secondly, the Normalization cassette, built from UBQ10 Promoter and 5'UTR, mCherry CDS and NOS 3'UTR.>>
+
+
+<l <path /measurement> <content Read more about it in our measurement section.>>
+
+
+While transient assays provide a valuable initial platform for testing regulatory elements, the next crucial step in our project involved generating stably transformed dandelion plants. Establishing these stable lines is essential for understanding gene expression effects across various developmental stages and in different tissues. Transient assays, although efficient, do not capture the complexities of plant growth over time or the nuanced tissue-specific responses that may arise from the expression of synthetic components. To address this limitation, we employed our extremely simplified cut-dip-budding approach to test the most promising regulatory candidates through stable transformation. This method allowed us to assess the long-term functionality and stability of the regulatory elements within the whole plant context, providing deeper insights into their potential applications in Plant Synthetic Biology.
+
+
+<l <path /experiments> <content Read more about our rapid stable transformation protocol.>>
+
+
+<section Learning and Outlook>
+
+We are proud to present our collection of regulatory parts designed for engineering <i Taraxacum kok-saghyz> (TKS), along with characterization data provided for the iGEM community. This suite of basic parts will facilitate future efforts to engineer dandelion more efficiently and enable more advanced genetic modifications. By providing these standardized tools, we aim to make TKS a more accessible and versatile chassis for synthetic biology applications.
+
+Looking ahead, our work thus far has focused on designing, building, and testing constitutive regulatory elements. In the future, we plan to expand our collection to include tissue-specific elements and regulatory sequences that drive expression at specific developmental stages. These elements will require thorough testing, especially in stably transformed plants, to fully understand their functionality. Developing tissue-specific regulatory elements is particularly important for engineering plant morphology and could significantly enhance the precision of genetic interventions in TKS <doi 10.1093/plphys/kiab568>.
+

@@ -1,0 +1,77 @@
+<header
+    <title Prof. Hans-Georg Dederer>
+    <subtitle Chair of Constitutional and Administrative Law, Public International Law, European and International Economic Law>
+    <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/resize-legal-political-header-1.webp>
+    <parent /human-practices/legal-political>
+>
+
+
+<image <url https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/dederer.webp> <width 20>>
+
+<section Reason for Contact>
+To get information on the context of the upcoming EU law regarding plants generated through new genomic techniques, we were happy to have the opportunity to speak with Prof. Hans-Georg Dederer. We got to know came him when we took part in the GASB webinar <link <path /human-practices/legal-political/gasb> <content "GASB meets PAW – Genetic Engineering Key Issue #3: Patents">>.
+
+
+<section Most Significant Points>
+
+<subsection Consistency of the EU Commission's New Legislative Proposal>
+The basis of the draft is that the Commission distinguishes between two categories: NGT1 and NGT2 plants. NGT1 plants should include all those that are the result of targeted mutagenesis, contain no foreign genes and are comparable to conventional plants in terms of their genetic structure. The Commission assumes that targeted mutagenesis using certain techniques only results in point mutations. NGT 1 plants are equated with conventionally produced plants and are to be exempted from the GMO regulations.
+
+Category NGT-2 includes all genome-edited plants that cannot be classified as NGT-1 plants. The existing legal regulations for GMOs apply to them, unless there are deviating provisions in the new regulation.
+
+The EU Commission's new NGT legislative proposal is basically coherent, but still has some inconsistencies. For example, the exemption for organic farming is purely politically motivated and deviates from the scientific approach pursued by the Commission. According to the Commission's proposal, NGT1 plants are GMOs and, as such, are not permitted in organic farming. The Commission argues that the use NGT1 plants in organic farming is contrary to consumer expectations and current concepts of organic agriculture. The critical point is that plants bred with traditional random mutagenesis techniques are allowed in organic agriculture even though they are, according to the European Court of Justice's jurisprudence, also GMOs within the meaning of the law.
+
+There is also a problem with equivalence criteria. A maximum of 20 genetic modifications occur in order for NGT varieties to be equivalent to conventionally produced plants. This maximum limit is too low and is not enough for polyploid, e.g. tetraploid or hexaploid plants. There may be a need for improvement here. For example, the maximum limit of genetic modifications should apply to the monoploid genome.
+
+
+<subsection Legal Challenges for German/European Companies when working with <i Taraxacum kok-saghyz>>
+When regulating NGT plants, the origin of the plant does not matter. Problems could arise with intellectual property rights, which include patent and plant variety protection rights.
+However, patent protection and plant variety protection only apply territorially. Plant variety protection and patent protection are only problematic in Germany or in Europe if certain varieties/plants are protected patents or variety protection rightsthere. However, this is not relevant for research, as there is a research privilege. Since genetic engineering can lead to patentable inventions, which means that plants could fall under patent protection
+Plant variety protection is subject to a so-called breeder's privilege, which is unrestricted. A variety can be used by another breeder, even if the variety is protected. This makes it possible to develop new varieties, register them and place them on the market. Such new varieties may also be protected by plant variety protection rights.
+
+
+<subsection Influence of the EU Commission's Draft Law on the Patentability of NGT-Plants>
+The Commission's original draft did not include any rules on patentability. The European Parliament has made changes to the draft and has modified the draft. One change is the exclusion of patentability of NGT plants. This is provided for in the NGT regulation on one hand, the Biopatent Directive on the other hand is to be amended accordingly.
+
+The new patenting exception is not yet known in biopatent law. The purpose of the biopatenting exception in the NGT regulation is to ensure that the exclusion applies as soon as the NGT regulation enters into force. The old patent law would continue to apply to existing patents and patent applications.
+
+In addition to the European Union's Biopatent Directive, there is also the European Patent Convention. The patenting exclusion mentioned there can only be amended if all treaty parties agree to amend the convention accordingly. The patenting exclusion in the new NGT legislation only affects the EU member states and has no impact on the European Patent Convention.
+
+
+<subsection Europe-wide Harmonized Biopatent Law>
+The existing EU Biopatent Directive harmonizes biopatent law for the 27 EU member states. In Germany, this directive has been integrated into the German Patent Act.
+
+The European Patent Organization is generally not bound by the EU Biopatent Directive, but has adopted it from the EU in order to create a uniform biopatent landscape in Europe. As a result, there is uniform biopatent law throughout Europe.
+
+If changes are made to the Biopatent Directive, these only apply to the EU as long as the European Patent Organization does not adopt them.
+
+
+<subsection Effect of a Patent on the Product>
+There are two types of patents: process patents and product patents. Process patents cover products made using the patented processes. Essentially biological processes and their products are not patentable. NGTs are a technical process and, therefore, NGT-related inventions may be patentable.
+Farmers benefit from a farmer's privilege in biopatent law, allowing them to reproduce patented plants to a limited extent, provided they pay a small fee to the patent holder. The same farmers' privilege applies in plant variety protection law.
+
+
+<subsection NGT Dandelions and Annex 3 (Sustainability Goals)>
+The list of sustainability criteria is exhaustive. This can lead to problems if it is not possible to clearly establish whether a plant meets these criteria. According to the European Parliament's amendments, NGT1 plants are only equated with conventional plants if they fulfill the sustainability criteria.
+
+In the case of dandelions, too, it is not possible to properly determine whether the sustainability criteria are met. If the sustainability criteria only apply to NGT2 plants, then dandelions are unproblematic.
+
+
+<subsection Transparency of the Patent Law Situation for Small- and Medium-Sized Enterprises>
+For small and medium-sized companies, patent law can be an obstacle when using NGTs. There is no platform where you can easily see whether the plant being developed may be exposed to patent claims. Patent searches are then necessary, which may have to be carried out by patent law firms. This can result in considerable costs.
+
+In addition, small and medium-sized breeders may have no experience with patents and no knowledge of costs or license or patent searches, as they have not used, as a rule, genetic modification techniques in the past.
+
+
+<subsection Possibilities to Prevent a Patent Jungle in the Future>
+First of all, it is possible that a patent holder does not make use of his or her patent claims and does not charge others license fees for using his or her patented invention for commercial purposes. An invention is open source if it has been published before applying for a patent. An invention is not new any longer after it has been published because it has become part of the already existing state of technology. Publication on a website is sufficient for this.
+
+
+<subsection Market Opportunities for Locally Produced Rubber from Dandelion>
+The aim would be not to jeopardize the livelihood of Asian farmers while maintaining local market prices that allow for a profit. As long as local natural rubber is expensive, there is no impact on cheaper imported rubber. The situation might be different if imported rubber was more expensive or at least equally expensive as locally produced rubber.
+One way to make imported rubber more expensive than, or equally expensive as, locally produced rubber could be to impose customs duties on the imported rubber. This might be, however, contrary to world trade law, unless the imposed customs duties could be justified as anti-subsidy or anti-dumping measures. Alternatively, the local product could be developed in such a way that it can be cultivated very cheaply and requires little care and plant additives such as fertilizers.
+
+
+<section Inclusion in Our Project>
+While working with bacteria, we came across numerous patents on Agrobacterium. The new legislative proposal is also of interest when it comes to working with genetic engineering methods on plants such as dandelions in the future. Therefore, it is important to deal with the legal basis of patents and the new NGT regulation in our Human Practices project. Obtaining expertise from legal experts is essential. We are very grateful to Prof. Dederer for his information and taking the time for this interview.
+Prof. Dederer also recommended that we talk to the relevant people at our university about patents. We then contacted <link <path /human-practices/legal-political/kuhl-nitsch> <content Vanessa Nitsch and Dr. Claudia Kuhl from the Administration for Contract management for research and transfer>>.

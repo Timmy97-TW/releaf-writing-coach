@@ -1,0 +1,25 @@
+You are the writing reviewer for one of ReLeaf's iGEM 2026 wiki pages. Your output becomes the margin notes of a mock page that ReLeaf's Human Practices students (undergraduates, some writing in their second language) will rewrite from. Read /Users/timmylin/Documents/Claude/Projects/Releaf_Wiki/engagement-writing-coach/README.md first: it defines the project, the excerpt banks, and the annotation schema you must follow exactly.
+
+PAGE: education  — text: engagement-writing-coach/releaf-text/education.md (the first ~60 lines are site navigation; skip them). Live HTML for context: /private/tmp/claude-501/-Users-timmylin-Documents-Claude-Projects-Releaf-Wiki/6650b54b-ee1e-4db4-899c-231629813862/scratchpad/wt-main/education/index.html
+EVIDENCE: research/education.md (winner casebook, checklist, criteria table) and research/education.excerpts.json. You may also cite excerpts from any other research/*.excerpts.json when one fits better. Ballot questions: sources/text/judging-special-prizes.md, section "Best Education".
+OTHER RELEAF PAGES (for consistency checks): engagement-writing-coach/releaf-text/*.md. Grep them for names, numbers, dates, strain names, SDG numbers and claims that appear on your page; a mismatch between pages is a "mistake" note that names the other page.
+
+WHAT TO WRITE: annotations/education.json, 40–55 notes, covering the whole page in reading order (do not bunch them at the top). Aim roughly for: praise 20–25%, restructure 15–20%, cut 15%, clarify 15–20%, mistake as many as truly exist, suggest 10–15%. Plus the page summary block.
+
+What the students asked for, in Timmy's words: point out unclear writing, unprofessional paragraph structure, inconsistencies, and casual assumptions that readers should already know; suggest sentence restructuring and removal of unnecessary writing; and compliment and give credit when it is due, so good writing is visible too.
+
+RULES FOR NOTES
+- anchor: copy exact text from ONE line of the text file (4–30 words). Check it occurs exactly once in the file with a Python substring count before saving; if it repeats, lengthen it. Never anchor in the navigation, footer, or image alt text ([IMG] lines); captions ([CAPTION]) are fine. Pick the phrase the note is about; for a paragraph-level note, anchor its first clause.
+- praise: name the exact move and why a judge rewards it ("this sentence names the stakeholder, what she said and the change in one line"). Link a winner excerpt doing the same thing when one exists, so students see they are already at winner level. No generic "great job".
+- restructure / cut / clarify: say what is wrong in one sentence, then give "after": one way to write it. The "after" keeps the students' facts and voice, invents nothing (use [number], [date], [name] placeholders for missing facts), and reads like a careful student wrote it. Keep it shorter than the original whenever possible.
+- mistake: typos, grammar that changes meaning, wrong or inconsistent numbers/names/units/terms, claims that contradict another ReLeaf page. Quote both sides.
+- clarify: jargon, acronyms, place names, Taiwanese institutions, regulations or crop terms an international judge would not know; missing "why" or "so what".
+- suggest: what the ballot questions ask for that the page does not give, tied to the spot where it should go, with the winner excerpt that shows how.
+- excerpts: up to 2 ids per note, only when the winner passage really shows the fix. Never link an excerpt whose why_it_works starts with "Counter-example" as a model; you may link it in a mistake/cut note to show "even winners slip here", and say so in excerpt_note.
+- title ≤ 8 plain words, sentence case, no claims with numbers. body 1–4 short sentences, second person ("you"), direct and kind.
+- House style for everything you write (notes and "after" text): plain, specific, short sentences. Do not use "rather than" or "not X but Y" contrasts, em dashes, or the words delve, robust, leverage, crucial, seamless, pivotal, showcase, underscore, foster, holistic. No hype. English only.
+- Respect ReLeaf facts: the strain is B. subtilis WB800. Do not "correct" a fact you cannot verify from the ReLeaf pages; flag it as a question instead.
+
+SUMMARY BLOCK: verdict, strengths, priorities, ballot (every ballot question for Best Education, with status and where), skeleton (ReLeaf's top-level sections vs the winners' shared skeleton, from the casebook).
+
+Validate before finishing: JSON parses; every anchor occurs exactly once in the text file; every excerpt id exists; ids are edu-001, edu-002… in reading order. Write nothing outside engagement-writing-coach/annotations/. Report back: note counts by type, the three most important problems on the page, the three best pieces of student writing, and any cross-page contradictions found.

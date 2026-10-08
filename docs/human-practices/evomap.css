@@ -1,0 +1,278 @@
+/* =============================================================================
+   ReLeaf: Project Evolution Map (the river)
+   -----------------------------------------------------------------------------
+   The team's drawing (IHP_evolution_map.png, 4 October) with its words and
+   faces lifted off and set back on top as page text, so they stay sharp at
+   any width and every face is a link. Positions are the drawing's own, in
+   percent of its 1414 x 2000 frame; type is sized in container units so the
+   whole plate scales as one picture. Below 900px of width the stations drop
+   out of the drawing and stack underneath it.
+
+   evomap.js adds three things, all optional: the water that runs down the
+   river as the reader scrolls, the stations arriving, and the card that
+   names each face.
+   ========================================================================== */
+
+.river {
+  --navy: #15204a;
+  --ink:  #1f2b52;
+  position: relative;
+  container-type: inline-size;
+  margin: var(--sp-5) 0 0;
+  color: var(--ink);
+}
+
+.river__art {
+  position: relative;
+  aspect-ratio: 1414 / 2000;
+  overflow: hidden;
+  /* the drawing has no frame: its edges melt into the page, which takes on
+     the drawing's own colours while the map is being read (.river-tint) */
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent),
+                      linear-gradient(to bottom, transparent, #000 4%, #000 96%, transparent);
+  -webkit-mask-composite: source-in;
+          mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent),
+                      linear-gradient(to bottom, transparent, #000 4%, #000 96%, transparent);
+          mask-composite: intersect;
+}
+
+/* the page behind the map: a fixed layer painted with the strip of the
+   drawing that is on screen, faded in while the map is being read */
+.river-tint {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0;
+  background: linear-gradient(var(--t0, #fff7c5), var(--t1, #ddffcd));
+  transition: opacity .9s ease;
+}
+.river-tint.is-on { opacity: 1; }
+.river__img,
+.river__svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.river__svg { pointer-events: none; }
+.river__shimmer { animation: river-run 7s linear infinite; }
+@keyframes river-run { to { stroke-dashoffset: -143; } }
+.river__front { transition: opacity .6s ease; }
+
+/* ---- stations ------------------------------------------------------------ */
+
+.river__stations { list-style: none; margin: 0; padding: 0; position: absolute; inset: 0; }
+.st { margin: 0; }
+.st__head, .st__body { position: absolute; }
+
+.st--1 .st__head { left: 5.3%;  top: 14.2%; }
+.st--1 .st__body { left: 22.5%; top: 14.8%; width: 35.6%; }
+.st--2 .st__head { left: 37.8%; top: 33.9%; }
+.st--2 .st__body { left: 56.2%; top: 32.4%; width: 39.6%; }
+.st--3 .st__head { left: 5.5%;  top: 54.4%; }
+.st--3 .st__body { left: 20.6%; top: 55.4%; width: 44.8%; }
+.st--4 .st__head { left: 51.5%; top: 79.6%; }
+.st--4 .st__body { left: 69.6%; top: 74.6%; width: 27.4%; }
+
+.st__no {
+  display: block;
+  font-size: 9.4cqi;
+  font-weight: 850;
+  line-height: .8;
+  letter-spacing: -.035em;
+  color: var(--navy);
+  font-variant-numeric: tabular-nums;
+}
+.ihp .st__title {
+  margin: 1.1cqi 0 0;
+  font-size: 2.15cqi;
+  font-weight: 760;
+  line-height: 1.02;
+  letter-spacing: -.012em;
+  color: var(--navy);
+}
+.st__when {
+  margin: .75cqi 0 0;
+  font-size: max(.6875rem, .86cqi);
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: rgb(21 32 74 / .6);
+  font-variant-numeric: tabular-nums;
+}
+.ihp .river .st__body p {
+  margin: 0;
+  max-width: none;
+  font-size: clamp(.875rem, 1.39cqi, 1.1875rem);
+  line-height: 1.5;
+  color: var(--ink);
+  text-wrap: pretty;
+}
+
+/* ---- faces --------------------------------------------------------------- */
+
+.ihp .st__faces {
+  list-style: none;
+  margin: 1.15cqi 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.15cqi 1.25cqi;
+  max-width: none;
+}
+.st__faces li { margin: 0; }
+.mface {
+  position: relative;
+  display: block;
+  width: 5.1cqi;
+  min-width: 2.5rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  outline: none;
+}
+.mface .face-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #fff;
+  box-shadow: 0 0 0 2px #fff, 0 2px 7px rgb(21 32 74 / .2);
+  transition: transform .32s cubic-bezier(.2, .9, .25, 1.25), box-shadow .2s ease, opacity .2s ease, filter .2s ease;
+}
+.mface:hover .face-img,
+.mface:focus-visible .face-img,
+.mface.is-hot .face-img {
+  transform: scale(1.16);
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4.5px var(--navy), 0 10px 22px rgb(21 32 74 / .3);
+}
+.river.is-peek .mface:not(.is-hot) .face-img { opacity: .5; filter: saturate(.4); }
+
+.vh {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---- the card that names a face ----------------------------------------- */
+
+.rcard {
+  position: absolute;
+  z-index: 6;
+  left: 0; top: 0;
+  width: min(20.5rem, calc(100% - 1rem));
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr);
+  gap: .55rem .8rem;
+  padding: .85rem 1rem .8rem;
+  background: #fff;
+  border: 1px solid rgb(21 32 74 / .14);
+  border-top: 3px solid var(--navy);
+  box-shadow: 0 22px 44px -18px rgb(21 32 74 / .42), 0 2px 6px rgb(21 32 74 / .08);
+  color: var(--ink);
+  text-decoration: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px) scale(.985);
+  transform-origin: var(--ox, 20%) var(--oy, 0%);
+  transition: opacity .16s ease, transform .2s cubic-bezier(.2, .8, .2, 1), visibility 0s linear .2s;
+}
+.rcard.is-on {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition: opacity .16s ease, transform .2s cubic-bezier(.2, .8, .2, 1), visibility 0s;
+}
+.rcard__img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; box-shadow: 0 0 0 1px rgb(21 32 74 / .12); }
+.rcard__who { align-self: center; min-width: 0; line-height: 1.25; }
+.rcard__name { display: block; font-weight: 720; color: var(--navy); font-size: .9375rem; }
+.rcard__name span { font-weight: 500; color: rgb(21 32 74 / .62); }
+.rcard__meta { display: block; margin-top: .15rem; font-size: .75rem; color: var(--gray-600); font-variant-numeric: tabular-nums; }
+.rcard__hook {
+  grid-column: 1 / -1;
+  margin: 0;
+  font-size: .875rem;
+  line-height: 1.5;
+  color: var(--gray-700);
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.rcard__hook::before { content: "\201C"; }
+.rcard__hook::after  { content: "\201D"; }
+.rcard__go {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  padding-top: .55rem;
+  border-top: 1px solid var(--gray-200);
+  font-size: .6875rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--leaf-700);
+}
+.rcard__go::after {
+  content: "";
+  width: .45rem; height: .45rem;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(-45deg);
+  transition: transform .2s ease;
+}
+.rcard:hover .rcard__go::after { transform: translateX(3px) rotate(-45deg); }
+
+/* ---- arrival (only once evomap.js has marked the map as animated) ------- */
+
+.river.is-anim .st__head,
+.river.is-anim .st__body > p {
+  opacity: 0;
+  transform: translateY(1.2cqi);
+  transition: opacity .7s ease, transform .9s cubic-bezier(.16, 1, .3, 1);
+}
+.river.is-anim .st__body > p { transition-delay: .12s; }
+.river.is-anim .st__faces li {
+  opacity: 0;
+  transform: scale(.6);
+  transition: opacity .35s ease, transform .5s cubic-bezier(.2, .9, .25, 1.3);
+  transition-delay: calc(.3s + var(--i, 0) * 55ms);
+}
+.river.is-anim .st.is-in .st__head,
+.river.is-anim .st.is-in .st__body > p,
+.river.is-anim .st.is-in .st__faces li { opacity: 1; transform: none; }
+
+/* ---- narrow: the stations leave the drawing ------------------------------ */
+
+@container (max-width: 899px) {
+  .river__stations { position: static; }
+  .st { position: relative; padding: var(--sp-5) 0 var(--sp-4); border-bottom: 1px solid var(--gray-200); }
+  .st__head, .st__body { position: static; width: auto !important; }
+  .st__head { display: grid; grid-template-columns: auto 1fr; align-items: end; gap: 0 .9rem; }
+  .st__no { font-size: 3.25rem; grid-row: span 2; }
+  .ihp .st__title { margin: 0; font-size: 1.25rem; }
+  .ihp .st__title br { display: none; }
+  .st__when { margin: .3rem 0 0; font-size: .6875rem; }
+  .ihp .river .st__body p { margin-top: .85rem; font-size: 1rem; }
+  .ihp .st__faces { margin-top: 1rem; gap: .6rem; }
+  .mface { width: 2.75rem; }
+  .river.is-anim .st__head, .river.is-anim .st__body > p { transform: translateY(10px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mface .face-img, .rcard { transition: none; }
+  .river__shimmer { animation: none; }
+  .river-tint { transition: none; }
+  .river.is-anim .st__head, .river.is-anim .st__body > p, .river.is-anim .st__faces li { opacity: 1; transform: none; transition: none; }
+}
+
+@media print {
+  .rcard, .river__svg { display: none; }
+}

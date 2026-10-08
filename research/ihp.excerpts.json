@@ -1,0 +1,579 @@
+[
+  {
+    "id": "ihp-2025-ug-nyuad-01",
+    "prize": "ihp",
+    "team": "NYU-Abu-Dhabi",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/nyu-abu-dhabi/human-practices",
+    "section": "Overview",
+    "function": "page-opening",
+    "text": "Most research starts with a problem to solve. Ours started with a person to know. Revitalyze began with an unusual privilege and an immense responsibility: someone very close to us has PMM2-CDG. She wasn't a theoretical patient in a distant hospital or an abstract case study in literature. She was sometimes in the lab with us. This proximity transformed how we approached every decision, experiment, and conversation. Human practices and safety weren't peripheral considerations—they became the foundation of our work. When your end user can look you in the eye, when you witness the daily reality of the disease you're trying to address, you don't rush to convenience. You deliberate with care.",
+    "why_it_works": "Opens on one concrete fact (a person close to the team has the disease) and draws every later choice from it. Short sentences carry the stakes before any method is named.",
+    "teaches": [
+      "voice",
+      "audience-framing",
+      "structure"
+    ]
+  },
+  {
+    "id": "ihp-2025-ug-nyuad-02",
+    "prize": "ihp",
+    "team": "NYU-Abu-Dhabi",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/nyu-abu-dhabi/human-practices",
+    "section": "What We Learned",
+    "function": "loop-closing",
+    "text": "We consulted protein engineering researcher Dr. Jin Montclare for guidance on our PMI inhibition strategy. She raised substantial safety concerns we had underestimated: PMI is involved in multiple biological pathways beyond mannose metabolism, creating potential for harmful cascading effects across interconnected metabolic networks. Blocking this enzyme risked unintended consequences we couldn't predict or control. She questioned whether direct Man-1-P supplementation might bypass these risks entirely while achieving our goal more safely. This reframed our thinking—instead of manipulating a fundamental metabolic enzyme with uncertain downstream effects in an already vulnerable patient population, we could supplement the desired product directly.",
+    "why_it_works": "One paragraph runs the full loop: who was asked, the specific risk she raised (PMI sits in several pathways), the alternative she proposed, and the new direction. It sits between 'Initial Approach' and 'The Pivot', so the reader always knows which step they are in.",
+    "teaches": [
+      "loop-closing",
+      "structure",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ihp-2025-ug-nyuad-03",
+    "prize": "ihp",
+    "team": "NYU-Abu-Dhabi",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/nyu-abu-dhabi/human-practices",
+    "section": "Campus CDG Awareness Survey",
+    "function": "evidence-with-numbers",
+    "text": "To understand awareness levels in our own community, we conducted a campus survey of 97 participants. Only 9 (9.2%) had heard of CDG before, quantifying the education gap we needed to address. However, over 80% expressed interest in learning more about rare diseases. When asked about preferred learning formats, 25% requested infographics and posters, approximately 35% preferred short video content, and over 40% requested on-campus events and workshops—insights that directly shaped our educational outreach approach.",
+    "why_it_works": "Gives the sample size, the raw count and the percentage, then ties each format preference to the outreach that followed. Every number is there to justify a decision.",
+    "teaches": [
+      "evidence",
+      "loop-closing",
+      "concision"
+    ]
+  },
+  {
+    "id": "ihp-2025-ug-nyuad-04",
+    "prize": "ihp",
+    "team": "NYU-Abu-Dhabi",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/nyu-abu-dhabi/human-practices",
+    "section": "3.1 - Delivery Mechanism: Addressing Real Patient Needs",
+    "function": "loop-closing",
+    "text": "Lisa described Malcolm's ongoing challenges with eating, while Karen recounted years of managing Dominic's nutrition through a G-tube due to persistent feeding problems. These realities meant that oral supplementation routes—the most convenient delivery method for most medications—were compromised or entirely unavailable for many patients. Traditional pill-based or solid medication delivery becomes problematic when the patient population has fundamental difficulties with eating and swallowing.\nThis insight fundamentally shaped our delivery approach. We developed a probiotic delivery strategy using engineered E. coli nissle 1917 administered via milk or similar drinks.",
+    "why_it_works": "Names the parents and the specific detail each gave (eating trouble, a G-tube), states the consequence for oral dosing, then the design answer (probiotic in milk). Input, implication and change sit in four sentences.",
+    "teaches": [
+      "loop-closing",
+      "evidence",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ihp-2025-ug-nyuad-05",
+    "prize": "ihp",
+    "team": "NYU-Abu-Dhabi",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/nyu-abu-dhabi/human-practices",
+    "section": "Limitations, Future Directions, and Conclusion",
+    "function": "limitation",
+    "text": "Experimental Validation: Our partnership with Dr. Kozicz at Mount Sinai established a validation pathway using patient-derived fibroblasts, but timeline constraints prevented completing these crucial experiments. The enzyme activity assays and glycosylation measurements that would demonstrate our bEV-delivered PMM2 approach's efficacy remain future work. We designed constructs and optimized delivery mechanisms, but proof-of-concept in authentic disease models awaits execution.",
+    "why_it_works": "Says plainly which experiments were not done and what result is still missing. It separates what was designed from what was proven, which keeps the page's claims consistent with its results.",
+    "teaches": [
+      "consistency",
+      "evidence",
+      "limitation"
+    ]
+  },
+  {
+    "id": "ihp-2025-og-wur-01",
+    "prize": "ihp",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/human-practices/index.html",
+    "section": "INTEGRATED HUMAN PRACTICES",
+    "function": "page-opening",
+    "text": "BCoated is developed to provide a real-world solution that can help agriculture move towards increased productivity and sustainability. Human Practices (HP) guided all developmental stages of our product, helping us pinpoint issues in agriculture and the contribution we can make to alleviate them. Through over 35 diverse engagements, including in-depth interviews, facility visits, and participation in events, we built a holistic understanding of the complex intersection of challenges faced by arable farmers, sustainable agriculture, biomanufacturing, and regulatory frameworks.",
+    "why_it_works": "States the product's purpose, a count of engagements and the kinds of engagement in three sentences, then names the four fields the work had to fit (farmers, agriculture, biomanufacturing, regulation).",
+    "teaches": [
+      "audience-framing",
+      "concision",
+      "evidence"
+    ]
+  },
+  {
+    "id": "ihp-2025-og-wur-02",
+    "prize": "ihp",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/human-practices/index.html",
+    "section": "#2 Key considerations for the design of the coatings",
+    "function": "loop-closing",
+    "text": "Dr. Desalegn W. Etalo from WUR Translational Phytopathology warned us that microbial inoculants can disrupt soil communities, either being rejected by the local community or outcompeting native microbes. Instead, he suggested using precursor molecules to “fish” for beneficial microbes.\nThis led us to Prof. Dr. Jonne Rodenburg from the chair group Weed Ecology at WUR. He confirmed the potential of incorporating a precursor that mitigates against disastrous parasitic weeds, preventing crop damage. This became our first proof-of-concept use case: demonstrating parasite control through modular BC coatings. This can provide a simple solution for farmers worldwide. Currently, these farmers have to rely on labour-intensive methods that can do nothing more than mitigate losses.",
+    "why_it_works": "A chain of named people: one expert warns and suggests, the suggestion leads to a second expert, and his confirmation becomes the first use case. Each sentence hands the reader to the next step with 'Instead', 'This led us to', 'This became'.",
+    "teaches": [
+      "loop-closing",
+      "structure",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ihp-2025-og-wur-03",
+    "prize": "ihp",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/human-practices/index.html",
+    "section": "#3 Choice of the platform material for the coating and EU regulations",
+    "function": "definition",
+    "text": "Traditionally, seed coatings have relied on petroleum-based binders (adhesives, or “seed stickers”). This is a practice soon to be outlawed, as we found out from our stakeholders in the seed sector. Our consultation with Amalia Kafka from Euroseeds highlighted the urgency of this change, due to the upcoming EU microplastics restrictions under the EU chemical legislation REACH:\n- By 2028: deliberately added microplastics will be restricted in agricultural products, including seed treatments.\n- By 2031: the restriction will extend to all plant protection products and treated seeds.",
+    "why_it_works": "Glosses the trade term in the same sentence ('binders (adhesives, or “seed stickers”)'), names the source, and turns the regulation into two dated bullets a reader can check.",
+    "teaches": [
+      "assumed-knowledge",
+      "evidence",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ihp-2025-og-wur-04",
+    "prize": "ihp",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/human-practices/index.html",
+    "section": "#7.1 Business plan and scaling up",
+    "function": "loop-closing",
+    "text": "To explore industrial feasibility, we visited Bio Base Europe Pilot Plant in Ghent, gaining first-hand insight into scale-up processes and how early design choices impact large-scale production. We discussed the costs of piloting and learned how this is the developmental phase where many start-ups fail. To decrease the costs of piloting, we could use a pilot plant facility, such as Bio Base Europe. We would have to use a production design for which an infrastructure exists. Therefore, we decided to change our production plan from the original design—consisting of stacked trays as suggested by Dr. Amritpal Singh—to a stirred tank reactor. This might slightly decrease the yields, but the capital expenditures are not worth the increase in yield.",
+    "why_it_works": "Reports a design change to the production plan (stacked trays to stirred tank) with the reason and the cost of the change. Admitting the yield loss makes the decision credible.",
+    "teaches": [
+      "loop-closing",
+      "evidence",
+      "reflection"
+    ]
+  },
+  {
+    "id": "ihp-2025-og-wur-05",
+    "prize": "ihp",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/human-practices/index.html",
+    "section": "#7.2 Insights from regulatory institutions",
+    "function": "evidence-with-numbers",
+    "text": "We spoke to RIVM ( Samia Ouhajji, Casper Jongerkrijg, Dr. Jeroen Roelfsema ) to understand whether our various tuned BC coatings with different properties would require separate approvals. Samia Ouhajji explained that chemicals can be grouped for approval, and BC can be registered as a chemical. This simplifies the approval procedure for our product. However, each toxic protein module still requires its own independent risk assessment, ensuring that there will be no off-target effects. That means some of our functionalisations would require a separate assessment. They also emphasised the 0.9% GMO DNA threshold in the final products, regardless of whether the cells are dead or alive. This will impact the downstream processing of our product.",
+    "why_it_works": "Says why the team asked, what the regulator answered, and which part of the product each answer touches. The 0.9% threshold is tied directly to a consequence for downstream processing.",
+    "teaches": [
+      "evidence",
+      "loop-closing",
+      "assumed-knowledge"
+    ]
+  },
+  {
+    "id": "ihp-2025-og-wur-06",
+    "prize": "ihp",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/human-practices/index.html",
+    "section": "Stadsbrouwerij [City Brewery] Rad van Wageningen",
+    "function": "stakeholder-entry",
+    "text": "Why we visited: We visited to obtain their beer waste stream and test our bacterial cellulose production, and negotiate the possibility of them selling a part of their stream to a startup such as ours.\nMain takeaways: We got to test our production yield on this waste stream and compare it to our lab media for a more economic and sustainable production process.\nReflection & integration: We saw the value in using waste streams to create a sustainable business. We collected some of the waste to test our production with.",
+    "why_it_works": "Three labelled lines (Why we visited, Main takeaways, Reflection & integration) make a whole visit readable in under 100 words. The fixed labels show at a glance whether the loop closed.",
+    "teaches": [
+      "structure",
+      "concision",
+      "loop-closing"
+    ]
+  },
+  {
+    "id": "ihp-2025-og-wur-07",
+    "prize": "ihp",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/human-practices/index.html",
+    "section": "Events",
+    "function": "section-intro",
+    "text": "Throughout the duration of our iGEM project, we attended events where we spoke with colleagues in the fields of synthetic biology and biotechnology. All of these experiences were inspiring, as they allowed us to learn from the perspectives and knowledge of others. Interactions with peers pointed us to new methods and technologies at times. In other moments, they helped us to find focus in our project. Very importantly, these interactions also brought out motivation and excitement for our iGEM project, and we can’t wait to experience that again during the Jamboree.",
+    "why_it_works": "Counter-example: five sentences of general feeling ('inspiring', 'motivation and excitement') name no event, person or change. Cut to one line, or open with the one thing an event changed.",
+    "teaches": [
+      "concision",
+      "evidence",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ihp-2024-ug-jukrakow-01",
+    "prize": "ihp",
+    "team": "JU-Krakow",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/ju-krakow/human-practices",
+    "section": "Our human practices in a nutshell",
+    "function": "stakeholder-entry",
+    "text": "Who we contacted:\nDr Paweł Brzezowski\nWhy:\nWe encountered some problems with stabilising the culture of Prymnesium parvum.\nWhat we learned:\n- We realized the importance of maintaining the pH of the F/2 medium.\nWhat we adapted to our project:\nThanks to his recommendations, we adjusted the pH of the medium from 5.5 to 7.3.",
+    "why_it_works": "The whole loop in 55 words under four fixed labels, ending in a number a reader can check (pH 5.5 to 7.3). A model for short summary cards.",
+    "teaches": [
+      "concision",
+      "structure",
+      "loop-closing"
+    ]
+  },
+  {
+    "id": "ihp-2024-ug-jukrakow-02",
+    "prize": "ihp",
+    "team": "JU-Krakow",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/ju-krakow/human-practices",
+    "section": "18-21 April 2024 – SEMPOWISKO – Interdisciplinary Math-Science Students Conference",
+    "function": "loop-closing",
+    "text": "After a joint discussion and reevaluating the rapid notification app's usefulness, we concluded that the existing government notification system seems sufficient. It is managed by experts, and alerts about threats are issued when algal quantity thresholds are exceeded, or when fish die-offs occur. Government organisations then send text messages and regularly publish reports on their official website [7]. Our app aimed to facilitate collaboration between state services, scientists, and the fishing community. However, we realised that making it available for public use could lead to social panic. Allowing inexperienced individuals to input data from our test could result in tracking false positive results. Considering the safety and practical aspects, we decided to abandon this idea.",
+    "why_it_works": "An audience question leads to a feature being dropped. The paragraph gives the existing alternative, the risk (false positives, panic) and the decision, so the cut reads as judgement.",
+    "teaches": [
+      "loop-closing",
+      "reflection",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ihp-2024-ug-jukrakow-03",
+    "prize": "ihp",
+    "team": "JU-Krakow",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/ju-krakow/human-practices",
+    "section": "Expert evaluation of the project's feasibility and potential for further development",
+    "function": "limitation",
+    "text": "He also pointed out an aspect we hadn't previously considered: sometimes, toxins are not released despite high concentrations of Prymnesium parvum in water bodies. A \"stressor\" is necessary for this to occur, such as a sudden change in salinity due to water discharges from mines. An example of this was the situation in the summer of 2023 when high concentrations of algae were recorded, but no ecological disasters occurred. Therefore, the most informative approach for taking action would involve testing for both the presence of the algae and the toxins they produce. His suggestion was a potential application for the second protein we synthesised – Cas13b. However, since our project had already branched out in many directions and our time until the finale was limited, we decided to leave this for future iGEM teams to explore.",
+    "why_it_works": "Explains the expert's new point with a dated real case (summer 2023), links it to a part they already had (Cas13b), and is honest that they parked it for lack of time.",
+    "teaches": [
+      "evidence",
+      "limitation",
+      "loop-closing"
+    ]
+  },
+  {
+    "id": "ihp-2024-ug-jukrakow-04",
+    "prize": "ihp",
+    "team": "JU-Krakow",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/ju-krakow/human-practices",
+    "section": "Social acceptance of Prymnesium parvum testing",
+    "function": "loop-closing",
+    "text": "During the Symbioza conference, one of last year's iGEM members from the DTU-Denmark team – Konrad Uściło, raised our awareness of the potential risk of causing public panic by introducing a Lateral Flow test for self-testing of environmental samples. This valuable insight and significant concern prompted us to consult our supervisors. Dr Paweł Jedynak, who has extensive experience in science outreach and science communication, advised us to compare our test to something the general public is familiar with (e.g., a thermometer) when speaking with them. For this reason, we chose to liken our test to a pregnancy test, as it is a well-known item with a similar function and appearance. We also decided to be very cautious when considering the potential distribution of our test in the future. It would require a well-organised educational campaign to minimise the risk of causing panic.",
+    "why_it_works": "A social risk (public panic) gets the same treatment as a lab problem: who raised it, who they asked next, and two concrete responses. The analogy is chosen for a named audience.",
+    "teaches": [
+      "loop-closing",
+      "assumed-knowledge",
+      "audience-framing"
+    ]
+  },
+  {
+    "id": "ihp-2024-ug-jukrakow-05",
+    "prize": "ihp",
+    "team": "JU-Krakow",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/ju-krakow/human-practices",
+    "section": "Our human practices in a nutshell",
+    "function": "stakeholder-entry",
+    "text": "Who we contacted:\nValleyDAO company – Albert Anis and the DealFlow Team\nWhy:\nWe aimed to present our project findings, receive feedback, and seek guidance on addressing unresolved lab challenges, such as issues with in-field DNA isolation.\nWhat we learned:\nWe gathered useful tips for presenting our results, including what to focus on during the judging session at the Jamboree and how to highlight key accomplishments in our project.\nWe received guidance on addressing challenges with in-field DNA isolation and learned about options for in-field sample concentration that require minimal equipment, enhancing the applicability of our test.\nWhat we adapted to our project:\nWe will try to incorporate all of this advice into our presentation at the Grand Jamboree.",
+    "why_it_works": "Counter-example: the 'What we adapted' slot holds a plan for the presentation, not a change to the project, and the in-field DNA advice is never said to have been used. A fixed template does not close the loop if the last slot is filled with intentions.",
+    "teaches": [
+      "loop-closing",
+      "evidence",
+      "consistency"
+    ]
+  },
+  {
+    "id": "ihp-2024-og-bielefeld-01",
+    "prize": "ihp",
+    "team": "Bielefeld-CeBiTec",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/bielefeld-cebitec/human-practices",
+    "section": "Dr. Marco Radukic",
+    "function": "loop-closing",
+    "text": "Incorporating the insights Dr. Radukic and advice from recent consultations, we adjusted the lipid-to-nucleic acid ratio from 22:1 to 10:1 to enhance efficiency and modified the pH and concentration of sodium acetate solutions for better packaging. Storage conditions were strictly managed at 4 °C, and pipetting/mixing techniques were refined to ensure quality consistency. Quality control was expanded to include fluorescence testing, zeta potential measurements, and light scattering, alongside cytotoxicity tests. These improvements not only address transfection challenges but also strengthen our foundation for future LNP applications.",
+    "why_it_works": "Every change is stated as before and after with units: ratio 22:1 to 10:1, storage at 4 °C, added QC methods named one by one. A reader could repeat the protocol from this paragraph.",
+    "teaches": [
+      "evidence",
+      "loop-closing",
+      "concision"
+    ]
+  },
+  {
+    "id": "ihp-2024-og-bielefeld-02",
+    "prize": "ihp",
+    "team": "Bielefeld-CeBiTec",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/bielefeld-cebitec/human-practices",
+    "section": "Joshua Bauder",
+    "function": "reflection",
+    "text": "Our conclusion is that yes, we did fall for bias. But regardless of ethnicity, 508del occurs and is overall the most prevalent mutation as was confirmed in our interview with CF expert Sriram Vaidyanathan . This experience was uncomfortable as we felt the pressure to be thorough and deliver a perfect project. What would have been more devastating than realizing we made a wrong choice at the very core? We made the conscious decision to invest our resources into figuring out if we indeed made a mistake and we want to encourage other teams to do the same. iGem stands for innovation – but also for growth. Especially in the context of Integrated Human Practices, it is important to examine both the positive and the negative to create a project with a future.",
+    "why_it_works": "The team asks whether their own target choice was biased, checks it, and states the answer both ways ('yes, we did fall for bias. But...'). It shows a stakeholder changing how the team examined a decision even when the decision stood.",
+    "teaches": [
+      "reflection",
+      "voice",
+      "loop-closing"
+    ]
+  },
+  {
+    "id": "ihp-2024-og-bielefeld-03",
+    "prize": "ihp",
+    "team": "Bielefeld-CeBiTec",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/bielefeld-cebitec/human-practices",
+    "section": "Joshua Bauder",
+    "function": "stakeholder-entry",
+    "text": "Joshua showed us just how dire the situation is for CF patients is in some regions. It was shocking to hear there is only one doctor knowledgeable about CF in Thailand and that many doctors dismiss the possibility of CF due to racial bias and misinformation. Additionally, we confirmed how much the accessibility of care depends on the healthcare system, as we already touched on during the interview with Nicole Friedlein . On the parenting level, Joshua brought in many perspectives contrary to what we previously heard. In the interview with Max , we learned he vehemently avoids ponding water while Joshua’s daughter is allowed to roam around with no such restrictions. Neither have chronic infections.",
+    "why_it_works": "Sets two stakeholders' accounts side by side (Max avoids ponding water; Joshua's daughter roams without that restriction) and states that neither has chronic infections. Conflicting input is reported openly and cross-referenced to the earlier interview.",
+    "teaches": [
+      "consistency",
+      "evidence",
+      "structure"
+    ]
+  },
+  {
+    "id": "ihp-2024-og-bielefeld-04",
+    "prize": "ihp",
+    "team": "Bielefeld-CeBiTec",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/bielefeld-cebitec/human-practices",
+    "section": "The Third-Party Feedback Template",
+    "function": "method",
+    "text": "To drive stakeholder interactions for the PreCyse project, our team implemented the “Third-Party Feedback Template”. This template helps us introduce individuals to our stakeholders and demonstrate their significance to our project. There are three main sections in this template. First, we address the important question of who our stakeholders are, introducing their backgrounds and explaining why we reached out to them. Next, we summarize the conversations and knowledge exchanged during our interactions. Finally, we share our reflections from these stakeholder conversations and how these interactions have guided the next steps of our project.",
+    "why_it_works": "Describes the entry template in three plain steps (who and why, what was said, what we did next) before the reader meets 39 entries built on it. Naming the template once lets every entry be shorter.",
+    "teaches": [
+      "structure",
+      "method",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ihp-2024-og-bielefeld-05",
+    "prize": "ihp",
+    "team": "Bielefeld-CeBiTec",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/bielefeld-cebitec/human-practices",
+    "section": "Abstract",
+    "function": "page-opening",
+    "text": "As the iGEM Bielefeld-CeBiTec team, we adopted a human-centered approach and provided a comprehensive framework of seven reglementations for future iGEM teams, establishing seven frameworks that were validated through our project. Our methodology was shaped by over 80 interviews with stakeholders and institutions , creating a comprehensive and multidimensional perspective on the complex challenge of gene therapy for Cystic Fibrosis (CF). Through 33 key interviews , we navigated seven thematic areas simultaneously, incorporating five iterative feedback loops to ensure the project’s refinement at every stage.",
+    "why_it_works": "Counter-example: 'seven reglementations', 'seven frameworks', 'over 80 interviews' and '33 key interviews' arrive in two sentences with no definition of any. The reader cannot tell what was counted. One number, one noun, defined once.",
+    "teaches": [
+      "clarity",
+      "consistency",
+      "concision"
+    ]
+  },
+  {
+    "id": "ihp-2024-og-bielefeld-06",
+    "prize": "ihp",
+    "team": "Bielefeld-CeBiTec",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/bielefeld-cebitec/human-practices",
+    "section": "Global Impact and Inclusivity",
+    "function": "conclusion",
+    "text": "Recognizing the disparities in CF care across different regions, particularly in underrepresented areas like Asia, we adjusted our approach to create a more inclusive therapy. With feedback from stakeholders like Joshua Bauder from CF Vest International and Dr. Sriram Vaidyanathan, we ensured our therapy addressed a wider range of CF mutations. This global focus led to bilingual surveys and expanded outreach efforts to raise awareness about CF and gene therapy.",
+    "why_it_works": "Counter-example: the conclusion says the therapy 'addressed a wider range of CF mutations', but the Joshua Bauder entry says a change of target was 'not being feasible anymore' and F508del stayed. A conclusion must not claim more than the entries it summarises.",
+    "teaches": [
+      "consistency",
+      "evidence"
+    ]
+  },
+  {
+    "id": "ihp-2023-ug-hust-01",
+    "prize": "ihp",
+    "team": "HUST-China",
+    "year": 2023,
+    "track": "UG",
+    "url": "https://2023.igem.wiki/hust-china/human-practices",
+    "section": "Section 6: On-site Research and Public Evaluation",
+    "function": "loop-closing",
+    "text": "We conducted a comprehensive investigation into the plant's layout, meticulously recording essential data such as temperature and gas concentrations. These data played a crucial role in determining the optimal location for our project implementation. One of our primary focuses was the investigation of the cooling tower's conditions and its water temperature. With guidance from the plant engineers, we found that during the winter, the water temperature inside the cooling tower hovered around 18°C, which was lower than the 30°C required for cultivating our engineered microorganisms. As a result, our initial plan to install our hardware near the cooling tower and utilize its water for maintaining our cultivation temperature proved unfeasible.",
+    "why_it_works": "A site measurement (18 °C in winter against 30 °C needed) kills an earlier design idea. The plan, the number and the verdict are in one paragraph, and the next paragraph gives the new site at 45 °C.",
+    "teaches": [
+      "evidence",
+      "loop-closing",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ihp-2023-ug-hust-02",
+    "prize": "ihp",
+    "team": "HUST-China",
+    "year": 2023,
+    "track": "UG",
+    "url": "https://2023.igem.wiki/hust-china/human-practices",
+    "section": "Section 6: On-site Research and Public Evaluation",
+    "function": "loop-closing",
+    "text": "Surprisingly, we discovered that the flue gas emitted by the power plant, after undergoing desulfurization treatment, had an SO2 content of less than 30 mg/m³, and nearly all nitrogen compounds were removed. This meant that our initially designed resistant component might not be effective in practical production applications. After careful consideration, we decided to allocate more of our efforts to testing and enhancing lactate production and electricity generation.Nonetheless,our resistant component design could inspire future iGEM teams.",
+    "why_it_works": "Field data (SO2 under 30 mg/m³) shows a planned module is not needed, and the team says so and moves the effort. Dropping work because of evidence is reported as a result.",
+    "teaches": [
+      "loop-closing",
+      "evidence",
+      "consistency"
+    ]
+  },
+  {
+    "id": "ihp-2023-ug-hust-03",
+    "prize": "ihp",
+    "team": "HUST-China",
+    "year": 2023,
+    "track": "UG",
+    "url": "https://2023.igem.wiki/hust-china/human-practices",
+    "section": "5.1 Initial Hardware Design For Coal-Fired Power Plants",
+    "function": "definition",
+    "text": "During our discussions with Professor Li, he explained that the heat produced by industrial facilities can be categorized into high-quality heat that can be efficiently utilized and low-quality heat that cannot. Many existing applications predominantly make use of high-quality heat while neglecting the potential utility of low-quality heat, whereas our specific need for a cultivation temperature of 30℃ aligns with the potential utilization of low-quality heat. Professor Li suggested that we explore the use of low-quality waste heat from coal-fired power plants, such as waste heat from cooling towers, to maintain the required temperature for our microbial cultivation. This suggestion provided valuable inspiration for our hardware design.",
+    "why_it_works": "Explains a specialist idea (high- vs low-quality heat) in plain words before using it, then shows why it fits the 30 ℃ culture need. The reader is never asked to know thermal engineering.",
+    "teaches": [
+      "assumed-knowledge",
+      "clarity",
+      "loop-closing"
+    ]
+  },
+  {
+    "id": "ihp-2023-ug-hust-04",
+    "prize": "ihp",
+    "team": "HUST-China",
+    "year": 2023,
+    "track": "UG",
+    "url": "https://2023.igem.wiki/hust-china/human-practices",
+    "section": "Section 1: Topic Selection: Climate Crisis Awareness",
+    "function": "page-opening",
+    "text": "At present, a trend of rising summer temperatures is apparent, impacting not only tropical and subtropical regions but also extending to the Arctic, where the average temperature has reached an astonishing 30°C in summer. This phenomenon is a clear component of the broader issue of global warming, prompting HUST-China to launch an investigation within the field of global warming and gradually intensify our efforts to identify key contributors to this pressing issue.",
+    "why_it_works": "Counter-example: the page opens with a broad trend and an unsourced, doubtful figure ('an astonishing 30°C' Arctic summer average) before any stakeholder appears. Open on your own problem and source every number.",
+    "teaches": [
+      "evidence",
+      "concision",
+      "audience-framing"
+    ]
+  },
+  {
+    "id": "ihp-2023-og-sdu-01",
+    "prize": "ihp",
+    "team": "SDU-Denmark",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/sdu-denmark/human-practices",
+    "section": "Tune Waterwork",
+    "function": "reflection",
+    "text": "The shortcoming of these solutions was that they only filtered the water for PFAS, leaving the problem of degradation. The disposal of PFAS-accumulated water remains expensive.\nWe got blown away by the extortionate cost of drilling a new borehole. We saw the need for an easier and cheaper solution to clean the already existing boreholes, which we decided to work towards. From this conversation, we wanted to make a cheap PFAS degradation process, which could be used even by small waterworks or companies. Read more about this later.\nWe were also confirmed in our decision of choosing to focus on PFOA over other PFAS, as it was the main PFAS found at Tune Waterwork.",
+    "why_it_works": "The reflection names the gap in current solutions, reacts to one cost figure, and states the decision it produced (a cheap process for small waterworks) plus a confirmed scope choice (PFOA).",
+    "teaches": [
+      "loop-closing",
+      "evidence",
+      "voice"
+    ]
+  },
+  {
+    "id": "ihp-2023-og-sdu-02",
+    "prize": "ihp",
+    "team": "SDU-Denmark",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/sdu-denmark/human-practices",
+    "section": "Why PFOA?",
+    "function": "loop-closing",
+    "text": "We consulted the company Bioomix, who has experience with implementing GMOs into farming for agricultural improvement, for their insights on navigating GMO laws and regulations. They informed us that the current laws for GMOs use in ecosystems would prevent us from implementing this solution.\nOur next implementation draft was to integrate our synthetically modified bacterial strain into the existing bacterial population in water treatment facilities. Through our dialogue with HOFOR and Vandcenter Syd, we learned that introducing new bacterial strains into existing populations often outcompeted the new strains, so we went back to the drawing board.\nWe had to readjust our implementation strategy, and we decided to build a filter that would only contain our purified dehalogenases.",
+    "why_it_works": "Two implementation drafts are dropped in sequence, each with the named source and the reason. 'So we went back to the drawing board' and the final sentence make the iteration easy to follow.",
+    "teaches": [
+      "loop-closing",
+      "structure",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ihp-2023-og-sdu-03",
+    "prize": "ihp",
+    "team": "SDU-Denmark",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/sdu-denmark/human-practices",
+    "section": "Avoid greenwashing",
+    "function": "limitation",
+    "text": "Since the vitroZymes currently have only been tested in their ability to degrade the molecule PFOA, we cannot allow water work companies to promote our product as a complete solution to removing PFAS from the environment as of right now. We need to underscore that vitroZymes only have the potential to degrade other molecules, but further investigation is required.",
+    "why_it_works": "Limits the product claim to what was tested (PFOA only) and says what partners may not say about it. A rare passage that guards the page's claims against overreach.",
+    "teaches": [
+      "consistency",
+      "limitation",
+      "evidence"
+    ]
+  },
+  {
+    "id": "ihp-2023-og-sdu-04",
+    "prize": "ihp",
+    "team": "SDU-Denmark",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/sdu-denmark/human-practices",
+    "section": "A solution for individuals, companies, or the state?",
+    "function": "reflection",
+    "text": "Through the development of our project, we reflected on who the consumer for our project would be. At one point, we considered a business-to-consumer model where our filtration system would be implementable in household faucets. Our team moved away from this idea because we agreed that it should fall on the government to ensure safe drinking water for its citizens. It is a human right to have access to clean water that encompasses water without PFAS. Therefore, we decided our solution should be as close to the source of PFAS contamination as possible, and that is how the idea of implementing our enzymatic step in waterworks, a business-to-business model, came to be.",
+    "why_it_works": "A values argument (clean water is the state's duty) changes the business model from household filters to waterworks. The option dropped, the reason and the option kept are all named.",
+    "teaches": [
+      "reflection",
+      "loop-closing",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ihp-2023-og-sdu-05",
+    "prize": "ihp",
+    "team": "SDU-Denmark",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/sdu-denmark/human-practices",
+    "section": "Philippe Grandjean – Professor in Environmental Medicine",
+    "function": "reflection",
+    "text": "After our conversation with Philippe, we contemplated the significant environmental costs of PFAS. We reviewed the articles he provided, which proved to be quite informative.\nWe also contemplated the origin of this problem and began to brainstorm ways to raise awareness of PFAS. Many of the issues could be mitigated if we, as humans, ceased production of these persistent chemicals. Both the societal costs of PFAS and the associated side effects reinforced our perspective on the PFAS problem and the urgent need for ways to solve it.",
+    "why_it_works": "Counter-example: 'we contemplated', 'began to brainstorm' and 'reinforced our perspective' report feelings but no change. Compare the Tune Waterwork reflection on the same page, which ends in a decision.",
+    "teaches": [
+      "loop-closing",
+      "concision",
+      "evidence"
+    ]
+  },
+  {
+    "id": "ihp-2024-og-uzh-01",
+    "prize": "ihp",
+    "team": "UZurich",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/uzurich/integrated-human-practices",
+    "section": "Rahel Emmenegger - Schweizer Getreideproduzentenverband (Swiss Grain Producers Association)",
+    "function": "loop-closing",
+    "text": "The interview with Rahel Emmenegger taught us that one of the biggest problems for farmers is the increasing variability of temperature and rainfall from year to year. This taught us that not only too little water but also too much water could be an increasing problem in the future. This highlighted the use of RhyzUp not only for its water retention properties but also for its improved pathogen resistance as many pathogens thrive in wet conditions. We also learned that the broad applicability of root bacteria is important as crops of different genera such as maize, potatoes, and many vegetables are most affected by drought in Switzerland. This supported our decision to use xylose as a sensing molecule since most plant roots exude xylose.",
+    "why_it_works": "Supplementary case (UZurich's IHP page; the team won Sustainable Development 2024). A farm-sector interview changes how the product is framed (wet years, pathogens) and confirms a design choice (xylose sensing). Close to ReLeaf's own field.",
+    "teaches": [
+      "loop-closing",
+      "evidence",
+      "audience-framing"
+    ]
+  },
+  {
+    "id": "ihp-2024-og-uzh-02",
+    "prize": "ihp",
+    "team": "UZurich",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/uzurich/integrated-human-practices",
+    "section": "Claudia Vaderna - Schweizer Allianz Gentechfrei (Swiss Alliance for a GMO-free agriculture)",
+    "function": "reflection",
+    "text": "The exchange with Claudia Vaderna showed us that we have a responsibility to study the biosafety and the ecological impact of our project. For GMO and non-GMO crops to coexist, our bacterial strain would have to be maintained in the field without the risk of entering neighboring (agro-)ecosystems. It also showed us that a potential product would have to be tested for its impact on soil biodiversity before being applied in the field. We were vindicated in our decision to incorporate a sensing mechanism and kill switch into our bacteria to ensure biosafety, but we learned that we would need to conduct a lot of safety testing before we could responsibly apply a product like RhyzUp.",
+    "why_it_works": "Supplementary case. A critic of GMOs is quoted fairly and her concerns become concrete testing obligations. The team states what was confirmed and what it still owes before release.",
+    "teaches": [
+      "reflection",
+      "consistency",
+      "loop-closing"
+    ]
+  }
+]

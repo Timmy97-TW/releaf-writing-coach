@@ -1,0 +1,49 @@
+<header
+    <title Matthias Hoffmann>
+    <subtitle Certified Biologist, Patent Attorney, European Patent, Trademark Attorney and Partner of the Law Firm Maikowski & Ninnemann, Leipzig, Germany>
+    <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/resize-legal-political-header-1.webp>
+    <parent /human-practices/legal-political>
+>
+
+
+<image <url https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/hoffmann/hoffmann-videocall.webp>>
+
+
+<section Reason for Contact>
+After attending the GASB seminar <link <path /human-practices/legal-political/gasb> <content "GASB meets PAW – Genetic Engineering Key Issue #3: Patents">> we gained a deeper understanding of the critical role patents play in the commercialization of biological research. We sought to learn more about how patents work and the influence they have on innovation and marketability. In order to drive into this matter, we interviewed/found help in Matthias Hoffman, graduate biologist and Patent attorney. He is a partner at Maikowski & Ninnemann in Leipzig, Germany and specialized in European patent and trademark law.
+We are grateful to Matthias Hoffmann for taking the time to discuss this subject with us.
+
+
+<section Most Significant Points>
+<subsection "Every country has its own patent law" – Matthias Hoffmann>
+Every country operates under its own distinct patent laws. Therefore, before embarking on research or development projects, it is vital to check not only the national but the patents worldwide. This ensures that researchers understand the patent landscape, avoid potential legal conflicts, and identify existing patents that might affect their work.
+
+<subsection Two Essential Approaches in Navigating Patent Applications>
+<b Novelty Search:> "How novel is your idea?" This process involves examining existing patents, scientific literature, and public disclosures to ensure that the innovation is genuinely new and not already covered by existing patents or publications. This step is crucial when preparing to file a new patent.
+
+<b Freedom to Operate (FTO) Search:> "Do you violate other patents?" This approach helps researchers determine if their project could potentially infringe on existing patents. It is particularly important in the countries where the product is intended to be marketed, ensuring that the research can proceed without legal obstacles. Additionally, the process by which the product is created can also be subject to patent infringement, further emphasizing the need for thorough FTO searches.
+
+
+<subsection Criteria for Patentability, Innovation, and Distinct Advantages>
+For an invention to be granted a patent, it must meet several formal criteria. In addition to being novel, the invention must demonstrate an inventive step, meaning it cannot be obvious to someone skilled in the field. It must also have industrial applicability, meaning it can be made or used in some form of industry. Furthermore, the invention should offer clear advantages over existing technologies or products, such as unique characteristics or benefits that make it stand out over conventional technologies.
+
+These criteria are examined by the relevant patent agency, such as the "Patentamt" (patent office), which acts as the judicator for the patent application process. The patent office examines whether the invention meets these requirements, ensuring it qualifies for protection under patent law.
+
+
+<subsection Patents vs. Open Source: Balancing Commercialization and Accessibility>
+Patents are primarily tools for facilitating the commercialization of products by providing exclusive rights to the inventors. No competitor can use the invention for commercial purposes without acquiring a license from the patent holder. In contrast, open-source initiatives aim to ensure that innovations remain accessible to the public. A clear distinction must be made between "true" open source, where innovations are unpatentable because they have been published, and patented innovations where the holder explicitly states that users will not be pursued if they use the invention in good faith. There is also the case of patented innovations with open licensing agreements, which allow anyone to access and work with the technology, but prevent commercial exploitation by third parties. Publications in any form play a critical role in safeguarding open-source work, as they can serve as prior art during the patent examination process, affecting the novelty and obviousness of an invention.
+
+The commercialization of open-source innovation is another critical aspect. Depending on the type of open-source innovation, licensing may be offered under an open licensing agreement or may not be necessary at all, as seen in some software models. In the software sector, for example, open-source projects such as Linux provide free access to source code but often offer commercial licensing options for enterprises seeking additional features or support. This demonstrates how open-source innovations can be both freely accessible and commercially viable, in contrast to patents, which typically focus on exclusive commercialization.
+
+
+<subsection Impact of Patents on University Research>
+Patents can significantly influence academic research, as universities often pursue patents to protect and commercialize innovations, which may impact the sharing of knowledge and collaboration. Research conducted in university settings is not automatically exempt from patent considerations. Even within academia, researchers must be mindful of existing patents. However, comparative studies that include both patented and unpatented methods are typically allowed. In some cases, patents allow for non-commercial, academic use under the "research exemption," but this varies by jurisdiction and is not universally applicable.
+
+
+<section Inclusion in Our Project>
+We are very thankful that Matthias Hoffmann took the time for this interview.
+His expertise provided us with valuable perspectives on the world of patents, helping us deepen our understanding of this complex topic.
+
+In academia, patents often seem distant, but when working on projects with real-world applications it is important to decide how your project should reach the world, be it fully commercialized, completely open source or something in between. Understanding and navigating the current patent landscape is therefore crucial.
+
+Given this realization, we aim to further explore the practical implications of patents in real-world contexts, drawing inspiration from pioneers like <link <path /human-practices/legal-political/jefferson> <content Dr. Richard Jefferson>> who advocates balancing commercialization and accessibility, <link <path /human-practices/legal-political/potrykus> <content Dr. Ingo Potrykus>> who told us how he dealt with the patent situation surrounding the Golden Rice project, and <link <path /human-practices/legal-political/rathore> <content Dr. Dheeraj Rathore>> who explained to us why dense patent-landscapes were a driver for his non-AMT approach.

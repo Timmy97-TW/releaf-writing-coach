@@ -1,0 +1,43 @@
+<header
+    <title Legal Framework>
+    <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/resize-legal-header-1.webp>
+    <parent /human-practices/legal-political>
+>
+
+
+
+Navigating the legal framework is essential for ensuring the real-world applicability of our project. While the academic environment may feel like a patent-free zone, once a project moves beyond the university context, patents become unavoidable. This is especially true when bringing innovative tools like gene-editing technologies into use. Recognizing the importance of this, we sought out expert insights through interviews to better understand patent mechanisms, legal implications, and strategies for overcoming potential obstacles.
+
+
+A significant legal aspect of our project lies in the emerging EU legislation on <link <path /glossary> <content New Genomic Techniques (NGTs)>>, which aims to modernize GMO regulations and cover innovations like CRISPR. These laws directly affect the regulation of organisms and the patenting of gene-editing methods. Given that many methods involved in production, such as Agrobacterium-mediated transformation, are already patented, understanding how this law impacts our project was a priority.
+
+
+To gain a deeper understanding of these legal implications, we attended the <link <path /human-practices/legal-political/gasb> <content GASB meets PAW – Genetic Engineering Key Issue #3: Patents>> webinar, where we explored the relationship between NGTs and patent law. Additionally, we sought the expertise of <link <path /human-practices/legal-political/dederer> <content Prof. Hans-Georg Dederer>>, who provided valuable insights into the interplay between patents, political decisions, and the potential consequences for our project.
+
+
+Our consultations with the research contracts team at Philipps-University Marburg – <link <path /human-practices/legal-political/kuhl-nitsch> <content Vanessa Kuhl and Dr. Claudia Nitsch>> – clarified how university patent policies function and how they relate to open-source or open-license frameworks. These discussions were key to understanding how we can balance patenting while ensuring that our project remains accessible to the wider scientific and farming communities, a primary goal of our work.
+To further enhance our understanding, we reached out to <link <path /human-practices/legal-political/hoffmann> <content Matthias Hoffmann>>, a European Patent Attorney, who helped us grasp the complexities of navigating patent landscapes. While patents can seem distant in an academic setting, they become crucial when translating scientific discoveries into practical, commercial applications.
+
+
+In order to learn how the connection between scientific research and real-world application approached, we reached out to different pioneers in the field to learn from their experiences:
+
+
+<link <path /human-practices/legal-political/jefferson> <content Dr. Richard Jefferson>>, founder of Cambia and The Lens, shared his perspective on patents and accessibility. His approach emphasizes using patents strategically to ensure innovation remains accessible while preventing misuse.
+
+In a similar vein, <link <path /human-practices/legal-political/potrykus> <content Dr. Ingo Potrykus>>, co-developer of Golden Rice, demonstrated how patents can be leveraged to address global challenges. He showed us how strategic compromises can ensure biotechnology projects achieve their intended goals while maintaining access for those who need them most.
+
+Our conversation with <link <path /human-practices/legal-political/rathore> <content Dr. Dheeraj Rathore>>, an expert in non-Agrobacterium-mediated transformation (non-AMT), revealed how dense patent landscapes can drive innovation. His approach to non-AMT methods arose from the need to bypass patent-heavy areas, illustrating how patents can both hinder and inspire new techniques.
+
+
+Initially, we viewed patents as obstacles, believing they primarily hindered the free flow of information. However, through our interviews, we gained a deeper understanding of their significance in real-world biotechnology. We encountered diverse perspectives – some experts argued that patents restrict innovation, while others emphasized their role in preventing misuse and promoting responsible application. This has helped us appreciate the complexity of the patent landscape. Through these interviews, we underwood the significance of patents for the real-world and what influence they can have when developing a project that is meant to be implemented in the real-world.
+
+
+<blockblock
+    <block <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/gasb.webp> <title <link <path /human-practices/legal-political/gasb> <content German Association for Synthetic Biology>>> <text GASB meets PAW – Genetic Engineering Key Issue #3: Patents>>
+    <block <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/dederer.webp> <title <link <path /human-practices/legal-political/dederer> <content Prof. Hans-Georg Dederer>>> <text Chair of Constitutional and Administrative Law, Public International Law, European and International Economic Law>>
+    <block <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/nitsch.webp> <title <link <path /human-practices/legal-political/kuhl-nitsch> <content Dr. Claudia Nitsch & Vanessa Kuhl>>> <text Administration for Contract Management for Research and Transfer Projects at the Philipps University Marburg, Germany>>
+    <block <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/hoffmann.webp> <title <link <path /human-practices/legal-political/hoffmann> <content Matthias Hoffmann>>> <text Certified Biologist, Patent Attorney, European Patent, Trademark Attorney and Partner of the law firm Maikowski & Ninnemann, Leipzig, Germany>>
+    <block <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/jefferson2.webp> <title <link <path /human-practices/legal-political/jefferson> <content Dr. Richard Jefferson>>> <text Founder and CEO of Cambia and The Lens>>
+    <block <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/potrykus.webp> <title <link <path /human-practices/legal-political/potrykus> <content Dr. Ingo Potrykus>>> <text Plant Biotechnologist, Co-developer of Golden Rice>>
+    <block <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/rathore2.jpeg> <title <link <path /human-practices/legal-political/rathore> <content Dr. Dheeraj Rathore>>> <text Research Expert on non-Agrobacterium Mediated Transformation>>
+>

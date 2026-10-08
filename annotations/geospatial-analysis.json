@@ -1,0 +1,480 @@
+{
+  "page": "geospatial-analysis",
+  "summary": {
+    "verdict": "This page does the one thing no precedent GIS page manages: it says what the maps decided. The routing model, the per-hectare unit counts and the farmers' association ownership conclusion form a chain a judge can follow, and section 8 gives other teams something reusable. It falls short where judges check the work: there is no method or data section, so no reader can rebuild a single layer, and the same figure often appears twice with two values.",
+    "strengths": [
+      "The fertilizer routing model: 613 companies, 2,792,536 parcels, 346 township nodes, and a stated rule about county lines.",
+      "The ownership conclusion. The map produces a number, the number rules out individual ownership, and you say so in one line.",
+      "The payback arithmetic in section 6, with both sides of each figure in one currency and the double-crop case stated.",
+      "Interviews standing beside the maps: Ms. Chen on soil and her weed mulch clock, the Yilan rice farmer, the Nantou farmer's organic condition.",
+      "The containment wording in 4.4: an engineered function reaches the root zone and the organism does not, which agrees with the Laws and Regulations page.",
+      "Section 4.5 and section 8. You name your weakest layer and what would replace it, and you hand other teams a prompt with a reason behind every rule."
+    ],
+    "priorities": [
+      "Make every repeated number agree: the small-farm share (99.15%, 99.18%, 99%), the farmed-land share (86.18%, 86%), the warming period (1991, 1999, 1980), the fertilizer intensity (300 kg/ha, 449 kg/ha) and the sandy-loam cost multiple. Check each one against Entrepreneurship and Sustainability as well.",
+      "Add a method and data section. Every layer needs its publisher, period, resolution and version, every threshold needs a source, and the climate volatility index needs its three components and their weights.",
+      "Finish or remove the unfinished parts: the LPA table placeholders, the draft sentence in the chlorophyll Results, the empty section 4.3, the empty section 7, and the missing reference list behind the footnote numbers in section 6.",
+      "Fix the table in section 5.4, whose headings do not match its columns, and split the 300-word paragraph in 5.2 into the rule and its exceptions.",
+      "Tie the page to the Sustainable Development ballot. Name the goals the maps serve, state the long-term and future-scenario picture in section 7, and add one negative interaction, such as power demand or the farms the shared model leaves out."
+    ],
+    "ballot": [
+      {
+        "question": "Did the team incorporate feedback from relevant Sustainable Development Goals (SDG) stakeholders into their work?",
+        "status": "partial",
+        "where": "3. Problem statement (Taiwan climate stress); 5. Validation",
+        "note": "Farmers, their regions and their crops are here, and the Nantou farmer's condition changes the product positioning, but no interview is shown changing a map layer, a threshold or a weight."
+      },
+      {
+        "question": "Did the team address potential long-term social, environmental and economic impacts of their work (in the context of the SDG(s) they have chosen)?",
+        "status": "partial",
+        "where": "4.4 Business plan; 6. Impact",
+        "note": "Payback periods, the carbon trade-off and the organic exclusion are all long-term economic and environmental points, but section 7 Future prospect has no text and no future-climate scenario."
+      },
+      {
+        "question": "How well has the team considered the positive and/or negative interactions of their work in relation to other SDGs?",
+        "status": "missing",
+        "where": "",
+        "note": "No SDG is named anywhere in the page body. The material is already here (power draw, upfront cost, the farms a shared unit cannot reach) and needs one short section."
+      },
+      {
+        "question": "Has the team documented their work against their chosen SDG(s) so that other teams can build upon their work?",
+        "status": "partial",
+        "where": "8. Tools and references",
+        "note": "The guide and the reusable prompt are the strongest contribution on the page, but no dataset, version, threshold, index weight or code link appears anywhere, and there is no reference list."
+      },
+      {
+        "question": "Has the team's work measurably and significantly addressed one or more SDGs?",
+        "status": "partial",
+        "where": "3. Problem statement (Centralized vs. decentralized agriculture); 6. Impact",
+        "note": "Hectares, parcel counts, units per hectare and NT$ per hectare are all here, which is more own-work measurement than most winners show. Several of the figures disagree with each other, and none is tied to a goal."
+      }
+    ],
+    "skeleton": {
+      "releaf": [
+        "1. Abstract",
+        "2. Introduction",
+        "3. Problem statement (global climate stress, Taiwan climate stress, agricultural demographics, centralized vs decentralized)",
+        "4. Execution (4.1 Light Physical Activity, 4.2 Plant assays, 4.3 Math modeling, 4.4 Business plan, 4.5 Back to GIS)",
+        "5. Validation (5.1 to 5.4, farmer interviews)",
+        "6. Impact (6.1 Current reach)",
+        "7. Future prospect",
+        "8. Tools and references (8.1 Guide, 8.2 LLM broad prompt)"
+      ],
+      "winners": [
+        "Abstract that states the result, not only the subject",
+        "Introduction with prior work and the gap this page fills",
+        "Data and technical background: candidate datasets, the one chosen, and why",
+        "Criteria and thresholds, each in a table with its source",
+        "One block per map: purpose, data and method, result, check, limits",
+        "An uncertainty companion for every forecast map",
+        "Conclusion and outlook naming what the maps decided and the missing layers",
+        "Materials and methods: datasets, software and library versions",
+        "References"
+      ],
+      "gap": "Your sections 3 to 6 are an argument, and they are better than the precedents at saying what the maps changed. What is missing is the whole middle of the winners' skeleton: the data background, the thresholds in sourced tables, the per-map check and limits, and the methods block. Marburg puts the direction of each map's error before the results; your page gives one such admission, in 4.5, and nothing else."
+    },
+    "extras": [
+      "\"aggregated across nations, across all counties of Taiwan\" (Introduction): the analysis covers Taiwan only. Drop \"across nations\".",
+      "\"This serves as direct, county-level evidence that the warming trend and the shrinking of rice cultivation are moving together\": two trends in the same counties are a relationship, not direct evidence, and land conversion or prices could also explain the fall. The same paragraph dates the rise \"since 1980\", while others use 1991 and 1999.",
+      "\"His field is a firsthand account of the same mechanism the global research describes\": the study is about night-time respiration, and the farmer describes two fungal diseases. Write that warm, humid nights drive both effects.",
+      "\"All variability stacked together, rather than one broad agricultural tradition, Taiwan's farming knowledge has evolved\": the opening clause has nothing to attach to. Write \"Taiwan has no single farming tradition. All this variability has produced thousands of local practices, each tuned to one slope or valley.\"",
+      "\"the fields look completely healthy at sunrise while quietly starving itself\": write \"the field looks healthy at sunrise while it starves the harvest it built the day before\".",
+      "\"most countries' climate shift gradually across vast land areas\": write \"shifts\".",
+      "\"with 2024 becoming Taiwan's hottest year on record, with Taipei logged 63 days above 35ºC\": write \"and in 2024, Taiwan's hottest year on record, Taipei logged 63 days above 35 °C\".",
+      "The text writes temperatures as 19ºC and 0.29ºC with the ordinal sign, while the figures use °C. Use °C everywhere.",
+      "\"Figure 3. Taiwan's Average Temperature vs. Rice Yields\": the paragraph above it compares rice-growing area, not yield. Match the caption to the claim, or add the yield data.",
+      "\"Figure 8. Global Comparative Fertilizer Consumption\" is captioned before Figure 7, and the Figure 7 title appears twice (fold label and caption). Number figures in the order they appear and caption each once.",
+      "Two rows of the fertilizer table read \"| flagged†\" with no footnote anywhere. Say what was flagged and why, or leave the cells empty with a note under the table.",
+      "\"about 3.7% of cultivated land\": Entrepreneurship says \"only 3.47% of Taiwan's total farmland is organic and eco-friendly by 2024\". Use one figure, and make \"roughly 96%\" the matching remainder.",
+      "\"this excludes ReLeaf from organic and friendly-environment farming; about 3.7% of cultivated land, but a disproportionately significant one\": \"one\" refers to nothing. Write \"which is about 3.7% of cultivated land. That share matters more than its size, because these are the fastest-growing segments.\"",
+      "\"A unit that only activates on a predicted stress event, rather than running continuously, making this trade-off favorable\": the sentence has no main verb. Write \"A unit that only activates on a predicted stress event makes the trade-off favorable.\"",
+      "\"Since 99% of Taiwanese farmers work under 2 hectares\" (4.4): a third version of the small-farm share. Use the same figure as the abstract.",
+      "\"roughly five times annual revenue in sandy loam\" (4.4): section 6 gives 50 units/ha at NT$30,000, which is NT$1,500,000 against NT$122,782 of protected revenue. Recompute the multiple, or say which revenue figure it uses.",
+      "\"pear and peach growers from Hualien mandates soil testing\": write \"mandate\". In the same paragraph \"different farmers with varying livestock\" should say crops.",
+      "\"Throughout the conversation of a Nantou farmer, they present ... He expresses ... They've established\": one farmer, so keep one pronoun throughout.",
+      "\"Cacao\" in the 5.4 table against \"cocoa\" in 5.1, and \"Xingzhu\", \"Hsinzhu\" and \"Hsinchu\" for one city. One spelling for each name.",
+      "The 5.4 table gives Yilan as 23.4 in one row and \"Yilan and Taichung | 23.4 & 24.5\" in another, so one farm is counted twice. Give each farm its own row.",
+      "\"Raster data sets are discrete and continuous cells\": a raster cannot be both. Write \"a raster is a grid of cells, used for values that change gradually across space, such as temperature or elevation\".",
+      "\"any team desirable of use Geospatial Analyses can adapt it\": write \"any team that wants to use geospatial analysis can adapt it\".",
+      "\"Click here to access the Math Modeling page for complementary inputs\" (and three more like it), plus \"Open it full screen\" under two figures. Name the page in the link text and say what it adds; drop the instruction to click.",
+      "The LaTeX source of the chlorophyll formula prints beside the rendered formula. Show the rendered one only.",
+      "\"rather than\" appears 25 times. Replace most of them with a full stop and a second sentence.",
+      "Section 4.3 Math modeling holds only a link, and the three \"Execution: GIS and ...\" headings are missing from the contents list. Either give 4.3 a summary of the model's result, or fold it into the Dry Lab block.",
+      "The interactive routing map loads its basemap from tile.openstreetmap.org and its routes from router.project-osrm.org. iGEM requires every file to load from iGEM servers, so precompute the routes into a data file and host the basemap image on static.igem.wiki."
+    ]
+  },
+  "notes": [
+    {
+      "id": "gis-001",
+      "type": "praise",
+      "anchor": "Precision agriculture offers compelling logic, but it was built for scale",
+      "title": "A first line that names the mismatch",
+      "body": "This opening says what precision agriculture assumes (scale, capital, land) and why Taiwan does not fit it. A judge knows in one line what argument the page will make. Keep it.",
+      "excerpts": [
+        "gis-2024-og-marburg-01"
+      ],
+      "excerpt_note": "Marburg's abstract also opens on the problem before any method. Yours is shorter, which is better."
+    },
+    {
+      "id": "gis-002",
+      "type": "mistake",
+      "anchor": "In Taiwan, 99.15% of farms are small-scale (under 2 hectares), yet together they work 86.18%",
+      "title": "One small-farm figure, used everywhere",
+      "body": "The abstract says \"99.15% of farms\"; section 3 says \"99.18% of farmers are small-scale farmers\"; the Business plan section says \"99% of Taiwanese farmers\". Farms and farmers are different counts, so pick one measure, one number and one source, and use it in all three places. Entrepreneurship says \"over 90% of agricultural holdings are small-scale family operations averaging less than 1 hectare\", which also needs to match. Do the same for 86.18% here and \"up to 86%\" in section 3.",
+      "after": "In Taiwan, [number]% of farms are under 2 hectares, and together they work [number]% of the island's farmed land ([source, year])."
+    },
+    {
+      "id": "gis-003",
+      "type": "cut",
+      "anchor": "a temperature range rivaling the distance between Miami and Anchorage",
+      "title": "Save the Miami comparison for section 3",
+      "body": "The Miami and Anchorage comparison appears here and again in Taiwan climate stress, where you explain it properly with the drive and the distance. Using it twice spends the surprise early. Drop it from the abstract and keep the version in section 3.",
+      "after": "on terrain where one region can span a temperature range of roughly 19 degrees Celsius"
+    },
+    {
+      "id": "gis-004",
+      "type": "suggest",
+      "anchor": "This convergence of stress, vulnerability, and infrastructural mismatch is what ReLeaf answers",
+      "title": "Put the finding in the abstract",
+      "body": "The abstract says what you mapped but not what you found or what changed because of it. Judges read the abstract first and look for the result. Add one sentence with your main number and one with the decision it drove, such as the ownership model or the township rollout.",
+      "after": "This convergence is what ReLeaf answers. Across [number] townships the maps flag [number] hectares as highest need, and that result is why we moved from single-farm ownership to shared units held by farmers' associations.",
+      "excerpts": [
+        "gis-2022-ug-iiser-pune-india-01",
+        "gis-2022-ug-iiser-pune-india-05"
+      ],
+      "excerpt_note": "IISER-Pune-India gives the map a job in the first paragraph and closes on what it decided.",
+      "ballot": "Has the team's work measurably and significantly addressed one or more SDGs?"
+    },
+    {
+      "id": "gis-005",
+      "type": "praise",
+      "anchor": "Existing geospatial studies of Taiwanese agriculture tend to treat variables in isolation",
+      "title": "Prior work, and the gap you fill",
+      "body": "You name what earlier studies did, what each one leaves out, and the gap your three layers close. Few teams do this, and it is the prior-work move judges reward.",
+      "excerpts": [
+        "gis-2024-og-marburg-03"
+      ],
+      "excerpt_note": "Marburg names the earlier models and the two gaps its page fills, in the same shape as your paragraph."
+    },
+    {
+      "id": "gis-006",
+      "type": "restructure",
+      "anchor": "Beyond this, overlap doesn't stop at the map: it feeds the dry lab's math model",
+      "title": "Split the overlap sentence into four",
+      "body": "This sentence runs for about 100 words and carries four separate links (math model, wet lab, Human Practices, deployment). A reader loses the first link before reaching the last. Give each link its own short sentence.",
+      "after": "The overlap does not stop at the map. It feeds the dry lab's math model, which turns the flagged conditions into a per-hectare bioreactor count. It is checked against the wet lab's stress-response data, so \"who needs this\" and \"does this work\" answer each other. It is checked again against our farmer interviews, so the pattern in the data is tested against what people live through."
+    },
+    {
+      "id": "gis-007",
+      "type": "cut",
+      "anchor": "A landmark study spearheaded by researchers at UC Davis, the International Rice Research Institute in Manila, and collaborators in Guangzhou and Wuhan",
+      "title": "Name the study, not every institution",
+      "body": "Four institutions and two cities arrive before the finding does. A citation can carry the authorship. Keep the station, the span and the result.",
+      "after": "A 25-year study at a Philippine research station found that"
+    },
+    {
+      "id": "gis-008",
+      "type": "mistake",
+      "anchor": "with documentations showing a drop in 10 percent yield per each rise in degree",
+      "title": "This sentence loses the unit",
+      "body": "\"a drop in 10 percent yield per each rise in degree\" does not say a drop in what, or a rise of how much. The dates are also unclear: \"beginning from between 1979 and 2003\" reads as a start date, but 1979 to 2003 is the 25-year span you mention earlier in the sentence. Write the unit and the span plainly.",
+      "after": "Between 1979 and 2003, nighttime minimum temperatures rose more than three times faster than daytime maximums, and grain yield fell by about 10% for each 1 degree Celsius rise in nighttime temperature, while daytime heat alone showed almost no effect."
+    },
+    {
+      "id": "gis-009",
+      "type": "clarify",
+      "anchor": "Figure 1. Global Rice Yield Documentation and Forecasting.",
+      "title": "Read this map's legend in words",
+      "body": "The caption names the subject but not what the picture shows. A reader cannot tell which colours mean what, which years are plotted, or where the data comes from. Add the legend reading and the source to the caption.",
+      "after": "Figure 1. Projected global rice yield to [year]. Darker blue marks the areas where modelled yield falls furthest below the [year] baseline. Source: [dataset, version].",
+      "excerpts": [
+        "gis-2022-ug-iiser-pune-india-04"
+      ],
+      "excerpt_note": "IISER-Pune-India reads one colour of the legend aloud and says why that layer is there. Every caption on your page can do this."
+    },
+    {
+      "id": "gis-010",
+      "type": "praise",
+      "anchor": "Ms. Chen, who has run a natural farm in northwest Taiwan for 25 years",
+      "title": "The interview is introduced properly",
+      "body": "You give her name, her farming practice, her region and her 25 years before she speaks. That is what makes the quote evidence instead of decoration. Keep this pattern for every person you quote on the page.",
+      "excerpts": [
+        "sus-2024-og-uzurich-02"
+      ],
+      "excerpt_note": "UZurich names the role and the places the stakeholder pointed to, so the input can be checked.",
+      "ballot": "Did the team incorporate feedback from relevant Sustainable Development Goals (SDG) stakeholders into their work?"
+    },
+    {
+      "id": "gis-011",
+      "type": "clarify",
+      "anchor": "soil type shifts block by block along the western plain, from alluvium to schist to mudstone",
+      "title": "Say which soil scheme you are using",
+      "body": "The quote above counts \"soil classification types\", the map legend lists clay loam, loam, sandy loam and silty clay, and this sentence lists alluvium, schist and mudstone. Those are three different things: soil orders, soil texture and parent rock. Name the one scheme the map uses, say who publishes it, and use the same class names in the text, the legend and the caption.",
+      "after": "Figure 2 maps soil series from the [publisher] survey. Soil texture changes from [class] to [class] within the same county, so a method tuned for one farmer can be the wrong answer for another."
+    },
+    {
+      "id": "gis-012",
+      "type": "clarify",
+      "anchor": "when a drought that used to take three weeks to set in now takes closer to two",
+      "title": "Show how you got from the study to her clock",
+      "body": "The study you cite reports that nearly half of flash droughts now develop within five days. \"Three weeks becomes closer to two\" is your own step from that figure to Ms. Chen's three-week clock, and a reader cannot follow it. Either show the step or keep the study's own number and say what it means for her.",
+      "after": "Nearly half of flash droughts now develop inside five days. Ms. Chen's three-week clock was built when they took weeks, so \"right on schedule\" can now mean \"already too late\"."
+    },
+    {
+      "id": "gis-013",
+      "type": "clarify",
+      "anchor": "In Taiwan, 99.18% of farmers are small-scale farmers (< 2 hectares of land)",
+      "title": "Define small-scale once, with its source",
+      "body": "An international judge does not know whether \"small-scale\" is your threshold or an official class, whether the count is of farms, farmers or households, or which census year it comes from. Say it once here, then use the same words everywhere else on the page.",
+      "after": "Taiwan's [year] agricultural census counts a holding under 2 hectares as small-scale. [Number]% of holdings fall in that class, and their average size is 0.9 to 1.1 hectares. Together they work [number]% of arable land."
+    },
+    {
+      "id": "gis-014",
+      "type": "mistake",
+      "anchor": "Overlaying county-level farmer age against temperature increase from 1999 to 2020",
+      "title": "The warming period changes between places",
+      "body": "This sentence says 1999 to 2020. The map beside it is labelled \"temperature change from 1991 to 2020\", and the paragraph above it says \"Since 1991, that rate has nearly tripled\". The Sustainability page uses the same figure with 1991 to 2020. Use 1991 to 2020 in the text if that is what the layer holds, and state the climate surface it comes from.",
+      "after": "Overlaying county-level farmer age against temperature change from 1991 to 2020 shows these two burdens are not independent:"
+    },
+    {
+      "id": "gis-015",
+      "type": "suggest",
+      "anchor": "the same areas that overlap with higher climate volatility index bands",
+      "title": "Document the volatility index",
+      "body": "The index decides the whole overlap argument, and the page never says what goes into it. A reader cannot rebuild it or reuse it. Add a short method block naming the three components, their weights, the climate surface, its period and resolution, and the version of each dataset.",
+      "after": "Climate volatility index. We combined [component 1], [component 2] and [component 3], weighted [weight]:[weight]:[weight], from [dataset, version] at [resolution] over [period]. The index runs from 0.38 to 0.93 across counties. The weights were chosen because [reason].",
+      "excerpts": [
+        "gis-2024-og-marburg-06",
+        "gis-2024-og-marburg-17"
+      ],
+      "excerpt_note": "Marburg names the datasets it rejected and the one property that decided the choice, then lists versions in two sentences. Copy both habits.",
+      "ballot": "Has the team documented their work against their chosen SDG(s) so that other teams can build upon their work?"
+    },
+    {
+      "id": "gis-016",
+      "type": "mistake",
+      "anchor": "consumes more than 300 kilograms of fertilizer per hectare",
+      "title": "Two fertilizer intensities for Taiwan",
+      "body": "Here Taiwan uses \"more than 300 kilograms of fertilizer per hectare\" against about 128 kg/ha in the US. Section 6 says \"449 kg of N+P+K per hectare in 2025 versus about 128 kg/ha in the US\", which matches your own table. Both are measured against the same US figure, so one of them is wrong or they measure different things. Say which measure you mean (product weight or nutrient weight) and use one number.",
+      "after": "Taiwan, at just 36,200 square kilometers, applies 449 kg of fertilizer nutrient (N+P+K) per hectare, against about 128 kg per hectare in the United States, a country 9.83 million square kilometers in size."
+    },
+    {
+      "id": "gis-017",
+      "type": "praise",
+      "anchor": "we built a nationwide GIS routing model connecting every one of Taiwan's 613 registered fertilizer companies",
+      "title": "The routing model is your best method writing",
+      "body": "Every number in this paragraph is countable: 613 companies, 2,792,536 parcels, 346 township nodes, about 743,500 hectares. You then state the rule the model follows and why it is realistic, which stops a judge asking whether you used straight lines. This is the clearest paragraph on the page.",
+      "excerpts": [
+        "gis-2025-ug-xjtlu-china-01"
+      ],
+      "excerpt_note": "XJTLU lists each data-cleaning step with its reason and ends on the final count. Your paragraph already works this way."
+    },
+    {
+      "id": "gis-018",
+      "type": "mistake",
+      "anchor": "adding cost, time, and emissions that a farm averaging under 1.1 hectares absorbs disproportionately",
+      "title": "The freight argument contradicts section 6",
+      "body": "Here freight adds cost, time and emissions that small farms absorb. Section 6 says Taiwan's retailers sit \"a median 0.4 km from the farmland they serve\", so cutting fertilizer saves \"roughly NT$2/ha/year in avoided freight\", which it calls \"a rounding error\". Both cannot stand as written. Give the distance your model actually computed, then say which part of the cost is freight and which is the production model.",
+      "after": "Even under this best-case assumption, the model gives a median trip of [number] km from company to township. Freight is a small part of the delivered cost, about NT$[number] per hectare per year. The bigger cost is that a centralized product has to be made, packed and bought at all, which on-site production removes."
+    },
+    {
+      "id": "gis-019",
+      "type": "restructure",
+      "anchor": "By incorporating GIS into ReLeaf—from LPA measurement and plant assays—the team is able to analyze lab-scale efficacy test results",
+      "title": "Say who does what to what",
+      "body": "This is the opening sentence of your longest section, and it never says what GIS actually does with the lab data. \"The team is able to analyze\" also hides the result. Name the input, the step and the output.",
+      "after": "Two lab measurements feed the map: how much protectant our culture makes under light, and whether that protectant protects plants in soil. GIS turns those two results into a bioreactor count for each township."
+    },
+    {
+      "id": "gis-020",
+      "type": "clarify",
+      "anchor": "The Light Physical Activity (LPA) allows for quantitative analysis and accurate measurement",
+      "title": "Explain what the LPA is",
+      "body": "A reader meeting \"Light Physical Activity\" for the first time cannot tell whether it is a device, an assay or a measurement. In human health the same phrase means something else entirely. Say in one line what the hardware is and what it records. If this is the light plate apparatus from the Hardware page, use that page's name for it so the two agree.",
+      "after": "The Light Physical Activity rig (LPA) is a [description] that lights each well of a plate at a set intensity, duration and colour, and samples the culture over time."
+    },
+    {
+      "id": "gis-021",
+      "type": "mistake",
+      "anchor": "| Pending wet lab assay data",
+      "title": "Placeholders are still in this table",
+      "body": "The table carries \"X hours\" for the sampling interval and \"Pending wet lab assay data\" instead of a yield, so a judge sees an unfinished page. One row also has three cells in a two-column table, so it renders out of line. Either fill the cells, or state in a sentence that the assay is pending and give the date you expect it.",
+      "after": "Total yield and production rate are pending the wet lab assay; we expect results by [date]. Light conditions tested: green only, red only, green and red. Sampling interval: [number] hours."
+    },
+    {
+      "id": "gis-022",
+      "type": "restructure",
+      "anchor": "Regardless if the protectant is highly beneficial to the plant, if it never manages to leave the bioreactor",
+      "title": "Three conditions in one sentence",
+      "body": "The sentence stacks \"regardless if\", \"if\" and \"or\" before it reaches the point, and \"the entire project is still deemed as useless\" is stronger than you need. The idea is good: efficacy and delivery are separate questions.",
+      "after": "A protectant only helps if it reaches the root zone. If it stays in the bioreactor, or arrives and does nothing, the efficacy result means nothing for a field. Functional assay validation tests delivery and effect together."
+    },
+    {
+      "id": "gis-023",
+      "type": "cut",
+      "anchor": "Chlorophyll a+b content was quantified spectrophotometrically (OD645, OD663) following extraction in 80% acetone, using the standard formula",
+      "title": "This sentence is already above it",
+      "body": "The sentence before says the same thing in the same words: absorbance at 645 and 663 nm after extraction in 80% acetone. Keep one version and lead straight into the formula.",
+      "after": "We quantified chlorophyll a+b spectrophotometrically at 645 nm and 663 nm after extraction in 80% acetone, using the standard formula:"
+    },
+    {
+      "id": "gis-024",
+      "type": "mistake",
+      "anchor": "The pattern across groups is consistent and informs are draft here, more or less.",
+      "title": "A draft note is still on the page",
+      "body": "\"informs are draft here, more or less\" is a note to yourselves, and it sits at the top of your Results paragraph. Delete it and state the pattern, which the rest of the paragraph already supports.",
+      "after": "The pattern across groups is consistent."
+    },
+    {
+      "id": "gis-025",
+      "type": "cut",
+      "anchor": "something farmers can come to recognize as theirs",
+      "title": "End on the evidence, not the feeling",
+      "body": "The sentence has already made its point: the chlorophyll data is what makes the coverage radius mean something real. The closing phrase adds a feeling the data does not show. Stop at the evidence.",
+      "after": "This is the link between wet lab and GIS: the chlorophyll data is the evidence that the coverage radius GIS maps onto Taiwan's counties protects something real."
+    },
+    {
+      "id": "gis-026",
+      "type": "restructure",
+      "anchor": "is it legal, who holds the capital, what does it cost against what the crop is worth",
+      "title": "Set the four questions out as a list",
+      "body": "The four questions are the structure of the whole Human Practices link, but they arrive inside one sentence after a semicolon, and \"what the farmer does/ has today\" uses a slash where a word belongs. A list makes them countable and lets you point each one at the page that answers it.",
+      "after": "Human Practices asks the four questions that decide whether that number becomes hardware in a field:\n- Is it legal?\n- Who holds the capital?\n- What does it cost against what the crop is worth?\n- Is it better than what the farmer uses today?"
+    },
+    {
+      "id": "gis-027",
+      "type": "praise",
+      "anchor": "A shared-asset model through Taiwan's farmers' associations",
+      "title": "Here the map changes a decision",
+      "body": "This is the test a GIS page has to pass: the map produced a number, the number ruled out individual ownership, and you say so in one line. You also gloss the Chinese name, which helps an international judge. Keep the sentence and point it at the Entrepreneurship page.",
+      "excerpts": [
+        "gis-2022-ug-iiser-pune-india-05"
+      ],
+      "excerpt_note": "IISER-Pune-India closes its map work on the decision it drove. None of the other precedents does, so this sentence puts you ahead of them.",
+      "ballot": "Has the team's work measurably and significantly addressed one or more SDGs?"
+    },
+    {
+      "id": "gis-028",
+      "type": "praise",
+      "anchor": "This is the strongest argument for replacing the placeholder classification with parcel-resolved TARI soil survey data",
+      "title": "You name your weakest layer",
+      "body": "You say which layer is a stand-in, why it matters more than the others (it sets the ownership model's viability), and what would replace it. A judge trusts the rest of the page more for reading this. Spell out TARI once, since an international reader will not know it.",
+      "excerpts": [
+        "gis-2024-og-marburg-16"
+      ],
+      "excerpt_note": "Marburg closes on the missing layers that caused its overestimate, the same move you make here."
+    },
+    {
+      "id": "gis-029",
+      "type": "mistake",
+      "anchor": "we identified a consistent pattern that has emerged within the last 5 years",
+      "title": "One forum cannot show a five-year trend",
+      "body": "Interviews on one day tell you what farmers do now, not what changed over five years, unless the farmers said so and you report that. The same sentence also says \"namely Nantou, Hualien, Hsinchu, Yilan, etc.\", and \"namely\" and \"etc.\" cancel each other out. In the clause after the colon, \"they\" has no one to refer to yet.",
+      "after": "At a public forum we interviewed farmers from Nantou, Hualien, Hsinchu and Yilan growing cocoa, rice, coffee and mixed grains. Across crops and farm sizes we found one pattern: farmers manage soil by habit, because they see soil data as money spent for no return."
+    },
+    {
+      "id": "gis-030",
+      "type": "restructure",
+      "anchor": "After visiting numerous booths, most of the interviewed farmers applied organic fertilizers based on a fixed annual schedule",
+      "title": "Split this section into rule and exceptions",
+      "body": "This is one paragraph of about 300 words holding two findings: most farmers do not test, and a few test carefully. \"Contrastingly\", \"on the contradictory to people who don't test\" and a list of what farmers value all sit between them. Two short paragraphs make both findings visible.",
+      "after": "Most farmers we interviewed applied organic fertilizer on a fixed annual schedule, not on what the soil needed. Where testing happens it is rare: a mixed grain farmer in Baozhong and farmers in Miaoli each get one free government test a year and would not pay for more, and the cocoa farmer above consults no expert.\n\nA few farmers test closely. Pear and peach growers in Hualien require soil testing and treat calcium deficiency as disqualifying for certification. A persimmon farmer in Hsinchu targets a substrate pH of 5.6 to 6.2, up from 3. These are exceptions, and they show that soil correction works when someone does it. A bioreactor that acts without a diagnosis fits the majority who do not."
+    },
+    {
+      "id": "gis-031",
+      "type": "praise",
+      "anchor": "a natural protectant would be acceptable, provided its compatibility with organic certification requirements could be confirmed",
+      "title": "A condition, not a compliment",
+      "body": "You report what the farmer would accept and the condition attached, then draw the product consequence from it. You also say the certification line is a grey area, which explains why a farmer mid-transition will not risk it. This is stronger evidence than a farmer saying he likes the idea.",
+      "excerpts": [
+        "sus-2025-ug-epfl-02"
+      ],
+      "excerpt_note": "EPFL's stakeholder entries end on the design consequence, as yours does here.",
+      "ballot": "Did the team incorporate feedback from relevant Sustainable Development Goals (SDG) stakeholders into their work?"
+    },
+    {
+      "id": "gis-032",
+      "type": "mistake",
+      "anchor": "| Optimal Temperature for Crop",
+      "title": "This table's columns do not match its headings",
+      "body": "The heading row reads crop, optimal temperature, location average temperature, but the rows hold crop, location, one temperature. So the optimal temperature is missing and the location sits under the wrong heading. Without the optimal figure the table cannot show the gap it is meant to show.",
+      "after": "| Crop | Location | Location average temperature (C) | Optimal temperature for crop (C) |\n| Cocoa | Nantou | 24.3 | [number] |"
+    },
+    {
+      "id": "gis-033",
+      "type": "mistake",
+      "anchor": "benchmarked against the literature-predicted loss curve for unprotected rice",
+      "title": "The footnote numbers have no list",
+      "body": "Small reference numbers run into the text through this section, such as \"unprotected rice.3\" and \"NT$26/kg,4\", and the page has no reference list. Section 8 is called \"Tools and references\" but holds only the guide and the prompt. A judge cannot check any figure in your strongest section.",
+      "after": "Add a References section at the end, numbered to match the markers in the text, and set the markers as superscripts so they do not run into the words.",
+      "ballot": "Has the team documented their work against their chosen SDG(s) so that other teams can build upon their work?"
+    },
+    {
+      "id": "gis-034",
+      "type": "praise",
+      "anchor": "A moderately stressed hectare goes from about NT$60,996 in unprotected revenue to NT$122,782 protected",
+      "title": "Both sides of the number, in the same unit",
+      "body": "You give the unprotected figure, the protected figure and the difference, in one currency, for two stress levels, and you say the double-cropped case doubles it again. A reader can check your arithmetic, which is why it persuades.",
+      "excerpts": [
+        "sus-2024-ug-ubc-02",
+        "sus-2025-ug-epfl-06"
+      ],
+      "excerpt_note": "Both winners set two numbers in the same unit side by side so the reader does no arithmetic. Yours goes further by giving the net.",
+      "ballot": "Has the team's work measurably and significantly addressed one or more SDGs?"
+    },
+    {
+      "id": "gis-035",
+      "type": "cut",
+      "anchor": "largely because only a quarter of Taiwan's land is arable, against roughly two-fifths in the US",
+      "title": "You explained this in section 3",
+      "body": "Section 3 already gives the arable-land comparison as the reason for high fertilizer use. Repeating it here makes a long sentence longer. Point back instead.",
+      "after": "Taiwan already applies fertilizer at roughly 3.5 times US intensity, 449 kg of N+P+K per hectare in 2025 against about 128 kg/ha in the US, for the land-scarcity reason given in section 3."
+    },
+    {
+      "id": "gis-036",
+      "type": "suggest",
+      "anchor": "Figure 10. Farm Calculator: What ReLeaf Means For Your Field.",
+      "title": "Section 7 has no text",
+      "body": "Future prospect holds one figure and no writing, so the page ends without saying where the maps point next or how sure you are. This is the section judges read for long-term impact. Write three short paragraphs: what the maps would show under a future warming scenario, where your layers are least certain and why, and the next two things you would add.",
+      "after": "Future prospect. Under [scenario] to [year], the counties flagged highest need shift [direction], because [reason]. Our least certain layer is the soil classification, which is a geomorphology heuristic and not a survey, so township-level unit counts in coastal areas may be wrong by [range]. Next we would add parcel-resolved TARI soil data and a second climate surface, and report where the two surfaces disagree.",
+      "excerpts": [
+        "gis-2024-og-marburg-12"
+      ],
+      "excerpt_note": "Marburg reports where its forecast is least certain beside the forecast itself. A page that does this is hard to argue with.",
+      "ballot": "Did the team address potential long-term social, environmental and economic impacts of their work (in the context of the SDG(s) they have chosen)?"
+    },
+    {
+      "id": "gis-037",
+      "type": "restructure",
+      "anchor": "If you are unfamiliar, or just starting out with GIS data, you have to understand the core fundamentals",
+      "title": "Say who the guide is for, then teach",
+      "body": "The first sentence of the guide runs about 90 words and ends by pointing at the prompt below, before the reader knows what the guide covers. The paragraph after it is the one that says who it is for. Put that first and break the long sentence into steps.",
+      "after": "This guide is for teams new to GIS. It covers two things: the difference between raster and vector data, and how to import the three formats QGIS accepts (GeoJSON, CSV and shapefiles). If your data is in another form, or its coordinate systems disagree, the prompt below will reformat it."
+    },
+    {
+      "id": "gis-038",
+      "type": "praise",
+      "anchor": "Our prompt's rules are grounded in established prompt engineering research rather than built ad hoc",
+      "title": "Each rule has a reason behind it",
+      "body": "You tie five rules to named research and say what each one prevents: hallucination, confident guessing, hidden arithmetic, silent assumptions, unusable output. That turns a prompt into a contribution another team can judge and reuse. Add the citations to a reference list so a judge can follow them.",
+      "excerpts": [
+        "gis-2024-og-marburg-14"
+      ],
+      "excerpt_note": "Marburg justifies even its choice of chart with a citation. You are doing the same for your rules.",
+      "ballot": "Has the team documented their work against their chosen SDG(s) so that other teams can build upon their work?"
+    },
+    {
+      "id": "gis-039",
+      "type": "suggest",
+      "anchor": "The structured prompt checks coordinate range and CRS, flags a coordinate precision issue",
+      "title": "Put the validation result in words",
+      "body": "Your best evidence that the prompt works sits inside two pictures. A judge skimming the text sees no numbers at all. Write the comparison as a short paragraph with the counts, and say what the filter was, so a reader knows which answer was right.",
+      "after": "We gave both prompts the same 15,138-row dataset and the same question. The structured prompt checked coordinate range and CRS, flagged that the 15,138 rows held only 3,739 unique points, applied the filter and returned 2,502 rows. The plain-language prompt checked only for missing values, applied no filter and returned all 15,138 rows.",
+      "excerpts": [
+        "gis-2025-ug-xjtlu-china-02"
+      ],
+      "excerpt_note": "XJTLU gives its validation number a baseline in the same sentence, so a reader knows what good looks like.",
+      "ballot": "Has the team's work measurably and significantly addressed one or more SDGs?"
+    }
+  ]
+}

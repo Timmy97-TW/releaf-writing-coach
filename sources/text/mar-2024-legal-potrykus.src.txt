@@ -1,0 +1,48 @@
+<header
+    <title Dr. Ingo Potrykus>
+    <subtitle Plant Biotechnologist, Co-Developer of Golden Rice>
+    <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/resize-legal-political-header-1.webp>
+    <parent /human-practices/legal-political>
+>
+
+<image <url https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/potrykus.webp> <width 20>>
+
+
+<quote <text We had scientific solutions and couldn't do, what we wanted to do> <author Dr. Ingo Potrykus>>
+
+
+<section Reason for Contact>
+After speaking with patent attorney <link <path /human-practices/legal-political/hoffmann> <content Matthias Hoffmann>>, we gained a deeper understanding of the critical role that patents and legal frameworks play in real-world applications. To explore this further, we reached out to Dr. Ingo Potrykus, a renowned plant biotechnologist celebrated for his pioneering work in genetic engineering, particularly through his development of Golden Rice to discuss his views on patents, open innovation, and what it truly takes to make a meaningful impact in the world. Our conversation with him was incredibly inspiring, offering valuable insights into how innovation can be both protected and shared for the greater good.
+
+
+<section Most Significant Points>
+
+<subsection The Motivation for Golden Rice>
+Potrykus was motivated by the urgent need to combat vitamin A deficiency, a major form of hidden hunger. Despite having scientific solutions, he recognized that millions were suffering from nutrient deficiencies that could be alleviated through enriched staple foods.
+
+
+<subsection Patents and Licensing>
+To create Golden Rice, Dr. Ingo Potrykus wanted to use agrobacterium-mediated transformation techniques because they were faster and more effective than direct gene transfer. However, these techniques were covered by 12 key patents, which could have blocked their use and made it difficult to advance the research. "We had scientific solutions and couldn't do, what we wanted to do."
+
+
+<subsection Collaborative Approach to Patents>
+Rather than contesting existing patents, Potrykus took a collaborative approach. He negotiated with patent holders to allow the use of these transformation methods for humanitarian purposes, ensuring that Golden Rice could be developed and distributed without legal obstacles. This pragmatic strategy helped overcome barriers to implementing life-saving technologies.
+
+
+<subsection Advocacy for Patents and Science Communication>
+Potrykus advocates for securing patents on innovations to protect them from misuse and ensure their intended application. At the same time, he acknowledges that patents can hinder the flow of information. To counteract this, he emphasizes the importance of science communication, aiming to inform decision-makers and the public about the benefits and potential of biotechnological advancements. His goal is to foster informed discussions and decisions that support the responsible use of scientific innovations.
+
+
+<section Inclusion in Our Project>
+We are very thankful that Dr. Ingo Potrykus took the time for this interview. His expertise offered us a valuable perspective on the complex world of patents and their significant role in shaping real-world applications, especially in the field of biology.
+
+Dr. Ingo Potrykus's work with Golden Rice shows how biotechnology can address major global issues, like vitamin A deficiency. His approach teaches us the importance of managing patents while keeping our work accessible.
+
+For our project, we've focused on making our innovations available to those who need them by dealing with patent issues in a collaborative way. We also stress the need for clear communication to help people understand and support our work.
+
+By following these principles, we aim to solve important problems and ensure our research has a positive impact.
+
+In academia, patents often seem distant, but when working on projects with real-world applications, understanding and navigating patent landscapes becomes crucial
+
+
+As we continue our journey, we're also curious to learn how other pioneers approached the connection between scientific research and real-world application, like <link <path /human-practices/legal-political/jefferson> <content Dr. Richard Jefferson>> who advocates balancing commercialization and accessibility and <link <path /human-practices/legal-political/rathore> <content Dr. Dheeraj Rathore>> who explained to us why dense patent-landscapes were a driver for his non-AMT approach.

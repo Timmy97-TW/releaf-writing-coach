@@ -1,0 +1,183 @@
+[
+ {
+  "id": "ihp-2025-ug-nyuad-h01",
+  "prize": "ihp",
+  "team": "NYU-Abu-Dhabi",
+  "year": 2025,
+  "track": "UG",
+  "url": "https://2025.igem.wiki/nyu-abu-dhabi/human-practices",
+  "section": "Navigating Early Project Pivots: Insights from Dr. Jin Montclare",
+  "function": "stakeholder-entry",
+  "text": "Dr. Jin Montclare is a protein engineering researcher who specializes in customizing artificial proteins for human disorders, drug delivery, tissue regeneration, and nanomaterial development. During our initial topic selection phase, we consulted her to evaluate the scientific merit and safety of our proposed approach to inhibit Phosphomannose Isomerase as a strategy to improve PMM2 efficiency in CDG treatment. Her expertise in protein engineering and pathway manipulation made her ideally positioned to assess the technical viability of our enzyme inhibition concept.",
+  "why_it_works": "The Rationale slot says who she is, when the team met her (topic selection) and the exact question they brought. The reader knows why this person before hearing what she said.",
+  "teaches": [
+   "structure",
+   "clarity"
+  ]
+ },
+ {
+  "id": "ihp-2025-ug-nyuad-h02",
+  "prize": "ihp",
+  "team": "NYU-Abu-Dhabi",
+  "year": 2025,
+  "track": "UG",
+  "url": "https://2025.igem.wiki/nyu-abu-dhabi/human-practices",
+  "section": "Navigating Early Project Pivots: Insights from Dr. Jin Montclare",
+  "function": "loop-closing",
+  "text": "This meeting fundamentally redirected our project trajectory. Dr. Montclare's safety concerns about PMI inhibition—particularly the enzyme's multi-faceted role across biological pathways—made us realize this approach risked introducing unforeseen consequences that could harm patients. Her suggestion to consider direct Man-1-P supplementation opened an entirely new avenue we hadn't explored. We ultimately abandoned the PMI inhibition strategy, recognizing that manipulating such fundamental metabolic enzymes without extensive safety data was irresponsible for a rare disease population with limited treatment options. This pivotal consultation taught us to prioritize patient safety over technical novelty.",
+  "why_it_works": "Ends on a decision and its reason: the team dropped PMI inhibition because the enzyme sits in several pathways, and took up her suggestion of direct Man-1-P supplementation. The last sentence is a moral and could go.",
+  "teaches": [
+   "loop-closing",
+   "evidence"
+  ]
+ },
+ {
+  "id": "ihp-2025-ug-nyuad-h03",
+  "prize": "ihp",
+  "team": "NYU-Abu-Dhabi",
+  "year": 2025,
+  "track": "UG",
+  "url": "https://2025.igem.wiki/nyu-abu-dhabi/human-practices",
+  "section": "Industry Insights from the Frontlines: Consultation with Dr. Hicham Alaoui of Glycomine",
+  "function": "reflection",
+  "text": "This consultation provided a crucial industry perspective that both validated and challenged our approach. Dr. Alaoui's explanation of why Glycomine chose Man-1-P over GDP-mannose—prioritizing molecular simplicity—countered some of Dr. Andreotti's skepticism about supplementation efficacy. However, his confirmation of Man-1-P's blood instability and rapid enzymatic degradation highlighted a fundamental challenge: even if we successfully biomanufactured Man-1-P, delivering it effectively to cells remained problematic. His mention of chemical production costs and suggestion to explore in vitro enzymatic synthesis validated our biomanufacturing direction as potentially valuable for reducing therapeutic costs.",
+  "why_it_works": "Weighs one expert against another by name: Alaoui's reason for choosing Man-1-P answers part of Andreotti's doubt, and his half-life point raises a new one. Each sentence pairs what he said with what it meant for the plan.",
+  "teaches": [
+   "reflection",
+   "loop-closing",
+   "evidence"
+  ]
+ },
+ {
+  "id": "ihp-2025-ug-nyuad-h04",
+  "prize": "ihp",
+  "team": "NYU-Abu-Dhabi",
+  "year": 2025,
+  "track": "UG",
+  "url": "https://2025.igem.wiki/nyu-abu-dhabi/human-practices",
+  "section": "Clinical Translation and Patient-Centered Research: Insights from Dr. Andrew Edmondson",
+  "function": "loop-closing",
+  "text": "Dr. Edmondson's consultation provided practical patient engagement guidance and clinical reality. His communication advice shaped our approach to interviews with families. His blunt assessment of mannose supplementation was critical: zero improvement in transferrin and antithrombin III even in the liver—the primary nanoparticle target with highest glycosylation rates. His observation that mannose cannot be delivered orally and that lipid nanoparticles limit systemic distribution highlighted delivery barriers. His description of Purkinje cell loss underscored intervention urgency. If a leading CDG clinician saw no supplementation improvement in optimal target tissue, restoring functional PMM2 through gene therapy offered better prospects than metabolite delivery with demonstrated ineffectiveness.",
+  "why_it_works": "Names the measures (transferrin, antithrombin III), the tissue (liver) and the result (no improvement), then draws the design conclusion as an if-then sentence. The reader can follow the step from his evidence to gene therapy.",
+  "teaches": [
+   "loop-closing",
+   "evidence",
+   "concision"
+  ]
+ },
+ {
+  "id": "ihp-2025-ug-nyuad-h05",
+  "prize": "ihp",
+  "team": "NYU-Abu-Dhabi",
+  "year": 2025,
+  "track": "UG",
+  "url": "https://2025.igem.wiki/nyu-abu-dhabi/human-practices",
+  "section": "CDG Parent Interview with Lisa",
+  "function": "loop-closing",
+  "text": "This interview provided key insights that informed both the educational and design aspects of our CDG-focused initiatives:\n\n- Education and Awareness: Lisa’s experience underscored the importance of early recognition and realistic communication between doctors and families. Her story directly inspired our outreach to medical students and healthcare professionals about CDG symptom presentation and diagnostic pathways. Read more about this initiative here.\n\n- Device Design: Her feedback on the physical demands of daily caregiving and the lack of accessible mobility aids guided our decision to prototype an adaptive walking-assistance device tailored to children with limited motor control.",
+  "why_it_works": "One parent interview splits into labelled outputs. Each bullet starts with what she said and ends with the thing the team built, so the device bullet goes from caregiving strain to a prototype in one sentence.",
+  "teaches": [
+   "structure",
+   "loop-closing"
+  ]
+ },
+ {
+  "id": "ihp-2025-ug-nyuad-h06",
+  "prize": "ihp",
+  "team": "NYU-Abu-Dhabi",
+  "year": 2025,
+  "track": "UG",
+  "url": "https://2025.igem.wiki/nyu-abu-dhabi/human-practices",
+  "section": "CDG Parent Interview with Karen",
+  "function": "loop-closing",
+  "text": "This interview further consolidated the need for educational initiatives that focused on raising awareness in the general public as well as the professional community. We used the feedback we got from this interview to further enhance those provided by other parents.",
+  "why_it_works": "Counter-example: This is the whole Integration slot after a 186-word interview summary. It names no change; \"further consolidated\" and \"further enhance\" only say this parent agreed with the others. Name the one point that was new, or merge the parent interviews into one entry.",
+  "teaches": [
+   "loop-closing",
+   "concision"
+  ]
+ },
+ {
+  "id": "ihp-2025-og-wur-h01",
+  "prize": "ihp",
+  "team": "WageningenUR",
+  "year": 2025,
+  "track": "OG",
+  "url": "https://2025.igem.wiki/wageningenur/human-practices/index.html",
+  "section": "Amalia Kafka",
+  "function": "stakeholder-entry",
+  "text": "Why we reached out: As a seed lobbying group, they represent the interests of active stakeholders in the research, breeding, production, and marketing of seeds and seed technologies for various plant species.\n\nMain takeaways: Availability of biodegradable active compounds within seed coats is a problem. However, the development of seed coating materials without microplastics has been in progress for a while. More time is needed for these novel products to be implemented.\n\nReflection & integration: There have already been efforts from the market to transition into biodegradable coatings; however, the deadline for the regulations is approaching, and time is limited. This made us realise that collaboration with businesses that have experience, equipment and infrastructure will be vital in meeting the deadline. Additionally, we realised that only having a biodegradable material is not novel, and our value proposition should highlight the ease of incorporating desired active compounds into the coating.",
+  "why_it_works": "The full three-slot template in 149 words. The reflection turns one market fact into two decisions: find partners who already have equipment, and pitch how easily active compounds go into the coating, since a biodegradable material alone is not new.",
+  "teaches": [
+   "structure",
+   "loop-closing",
+   "concision"
+  ]
+ },
+ {
+  "id": "ihp-2025-og-wur-h02",
+  "prize": "ihp",
+  "team": "WageningenUR",
+  "year": 2025,
+  "track": "OG",
+  "url": "https://2025.igem.wiki/wageningenur/human-practices/index.html",
+  "section": "Dr. Shanmugam Thiyagajaran",
+  "function": "loop-closing",
+  "text": "Why we reached out: We were considering several biodegradable and biobased polymers to design our seed coatings and wanted to learn about the pros and cons of several options.\n\nMain takeaways: We discussed the properties of PHA and BC and found out that BC contains reactive hydroxyl groups.\n\nReflection & integration: We may be able to exploit the reactive hydroxyl groups in BC to enzymatically modify the matrix. This would be a greener method than adding chemical modifications to alter the water-holding capacity and hydrophobicity of the seed coating. These properties help control the germination time of the seed. We integrated this into our wet lab design and developed a project to test the effect of different enzymatic modifications.",
+  "why_it_works": "A short entry where one technical fact (reactive hydroxyl groups in BC) becomes a wet-lab project. The reflection also says why the change matters: it is greener than chemical modification and controls germination time.",
+  "teaches": [
+   "loop-closing",
+   "clarity",
+   "evidence"
+  ]
+ },
+ {
+  "id": "ihp-2025-og-wur-h03",
+  "prize": "ihp",
+  "team": "WageningenUR",
+  "year": 2025,
+  "track": "OG",
+  "url": "https://2025.igem.wiki/wageningenur/human-practices/index.html",
+  "section": "Dr. Zohaib Hussain",
+  "function": "stakeholder-entry",
+  "text": "Why we reached out: After experiencing problems with coating seeds, we reached out to a professional in physical chemistry. Additionally, we wanted to discuss our options for feedstock.\n\nMain takeaways: Dr. Zohaib Hussain suggested exploring regeneration of bacterial cellulose by first dissolving it in an organic solvent; this regeneration process may also be used to control material properties. This confirmed our idea to perform in situ coating, where cellulose is grown around the seed inside a bioreactor. He also suggested beer waste as a good feedstock, as it is rich in sugars.\n\nReflection & integration: We reached out to a local beer brewery to obtain beer waste and test our production. We also started investigating methods of in situ coating.",
+  "why_it_works": "Opens on a problem the team hit in the lab. Each takeaway lands on an action: beer waste led to the brewery visit, and regeneration backed the in situ coating idea. The entry hands the reader on to the next stakeholder.",
+  "teaches": [
+   "structure",
+   "loop-closing"
+  ]
+ },
+ {
+  "id": "ihp-2025-og-wur-h04",
+  "prize": "ihp",
+  "team": "WageningenUR",
+  "year": 2025,
+  "track": "OG",
+  "url": "https://2025.igem.wiki/wageningenur/human-practices/index.html",
+  "section": "Anonymous arable farmer",
+  "function": "reflection",
+  "text": "Reflection & integration: The unpredictability in weather is frustrating to farmers, and we should come up with a solution that would, for example, prevent rotting when flooding occurs—such as tuning the water-holding capacity or hydrophobicity of the coatings.\n\nThere is a gap between the regulatory requirements and the struggles of farmers. We should consider this when complying with new policies, avoid neglecting the impacts on farmers, and develop mitigation strategies in collaboration with other sector stakeholders.",
+  "why_it_works": "Turns a farmer's complaint about flooding into two coating properties the team can tune, and names a gap between regulators and farmers. The second paragraph is a commitment, and the page would be stronger if it said what was done about it.",
+  "teaches": [
+   "audience-framing",
+   "reflection",
+   "loop-closing"
+  ]
+ },
+ {
+  "id": "ihp-2025-og-wur-h05",
+  "prize": "ihp",
+  "team": "WageningenUR",
+  "year": 2025,
+  "track": "OG",
+  "url": "https://2025.igem.wiki/wageningenur/human-practices/index.html",
+  "section": "Dr. ir. Bert Smit",
+  "function": "reflection",
+  "text": "5. Current regulations follow the “Not Unless” principle, which means not to use pesticides unless necessary.\n6. We should pay attention to NVWA (Netherlands Food and Consumer Product Safety Authority) and CtgB (Board for the Authorisation of Plant Protection) during development to facilitate approvals before market entry.\n\nReflection & integration: We can learn from actors like Bert, who can combine their awareness of the diverse stakeholders in the sustainable agriculture sector to avoid neglecting the necessities of one.",
+  "why_it_works": "Counter-example: Six concrete takeaways, including two named approval bodies, then a reflection that uses none of them. A reader expects NVWA and CtgB to appear in a timeline or plan; the closing sentence praises Bert instead.",
+  "teaches": [
+   "loop-closing",
+   "evidence"
+  ]
+ }
+]

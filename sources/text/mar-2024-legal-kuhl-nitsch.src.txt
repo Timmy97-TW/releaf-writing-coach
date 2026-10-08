@@ -1,0 +1,19 @@
+<header
+    <title Vanessa Kuhl and Dr. Claudia Nitsch>
+    <subtitle Administration for Contract Management for Research and Transfer Projects at the Philipps University Marburg, Germany>
+    <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/resize-legal-political-header-1.webp>
+    <parent /human-practices/legal-political>
+>
+
+<blockblock
+    <block <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/kuhl.webp> <title Vanessa Kuhl> <text Administration for Contract Management for Research and Transfer Projects at the Philipps University Marburg>>
+    <block <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/nitsch.webp> <title Dr. Claudia Nitsch> <text Administration for Contract Management for Research and Transfer Projects at the Philipps University Marburg>>
+>
+
+
+<section Reason for Contact>
+To find out more about the university's rules on patents, we spoke to the head of unit and consultant of contract management for research and transfer projects, Vanessa Kuhl, and the head of the department structural Development, Young Scientists, research and transfer, Dr. Claudia Nitsch. We also received input from <link <path /human-practices/legal-political/dederer> <content Prof. Dederer>>, who advised us to talk to the people responsible at our university about the patent situation.
+
+
+<section Inclusion in Our Project>
+We are very thankful to Vanessa Kuhl and Dr. Claudia Nitsch for taking the time to participate in the interview. The plasmids we use for our research are provided by Cambia and are available under an open license. All in all, our project should be able to be used as open source. It is therefore important to be able to distinguish between the terms open source and open license. The interview helped to explain and understand these terms. It is also important to be aware of any patents and the possible risks of patent infringement when working with agrobacterium. We were able to learn about these risks and challenges that can exist in research work and with regard to patents and their registration through the interview.

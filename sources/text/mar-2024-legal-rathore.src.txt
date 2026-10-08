@@ -1,0 +1,37 @@
+<header
+    <title Dr. Dheeraj Rathore>
+    <subtitle Research Expert on non-Agrobacterium Mediated Transformation>
+    <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/resize-legal-political-header-1.webp>
+    <parent /human-practices/legal-political>
+>
+
+
+<image <url https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/rathore-interview.webp> <width 30>>
+
+
+<section Reason for Contact>
+The realm of patents in Agrobacterium-mediated transformation is a highly specialized area. Following our interview with graduate biologist and European Patent and Trademark Attorney <l <path /human-practices/legal-political/hoffmann> <content Matthias Hoffmann>>, we reached out to Dr. Dheeraj Rathore, an expert in non-Agrobacterium-mediated plant transformation (non-AMT). His insights are invaluable in laying the groundwork for our own non-AMT strategies. We extend our gratitude to Dr. Rathore for generously sharing his extensive knowledge on this subject.
+
+
+<section Most Significant Points>
+
+<quote <text Innovation and alternatives are key [...] to overcome the existing patent issue.> <author Dheeraj Rathore>>
+
+<subsection Agrobacterium mediated transformation (AMT)>
+Dr. Rathore explained that <i Agrobacterium> is widely used in plant transformations, due to the extensive research performed with it, making it easy to handle in lab environments. However, many of the methods associated with <i Agrobacterium>, such as the use of plasmids, are patented, making it difficult to identify which patents apply to a project. This issue has complicated the introduction of genetically modified crops, such as Golden Rice.
+
+
+<subsection Advantages of non-AMT>
+Non-Agrobacterium transformation (non-AMT) methods can bypass the patent issues tied to <i Agrobacterium>. Rathore highlighted additional benefits of non-AMT, such as increased species specificity and the flexibility to switch bacterial chassis, which could improve transformation efficiency for certain plants. non-AMT using <i Sinorhizobium meliloti> or <i Ensifer adhaerens> has shown success when paired with a pCAMBIA plasmid.
+
+
+<subsection Compatibility in non-AMT>
+Rathore noted that the compatibility between plant-associated bacteria and the target plant is a critical factor in increasing transformation efficiency. However, increased compatibility also makes it harder to remove the bacteria after a successful transformation. Additionally, bacteria differ in their ability to transform different plant tissues, and this tissue specificity must be considered when selecting a transformation method.
+
+
+<subsection Bacteria handling in non-AMT>
+Beyond scientific considerations, practical issues such as antibiotic resistance, optimal growth temperature, and medium requirements can affect the maintenance costs of the bacterial strains used for transformation. These factors must be considered for successful, cost-efficient experiments.
+
+
+<section Inclusion in Our Project>
+Following our interview with Dheeraj Rathore, we recognized that several critical conditions must be fulfilled for a strain to be applicable in real-world scenarios. To delve deeper into the challenges associated with non-AMT, we decided to reach out to <l <path /human-practices/legal-political/jefferson> <content Dr. Richard Jefferson>>. He is the CEO of Cambia, the organization that developed the pCAMBIA plasmids mentioned by Dr. Rathore. Additionally, to gain insights into the real-world challenges and experiences surrounding patent issues related to Agrobacterium-mediated plant transformation, we contacted <l <path /human-practices/legal-political/potrykus> <content Dr. Ingo Potrykus, the co-creator of Golden Rice>>.

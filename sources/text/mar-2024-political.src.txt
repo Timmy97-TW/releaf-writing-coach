@@ -1,0 +1,52 @@
+<header
+    <title Political Dimension>
+    <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/resize-political-header.webp>
+    <parent /human-practices/legal-political>
+>
+
+
+Considering the impact of political decisions is crucial for the practical application of any project in biotechnology. Key questions arise, such as: What regulations must be adhered to? What restrictions exist on the organisms used in production? And, what is the current stance on genetically modified organisms (GMOs)?
+
+
+A significant development in this area is the new EU law on <link <path /glossary> <content New Genomic Techniques (NGTs)>>, proposed by the European Commission in July 2023. This law aims to modernize the GMO framework established in 2001, reflecting advances in gene-editing technologies like CRISPR. It focuses specifically on NGTs in agriculture, offering greater flexibility for plants modified without the introduction of foreign DNA. This regulatory shift seeks to encourage sustainable farming practices while addressing public concerns about biotechnology.
+
+
+<image <url https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/ngt-graphic.webp> <caption Graphic on NGTs> <width 30>>
+
+
+To gain insights into how these political shifts may affect our project, which involves genetically modifying plants, we consulted various experts in the field. These discussions helped us navigate the political landscape and understand how it could influence our goals, especially in relation to existing regulatory frameworks.
+
+
+To further explore the newly proposed EU regulations regarding plants generated through NGTs and their potential impact, we participated in a webinar hosted by the GASB <link <path /human-practices/legal-political/gasb> <content GASB meets PAW – Genetic Engineering Key Issue #3: Patents>> Here, we learned about the eco-progressive NGO <link <path /human-practices/legal-political/laibach-hoffie> <content EcoProg>> and connected with <link <path /human-practices/legal-political/laibach-hoffie> <content Prof. Natalie Laibach and Dr. Robert Hoffie>>, members of the Leaderboard, who helped contextualize our project within the NGT framework.
+
+
+Seeking further legal guidance on plants generated through NGTs, we consulted <link <path /human-practices/legal-political/dederer> <content Prof. Hans-Georg Dederer>>, an expert in constitutional and European law. He provided insights into the mutual influences between political decisions and patent law, helping us understand the implications these dynamics have for our project.
+
+
+To explore the broader impact of political decisions on biotechnology, we reached out to several key figures in the field:
+
+
+Founder of Cambia and The Lens, <link <path /human-practices/legal-political/jefferson> <content Dr. Richard Jefferson>>, emphasized the importance of public engagement in shaping real-world applications of biotechnology. He advocates for transparency and educational exchange to inform the public about scientific advancements and their implications.
+
+The co-developer of Golden Rice, <link <path /human-practices/legal-political/potrykus> <content Dr. Ingo Potrykus>>, highlighted the need for educating decision-makers about the benefits and risks associated with biotechnological innovations. He believes that informed decisions can lead to better outcomes for society and the environment.
+
+In our interview with <link <path /human-practices/legal-political/rathore> <content Dr. Dheeraj Rathore>>, a research expert in non-Agrobacterium-mediated transformation (non-AMT), he noted that political factors can sometimes hinder valuable research and innovation. He stressed the necessity of fostering an environment where scientific inquiry can thrive without undue restrictions.
+
+
+In summary, political decisions play a crucial role in shaping the pace and direction of innovation in biotechnology. The recent changes regarding GMO plants obtained through NGTs will have a significant impact on the real-world applications of our project. One key adjustment we made in response to the new regulations was using only endogenous parts in our <link <path /part-collection> <content dandelion part collection>>, ensuring our approach aligns with the practical benefits outlined in the proposal.
+
+Engaging with stakeholders and educating both the public and policymakers is essential to ensure that scientific research is understood and supported within the regulatory framework.
+
+To fulfill this goal, we actively <link <path /public-engagement> <content engaged with the public>> beyond academic circles through events like the <link <path /public-engagement/science-slam> <content engaged with the public>> and our <link <path /public-engagement/exhibition-schreiber> <content exhibition at the plant market at the botanical garden in Marburg>>. By fostering discussions with the local community, we aim to influence public understanding of science, as an informed population can make educated decisions in elections that impact future regulations.
+
+By emphasizing the importance of science communication, our project hopes to shape the dialogue around sustainable practices in agriculture and highlight the role of science in informing policy decisions.
+
+
+<blockblock
+    <block <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/gasb.webp> <title <link <path /human-practices/legal-political/gasb> <content German Association for Synthetic Biology>>> <text GASB meets PAW – Genetic Engineering Key Issue #3: Patents>>
+    <block <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/ecoprog-logo.webp> <title <link <path /human-practices/legal-political/laibach-hoffie> <content Prof. Natalie Laibach und Dr. Robert Hoffie>>> <text Leaderboard of the Eco-Progressive Network>>
+    <block <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/dederer.webp> <title <link <path /human-practices/legal-political/dederer> <content Prof. Hans-Georg Dederer>>> <text Chair of Constitutional and Administrative Law, Public International Law, European and International Economic Law>>
+    <block <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/jefferson2.webp> <title <link <path /human-practices/legal-political/jefferson> <content Dr. Richard Jefferson>>> <text Founder and CEO of Cambia and The Lens>>
+    <block <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/potrykus.webp> <title <link <path /human-practices/legal-political/potrykus> <content Dr. Ingo Potrykus>>> <text Plant Biotechnologist, Co-developer of Golden Rice>>
+    <block <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/rathore2.jpeg> <title <link <path /human-practices/legal-political/rathore> <content Dr. Dheeraj Rathore>>> <text Research Expert on non-Agrobacterium Mediated Transformation>>
+>

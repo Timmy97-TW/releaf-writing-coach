@@ -1,0 +1,91 @@
+<header
+    <title Prof. Natalie Laibach and Dr. Robert Hoffie (EcoProg)>
+    <subtitle Leaderboard of Eco-Progressives Netzwerk – NGO Focused on Promoting Eco-Progressivism>
+    <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/resize-legal-political-header-1.webp>
+    <parent /human-practices/legal-political>
+>
+
+
+ <blockblock
+    <block <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/laibach.webp> <title Prof. Natalie Laibach> <text Responsible for Interdisciplinary Exchange at EcoProg>>
+    <block <image https://static.igem.wiki/teams/5088/wiki/images/human-practices/legal-political/hoffie.webp> <title Dr. Robert Hoffie> <text Chairman of EcoProg>>
+>
+
+
+<section Reason for Contact>
+We were happy to have the opportunity to speak with Natalie Laibach and Robert Hoffie from the non-profit organization EcoProg about our project in the context of the upcoming EU law regarding plants generated through NGTs. We came in contact with EcoProg when we took part in the GASB seminar <link <path /human-practices/legal-political/gasb> <content GASB meets PAW – Genetic Engineering Key Issue #3: Patents>>. Ecoprog is an initiative focused on promoting evidence-based policymaking with special focus on sustainability in agri food systems. By fostering collaboration between researchers and communities, EcoProg aims to develop innovative solutions that improve crop yields and protect natural resources for future generations.
+
+
+<section Most Significant Points>
+
+
+<subsection Politial Dimension>
+
+
+<subsubsection Definition of NGTs>
+NGTs (New Genomic Techniques) are a relatively new term in EU policy and include all biotechnological techniques developed after 2001, such as genome editing, cisgenesis, and traditional gene transfer.
+
+
+<subsubsection Current State of Genetic Engineering Law>
+The current genetic engineering law in Europe is based on a release directive from the 1990s, which was reformed in 2001. It strictly regulates gene transfer and transgenic organisms.
+
+
+<subsubsection Mutagenesis Exception>
+This exception applies to techniques that have been in use for over 50 years, so no retrospective regulation is applied to existing plants.
+
+<subsubsection New EU Law Proposal (July 5, 2023)>
+The proposal for a new regulation exclusively concerns plants and the application of NGTs in plant breeding.
+
+
+There are two categories:
+
+
+<b Category 1:> Plants with minor changes (e.g., through genome editing) no longer fall under the strict genetic engineering law, but registration with authorities is required. Seeds must be labeled.
+
+
+<b Category 2:> More complex genetic changes remain under the existing genetic engineering law, but there are relaxations for plants that support sustainability goals (e.g., drought tolerance produced by CRISPR).
+
+
+<subsubsection Relevance for Our Approach in Dandelions>
+Our planned genetic modifications of dandelions using NGTs like CRISPR would currently fall under the strict GMO regulations. However, this could change with the new law.
+For genetically modified dandelions, if no foreign DNA is introduced (genetic changes only modify gene expression regulation using dandelion-derived promoters), they could potentially fall under <b Category 1>. This would allow them to be cultivated as conventionally bred varieties.
+
+However, the genetic modifications must not disrupt any existing genes, and expert evaluation is necessary to determine the exact category.
+
+
+<subsubsection Use of Cre-lox System in Dandelion>
+Introducing a Cre-lox system in dandelion that leaves behind a 34 bp loxP sequence might push the plant into <b Category 2>, which would require regulation under GMO laws.
+
+
+<subsubsection Authorities and Compliance:>
+National authorities, such as the Federal Office of Consumer Protection in Germany, are responsible for categorizing such plants under the current draft. A European database will track and record all relevant data.
+
+
+<subsection Legal Framework>
+
+
+<subsubsection The Impact of the New EU Law on Patenting NGT-Modified Plants>
+The new EU law aims to prevent patents on NGT-modified plants, which could facilitate easier development and commercialization of such plants without the need for costly licenses. However, this is still a legally complex issue, and it's unclear how it will be implemented. There is ongoing debate over whether patents on specific traits, generated through NGTs, should be allowed.
+
+
+<subsubsection Definition and Impact of Non-Biological and Microbiological Methods>
+Non-Biological and Microbiological methods might still be patentable under the new law. The exact definition of what constitutes "non-biological" and "microbiological" methods is still to be clarified.
+
+
+<subsubsection Patents provoke Challenges in Plant Breeding>
+Patent issues could hinder the use of certain techniques (e.g., CRISPR-Cas9) in commercial breeding, especially for smaller enterprises with limited financial resources.
+
+
+<section Inclusion in Our Project>
+We are very thankful that Natalie Laibach and Robert Hoffie (EcooProg) took the time for this interview. Thanks to the interview we learned a lot about the upcoming EU law regarding plants generated through NGTs. Furthermore, we were able to contextualize our project within the NGT framework. We now know that our CRISPR approach falls under category 1. However, if the Cre-lox sequence is too long, our plants would be classified under category 2. Potential future relaxations for category 2 plants that support sustainability goals might ease regulatory pressure on these plants too.
+
+When talking about the patent aspects within the NGT framework, we learned that the new EU law aims to prevent patents on NGT-modified plants, which could facilitate easier development and commercialization of such plants without the need for costly licenses. This is still a legally complex issue, and it is unclear how it will be implemented.
+Robert Hoffie pointed out to us that patent issues could hinder the use of certain techniques (e.g., CRISPR-Cas9) in commercial breeding, especially for smaller enterprises with limited financial resources.
+
+
+<tab
+    <row Process | Integration of Part>
+    <row Initial Thought | Our project falls under category 1 of the upcoming EU law regarding plants generated through NGTs.>
+    <row Learning through Interview | Due to the length of the inserted Crelox sequence, our project might fall under category 2. However, there could be relaxations in the regulations concerning our plants even in this case, since our approach supports sustainability goals. Additionally, patent issues could hinder the use of certain techniques in commercial breeding, making it crucial to navigate these challenges to ensure the accessibility and success of our project.>
+    <row Revisioned Thought | Our project might fall under category 2, but with potential relaxations due to its alignment with sustainability goals. Addressing patent issues is crucial to making our project commercially more accessible, ensuring that these innovations can be successfully brought to market.>
+>

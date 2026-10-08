@@ -1,0 +1,567 @@
+[
+  {
+    "id": "edu-2025-ug-queens-01",
+    "prize": "education",
+    "team": "Queens-Canada",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/queens-canada/education",
+    "section": "Education",
+    "function": "page-opening",
+    "text": "Synthetic biology is only as powerful as it is understood. The field holds tremendous potential to address global challenges, but like any emerging technology, it raises important questions about safety, ethics, and societal impact. For synthetic biology to develop responsibly, it can't just be shaped by scientists in labs, it needs input from everyone it will affect. This realization drove our education initiatives. We set out to bridge the gap between research and community, bringing diverse voices into conversations about synthetic biology's future. From elementary students to the general public, we designed programs for all levels of understanding and backgrounds, ensuring that synthetic biology education isn't limited to those already in the field.",
+    "why_it_works": "Opens on why the public must be part of synthetic biology, then names the full audience range in one sentence. The reader knows the page's purpose and scope before the first activity.",
+    "teaches": [
+      "structure",
+      "audience-framing"
+    ]
+  },
+  {
+    "id": "edu-2025-ug-queens-02",
+    "prize": "education",
+    "team": "Queens-Canada",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/queens-canada/education",
+    "section": "Workshop 1:",
+    "function": "loop-closing",
+    "text": "All lesson plans, slide decks, and activity templates have been documented and donated to Let's Talk Science and our wiki so future teams can reuse or adapt them. Teams can run the same workshop, translate materials to other languages, or extend the activity into multi-day modules. Donated kits ensure quick setup and sustainable outreach use across classrooms.",
+    "why_it_works": "Lists the exact materials handed over (lesson plans, slide decks, templates), who holds them, and three concrete ways another team can reuse them. This is what the ballot means by 'documented so others can build on it'.",
+    "teaches": [
+      "reusability",
+      "structure"
+    ]
+  },
+  {
+    "id": "edu-2025-ug-queens-03",
+    "prize": "education",
+    "team": "Queens-Canada",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/queens-canada/education",
+    "section": "Workshop 1:",
+    "function": "audience-framing",
+    "text": "Young students rarely see how engineering and biology connect, and synthetic biology is often perceived as inaccessible or “too advanced.” This workshop addresses that gap by translating core concepts into concrete, playful tasks that demystify the field. By starting early, we aim to demonstrate that broaden the pipeline of future learners who feel comfortable contributing to synthetic biology.",
+    "why_it_works": "Counter-example: the last sentence is broken ('we aim to demonstrate that broaden the pipeline'). A gap statement is only useful if it reads cleanly; reading it aloud would catch this.",
+    "teaches": [
+      "clarity",
+      "proofreading"
+    ]
+  },
+  {
+    "id": "edu-2025-ug-queens-04",
+    "prize": "education",
+    "team": "Queens-Canada",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/queens-canada/education",
+    "section": "WiSE Workshop",
+    "function": "reflection",
+    "text": "While we initially avoided highly technical content out of concern it might alienate younger participants, our experiences with other outreach initiatives such as MiniQ and the Science Fair showed that children are highly receptive to learning seemingly complex ideas when presented in interactive, age-appropriate ways. Future workshops may integrate synthetic biology concepts through simplified models—for example, simulating genetic circuits with colored blocks or using storytelling to introduce biological “design challenges.”",
+    "why_it_works": "Names an assumption the team held, the evidence from other events that overturned it, and the concrete change it leads to (colored blocks for genetic circuits). That is a full what-we-learned, what-changes loop in three sentences.",
+    "teaches": [
+      "reflection",
+      "loop-closing"
+    ]
+  },
+  {
+    "id": "edu-2025-ug-queens-05",
+    "prize": "education",
+    "team": "Queens-Canada",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/queens-canada/education",
+    "section": "Queen's Healthcare & Business Conference",
+    "function": "audience-framing",
+    "text": "Many attendees, while familiar with healthcare and business concepts, have limited experience translating scientific knowledge into practical solutions or entrepreneurial models. This gap can hinder the ability to see biotechnology not only as a scientific discipline but also as a field with tangible commercial and societal impact. The competition also provided an opportunity to expose participants from business or non-STEM backgrounds to biotechnology, sparking interest and encouraging them to consider how science and innovation intersect with business and societal needs. While QHBC attendees are often familiar with healthcare and business topics, many have limited exposure to the cutting-edge research and technological innovations driving biotechnology. This gap can limit understanding of how emerging scientific discoveries translate into real-world applications and ultimately shape the future of healthcare altogether. This opportunity also engaged participants from non-STEM backgrounds, helping to spark interest in biotechnology and showing how science can intersect with business and greater societal needs.",
+    "why_it_works": "Counter-example: the paragraph makes its point twice. Sentences 1 to 3 and 4 to 6 repeat the same two ideas (limited exposure to biotech, non-STEM participants). Cutting the second half loses nothing.",
+    "teaches": [
+      "concision",
+      "repetition"
+    ]
+  },
+  {
+    "id": "edu-2025-ug-queens-06",
+    "prize": "education",
+    "team": "Queens-Canada",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/queens-canada/education",
+    "section": "Lab Workshop",
+    "function": "method",
+    "text": "The Discovery Lab Workshop provides high school students and community members with hands-on exposure to fundamental laboratory techniques through a structured 2.5-hour experience. Participants rotate through four stations: precision pipetting with data analysis, pH testing using litmus paper, anatomical dissection (eye specimens), and microscopy observation including gel electrophoresis results. Each 20-25 minute station combines demonstration with guided practice, ensuring students gain practical experience with essential lab skills while working in small groups with dedicated instructors.",
+    "why_it_works": "A description a teacher could plan from: length (2.5 hours), number of stations (four), what each station is, and how long each takes (20 to 25 minutes). Numbers replace adjectives.",
+    "teaches": [
+      "clarity",
+      "concision",
+      "reusability"
+    ]
+  },
+  {
+    "id": "edu-2025-ug-queens-07",
+    "prize": "education",
+    "team": "Queens-Canada",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/queens-canada/education",
+    "section": "Genes to Genius",
+    "function": "evidence-with-numbers",
+    "text": "The video sparked curiosity and genuine dialogue generating close to 6,000 social media impressions. By progressing through increasing levels of complexity, we created space for audiences to ask questions and challenge their own assumptions. This structure promoted mutual learning and showed how synthetic biology can be accessible at all levels.",
+    "why_it_works": "Counter-example: uses reach (6,000 impressions) as proof of 'genuine dialogue' and 'mutual learning'. An impression is one view on a feed. Report the comments or questions received, or call it reach.",
+    "teaches": [
+      "evidence",
+      "claim-support"
+    ]
+  },
+  {
+    "id": "edu-2025-og-heidelberg-01",
+    "prize": "education",
+    "team": "Heidelberg",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/heidelberg/education",
+    "section": "Educating Today’s Researchers to Think Translational",
+    "function": "page-opening",
+    "text": "We help young scientists navigate Heidelberg’s innovation ecosystem to learn how to bridge the gap between fundamental research and patient impact. Our panel discussion opened up mutual dialog between students and leading figures in scientific translation, patient advocacy, regulatory affairs, and clinical research, showcasing current challenges and opportunities. A regional guide connects students with local translational support networks and offers a clear overview of programs. Promoting social dialog, we organized a pub quiz, a workshop booth in the old town and succeeded in the hei_INNOVATION Ideas Competition, addressing societal concerns and contributing to the public understanding of synthetic biology.",
+    "why_it_works": "A short abstract for the first half of the page: one sentence of purpose, then one clause per activity. A judge who reads only this paragraph knows every activity in the subgoal.",
+    "teaches": [
+      "structure",
+      "concision"
+    ]
+  },
+  {
+    "id": "edu-2025-og-heidelberg-02",
+    "prize": "education",
+    "team": "Heidelberg",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/heidelberg/education",
+    "section": "Panel Discussion - Ethics and Regulation",
+    "function": "section-intro",
+    "text": "- We hosted a discussion on cell and gene therapy ethics and regulation, reaching 140 attendees as well as the public on YouTube\n- We created a platform for dialog between students and an interdisciplinary panel of experts\n- We inspired young scientists to expand their skills beyond the lab towards clinical translation",
+    "why_it_works": "Three one-line results before the story: a number (140 attendees), the format, and the intended learning. Each section of the page opens this way, so readers can skim the page by its bullets.",
+    "teaches": [
+      "structure",
+      "summary-first"
+    ]
+  },
+  {
+    "id": "edu-2025-og-heidelberg-03",
+    "prize": "education",
+    "team": "Heidelberg",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/heidelberg/education",
+    "section": "Feedback from the Audiences",
+    "function": "evidence-with-numbers",
+    "text": "“As a Molecular Biotechnology student, the discussion had a big impact on me. I hadn’t focused much on regulation, ethics, and translation before, but I realized how interesting and crucial these areas are for my future as a researcher. The speakers were thoughtfully chosen and reflected a strong diversity of perspectives.” - Clara, student participant",
+    "why_it_works": "A participant quote that states a before and after in her own words ('I hadn’t focused much on... but I realized'). The team introduces it with 'Rather than describing how great it was, we would like to share how our audience described its impact'.",
+    "teaches": [
+      "evidence",
+      "learning-outcome"
+    ]
+  },
+  {
+    "id": "edu-2025-og-heidelberg-04",
+    "prize": "education",
+    "team": "Heidelberg",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/heidelberg/education",
+    "section": "Workshop Booth in Heidelberg's Old Town",
+    "function": "reflection",
+    "text": "An example of a particularly hotly debated topic was whether mRNA vaccines can integrate into the genome. People of all ages were convinced that this was possible, with many even claiming to have read something about it, a dangerous misconception, often fueled by misinformation. When we showed images illustrating the separation of the mRNA vaccine and the host’s DNA, the participants were visibly convinced and relieved. Surprised, we noticed that even a topic as prominent as COVID vaccines was seemingly not communicated clearly enough to the public. This motivated us to talk to as many people as possible.",
+    "why_it_works": "Shows dialogue going both ways: the public held a specific misconception, the team showed a specific image, and the team learned something about public communication that changed its plan. One concrete example beats a paragraph of claims.",
+    "teaches": [
+      "reflection",
+      "two-way-dialogue",
+      "evidence"
+    ]
+  },
+  {
+    "id": "edu-2025-og-heidelberg-05",
+    "prize": "education",
+    "team": "Heidelberg",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/heidelberg/education",
+    "section": "Workshop Booth in Heidelberg's Old Town",
+    "function": "evidence-with-numbers",
+    "text": "To measure our impact, we asked participants to mark their interest and self-assessed knowledge on a graph before and after the game. After analyzing the results, we found that interest increased by 20% and self-assessed knowledge grew by 56.3%. This shows that, with the right approach, the general public is interested in and willing to engage with science.",
+    "why_it_works": "States the method in one sentence (mark interest and knowledge before and after) and the result in the next. Caveats for students copying it: the page gives no number of participants, and the figure caption says an unpaired test was used on before/after data.",
+    "teaches": [
+      "evidence",
+      "method"
+    ]
+  },
+  {
+    "id": "edu-2025-og-heidelberg-06",
+    "prize": "education",
+    "team": "Heidelberg",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/heidelberg/education",
+    "section": "Science Pub Quiz",
+    "function": "limitation",
+    "text": "Overall the event received excellent feedback, particularly from international students who appreciated the event being conducted in English, as such opportunities are limited in Heidelberg. While the event aimed to reach the general public, we noticed the audience primarily consisted of natural science students. This made us realize the importance for additional efforts to engage an even broader range of people outside the science bubble.",
+    "why_it_works": "Admits the event missed its target audience and says what the team took from that. Naming a limit in plain words makes the positive claims around it more believable.",
+    "teaches": [
+      "reflection",
+      "limitation"
+    ]
+  },
+  {
+    "id": "edu-2025-og-heidelberg-07",
+    "prize": "education",
+    "team": "Heidelberg",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/heidelberg/education",
+    "section": "Our Journey within the Innovation Ecosystem",
+    "function": "transition",
+    "text": "The panelists encouraged us to take initiative and help shape the innovation landscape. Easier said than done. Even for those of us who were well-connected, the idea of shaping our translational ecosystem felt overwhelming. If we felt this way, it is likely that other young scientists and students felt the same. Our goal developed into better understanding the innovation ecosystem in Heidelberg, identifying the key players, and mapping the support networks that help young scientists bridge the translational gap.",
+    "why_it_works": "Links one activity to the next with a reason: the panel's advice, the team's own difficulty, and the inference that other students share it. The guide reads as a consequence of the panel.",
+    "teaches": [
+      "structure",
+      "loop-closing"
+    ]
+  },
+  {
+    "id": "edu-2025-og-heidelberg-08",
+    "prize": "education",
+    "team": "Heidelberg",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/heidelberg/education",
+    "section": "Interactive Learning Platform",
+    "function": "loop-closing",
+    "text": "We acquired feedback from students from the Summer School and School workshops to test and refine the platform. As a result, we decided to implement our \"Wetlab Series\", instructional videos that demonstrate key molecular lab techniques and contribute to the variety of available content, making our platform more interactive and appealing.",
+    "why_it_works": "Two sentences, one loop: whose feedback (Summer School and workshop students), and what changed (a new video series). Short and checkable.",
+    "teaches": [
+      "loop-closing",
+      "concision"
+    ]
+  },
+  {
+    "id": "edu-2025-og-heidelberg-09",
+    "prize": "education",
+    "team": "Heidelberg",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/heidelberg/education",
+    "section": "High School Workshops",
+    "function": "conclusion",
+    "text": "Overall, the unconventional teaching format of university students teaching high-school students was very well received by the classes, raising interest about possible future fields of studies. Through our workshops, the students gained an insight of how to come up with innovative solutions to tackle scientific questions. Moreover, the success of the workshop led teachers to propose a long-term collaboration between iGEM Heidelberg and Bunsen-Gymnasium Heidelberg, further strengthening the connection between students and young scientists. After the Workshop we engaged in an extensive Q&A session where we answered all sorts of questions about what it is like to study science at a university, and what our future careers could look like.",
+    "why_it_works": "Counter-example for paragraph order: it gives the overall verdict first, then the outcome, then goes back in time to the Q&A that happened before. Put events in order and end on the result (the proposed long-term collaboration).",
+    "teaches": [
+      "structure",
+      "paragraph-order"
+    ]
+  },
+  {
+    "id": "edu-2024-ug-cityu-01",
+    "prize": "education",
+    "team": "CityU-HongKong",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/cityu-hongkong/education",
+    "section": "Why did we reach out to them?",
+    "function": "audience-framing",
+    "text": "The high school curriculum generally underlines fundamental and theoretical knowledge; hence, synthetic biology is not widely known among high school students. As young scientists, we have devised a plan to organize synthetic biology activities aimed at high school students across the globe.\nOur goal is to spark their interest in the field of biology, particularly synthetic biology, and provide them with an understanding of how biology can contribute to creating a better world. We believe that event will enable them to expand their knowledge and contribute to solving real-world issues.",
+    "why_it_works": "Each audience group opens with the same question. The answer names a gap specific to that group (the high school curriculum is theoretical) and a goal. A page organised by audience can copy this block as is.",
+    "teaches": [
+      "structure",
+      "audience-framing"
+    ]
+  },
+  {
+    "id": "edu-2024-ug-cityu-02",
+    "prize": "education",
+    "team": "CityU-HongKong",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/cityu-hongkong/education",
+    "section": "1. Biology Workshop at the Hong Kong Children Charity Foundation",
+    "function": "method",
+    "text": "We introduced them to genetics and cells during two days of workshops. We began our workshop by asking several questions, such as, \"Which part of you do you think looks like your parents?\", \"if the mother flower has a pink color and the father flower has a white color, then which color will the baby flower be?\". These short questions enabled us to form a friendly and engaging environment, making kids participate more actively. After the lecture, we prepared DNA origami folding and play dough to craft animal cells to provide kids with fun and intriguing activities.",
+    "why_it_works": "Quotes the actual opening questions used with 4 to 6 year olds. Readers see the pitch of the session, and another team can reuse the questions directly.",
+    "teaches": [
+      "clarity",
+      "reusability",
+      "assumed-knowledge"
+    ]
+  },
+  {
+    "id": "edu-2024-ug-cityu-03",
+    "prize": "education",
+    "team": "CityU-HongKong",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/cityu-hongkong/education",
+    "section": "2. Online Synthetic Biology Talk, “Biohacking for a Better World”",
+    "function": "evidence-with-numbers",
+    "text": "We have successfully concluded our online synthetic biology talk with high school participants from eleven countries. An outstanding 70% of the participants rated our Synthetic Biology Talk the highest score, with 85% responding that they gained new insights and knowledge from the talks.\n“I learn a lot of new topics about synthetic biology and genetic engineering. It is so cool to see how synthetic biology could be applied to address real-world problems. I am interested in learning more about this topic. Thank you for the insightful talks from various universities, and thank you to BevaTech City University of Hong Kong for hosting it!”",
+    "why_it_works": "Percentages plus a named participant quote that says what she learned. Missing piece: the number of respondents, so 70% and 85% have no base.",
+    "teaches": [
+      "evidence",
+      "learning-outcome"
+    ]
+  },
+  {
+    "id": "edu-2024-ug-cityu-04",
+    "prize": "education",
+    "team": "CityU-HongKong",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/cityu-hongkong/education",
+    "section": "2. Synthetic Biology Activity Handbook",
+    "function": "loop-closing",
+    "text": "To extend the target readers of our handbook, we translated it into multiple languages, including Russian, Korean, Indonesian, Simplified Chinese, and Traditional Chinese. We also provided a list of materials and detailed procedures for the activities to lessen the burden on event organizers. By easing the preparation for organizing the synthetic biology workshop, we hope students from diverse age groups get interested in learning synthetic biology.",
+    "why_it_works": "Explains why the handbook is reusable in practical terms: five translations, a materials list, and step-by-step procedures aimed at organisers. The paragraph before it says the handbook came from noticing that such workshops are rare locally.",
+    "teaches": [
+      "reusability",
+      "inclusion"
+    ]
+  },
+  {
+    "id": "edu-2024-ug-cityu-05",
+    "prize": "education",
+    "team": "CityU-HongKong",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/cityu-hongkong/education",
+    "section": "6. Synthetic Biology Postcard Exchange (Collaboration with KCIS Xiugang iGEM Team)",
+    "function": "other",
+    "text": "The exchange effort demonstrates the potential of communication and innovation in promoting worldwide interaction within the synthetic biology community. This one-of-a-kind exchange not only allows us to share ideas on our individual initiatives, but it also acts as a cultural exchange platform, bringing students from all backgrounds together and stimulating dialogue about new solutions to important global issues.",
+    "why_it_works": "Counter-example: large claims ('worldwide interaction', 'cultural exchange platform') for a postcard swap, with no count of postcards, visitors or responses. Replace with what happened and who saw it.",
+    "teaches": [
+      "concision",
+      "evidence",
+      "claim-support"
+    ]
+  },
+  {
+    "id": "edu-2024-ug-cityu-06",
+    "prize": "education",
+    "team": "CityU-HongKong",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/cityu-hongkong/education",
+    "section": "4. Synthetic Biology Workshop at Cognitio College, Hong Kong",
+    "function": "evidence-with-numbers",
+    "text": "We also experimented with making DNA from bananas. This experiment can allow students to know more about what DNA looks like. Finally, we made a kahoot quiz for students to know how much they learned. The teacher said, “This workshop is well prepared, and the students enjoy it a lot”.",
+    "why_it_works": "Counter-example: a Kahoot quiz was run 'for students to know how much they learned', but the score is never reported. If you measured it, give the number.",
+    "teaches": [
+      "evidence",
+      "learning-outcome"
+    ]
+  },
+  {
+    "id": "edu-2024-og-aachen-01",
+    "prize": "education",
+    "team": "Aachen",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/aachen/education",
+    "section": "Introduction",
+    "function": "page-opening",
+    "text": "In recent years, AI tools have reshaped the landscape of biology, offering insights once thought beyond our grasp. Among these tools, AlphaFold has been a game-changer in protein structure prediction. However, while biologists are quickly adapting to use such tools, there's a gap in learning how to build them. This is where our education project, AlphaFold Decoded, steps in. We aim to make this AI marvel more accessible by guiding learners through the process of reconstructing AlphaFold from scratch.",
+    "why_it_works": "Context, gap and response in five sentences: AI tools changed biology, biologists use them but cannot build them, so the project teaches building AlphaFold from scratch.",
+    "teaches": [
+      "structure",
+      "concision"
+    ]
+  },
+  {
+    "id": "edu-2024-og-aachen-02",
+    "prize": "education",
+    "team": "Aachen",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/aachen/education",
+    "section": "Rolling Out AlphaFold Decoded",
+    "function": "loop-closing",
+    "text": "As we received enthusiastic responses at international iGEM meetups, we recognized the need for a more flexible learning option, which led us to adopt hybrid workshops. However, even in these workshops, many participants expressed a desire for an asynchronous format, as fixed timelines often clashed with their academic schedules or individual pacing. This feedback pushed us to develop a more comprehensive solution, resulting in a nine-part video series on YouTube. This format allows learners worldwide to engage with the material at their own pace, ensuring that no one is left behind regardless of their other commitments.",
+    "why_it_works": "The clearest feedback-to-change chain in the casebook: offline workshops, then hybrid ones, then participants asked for asynchronous learning, so the team made a nine-part video series. Each step names its reason.",
+    "teaches": [
+      "loop-closing",
+      "two-way-dialogue"
+    ]
+  },
+  {
+    "id": "edu-2024-og-aachen-03",
+    "prize": "education",
+    "team": "Aachen",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/aachen/education",
+    "section": "Google Colab Integration",
+    "function": "loop-closing",
+    "text": "Integration with Google Colab was proposed by one of our professors, who highlighted the difficulties students often face in setting up their development environments. Using Colab, students can bypass these challenges and work on AlphaFold Decoded without any installation hurdles. Furthermore, Colab’s cloud-based infrastructure allows students without access to high-performance hardware to still participate in running computationally demanding tasks, like protein structure prediction.",
+    "why_it_works": "Credits the source of an idea (a professor), names the problem it solves (setting up environments), and the group it opens the course to (students without powerful hardware).",
+    "teaches": [
+      "loop-closing",
+      "inclusion",
+      "concision"
+    ]
+  },
+  {
+    "id": "edu-2024-og-aachen-04",
+    "prize": "education",
+    "team": "Aachen",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/aachen/education",
+    "section": "The Realization",
+    "function": "audience-framing",
+    "text": "The first challenge led us to carefully craft a structured content line, which we’ll discuss in later sections as our chosen roadmap. We assume only basic Python knowledge and aim to guide you through the rest. The second challenge is a deeper question: How complex does an AlphaFold implementation really need to be? This brings us to our next section.",
+    "why_it_works": "States the entry level outright ('We assume only basic Python knowledge'). A reader can decide in one line whether the material is for them.",
+    "teaches": [
+      "assumed-knowledge",
+      "transition"
+    ]
+  },
+  {
+    "id": "edu-2024-og-aachen-05",
+    "prize": "education",
+    "team": "Aachen",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/aachen/education",
+    "section": "Comparing Features and Predictions",
+    "function": "limitation",
+    "text": "While our implementation doesn’t include some of AlphaFold’s advanced features – such as ensembling, the use of protein structures as templates, or training capabilities (our version focuses solely on inference and does not implement loss calculation or backpropagation) – it still accomplishes its primary goal of predicting protein structures. This comparison shows the prediction of the hemoglobin beta subunit by AlphaFold (in blue, generated with ColabFold) and our implementation (in red). Despite the differences in features, our model achieves a result that captures the essential structure.",
+    "why_it_works": "Lists what the teaching version leaves out before showing the result. Honest scope makes the comparison credible.",
+    "teaches": [
+      "limitation",
+      "evidence"
+    ]
+  },
+  {
+    "id": "edu-2024-og-aachen-06",
+    "prize": "education",
+    "team": "Aachen",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/aachen/education",
+    "section": "Reception and Impact",
+    "function": "evidence-with-numbers",
+    "text": "So, this is the content – it’s certainly comprehensive and covers a lot of ground. Despite the complexity and depth of the topic, we were genuinely excited to see that our videos reached a much wider audience than expected, gathering an impressive 2,920 views. This level of engagement shows there’s a real interest in diving deep into such challenging material. Even more rewarding were the comments we received from viewers, sharing their thoughts, questions, and appreciation. Here’s a look at some of the feedback that’s helped shape and motivate our journey.",
+    "why_it_works": "Counter-example: the page header says 1,567 views on YouTube, this paragraph says 2,920. Every number that appears twice on a page must match, or say which date each refers to.",
+    "teaches": [
+      "consistency",
+      "evidence"
+    ]
+  },
+  {
+    "id": "edu-2023-ug-iiser-01",
+    "prize": "education",
+    "team": "IISER-Pune-India",
+    "year": 2023,
+    "track": "UG",
+    "url": "https://2023.igem.wiki/iiser-pune-india/education",
+    "section": "School Visits",
+    "function": "reflection",
+    "text": "It was an enriching experience with the students who asked us so many questions which even left us pondering what the answer might be. We realised that it wasn’t us going and teaching them things but a bidirectional learning process where we learnt from them as well.",
+    "why_it_works": "Names mutual learning plainly ('a bidirectional learning process'). What it lacks: one example of a question that left the team 'pondering'. With that example it would be proof; without it, it is a claim.",
+    "teaches": [
+      "reflection",
+      "two-way-dialogue",
+      "evidence"
+    ]
+  },
+  {
+    "id": "edu-2023-ug-iiser-02",
+    "prize": "education",
+    "team": "IISER-Pune-India",
+    "year": 2023,
+    "track": "UG",
+    "url": "https://2023.igem.wiki/iiser-pune-india/education",
+    "section": "Survey",
+    "function": "method",
+    "text": "The main aim of the survey was to get to know the general public’s understanding of synthetic biology and how open they are to the use of synthetic biological products. The survey had various questions on individual’s understanding and belief in synthetic biology and their concerns about the use of synthetic biological products. The survey was also translated into 5 Indian languages - Hindi, Malayalam, Marathi, Odia and Tamil. This enabled us to reach out to many people who are comfortable in their native Indian language.",
+    "why_it_works": "Says what the survey asked and why, then gives one concrete step that widened participation: translation into five named Indian languages.",
+    "teaches": [
+      "inclusion",
+      "method"
+    ]
+  },
+  {
+    "id": "edu-2023-ug-iiser-03",
+    "prize": "education",
+    "team": "IISER-Pune-India",
+    "year": 2023,
+    "track": "UG",
+    "url": "https://2023.igem.wiki/iiser-pune-india/education",
+    "section": "Survey",
+    "function": "evidence-with-numbers",
+    "text": "The results of the survey were really great and many people are welcoming to the production and use of synthetic biological products. Also, the results also show that people believe in the potential of synthetic biology in addressing climate change and food security. The detailed analysis of the survey is given below in the form of pie charts.",
+    "why_it_works": "Counter-example: 'really great' and 'many people' stand where numbers should be. State the sample size and the percentages in the sentence; do not leave them only in pie charts or on another page.",
+    "teaches": [
+      "evidence",
+      "clarity"
+    ]
+  },
+  {
+    "id": "edu-2023-og-epfl-01",
+    "prize": "education",
+    "team": "EPFL",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/epfl/education",
+    "section": "Wiki",
+    "function": "definition",
+    "text": "Synthetic biology can be a complex subject, especially for those who aren't already familiar with the specific terminology used in biology. Understanding the basics of synthetic biology often involves learning specialized words and phrases that can be challenging for newcomers.\nTo address this challenge and make synthetic biology more approachable, we have developed a user-friendly version of our wiki, accompanied by an interactive dictionary that explains the specialized terms commonly used in this field.",
+    "why_it_works": "Identifies jargon as the barrier and answers it with a specific tool (a simplified wiki plus an interactive dictionary). The fix for assumed knowledge is built into the page itself.",
+    "teaches": [
+      "assumed-knowledge",
+      "inclusion"
+    ]
+  },
+  {
+    "id": "edu-2023-og-epfl-02",
+    "prize": "education",
+    "team": "EPFL",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/epfl/education",
+    "section": "BioQuest",
+    "function": "loop-closing",
+    "text": "The Git repository contains the .godot file, all the files required to build the game, and a README guide that explains how to build and run the game using GODOT.\nThe README also offers insights into game design, code, and instructions on how to utilize the template effectively. This resource not only enables gameplay but also facilitates easy modifications for future IGEM teams. You can also access the PDF of the readme below for your convenience.",
+    "why_it_works": "Says exactly what is in the repository (.godot file, build files, README) and what the README covers, so a future team knows what it will get before opening the link.",
+    "teaches": [
+      "reusability"
+    ]
+  },
+  {
+    "id": "edu-2023-og-epfl-03",
+    "prize": "education",
+    "team": "EPFL",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/epfl/education",
+    "section": "Gymnase visit",
+    "function": "evidence-with-numbers",
+    "text": "In the month of June, we had the pleasure of hosting two separate groups, each consisting of 12 students, from nearby high schools. We initiated the meeting with a presentation which introduced the fundamental concepts of synthetic biology and provided an overview of our own project. To gauge their comprehension and reinforce their learning, we provided a brief quiz to the students following the presentation. This served as an opportunity for them to consolidate their understanding and test their knowledge. The feedback from the students was positive, and they expressed their appreciation for this interactive learning experience.",
+    "why_it_works": "Counter-example: a quiz was given, but the page reports only that 'the feedback from the students was positive'. Give the quiz result or one quoted response.",
+    "teaches": [
+      "evidence",
+      "learning-outcome"
+    ]
+  },
+  {
+    "id": "edu-2023-og-epfl-04",
+    "prize": "education",
+    "team": "EPFL",
+    "year": 2023,
+    "track": "OG",
+    "url": "https://2023.igem.wiki/epfl/education",
+    "section": "Open days-booth",
+    "function": "conclusion",
+    "text": "The positive response from the visitors to this weekend of discovery reaffirmed the importance of science outreach and education. It showcased the value of making complex concepts accessible to any audience, sparking interest, and potentially shaping the future of STEM education and research.",
+    "why_it_works": "Counter-example: 25,000 visitors came to the open days, but the paragraph closes on 'positive response' and 'reaffirmed the importance of science outreach'. Say how many people reached the booth and one thing they asked.",
+    "teaches": [
+      "evidence",
+      "concision"
+    ]
+  }
+]

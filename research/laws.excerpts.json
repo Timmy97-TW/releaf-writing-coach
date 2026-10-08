@@ -1,0 +1,393 @@
+[
+  {
+    "id": "laws-2024-og-marburg-01",
+    "prize": "laws",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/human-practices/legal-political",
+    "section": "Political Dimension",
+    "function": "page-opening",
+    "text": "Considering the impact of political decisions is crucial for the practical application of any project in biotechnology. Key questions arise, such as: What regulations must be adhered to? What restrictions exist on the organisms used in production? And, what is the current stance on genetically modified organisms (GMOs)?",
+    "why_it_works": "Opens with three questions the reader can test the page against: which rules apply, what limits the organism, what the public stance is. The page then answers them in order.",
+    "teaches": [
+      "structure",
+      "audience-framing",
+      "clarity"
+    ]
+  },
+  {
+    "id": "laws-2024-og-marburg-02",
+    "prize": "laws",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/human-practices/legal-political/dederer",
+    "section": "Consistency of the EU Commission's New Legislative Proposal",
+    "function": "definition",
+    "text": "The basis of the draft is that the Commission distinguishes between two categories: NGT1 and NGT2 plants. NGT1 plants should include all those that are the result of targeted mutagenesis, contain no foreign genes and are comparable to conventional plants in terms of their genetic structure. The Commission assumes that targeted mutagenesis using certain techniques only results in point mutations. NGT 1 plants are equated with conventionally produced plants and are to be exempted from the GMO regulations.",
+    "why_it_works": "Defines the lighter legal category in plain words: what qualifies (targeted mutagenesis, no foreign genes) and what follows (exemption from GMO rules). A reader with no law background can place a plant in a category after reading it.",
+    "teaches": [
+      "definition",
+      "assumed-knowledge",
+      "clarity"
+    ]
+  },
+  {
+    "id": "laws-2024-og-marburg-03",
+    "prize": "laws",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/human-practices/legal-political/dederer",
+    "section": "Consistency of the EU Commission's New Legislative Proposal",
+    "function": "evidence-with-numbers",
+    "text": "There is also a problem with equivalence criteria. A maximum of 20 genetic modifications occur in order for NGT varieties to be equivalent to conventionally produced plants. This maximum limit is too low and is not enough for polyploid, e.g. tetraploid or hexaploid plants. There may be a need for improvement here. For example, the maximum limit of genetic modifications should apply to the monoploid genome.",
+    "why_it_works": "An expert critique with a number and a fix: the 20-modification limit, why it fails for polyploid crops, and what would work better. It shows the team asked a lawyer about a detail of the rule that touches their own plant.",
+    "teaches": [
+      "evidence",
+      "specificity"
+    ]
+  },
+  {
+    "id": "laws-2024-og-marburg-04",
+    "prize": "laws",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/human-practices/legal-political/laibach-hoffie",
+    "section": "Inclusion in Our Project",
+    "function": "loop-closing",
+    "text": "Thanks to the interview we learned a lot about the upcoming EU law regarding plants generated through NGTs. Furthermore, we were able to contextualize our project within the NGT framework. We now know that our CRISPR approach falls under category 1. However, if the Cre-lox sequence is too long, our plants would be classified under category 2. Potential future relaxations for category 2 plants that support sustainability goals might ease regulatory pressure on these plants too.",
+    "why_it_works": "Places the project in a legal category and names the one design detail (the Cre-lox scar length) that could move it to the stricter category. This is the \"what it means for us\" slot done at the level of a single construct.",
+    "teaches": [
+      "loop-closing",
+      "specificity",
+      "evidence"
+    ]
+  },
+  {
+    "id": "laws-2024-og-marburg-05",
+    "prize": "laws",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/human-practices/legal-political/laibach-hoffie",
+    "section": "Inclusion in Our Project (table: Learning through Interview)",
+    "function": "reflection",
+    "text": "Due to the length of the inserted Crelox sequence, our project might fall under category 2. However, there could be relaxations in the regulations concerning our plants even in this case, since our approach supports sustainability goals. Additionally, patent issues could hinder the use of certain techniques in commercial breeding, making it crucial to navigate these challenges to ensure the accessibility and success of our project.",
+    "why_it_works": "The middle row of an initial-thought / learning / revised-thought table. Recording the belief before and after the interview makes the change visible to a judge without extra prose.",
+    "teaches": [
+      "loop-closing",
+      "structure"
+    ]
+  },
+  {
+    "id": "laws-2024-og-marburg-06",
+    "prize": "laws",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/human-practices",
+    "section": "(5+6) Political Dimension and Legal Framework",
+    "function": "loop-closing",
+    "text": "In light of this information, we decided that our dandelion part collection would not incorporate synthetic regulatory elements. Instead, we aimed to characterize endogenous regulatory elements, which would still fall under the umbrella of cisgenesis and the regulations governing NGT1 plants. This choice aligns our project with the anticipated regulatory framework while supporting sustainable agricultural practices.",
+    "why_it_works": "The design decision in one paragraph: no synthetic regulatory elements, only endogenous ones, so the plants stay inside the lighter legal category. The decision is concrete and checkable on the Part Collection page.",
+    "teaches": [
+      "loop-closing",
+      "concision",
+      "definition"
+    ]
+  },
+  {
+    "id": "laws-2024-og-marburg-07",
+    "prize": "laws",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/part-collection",
+    "section": "Part Collection (design rationale)",
+    "function": "loop-closing",
+    "text": "The EU Parliament is contemplating exemptions for certain plants developed through New Genomic Techniques (NGTs) – specifically NGT 1 plants, which are akin to conventionally bred varieties – from existing GMO laws. This category includes plants modified via methods like cisgenesis. By aligning our project with these potential regulatory shifts, we aim to ensure that our engineered TKS plants can be utilized within the EU.",
+    "why_it_works": "The legal reason reappears on the lab page it shaped, in the lab page's own words. A judge reading only the parts sees why they are endogenous.",
+    "teaches": [
+      "loop-closing",
+      "consistency"
+    ]
+  },
+  {
+    "id": "laws-2024-og-marburg-08",
+    "prize": "laws",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/non-amt",
+    "section": "Non-AMT, Introduction",
+    "function": "loop-closing",
+    "text": "By developing non-AMT methods, our project not only circumvents the restrictive patents associated with Agrobacterium-based methods but also fosters new avenues for innovation. This approach provides vital alternatives to existing technologies, democratizing plant transformation and enabling smaller enterprises to engage in agricultural biotechnology without the burden of navigating complex intellectual property issues.",
+    "why_it_works": "The patent findings from the legal interviews become the stated reason for a whole wet-lab subproject. Law changes the experiment, and the experiment page says so.",
+    "teaches": [
+      "loop-closing"
+    ]
+  },
+  {
+    "id": "laws-2024-og-marburg-09",
+    "prize": "laws",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/human-practices/legal-political/hoffmann",
+    "section": "Two Essential Approaches in Navigating Patent Applications",
+    "function": "definition",
+    "text": "\"Do you violate other patents?\" This approach helps researchers determine if their project could potentially infringe on existing patents. It is particularly important in the countries where the product is intended to be marketed, ensuring that the research can proceed without legal obstacles. Additionally, the process by which the product is created can also be subject to patent infringement, further emphasizing the need for thorough FTO searches.",
+    "why_it_works": "Defines a freedom-to-operate search by the question it answers, then says where it matters (the market country) and adds the less obvious point that the production process can infringe too.",
+    "teaches": [
+      "definition",
+      "assumed-knowledge"
+    ]
+  },
+  {
+    "id": "laws-2024-og-marburg-10",
+    "prize": "laws",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/human-practices/legal-political/kuhl-nitsch",
+    "section": "Inclusion in Our Project",
+    "function": "stakeholder-entry",
+    "text": "The plasmids we use for our research are provided by Cambia and are available under an open license. All in all, our project should be able to be used as open source. It is therefore important to be able to distinguish between the terms open source and open license.",
+    "why_it_works": "Ties a general legal distinction to a specific material the team actually uses. The licence of the plasmids is the reason the definition matters.",
+    "teaches": [
+      "specificity",
+      "loop-closing"
+    ]
+  },
+  {
+    "id": "laws-2024-og-marburg-11",
+    "prize": "laws",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/human-practices/legal-political/legal",
+    "section": "Legal Framework",
+    "function": "reflection",
+    "text": "Initially, we viewed patents as obstacles, believing they primarily hindered the free flow of information. However, through our interviews, we gained a deeper understanding of their significance in real-world biotechnology. We encountered diverse perspectives – some experts argued that patents restrict innovation, while others emphasized their role in preventing misuse and promoting responsible application. This has helped us appreciate the complexity of the patent landscape.",
+    "why_it_works": "A short before-and-after of the team's own view, with the two sides of the expert disagreement named. It admits a naive starting point.",
+    "teaches": [
+      "reflection",
+      "voice"
+    ]
+  },
+  {
+    "id": "laws-2024-og-marburg-12",
+    "prize": "laws",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/safety-security",
+    "section": "Navigating Future Safety Considerations in Agriculture",
+    "function": "evidence-with-numbers",
+    "text": "Because there is disagreement on what the ideal strategy for biocontainment is, countries vary in the requirements for buffer zone size. In the US, there is no federal law requiring buffer zones around GM fields, although some regulations have been passed at State levels. Mostly, the USDA (United States Department of Agriculture) issues guidelines that encourage the implementation of buffer zones, while the exact implementation (type and width) remains for the farmer to decide.",
+    "why_it_works": "Compares jurisdictions on one concrete measure (buffer zones) and says who sets the rule and who decides the details. One measure across countries is easier to follow than a survey of whole legal systems.",
+    "teaches": [
+      "structure",
+      "specificity"
+    ]
+  },
+  {
+    "id": "laws-2025-og-wur-01",
+    "prize": "laws",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/human-practices/index.html",
+    "section": "#3 Choice of the platform material for the coating and EU regulations",
+    "function": "section-intro",
+    "text": "Traditionally, seed coatings have relied on petroleum-based binders (adhesives, or “seed stickers”). This is a practice soon to be outlawed, as we found out from our stakeholders in the seed sector. Our consultation with Amalia Kafka from Euroseeds highlighted the urgency of this change, due to the upcoming EU microplastics restrictions under the EU chemical legislation REACH:",
+    "why_it_works": "Law enters as a pressure on the design in the first sentence, through a named source. The reader learns the current practice, that it will be banned, and who told the team.",
+    "teaches": [
+      "structure",
+      "evidence",
+      "loop-closing"
+    ]
+  },
+  {
+    "id": "laws-2025-og-wur-02",
+    "prize": "laws",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/human-practices/index.html",
+    "section": "#3 Choice of the platform material for the coating and EU regulations",
+    "function": "reflection",
+    "text": "This made us realise that biodegradability of the coating material and incorporating bio-based active compounds (rather than chemical) is not only a market preference, but a soon-to-be legal requirement that has already begun affecting farmers.",
+    "why_it_works": "One sentence turns a regulation into a design requirement: biodegradability moves from preference to legal need. It is the bridge between the rule and the material choice that follows.",
+    "teaches": [
+      "concision",
+      "loop-closing"
+    ]
+  },
+  {
+    "id": "laws-2025-og-wur-03",
+    "prize": "laws",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/human-practices/index.html",
+    "section": "#7.2 Insights from regulatory institutions",
+    "function": "stakeholder-entry",
+    "text": "We spoke to RIVM ( Samia Ouhajji, Casper Jongerkrijg, Dr. Jeroen Roelfsema ) to understand whether our various tuned BC coatings with different properties would require separate approvals. Samia Ouhajji explained that chemicals can be grouped for approval, and BC can be registered as a chemical. This simplifies the approval procedure for our product. However, each toxic protein module still requires its own independent risk assessment, ensuring that there will be no off-target effects. That means some of our functionalisations would require a separate assessment. They also emphasised the 0.9% GMO DNA threshold in the final products, regardless of whether the cells are dead or alive. This will impact the downstream processing of our product. Bio Base Europe gave some suggestions on how we could achieve this without high costs, but more research will have to go into this.",
+    "why_it_works": "Names the regulator's staff, the question asked, the answer, the threshold (0.9% GMO DNA, dead or alive cells) and the consequence for downstream processing. It ends by admitting the problem is not solved.",
+    "teaches": [
+      "evidence",
+      "specificity",
+      "loop-closing"
+    ]
+  },
+  {
+    "id": "laws-2025-og-wur-04",
+    "prize": "laws",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/human-practices/index.html",
+    "section": "#7.2 Insights from regulatory institutions",
+    "function": "loop-closing",
+    "text": "At the European level, we spoke with the European Commission - DG SANTE - E4 Unit. They clarified that under Regulation (EC) No 283/2013, our bioinsecticide protein would need EU-level approval as an active substance (2.5–3.5 years), followed by authorisation at the Member State level. While amendments are under discussion to ease access for protein-based biocontrols, the process remains resource-intensive. This shaped our business plan: we included regulatory timelines and emphasised partnerships with established seed companies to share the financial burden of trials.",
+    "why_it_works": "All five slots in under 90 words: the regulation by number, the approval route, the duration, the confirming body, and the change to the business plan.",
+    "teaches": [
+      "loop-closing",
+      "concision",
+      "evidence"
+    ]
+  },
+  {
+    "id": "laws-2025-og-wur-05",
+    "prize": "laws",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/human-practices/index.html",
+    "section": "#7.2 Insights from regulatory institutions",
+    "function": "reflection",
+    "text": "Aside from complying with general regulatory requirements, we looked into the regulations for organic agriculture. From the organic farmer, we learned that many organic farmers don’t use seed coatings. Since organic farms only allow the use of natural products, many seed coatings are not allowed. SKAL—the Dutch organisation responsible for the supervision of organic agriculture—has a list of all materials that can be used in organic farming. Among these products, seed coatings are also present. One such coating is microbially produced chitosan. We therefore think that our microbially produced BC could also fall under biological regulations.",
+    "why_it_works": "Follows a second legal route (organic certification) through a named list kept by a named body, and marks the conclusion as the team's inference with \"We therefore think\".",
+    "teaches": [
+      "voice",
+      "evidence"
+    ]
+  },
+  {
+    "id": "laws-2025-og-wur-06",
+    "prize": "laws",
+    "team": "WageningenUR",
+    "year": 2025,
+    "track": "OG",
+    "url": "https://2025.igem.wiki/wageningenur/entrepreneurship/index.html",
+    "section": "Timeline",
+    "function": "transition",
+    "text": "We have also presented a timeline ranging from the present to 2042. In the timeline, we give a detailed description of our journey from an iGEM team to a fully operational company, highlighting important milestones. We also took input from our stakeholders into account. For example, representatives of the RIVM and European Commision told us that the legal approval of a novel seed coating can take up to three years.",
+    "why_it_works": "The regulator's approval time reappears in the business timeline with the same attribution. A judge reading only the Entrepreneurship page still meets the legal constraint.",
+    "teaches": [
+      "consistency",
+      "loop-closing"
+    ]
+  },
+  {
+    "id": "laws-2024-og-uzurich-01",
+    "prize": "laws",
+    "team": "UZurich",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/uzurich/integrated-human-practices",
+    "section": "Integrated Human Practices (introduction)",
+    "function": "section-intro",
+    "text": "As genetic engineering in agriculture is a topic of constant debate in Europe and Switzerland, we knew that a third set of questions had to be answered. How is gene technology regulated in Switzerland? What criticism is there regarding the use of GMOs in agriculture? Are there ecological risks to our project? How do consumers perceive our project?",
+    "why_it_works": "Frames the legal chapter as four questions, legal, critical, ecological and social, before naming anyone. The reader knows what each interview is for.",
+    "teaches": [
+      "structure",
+      "audience-framing"
+    ]
+  },
+  {
+    "id": "laws-2024-og-uzurich-02",
+    "prize": "laws",
+    "team": "UZurich",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/uzurich/integrated-human-practices",
+    "section": "3. Ethics, Politics, Law and Consumer Perception",
+    "function": "evidence-with-numbers",
+    "text": "That the Federal Council was actually requested to draft a decree for a risk-based authorization regulation for the agricultural plant cultivation of GMOs without transgenic genetic material by mid-2024. This has not yet happened.",
+    "why_it_works": "Reports a pending legal change with its deadline and its current status in two sentences. The reader can tell the rule is in motion and how far it has moved.",
+    "teaches": [
+      "evidence",
+      "concision"
+    ]
+  },
+  {
+    "id": "laws-2024-og-uzurich-03",
+    "prize": "laws",
+    "team": "UZurich",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/uzurich/integrated-human-practices",
+    "section": "3. Ethics, Politics, Law and Consumer Perception",
+    "function": "limitation",
+    "text": "The discussion with Dr. Jürg Niklaus was very informative as we learned that for many people there is a difference between transgenic and cisgenic methods and that these methods should be regulated differently. We also learned that currently our project could not be legally implemented in Switzerland due to the moratorium.",
+    "why_it_works": "States the hard legal result plainly: the product could not be used in the team's own country. Bad news told in one sentence reads as honesty, and judges reward it.",
+    "teaches": [
+      "limitation",
+      "voice",
+      "clarity"
+    ]
+  },
+  {
+    "id": "laws-2024-og-uzurich-04",
+    "prize": "laws",
+    "team": "UZurich",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/uzurich/integrated-human-practices",
+    "section": "3. Ethics, Politics, Law and Consumer Perception",
+    "function": "loop-closing",
+    "text": "The exchange with Claudia Vaderna showed us that we have a responsibility to study the biosafety and the ecological impact of our project. For GMO and non-GMO crops to coexist, our bacterial strain would have to be maintained in the field without the risk of entering neighboring (agro-)ecosystems. It also showed us that a potential product would have to be tested for its impact on soil biodiversity before being applied in the field. We were vindicated in our decision to incorporate a sensing mechanism and kill switch into our bacteria to ensure biosafety, but we learned that we would need to conduct a lot of safety testing before we could responsibly apply a product like RhyzUp.",
+    "why_it_works": "Takes a critic of GM agriculture seriously and turns her points into obligations for the project: containment in the field, soil-biodiversity testing, more safety work before release.",
+    "teaches": [
+      "loop-closing",
+      "evidence"
+    ]
+  },
+  {
+    "id": "laws-2024-ug-waterloo-01",
+    "prize": "laws",
+    "team": "Waterloo",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/waterloo/policy-research",
+    "section": "Antibiotic Policy",
+    "function": "other",
+    "text": "In the case of BovEco, it is unclear whether the Canadian government agencies would class a lytic enzyme and an antibiotic due to its biodegradability as a protein. Should it be classed as an antibiotic, it would, like ionophores, fall into the class 4 category due to its specific targeting of archaea which are not associated with pathogenicity to humans.",
+    "why_it_works": "Writes an unresolved classification as a conditional: it is unclear how the regulator would class the enzyme; if classed as an antibiotic, it would land in a named class for a stated reason.",
+    "teaches": [
+      "clarity",
+      "evidence"
+    ]
+  },
+  {
+    "id": "laws-2024-ug-waterloo-02",
+    "prize": "laws",
+    "team": "Waterloo",
+    "year": 2024,
+    "track": "UG",
+    "url": "https://2024.igem.wiki/waterloo/policy-research",
+    "section": "Canadian Food Inspection Agency (CFIA) Regulations",
+    "function": "definition",
+    "text": "The CFIA also mandates a rigorous safety assessment process for genetically modified organisms (GMOs) used in animal feed [3]. This assessment, required before any GMO feed can be approved, evaluates both the nutritional adequacy for livestock and the potential environmental impacts, including effects on biodiversity, ensuring compliance with national feed safety standards [3].",
+    "why_it_works": "Says what the regulator checks before a GM feed can be approved (nutrition and environmental effects) and when (before approval), with a numbered source on each sentence. Short and checkable.",
+    "teaches": [
+      "evidence",
+      "concision"
+    ]
+  }
+]

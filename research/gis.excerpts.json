@@ -1,0 +1,402 @@
+[
+  {
+    "id": "gis-2024-og-marburg-01",
+    "prize": "gis",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/gis",
+    "section": "Abstract",
+    "function": "page-opening",
+    "text": "The global demand for natural rubber is reshaping the landscape of agricultural cultivation, driving expansion into new regions and increasing environmental risks. Using high-resolution geospatial analysis, we mapped the global distribution of Hevea brasiliensis (natural rubber) cultivation under current and future climate scenarios, generating the most detailed model to date. This analysis highlights shifts in suitable cultivation zones driven by climate change and identifies key ecological challenges, including the potential spread of the devastating South American Leaf Blight (SALB).",
+    "why_it_works": "Problem, method, result and the risk found, in four sentences. A reader who stops here knows what was mapped, at what scale and why it matters.",
+    "teaches": [
+      "structure",
+      "concision"
+    ]
+  },
+  {
+    "id": "gis-2024-og-marburg-02",
+    "prize": "gis",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/gis",
+    "section": "Introduction",
+    "function": "audience-framing",
+    "text": "Geospatial analysis is also essential for generating crop suitability maps (9). By leveraging satellite-derived data on rainfall, temperature, and solar radiation, agricultural planners can identify which crops are best suited to particular regions. This capability is particularly important for adapting to climate change, as traditional cultivation areas may become less viable due to evolving environmental conditions. Such analysis allows for the re-evaluation of existing agricultural practices and supports the development of more resilient agricultural systems.",
+    "why_it_works": "Explains what a suitability map is for in farming terms (which crop suits which region) before any method appears. It gives the non-specialist a reason to read on.",
+    "teaches": [
+      "assumed-knowledge",
+      "audience-framing"
+    ]
+  },
+  {
+    "id": "gis-2024-og-marburg-03",
+    "prize": "gis",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/gis",
+    "section": "Introduction",
+    "function": "section-intro",
+    "text": "Several studies have attempted to forecast the future potential geographical range of Para rubber (Hevea brasiliensis) using ecological niche modeling and bioclimatic stratification (10, 11, 12). While these studies provide valuable insights, they are limited in scope, focusing on specific countries or regions rather than offering a global perspective. Additionally, they do not explore the potential of alternative rubber crops to complement current production systems.",
+    "why_it_works": "Names prior models and the two gaps the page fills (scope and alternative crops). This is the prior-work move the IHP ballot asks for.",
+    "teaches": [
+      "evidence",
+      "structure"
+    ]
+  },
+  {
+    "id": "gis-2024-og-marburg-04",
+    "prize": "gis",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/gis",
+    "section": "Data & Technical Background",
+    "function": "method",
+    "text": "To achieve our objective of analyzing rubber cultivation under current and future climatic conditions, identifying a suitable dataset was essential. Based on previously published classifications of cultivation zones, we determined that the dataset needed to include monthly measurements of precipitation and temperature. One of the problems we identified while reviewing similar models was their coarse spatial resolutions, which limited predictive accuracy for detailed analyses and prompted us to seek higher-resolution datasets.",
+    "why_it_works": "Sets the requirements for the data before naming any dataset, and says what was wrong with earlier models. The later choice then reads as a consequence.",
+    "teaches": [
+      "structure",
+      "clarity"
+    ]
+  },
+  {
+    "id": "gis-2024-og-marburg-05",
+    "prize": "gis",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/gis",
+    "section": "Data & Technical Background",
+    "function": "definition",
+    "text": "One of the problems in this regard is that state-of-the-art global climate reanalyses often represent climatic variations at coarser resolutions of 0.25° to 1°, equivalent to about 25 to 100 km at the equator.",
+    "why_it_works": "Translates grid resolution from degrees into kilometres in the same sentence. A lay reader can now judge whether a cell is the size of a farm or a province.",
+    "teaches": [
+      "assumed-knowledge",
+      "clarity"
+    ]
+  },
+  {
+    "id": "gis-2024-og-marburg-06",
+    "prize": "gis",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/gis",
+    "section": "Data & Technical Background",
+    "function": "method",
+    "text": "After evaluating several climate datasets, including WorldClim2 (15), CRU (16), GPCC (17) and Climatologies at High Resolution for the Earth's Land Surface Areas (CHELSA) (18), we selected the CHELSA dataset as it perfectly fits our requirements. CHELSA is based on ERA5 reanalysis data, a global atmospheric reanalysis produced by the European Centre for Medium-Range Weather Forecasts (ECMWF). It combines observational data from meteorological stations, remote sensing, and satellites – totaling roughly 87 billion raw observations – with sophisticated model simulations.",
+    "why_it_works": "Names four candidate datasets, says which was chosen, and explains what it is built from. Showing the rejected options makes the choice checkable.",
+    "teaches": [
+      "evidence",
+      "method"
+    ]
+  },
+  {
+    "id": "gis-2024-og-marburg-07",
+    "prize": "gis",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/gis",
+    "section": "Climatic Suitability Criteria",
+    "function": "limitation",
+    "text": "To classify cultivation zones for natural rubber, we primarily focus on two key climatic variables: mean temperature and precipitation. This approach aligns with established models in the literature, which have demonstrated the effectiveness of these parameters in determining suitable agricultural regions (19). However, it is important to acknowledge that such suitability zone models often tend to overestimate the actual areas where cultivation is feasible. This overestimation arises because these models typically do not account for several critical factors, including topographical features, population density, soil composition, and the presence of pest hotspots, which can significantly hinder cultivation in certain regions.",
+    "why_it_works": "States the direction of the model's error (it overestimates) and the reasons, before any map is shown. The reader reads the maps with the right caution.",
+    "teaches": [
+      "limitation",
+      "evidence"
+    ]
+  },
+  {
+    "id": "gis-2024-og-marburg-08",
+    "prize": "gis",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/gis",
+    "section": "H. brasiliensis Cultivation Zones",
+    "function": "limitation",
+    "text": "It is important to acknowledge that these maps may overestimate the real-world feasible crop zones. A significant portion of the optimal classifications extends into regions of South America, where H. brasiliensis cultivation is widely hindered by the presence of pests like the South American Leaf Blight (SALB). Without effective mitigation strategies and the development of more resistant rubber tree varieties, the practicality of cultivating rubber in these optimal zones remains questionable.",
+    "why_it_works": "Names the exact place the map is too optimistic and why (leaf blight in South America).",
+    "teaches": [
+      "limitation",
+      "evidence"
+    ]
+  },
+  {
+    "id": "gis-2024-og-marburg-09",
+    "prize": "gis",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/gis",
+    "section": "Habitat Suitability Model for T. kok-saghyz",
+    "function": "evidence-with-numbers",
+    "text": "Our analysis yielded several key insights. First, we observed a prolonged cold winter period, consistent with the known vernalization requirements of TKS for flowering and seed production. Additionally, total annual precipitation in the studied regions averaged around 500 mm, significantly higher than the 250-300 mm reported in the literature (22). Contrary to earlier assumptions that TKS thrives in areas with dry summers, our data revealed moderate precipitation throughout the growing season.",
+    "why_it_works": "Reports findings against the literature with numbers (500 mm against 250 to 300 mm) and says which earlier assumption the data contradicts.",
+    "teaches": [
+      "evidence",
+      "specificity"
+    ]
+  },
+  {
+    "id": "gis-2024-og-marburg-10",
+    "prize": "gis",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/gis",
+    "section": "Habitat Suitability Model for T. kok-saghyz",
+    "function": "loop-closing",
+    "text": "Recognizing that TKS may have a broader ecological amplitude than previously thought, we conducted interviews with industry and academic stakeholders, including farmers cultivating TKS. These interviews confirmed that TKS is highly adaptable, thriving under a wide range of environmental conditions. This adaptability suggests that relying solely on data from its native habitat may underestimate its potential cultivation zones.",
+    "why_it_works": "Interviews with farmers change the model's inputs. This is the human-practices link judges look for, written inside the methods.",
+    "teaches": [
+      "loop-closing",
+      "evidence"
+    ]
+  },
+  {
+    "id": "gis-2024-og-marburg-11",
+    "prize": "gis",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/gis",
+    "section": "Modelling the Effects of Climate Change",
+    "function": "method",
+    "text": "Our approach employed a post-classification ensemble technique, where the classification process was conducted separately for each GCM, and the ensemble projection was determined based on the most frequent classification outcome for each grid cell.",
+    "why_it_works": "Explains an ensemble method in one sentence: run each model, then take a majority vote per cell. No jargon is left undefined.",
+    "teaches": [
+      "method",
+      "concision"
+    ]
+  },
+  {
+    "id": "gis-2024-og-marburg-12",
+    "prize": "gis",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/gis",
+    "section": "Effects on Natural Rubber Production",
+    "function": "limitation",
+    "text": "The use of an ensemble model allowed us to provide a certainty level associated with the predictions of these different CMIP6 models, as represented in Figure 9B. As expected, the certainty of these predictions decreases for projections further in the future as well as more extreme scenarios such as SSP3-7.0 and SSP5-8.5. In particular, regions further from the equator, zones that are at the forefront of the cultivation zone shift, show greater uncertainty as expected.",
+    "why_it_works": "Reports where the forecast is least certain (far future, high emissions, edges of the zone) next to the forecast itself.",
+    "teaches": [
+      "limitation",
+      "evidence"
+    ]
+  },
+  {
+    "id": "gis-2024-og-marburg-13",
+    "prize": "gis",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/gis",
+    "section": "Effects on Natural Rubber Production",
+    "function": "method",
+    "text": "In order to quantify these observations, we needed to transform these maps into precise numbers that represent the actual area affected. Recognizing the distortion of area associated with map projections into 2D, we first had to re-transform these classifications onto the ellipsoid of the Earth, allowing us to find a suitable km² approximation for each point in the gridded classification data.",
+    "why_it_works": "Says why a flat map misreports area and what was done about it before areas are given in km². A short guard against a common GIS error.",
+    "teaches": [
+      "method",
+      "assumed-knowledge"
+    ]
+  },
+  {
+    "id": "gis-2024-og-marburg-14",
+    "prize": "gis",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/gis",
+    "section": "Effects on Natural Rubber Production",
+    "function": "other",
+    "text": "While these cross-tabulation matrices provide concrete data, they pose the challenge of being difficult to interpret at a glance. As demonstrated by Cuba (2015) (41), Sankey diagrams are superior to cross-tabulation matrices in reflecting land-use dynamics, particularly when multiple time sections are of interest. In Figure 11, we generated corresponding Sankey diagrams to illustrate the climatic suitability class shifts projected to occur under each SSP for each adjacent pair of time sections.",
+    "why_it_works": "Justifies the choice of chart with a citation: the table is exact but hard to read, so the same data is shown as a Sankey diagram.",
+    "teaches": [
+      "clarity",
+      "structure"
+    ]
+  },
+  {
+    "id": "gis-2024-og-marburg-15",
+    "prize": "gis",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/gis",
+    "section": "Disease",
+    "function": "reflection",
+    "text": "Since leaves are only susceptible during their growth phase (up to 10-15 days), it is crucial to have not only fine-grained spatial but also temporal resolution to map SALB hotspots within the specific timeframe when trees are vulnerable. Our observations indicate that in many regions currently cultivating Hevea brasiliensis, conditions suitable for Microcyclus ulei are not optimal during refoliation in the first quarter of the year. However, we believe this is only a contributing factor and does not imply these zones are safe from SALB, as many young treelets experience multiple refoliations throughout the year.",
+    "why_it_works": "Refuses the comforting reading of its own map: low risk during one season does not mean the region is safe, and the biological reason is given.",
+    "teaches": [
+      "limitation",
+      "voice"
+    ]
+  },
+  {
+    "id": "gis-2024-og-marburg-16",
+    "prize": "gis",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/gis",
+    "section": "Conclusion & Outlook",
+    "function": "limitation",
+    "text": "While our models represent the most detailed global analysis of rubber cultivation zones to date, there is room for refinement. Incorporating additional data such as topographical maps, population density areas, and soil compositions will enhance the precision of these models.",
+    "why_it_works": "Closes with the specific missing layers (terrain, population, soil), which are the same ones named as the cause of overestimation earlier. Limits and next steps match.",
+    "teaches": [
+      "limitation",
+      "consistency"
+    ]
+  },
+  {
+    "id": "gis-2024-og-marburg-17",
+    "prize": "gis",
+    "team": "Marburg",
+    "year": 2024,
+    "track": "OG",
+    "url": "https://2024.igem.wiki/marburg/gis",
+    "section": "Materials and Methods",
+    "function": "method",
+    "text": "We utilized the CHELSA V2.1 dataset for climate data and the Global Administrative Areas (GADM) dataset for geographic boundaries. Geospatial visualization were performed using QGIS (version 3.36.3). Data processing and analysis were conducted in Python (version 3.11.6) using the libraries fiona (version 1.9.6), rasterio (version 1.3.10) and numpy (version 1.26.2).",
+    "why_it_works": "Datasets, software and library versions in two sentences. Short, complete enough to rebuild the environment.",
+    "teaches": [
+      "method",
+      "concision"
+    ]
+  },
+  {
+    "id": "gis-2022-ug-iiser-pune-india-01",
+    "prize": "gis",
+    "team": "IISER-Pune-India",
+    "year": 2022,
+    "track": "UG",
+    "url": "https://2022.igem.wiki/iiser-pune-india/model",
+    "section": "Climate Modelling for Waterlogging hotspots in India",
+    "function": "section-intro",
+    "text": "When we started with our entrepreneurial journey with our company, Hydrazome (check the Entrepreneurship Page!), we decided it would be an interesting idea to first find the waterlogging hotspots in the country. This would help us prioritise and focus on the areas which would be greatly benefitted by our solution.",
+    "why_it_works": "Gives the map a business job before any method: find the hotspots so the start-up knows where to go first.",
+    "teaches": [
+      "audience-framing",
+      "loop-closing"
+    ]
+  },
+  {
+    "id": "gis-2022-ug-iiser-pune-india-02",
+    "prize": "gis",
+    "team": "IISER-Pune-India",
+    "year": 2022,
+    "track": "UG",
+    "url": "https://2022.igem.wiki/iiser-pune-india/model",
+    "section": "Climate Modelling for Waterlogging hotspots in India",
+    "function": "method",
+    "text": "Our plan was to generate full India maps where the waterlogged areas have been highlighted. Initially, we did an image segmentation and pixel masking of a specific area [25]. However, the results were not good, and we shifted our approach to generating maps with Normalised Satellite Indexes [26].",
+    "why_it_works": "Keeps the failed first method on the page, says plainly that it did not work, and names the replacement. Honest and short.",
+    "teaches": [
+      "voice",
+      "limitation"
+    ]
+  },
+  {
+    "id": "gis-2022-ug-iiser-pune-india-03",
+    "prize": "gis",
+    "team": "IISER-Pune-India",
+    "year": 2022,
+    "track": "UG",
+    "url": "https://2022.igem.wiki/iiser-pune-india/model",
+    "section": "Climate Modelling for Waterlogging hotspots in India",
+    "function": "method",
+    "text": "Our next step was to work on the Sentinel 2A data on SNAP And QGIS. We generated the NDVI, NDMI, NDWI and MNDWI maps for the area in Punjab and overlay the NDVI map with NDMI, NDWI, and MNDWI to get 3 different maps, each with 2 layers. Then we used the thresholds to mask those areas which were below/ above the threshold to get just the waterlogged areas.",
+    "why_it_works": "Describes a layer-overlay workflow in plain steps: build the index maps, overlay them, mask by threshold. A non-specialist can follow the order of operations.",
+    "teaches": [
+      "method",
+      "clarity"
+    ]
+  },
+  {
+    "id": "gis-2022-ug-iiser-pune-india-04",
+    "prize": "gis",
+    "team": "IISER-Pune-India",
+    "year": 2022,
+    "track": "UG",
+    "url": "https://2022.igem.wiki/iiser-pune-india/model",
+    "section": "Climate Modelling for Waterlogging hotspots in India",
+    "function": "definition",
+    "text": "The dark green parts are the NDVI masking layer where anything below 0.20 NDVI has been masked. Basically, this masking was done to exclude the water bodies from the NDMI-masked areas.",
+    "why_it_works": "Reads one legend colour aloud and says why that layer exists. Every map caption could do this.",
+    "teaches": [
+      "clarity",
+      "assumed-knowledge"
+    ]
+  },
+  {
+    "id": "gis-2022-ug-iiser-pune-india-05",
+    "prize": "gis",
+    "team": "IISER-Pune-India",
+    "year": 2022,
+    "track": "UG",
+    "url": "https://2022.igem.wiki/iiser-pune-india/model",
+    "section": "Results of Optimisation",
+    "function": "conclusion",
+    "text": "From climate modelling, we found the places in the country where our biofertiliser could be useful. This information would not only help warn farmers in regions of high chance of waterlogging, but also help us set up a distribution network to make sure that the biofertiliser reaches the regions in the country it is most required in.",
+    "why_it_works": "Ends the map work on two uses: warning farmers and planning distribution. The map is tied to an action.",
+    "teaches": [
+      "loop-closing",
+      "conclusion"
+    ]
+  },
+  {
+    "id": "gis-2025-ug-xjtlu-china-01",
+    "prize": "gis",
+    "team": "XJTLU-CHINA",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/xjtlu-china/model",
+    "section": "MaxEnt (Maximum Entropy) Model for the Distribution of Ulva prolifera: Materials and Method",
+    "function": "method",
+    "text": "In this study, the occurrence data of Ulva prolifera were sourced from the Global Biodiversity Information Facility (GBIF). We first conducted rigorous data cleaning, which included removing missing or erroneous geographical coordinates, excluding records located on land, and deleting duplicate points to ensure the accuracy and independence of the data. To minimize bias caused by spatial autocorrelation, we performed spatial thinning at a scale consistent with the resolution of the environmental variables, retaining only one occurrence record per grid cell. Additionally, to improve the match with current environmental data, we prioritized records from the past two decades. After these considerations, a total of 272 usable data points were selected as source data for Ulva prolifera.",
+    "why_it_works": "Lists each data-cleaning step and the reason for it, and ends with the final count. A reader can see how 272 points were reached.",
+    "teaches": [
+      "method",
+      "evidence"
+    ]
+  },
+  {
+    "id": "gis-2025-ug-xjtlu-china-02",
+    "prize": "gis",
+    "team": "XJTLU-CHINA",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/xjtlu-china/model",
+    "section": "discussion and analysis: (1) Model Validation",
+    "function": "evidence-with-numbers",
+    "text": "The model was trained using 272 occurrence points and 10,272 background points, and the results show excellent discriminative performance. The AUC value of the training set is 0.952, significantly higher than the random prediction value of 0.5, indicating that the model is highly reliable in distinguishing occurrence points from background points.",
+    "why_it_works": "Gives the validation number a baseline a lay reader can use (0.952 against 0.5 for chance) in the same sentence.",
+    "teaches": [
+      "evidence",
+      "assumed-knowledge"
+    ]
+  },
+  {
+    "id": "gis-2025-ug-xjtlu-china-03",
+    "prize": "gis",
+    "team": "XJTLU-CHINA",
+    "year": 2025,
+    "track": "UG",
+    "url": "https://2025.igem.wiki/xjtlu-china/model",
+    "section": "Limitations",
+    "function": "limitation",
+    "text": "The quantitative analysis in this study mainly focuses on the influence of environmental factors on Ulva prolifera distribution, but does not incorporate the species' own dispersal and bloom mechanisms (such as drift diffusion, reproductive cycles) into the modeling process. Additionally, short-term disturbance factors, such as extreme weather events (e.g., storms, anomalously high temperatures), have not been considered, which could lead to an underestimation of actual bloom risks.",
+    "why_it_works": "Names what the model leaves out and says which way that biases the result (it underestimates risk).",
+    "teaches": [
+      "limitation",
+      "clarity"
+    ]
+  }
+]
