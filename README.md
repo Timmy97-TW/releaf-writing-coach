@@ -5,13 +5,42 @@ margin with writing feedback and set beside how past iGEM special-prize winners
 wrote the same kind of section. Audience: ReLeaf's Human Practices students,
 who will rewrite their own pages from it.
 
-Status (8 Oct 2026): built. `docs/` is the site (GitHub Pages from /docs):
-the seven pages from releaf-wiki origin/main 4afd3b8 with 317 margin notes,
-135 smaller fixes and 32 cross-page contradictions.
+Site: https://timmy97-tw.github.io/releaf-writing-coach/ (GitHub Pages from
+`main` `/docs`). It carries the pages listed in `pages.json`, copied unchanged
+from the ReLeaf wiki, with the coach layer on top.
 
-Rebuild after the wiki changes: refresh `releaf-text/` from the new pages,
-re-run the reviews whose anchors broke, then
-`python3 tools/build_site.py <releaf-wiki checkout at origin/main>`.
+## Keeping the pages in sync with the wiki
+
+```
+python3 tools/sync.py           # pull the wiki, re-extract every page's text, check every note
+python3 tools/sync.py --build   # the same, then rebuild docs/ if no note broke
+git add -A && git commit && git push
+```
+
+`tools/sync.py` keeps a shallow clone of the wiki in `.wiki-src/` (gitignored),
+renders each page with headless Chrome (run it with the Bash sandbox off), and
+writes `releaf-text/<slug>.md` (the page body) and `releaf-text/<slug>.abstract.md`
+(the abstract sheet under the banner). A note matches only inside its own zone:
+`"zone": "abstract"` notes against the abstract file, all others against the
+body. Every anchor must occur exactly once in its zone; the check prints any
+that do not and writes `annotations/_check.json`. A broken note means the
+students changed that sentence: re-run that page's review for those notes
+(prompts in `annotations/prompts/`) before building, so nothing is published
+pointing at text that is gone. The landing page footer names the wiki commit
+the site was built from.
+
+## Adding another page later
+
+1. Add `{"slug", "title", "prize"}` to `pages.json` (`"skip": [folders]` leaves
+   heavy subfolders on the live wiki).
+2. `python3 tools/sync.py` to extract its text.
+3. Write `annotations/<slug>.json` (schema below; a prompt in
+   `annotations/prompts/` is the easiest start) and, if the page needs its own
+   winner evidence, a casebook and excerpt bank in `research/`.
+4. `python3 tools/sync.py --build`, check it in the preview, commit, push.
+
+The build reads which images and scripts a page uses from the page itself, so
+nothing else needs changing.
 
 ## Cases
 
@@ -41,7 +70,10 @@ political HP subpages). Data Physicalization: no prize equivalent; last priority
 - `research/<prize>.md` casebook per prize; `research/<prize>.excerpts.json`
   the excerpt bank the mock page will draw from.
 - `tools/render.sh` headless-Chrome renderer (the 2024–25 wikis are
-  client-rendered, so curl returns an empty shell); `tools/totext.py` DOM → text.
+  client-rendered, so curl returns an empty shell); `tools/totext.py` DOM → text
+  (third argument `body` or `abstract` picks a zone).
+- `tools/sync.py` wiki → text → note check; `tools/build_site.py` → `docs/`;
+  `site-src/coach/` the coach layer (coach.js, coach.css, landing.css).
 
 ## Licence
 
@@ -66,9 +98,9 @@ and source URL; the mock page must show that credit next to each one.
 
 ## ReLeaf pages under review
 
-`releaf-text/<page>.md` is the rendered text of each Engagement page at
-origin/main 4afd3b8 (8 Oct 2026, all students' own writing, no `.ai`). One
-line = one block element on the page.
+`releaf-text/<page>.md` is the rendered text of each page body, and
+`<page>.abstract.md` its abstract sheet (parts of one row joined by " · "),
+as of the last sync. One line = one block element on the page.
 
 ## Annotation schema (`annotations/<page>.json`)
 
@@ -80,10 +112,12 @@ line = one block element on the page.
     "strengths": ["3–5 specific things the students did well"],
     "priorities": ["3–5 ordered fixes, biggest payoff first"],
     "ballot": [{"question": "verbatim ballot question", "status": "strong | partial | missing", "where": "ReLeaf section that answers it, or empty", "note": "one sentence"}],
-    "skeleton": {"releaf": ["ReLeaf's top-level sections in order"], "winners": ["the shared winner skeleton"], "gap": "one or two sentences"}
+    "skeleton": {"releaf": ["ReLeaf's top-level sections in order"], "winners": ["the shared winner skeleton"], "gap": "one or two sentences"},
+    "extras": ["smaller fixes that cannot be anchored, each quoting the wrong text and the fix"]
   },
   "notes": [{
     "id": "hp-001",
+    "zone": "optional: \"abstract\" for notes on the sheet under the banner",
     "type": "praise | restructure | cut | mistake | clarify | suggest",
     "anchor": "exact text from ONE line of releaf-text/<page>.md, 4–30 words, unique in that file",
     "title": "≤ 8 plain words",

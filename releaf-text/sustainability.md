@@ -5,15 +5,14 @@ DescriptionThe problem and our answerBiomanufacturingProtectant made on the farm
 ExperimentsEvery protocol we ranPartsOur BioBricks and constructsPlantsSalt and heat stress trialsMeasurementCalibrated, repeatable readoutsSafetyContainment and lab safetyNotebookWet lab records by month
 Math ModelFrom plant stress to lightHardwarePhotometer, LEDs and bioreactorDigital TwinSoftware that watches each batchProtein DesignDesigning the BoPep4 peptideDry Lab NotebookComputational work, week by week
 Integrated Human PracticesVoices that reshaped ReLeafEducationLessons across three school levelsEntrepreneurshipFrom prototype to farm businessSustainabilityOur impact on the SDGsLaws and RegulationsApproval routes, Taiwan and beyondGeospatial AnalysisMapping stress across TaiwanData PhysicalizationStress data you can touch
-MembersThe people behind ReLeafAttributionWho did whatMilestoneOur season, month by monthGalleryPhotos from lab and field
+MembersThe people behind ReLeafAttributionWho did whatMilestoneOur season, month by month
 DescriptionThe problem and our answerBiomanufacturingProtectant made on the farmEngineeringEvery build and test cycleDevelopmentSuccess criteria, stage by stageContributionTools future teams can reuseResultsWhat worked on the bench
 ExperimentsEvery protocol we ranPartsOur BioBricks and constructsPlantsSalt and heat stress trialsMeasurementCalibrated, repeatable readoutsSafetyContainment and lab safetyNotebookWet lab records by month
 Math ModelFrom plant stress to lightHardwarePhotometer, LEDs and bioreactorDigital TwinSoftware that watches each batchProtein DesignDesigning the BoPep4 peptideDry Lab NotebookComputational work, week by week
 Integrated Human PracticesVoices that reshaped ReLeafEducationLessons across three school levelsEntrepreneurshipFrom prototype to farm businessSustainabilityOur impact on the SDGsLaws and RegulationsApproval routes, Taiwan and beyondGeospatial AnalysisMapping stress across TaiwanData PhysicalizationStress data you can touch
-MembersThe people behind ReLeafAttributionWho did whatMilestoneOur season, month by monthGalleryPhotos from lab and field
-[IMG] Seen from behind, a line of ReLeaf students in cream team shirts printed with the ReLeaf logo walks single file along a grassy path between bamboo-staked vegetable rows, following Ms. Chen towards the trees at the far end of her farm.
-ReLeaf / Engagement / Sustainability
+MembersThe people behind ReLeafAttributionWho did whatMilestoneOur season, month by month
 # Sustainability
+[IMG] Sustainability. Team members in white caps and team shirts walk away from the camera along a grassy path into dense green trees on a farm visit.
 [FOLD] Contents
 On this page
 - 1. Overview

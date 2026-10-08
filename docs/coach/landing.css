@@ -36,3 +36,4 @@ body.lp { margin: 0; background: #fff; color: var(--cx-ink); font-family: var(--
 .lp-cross a:hover { transform: translateY(-2px); }
 .lp-cross a span { display: block; font: 600 11px/1.2 var(--cx-font); letter-spacing: .05em; text-transform: uppercase; color: var(--cx-mistake); margin-bottom: 5px; }
 .lp-cross a b { display: block; color: var(--cx-ink); font-weight: 600; font-size: 15px; margin-bottom: 4px; }
+.lp-src { margin: 56px 0 0; font: 13px/1.5 var(--cx-font); color: var(--cx-ink-3); }

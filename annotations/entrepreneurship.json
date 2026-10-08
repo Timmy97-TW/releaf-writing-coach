@@ -12,6 +12,7 @@
     "priorities": [
       "Fix the price. Pick one number and one currency, and make section 2.1, the Our solution box, section 6.2 and the Geospatial page's NT$30,000 agree.",
       "Fix the contradictions with other ReLeaf pages: the contained-use pathway against Laws and Regulations, the kill switch against Human Practices, the SDG numbers against Sustainability.",
+      "Rewrite the abstract sheet as a business summary. It is the first thing a judge reads, and today it describes the technology, says little money can be made, and names no customer, price or plan.",
       "Decide who buys first. Conventional smallholders in section 5.4 and organic farms in the obtainable market cannot both be the beachhead, and no first customer is named anywhere.",
       "Add the two missing ballot answers: your team's own skills and gaps, and the negative long-term impacts of the finished product.",
       "Make one decision per claim and delete the repeats: the mission appears three times, the PESTEL paragraphs restate the chart, and the value proposition sentence is used twice."
@@ -110,10 +111,126 @@
       "Packaging has prices ($0.5 and $0.25 per unit) but is marked “N/A” and left out of the “Total variable cost $201.55”. Add it ($202.30) or say why packaging is not counted.",
       "Two sentences joined by a comma. Change “not just for the Jamboree, we want to develop” to “not just for the Jamboree. We want to develop” (Stage 2).",
       "Change “a evidence of crop benefit” to “evidence of crop benefit” (Stage 2).",
-      "The letters in “Animal and Plant Health Inspection Agency (BAPHIQ)” do not match the name. Write the agency’s official English name in full and check that the acronym matches it (section 7)."
+      "The letters in “Animal and Plant Health Inspection Agency (BAPHIQ)” do not match the name. Write the agency’s official English name in full and check that the acronym matches it (section 7).",
+      "“On this page” map, row 4: the line “Competitor analysis” hides most of section 4, which is your stakeholder work. Change it to “Stakeholders, market size and competitors”."
     ]
   },
   "notes": [
+    {
+      "id": "ent-a01",
+      "zone": "abstract",
+      "type": "restructure",
+      "anchor": "ReLeaf is an optogenetic bioreactor system that enables automated, on-demand protection",
+      "title": "Say what this page shows",
+      "body": "This lead is the same sentence that opens your Overview, and it describes the technology. On the Entrepreneurship page a judge wants the business in one line: who it is for, how it reaches them, and what it costs.",
+      "after": "ReLeaf is a farm bioreactor that makes crop protectants on site. This page shows how a social enterprise would sell it to [first customer group] at about NT$[price], and our six-year plan to get there.",
+      "excerpts": [
+        "ent-2023-og-leiden-31"
+      ],
+      "excerpt_note": "Leiden's first four sentences give the number, the harm and the gap before the product appears.",
+      "ballot": "Has the team identified their first potential customers and their unmet need(s) that are not yet covered by existing solutions?"
+    },
+    {
+      "id": "ent-a02",
+      "zone": "abstract",
+      "type": "restructure",
+      "anchor": "Our vision is to empower every farmer to have their small bacteria factory",
+      "title": "Bold your five-word vision",
+      "body": "“to empower every farmer” is the vaguest phrase in the paragraph, and it is the one in bold. Your body has a much better line, “Every farmer is a biomanufacturer.” Use that, and bold all five words.",
+      "after": "Our vision: every farmer is a biomanufacturer, with a small bacteria factory on the farm that makes biostimulants.",
+      "excerpts": []
+    },
+    {
+      "id": "ent-a03",
+      "zone": "abstract",
+      "type": "clarify",
+      "anchor": "The team is aware that not a lot of money can be made out of it.",
+      "title": "Finish the money sentence",
+      "body": "On its own this line tells a judge the business cannot earn money, which is a hard first impression for an Entrepreneurship prize. In section 3.2 it is the reason you chose a social enterprise. Bring the reason with it.",
+      "after": "Little profit is possible from small farmers alone, so we chose a social enterprise: larger farms, the government and NGOs pay, and small farmers buy at a lower price.",
+      "excerpts": []
+    },
+    {
+      "id": "ent-a04",
+      "zone": "abstract",
+      "type": "praise",
+      "anchor": "Our product is unlikely to be more effective than the current best chemical solutions",
+      "title": "An honest limit on the first screen",
+      "body": "Few teams put a weakness in their abstract, and judges trust a page that does. This bolded line also prepares them for what you do compete on: timing and precision. Keep it.",
+      "excerpts": [
+        "ent-2025-og-wur-02"
+      ],
+      "excerpt_note": "WageningenUR admits the method that does not scale yet, then says which product it will sell first because of it."
+    },
+    {
+      "id": "ent-a05",
+      "zone": "abstract",
+      "type": "suggest",
+      "anchor": "our vision is to have a social impact",
+      "title": "Use this slot for who pays",
+      "body": "This line repeats the vision and gives a judge nothing to check. The ballot asks about customers, and your clearest body sentence says the people who pay are not the people who benefit. Put that here.",
+      "after": "Larger farms, grants and NGOs pay; small farmers get it at a lower price.",
+      "excerpts": [
+        "ent-2023-ug-tec-27"
+      ],
+      "excerpt_note": "Tec-Chihuahua splits its customers by who actually pays, and names the buyer that creates.",
+      "ballot": "Has the team identified their first potential customers and their unmet need(s) that are not yet covered by existing solutions?"
+    },
+    {
+      "id": "ent-a06",
+      "zone": "abstract",
+      "type": "clarify",
+      "anchor": "valued at 9.4B USD in 2024",
+      "title": "Say what is worth 9.4B",
+      "body": "Read alone, this line has no subject. It is the global bioprotectant market, not ReLeaf's own share of it, and the body gives no source. Name the market and the source.",
+      "after": "Global bioprotectant market: 9.4B USD in 2024 ([source])",
+      "excerpts": []
+    },
+    {
+      "id": "ent-a07",
+      "zone": "abstract",
+      "type": "praise",
+      "anchor": "Concept validation Year 1",
+      "title": "The one line a judge can check",
+      "body": "“Concept validation Year 1 · 8/8 done” is dated and countable, and it matches your roadmap. Check that the Year 1 text agrees, because it still says the team “will demonstrate” the system.",
+      "excerpts": [
+        "ent-2024-og-utoronto-25"
+      ],
+      "excerpt_note": "UToronto's status block is the same register: dated, countable, no adjectives.",
+      "ballot": "Has the team presented logical product development plans with realistic milestones, timelines, resources and risks?"
+    },
+    {
+      "id": "ent-a08",
+      "zone": "abstract",
+      "type": "mistake",
+      "anchor": "Production cost exceeds farmer budget",
+      "title": "Geospatial page rates this risk higher",
+      "body": "Your risk table gives this risk Medium probability. The Geospatial Analysis page calculates that at NT$30,000 a unit “individual ownership is arithmetically out of reach for nearly the entire target sector”. Agree the rating with that team, and show your answer next to the risk.",
+      "after": "Cost may exceed small farmers' budgets; we answer with shared ownership, seasonal rental or subsidy.",
+      "excerpts": [],
+      "ballot": "Has the team presented logical product development plans with realistic milestones, timelines, resources and risks?"
+    },
+    {
+      "id": "ent-a09",
+      "zone": "abstract",
+      "type": "restructure",
+      "anchor": "Product development plan",
+      "title": "Map lines should describe the section",
+      "body": "Each line in the section map names one subsection. Row 5–6 says “Product development plan”, so a judge does not know that your whole marketing strategy, sales plan and funding stages sit there too. Write what the reader will find.",
+      "after": "5–6 · Strategy and plans · Pricing, sales, distribution, six-year roadmap and funding",
+      "excerpts": [],
+      "ballot": "Has the team presented logical product development plans with realistic milestones, timelines, resources and risks?"
+    },
+    {
+      "id": "ent-a10",
+      "zone": "abstract",
+      "type": "mistake",
+      "anchor": "Regulations and risks",
+      "title": "Map names differ from the headings",
+      "body": "The map says “Regulations and risks” and “Strategy and plans”, but the page headings are “Regulations”, “Potential risks”, “Marketing strategy” and “Future plans”. A judge who clicks looks for a heading that does not exist. Use the heading names, or rename the headings to match.",
+      "after": "7–9 · Regulations, risks and conclusion · Approval route, nine risks, conclusion",
+      "excerpts": []
+    },
     {
       "id": "ent-001",
       "type": "restructure",

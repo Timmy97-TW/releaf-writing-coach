@@ -1,35 +1,31 @@
 #!/usr/bin/env python3
 """Build the writing-coach site into docs/.
 
-    python3 tools/build_site.py <path to a releaf-wiki checkout at origin/main>
+    python3 tools/build_site.py [wiki checkout]     (default: .wiki-src, kept by tools/sync.py)
 
-Copies the seven Engagement pages and the assets they use from the wiki
-checkout unchanged, then adds the coach layer: coach.css in <head>, and before
-</body> a data file (annotations + the winner excerpts they cite) and coach.js.
-Pages without annotations/<page>.json are left out. Writes docs/index.html.
+Copies every page listed in pages.json, and the files it uses, from the wiki
+unchanged, then adds the coach layer: coach.css in <head>, and before </body> a
+data file (annotations + the winner excerpts they cite) and coach.js. A page
+without annotations/<page>.json is left out. Writes docs/index.html.
+
+Which files a page uses is read from the page itself: the stylesheets and
+scripts it links, and every assets/img/<folder>/ named in the page or in those
+files (the whole folder is copied, so srcset sizes and script-built paths come
+along). A new page needs only a pages.json entry and its annotations.
 """
-import html, json, re, shutil, sys, time
+import html, json, re, shutil, subprocess, sys, time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 
-PAGES = [  # slug, title, prize the page is judged against, short label
-    ("human-practices", "Integrated Human Practices", "Best Integrated Human Practices", "IHP"),
-    ("education", "Education", "Best Education", "Education"),
-    ("entrepreneurship", "Entrepreneurship", "Best Entrepreneurship", "Entrepreneurship"),
-    ("sustainability", "Sustainability", "Best Sustainable Development Impact", "Sustainability"),
-    ("laws-and-regulations", "Laws and Regulations", "Integrated Human Practices, Safety and Security", "Laws"),
-    ("geospatial-analysis", "Geospatial Analysis", "Integrated Human Practices, Sustainable Development", "GIS"),
-    ("data-physicalization", "Data Physicalization", "Education, Integrated Human Practices", "Data physicalization"),
-]
+CFG = json.loads((ROOT / "pages.json").read_text())
+PAGES = [(p["slug"], p["title"], p["prize"], p.get("short", p["title"])) for p in CFG["pages"]]
+SKIP_IN_PAGE = {p["slug"]: p.get("skip", []) for p in CFG["pages"]}  # big folders left on the live wiki
+LIVE = CFG["live_wiki"]
 PRIZE_SHORT = {"ihp": "IHP", "education": "Education", "entrepreneurship": "Entrepreneurship",
                "sustainability": "Sustainability", "laws": "Law page", "gis": "GIS page",
                "data-physicalization": "Data physicalization"}
-IMG_DIRS = ["human-practices", "education", "entrepreneurship", "sustainability",
-            "laws-and-regulations", "geospatial", "data-physicalization"]
-SKIP_IN_PAGE = {"education": ["materials"]}  # 33 MB of lesson PDFs; links go to the live wiki
-LIVE = "https://2026.igem.wiki/gems-taiwan/"
 VER = time.strftime("%m%d%H%M%S")
 TYPES = [("praise", "Praise"), ("restructure", "Restructure"), ("cut", "Cut"),
          ("clarify", "Clarify"), ("mistake", "Mistake"), ("suggest", "Add")]
@@ -44,6 +40,19 @@ def excerpts():
     return bank
 
 
+def used_files(src, slug):
+    """What a page needs from assets/img: the files its HTML names (srcset
+    sizes included), and whole folders named in its stylesheets and scripts,
+    which may build file names at run time."""
+    page = (src / slug / "index.html").read_text()
+    linked = set(re.findall(r'(?:href|src)="\.\./(assets/(?:css|js|data)/[^"?#]+)', page))
+    code = [(src / f).read_text(errors="ignore") for f in linked if (src / f).is_file()]
+    code += [f.read_text(errors="ignore") for f in (src / slug).glob("*") if f.suffix in (".css", ".js") and f.is_file()]
+    files = set(re.findall(r"assets/img/([A-Za-z0-9_-]+/[^\"'()\s,]+)", page))
+    dirs = set(re.findall(r"assets/img/([A-Za-z0-9_-]+)/", " ".join(code)))
+    return files, dirs
+
+
 def main(src):
     src = Path(src)
     bank = excerpts()
@@ -56,18 +65,26 @@ def main(src):
     for f in (src / "assets/img").iterdir():
         if f.is_file():
             shutil.copy2(f, DOCS / "assets/img" / f.name)
-    for d in IMG_DIRS:
-        if (src / "assets/img" / d).exists():
+    files, dirs = set(), set()
+    for p in PAGES:
+        if (ROOT / "annotations" / f"{p[0]}.json").exists():
+            f, d = used_files(src, p[0])
+            files |= f; dirs |= d
+    for d in sorted(dirs):
+        if (src / "assets/img" / d).is_dir():
             shutil.copytree(src / "assets/img" / d, DOCS / "assets/img" / d)
-    for pf in re.findall(r"assets/img/([a-z0-9_-]+/[^\"')\s]+)", " ".join(
-            (src / p[0] / "index.html").read_text() for p in PAGES)):
-        s, t = src / "assets/img" / pf, DOCS / "assets/img" / pf
-        if s.is_file() and not t.exists():
-            t.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(s, t)
+    for f in sorted(files):
+        s_, t_ = src / "assets/img" / f, DOCS / "assets/img" / f
+        if s_.is_file() and not t_.exists():
+            t_.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(s_, t_)
     shutil.copytree(ROOT / "site-src/coach", DOCS / "coach")
     (DOCS / "coach/data").mkdir(exist_ok=True)
 
+    mock = [p[0] for p in PAGES if (ROOT / "annotations" / f"{p[0]}.json").exists()]
+    wiki = ""
+    if (src / ".git").exists():
+        wiki = subprocess.run(["git", "log", "-1", "--format=%h, %cs"], cwd=src, capture_output=True, text=True).stdout.strip()
     built = []
     for slug, title, prize, short in PAGES:
         ann = ROOT / "annotations" / f"{slug}.json"
@@ -78,6 +95,7 @@ def main(src):
         shutil.copytree(src / slug, DOCS / slug, ignore=lambda d, names: [n for n in names if n in skip])
         used = {i for n in a["notes"] for i in n.get("excerpts", [])}
         data = {"page": slug, "title": title, "prizeName": prize, "summary": a.get("summary"),
+                "live": LIVE, "mockPages": mock, "wiki": wiki,
                 "notes": a["notes"], "excerpts": {i: bank[i] for i in sorted(used) if i in bank}}
         missing = sorted(used - set(bank))
         if missing:
@@ -96,7 +114,7 @@ def main(src):
         built.append((slug, title, prize, short, a, counts))
         print(f"  {slug}: {len(a['notes'])} notes, {len(data['excerpts'])} winner passages")
 
-    (DOCS / "index.html").write_text(landing(built, bank))
+    (DOCS / "index.html").write_text(landing(built, bank, wiki))
     (DOCS / ".nojekyll").write_text("")
     print("built", len(built), "pages into", DOCS)
 
@@ -105,7 +123,7 @@ def esc(s):
     return html.escape(s or "", quote=True)
 
 
-def landing(built, bank):
+def landing(built, bank, wiki=""):
     teams = sorted({(x["team"], x["year"], x["track"], x["url"].split("/")[2] + "/" + x["url"].split("/")[3])
                     for x in bank.values()}, key=lambda t: (-t[1], t[0]))
     win = {(x["team"], x["year"]) for x in bank.values() if x.get("prize") in ("ihp", "education", "entrepreneurship", "sustainability")}
@@ -180,6 +198,7 @@ def landing(built, bank):
       <p>Undergrad and overgrad winners of Best Integrated Human Practices, Best Education, Best Entrepreneurship and Best Sustainable Development Impact, 2023 to 2025. No prize covers law or GIS pages, so those notes quote the closest precedents: {esc(prec)}. All iGEM wiki text is licensed CC BY 4.0; every passage links to its source page.</p>
       <ul>{credit}</ul>
     </section>
+    {f'<p class="lp-src">Pages as they stood on the ReLeaf wiki at commit {esc(wiki)}.</p>' if wiki else ''}
   </main>
 </body>
 </html>
@@ -187,4 +206,4 @@ def landing(built, bank):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(sys.argv[1] if len(sys.argv) > 1 else ROOT / ".wiki-src")

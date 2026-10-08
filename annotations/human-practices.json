@@ -11,8 +11,8 @@
     ],
     "priorities": [
       "Fix the facts that disagree with other pages: kill switch, target stresses, expansion countries, the printer-and-ink analogy, the target farmer, and which booth the 62-person survey covered.",
+      "Rewrite the abstract sheet and the opening around your own problem and your biggest changes. The lead sentence defines Human Practices, the bold \"seven months, March to September\" is wrong, and two Engagements lines miscount (five experts, three events). Cut the Human Practices definition in the body too.",
       "Print each stakeholder entry once, and rewrite every change slot as an action (changed, dropped, added, chose) with dates and numbers.",
-      "Rewrite the opening around your own problem and your biggest changes, and cut the definition of Human Practices.",
       "Add a short context and prior-work paragraph and a limitations section, and answer the open questions on the page (the farmers' two questions, which stresses, kill switch or not).",
       "Cut claims the data cannot carry: 'every stakeholder', 'fully tested', 'without ecological risks', 'confirm' for self-ratings, and 'increased' without a before-survey."
     ],
@@ -88,6 +88,110 @@
     ]
   },
   "notes": [
+    {
+      "id": "hp-a01",
+      "type": "restructure",
+      "zone": "abstract",
+      "anchor": "Human Practices acts as the heart of the team",
+      "title": "Lead with what the page shows",
+      "body": "This is the first sentence a judge reads, and it defines Human Practices. It says nothing about ReLeaf. Use the lead to say who changed your project and how.",
+      "after": "Farmers, scientists and the public moved ReLeaf from bacteria released into soil to a closed bioreactor, and narrowed our stress targets to [stresses].",
+      "excerpts": [
+        "ihp-2025-og-wur-01",
+        "ihp-2025-ug-nyuad-01"
+      ],
+      "excerpt_note": "Both openings are about their own project from the first sentence.",
+      "ballot": "How inspiring an example is it to others?"
+    },
+    {
+      "id": "hp-a02",
+      "type": "mistake",
+      "zone": "abstract",
+      "anchor": "Over the span of seven months, from March to September, our team actively engaged with 20 key stakeholders",
+      "title": "The bold dates are wrong",
+      "body": "\"Over the span of seven months\" is in bold, so judges will remember it, but your first meeting was 1 February (Gilbert Nkpeniyeng). The body Overview and Conclusion repeat the same error. Also say what the 20 counts: the pipelines show about 18 experts and organisations, plus farmers and the public.",
+      "after": "From February to September, we held [number] conversations with [number] people and organisations.",
+      "excerpts": []
+    },
+    {
+      "id": "hp-a03",
+      "type": "praise",
+      "zone": "abstract",
+      "anchor": "our project only took real shape when we went back to our advisors with physical prototypes",
+      "title": "The right message for the top",
+      "body": "Going back to the same experts with prototypes and new data is the clearest sign of integration on your page. It belongs on the first screen. Keep this sentence.",
+      "excerpts": [],
+      "ballot": "How well was the Human Practices work integrated throughout the project?"
+    },
+    {
+      "id": "hp-a04",
+      "type": "restructure",
+      "zone": "abstract",
+      "anchor": "each follow-up meeting pushed us to fix design flaws, refine our controls",
+      "title": "Bold the change you made",
+      "body": "The paragraph is three body sentences glued together with semicolons, so it reads like copied pieces. Break it into short sentences. Then bold the two things to remember: you went back to experts, and their advice changed the design.",
+      "after": "From February to September we met [number] people. We went back to [four] experts with prototypes and new data. **Each return visit changed the design**: for example, [one change, such as dropping soil release for a closed bioreactor].",
+      "excerpts": []
+    },
+    {
+      "id": "hp-a05",
+      "type": "suggest",
+      "zone": "abstract",
+      "anchor": "we consulted experts across six diverse domains",
+      "title": "Make each line say what changed",
+      "body": "The Engagements column lists what you did. It never says what that changed. A judge who reads only this column learns nothing about ReLeaf. Give each line one result from the body.",
+      "after": "Expert engagement · moved our bacteria from the soil into a closed bioreactor, with physical containment as the main safety layer",
+      "excerpts": [],
+      "ballot": "How well was the Human Practices work integrated throughout the project?"
+    },
+    {
+      "id": "hp-a06",
+      "type": "mistake",
+      "zone": "abstract",
+      "anchor": "continuous feedback loops with five core experts",
+      "title": "Five promised, four shown",
+      "body": "Section 3.2 shows four experts: Prof. Cheng, Prof. Chen, Prof. Chang and Dr. Sattely. Either add Prof. Huang Chieh-Chen, who also met you twice, or write \"four\".",
+      "excerpts": []
+    },
+    {
+      "id": "hp-a07",
+      "type": "mistake",
+      "zone": "abstract",
+      "anchor": "we conducted three outreach events",
+      "title": "Count the farmer contacts again",
+      "body": "The farmer section has three events (16 May, 21 July, 5 September) plus a video call with Mr. Chen, and the body says \"May to August\" for them. Match the line to what section 4.1 shows.",
+      "after": "Farmer interviews · three farm and market visits and one video call, May to September",
+      "excerpts": []
+    },
+    {
+      "id": "hp-a08",
+      "type": "clarify",
+      "zone": "abstract",
+      "anchor": "to make our resources more accessible to users",
+      "title": "Say what the platform is",
+      "body": "Read alone, this line does not say what the platform does or who it is for. Most judges outside Taiwan also do not know LINE. Name the users and one or two features.",
+      "after": "LINE platform · a help account for farmers on LINE, a chat app widely used in Taiwan, with stress alerts, crop advice and seed swaps",
+      "excerpts": []
+    },
+    {
+      "id": "hp-a09",
+      "type": "praise",
+      "zone": "abstract",
+      "anchor": "how ReLeaf developed over time",
+      "title": "Map names match the headings",
+      "body": "The six section names match the page headings exactly, and this line says what the evolution map does in a few words. A judge can jump straight to the part they need.",
+      "excerpts": []
+    },
+    {
+      "id": "hp-a10",
+      "type": "restructure",
+      "zone": "abstract",
+      "anchor": "every single one of our interactions",
+      "title": "Say what the Conclusion does",
+      "body": "This line describes the whole page, and \"every single one\" is a claim the body does not support. Say what the Conclusion does.",
+      "after": "6 · Conclusion · how stakeholder input shaped ReLeaf overall",
+      "excerpts": []
+    },
     {
       "id": "hp-001",
       "type": "restructure",

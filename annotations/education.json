@@ -10,6 +10,7 @@
       "Experiments that link to ReLeaf through science (heat on leaf disks, salt on onion cells), with no selling."
     ],
     "priorities": [
+      "Rewrite the abstract sheet, the first thing a judge reads. Open with who you taught and how many, and say which school level each number comes from (the 80% is elementary, the 30% is junior high). Bold a result with a number.",
       "Fix the numbers, labels and captions that disagree: trial count, question counts, swapped and mislabelled figures, junior high text copied from the elementary section, and the two card game rule sets. Then read the page aloud once.",
       "Open the page with your purpose, your three audiences and how the 144 students break down. Move the website and the “why” paragraph from section 4.",
       "Turn section 7.2 into proof: three “they said X, so we changed Y” examples you already have, plus what students argued in the debate.",
@@ -86,10 +87,122 @@
       "“pointing lecture style teaching segments as the weak link” → “pointing to lecture-style teaching as the weak part”. “Pointing” needs “to”.",
       "“which increased by 49%” → “which rose by 49 percentage points (from [x]% to [y]%)”. “Increased by 49%” can mean two different things. Give the before and after scores.",
       "“the workshop's games, hands-on elements were its strongest asset” → “the workshop’s games and hands-on activities were its strongest part”. An “and” is missing between the two items.",
-      "“more than 22 out of 28 students answered each question correctly” → “at least 22 of 28 students answered each question correctly”. The chart shows some questions at exactly 22, so “more than 22” is wrong."
+      "“more than 22 out of 28 students answered each question correctly” → “at least 22 of 28 students answered each question correctly”. The chart shows some questions at exactly 22, so “more than 22” is wrong.",
+      "On this page map: “Preparation · Mission & Vision”, “Designing The Lesson · Design Process” and the other rows repeat subheading names. Fix: one line that says what each section shows, for example “Execution · The three lessons, one per school level”.",
+      "“Three Trials at a Glance” (the section 4 table heading and the map line for Execution) → “Four Trials at a Glance”. The table lists four: Preliminary, Trial 1, Trial 2 and Trial 3.",
+      "On this page map: “6–7 · Resources and impacts · Educational Tools & Resources” → two rows, “6 · Tools/Resources” and “7 · Long Term Impacts”. Section 7 has no line of its own on the map.",
+      "“Designing The Lesson” → “Designing the Lesson”. The heading and the map use a capital “The”; the other headings use normal title case."
     ]
   },
   "notes": [
+    {
+      "id": "edu-a01",
+      "zone": "abstract",
+      "type": "restructure",
+      "anchor": "Our education program focuses on helping students understand plant stress, climate change, sustainability, and synthetic biology",
+      "title": "Lead with who you taught",
+      "body": "This is the first sentence a judge reads, and it only names topics. It is copied from section 7.1. Say who you taught, how many and how.",
+      "after": "We taught 144 students at five schools in Taiwan, from grade 4 to grade 12, about plant stress, climate change and synthetic biology through hands-on lessons.",
+      "excerpts": [
+        "edu-2024-og-aachen-01",
+        "edu-2025-og-heidelberg-01"
+      ],
+      "excerpt_note": "Aachen gives the gap and its answer in five sentences. Heidelberg names every activity in its opening paragraph."
+    },
+    {
+      "id": "edu-a02",
+      "zone": "abstract",
+      "type": "suggest",
+      "anchor": "and learned from survey results and feedback",
+      "title": "Name one thing you changed",
+      "body": "The first ballot question is about mutual learning, and this is the only line on the sheet that touches it. Say one thing you changed because of feedback.",
+      "after": "and changed the lesson after each visit. When students said “too much english”, we broke vocabulary into simpler words.",
+      "excerpts": [
+        "edu-2025-og-heidelberg-08"
+      ],
+      "excerpt_note": "Whose feedback, then what changed, in two sentences.",
+      "ballot": "How well did their work promote mutual learning and/or a dialogue?"
+    },
+    {
+      "id": "edu-a03",
+      "zone": "abstract",
+      "type": "clarify",
+      "anchor": "Our program and lesson plan meaningfully improved students’ understanding of synthetic biology and plant science concepts",
+      "title": "Put a number in bold",
+      "body": "This sentence comes from the elementary summary, but here it speaks for all three levels. “Meaningfully improved” is the bold message, and it has no number. Bold a result a judge can check.",
+      "after": "Correct answers rose from [x]% before the lesson to [y]% after, across [number] students."
+    },
+    {
+      "id": "edu-a04",
+      "zone": "abstract",
+      "type": "praise",
+      "anchor": "DNA base pairing remained a challenging concept",
+      "title": "A weak result on the first screen",
+      "body": "You put a result that did not go well in bold, right at the top. Judges trust a team that shows its weak spots, and it makes your other claims easier to believe.",
+      "excerpts": [
+        "edu-2025-og-heidelberg-06"
+      ],
+      "excerpt_note": "Heidelberg says plainly that an event missed its audience, then what the team took from it."
+    },
+    {
+      "id": "edu-a05",
+      "zone": "abstract",
+      "type": "mistake",
+      "anchor": "with only 30% of students answering correctly after the lesson",
+      "title": "The 30% is junior high only",
+      "body": "Here it reads as if only 30% of all 144 students got DNA base pairing right. In the body, 30% is the junior high result, and the elementary analysis says the DNA question went from “at or below 25% accuracy and jumping to around 90%”. Say which level.",
+      "after": "Junior high students found it hardest: only 30% answered correctly after the lesson."
+    },
+    {
+      "id": "edu-a06",
+      "zone": "abstract",
+      "type": "praise",
+      "anchor": "All three teachers who took the survey indicated they would be willing to continue participating.",
+      "title": "A real count of teachers",
+      "body": "“All three teachers” is a number a judge can check, and it shows others plan to carry on your work. Add that they were elementary teachers, and mention the high school teacher who plans to use your slides.",
+      "ballot": "Did the team convince you that their activities would enable more people to shape, contribute to, and/or participate in synthetic biology?"
+    },
+    {
+      "id": "edu-a07",
+      "zone": "abstract",
+      "type": "mistake",
+      "anchor": "a centralized center where students and educators",
+      "title": "This line stops mid-sentence",
+      "body": "The line is cut from a longer sentence, so it ends on “students and educators” with no verb. “Centralized center” also says the same thing twice. Say what the website gives people.",
+      "after": "free lesson plans, slides and games for teachers and students"
+    },
+    {
+      "id": "edu-a08",
+      "zone": "abstract",
+      "type": "clarify",
+      "anchor": "144 students; 5 schools",
+      "title": "Show what the 144 is made of",
+      "body": "This row is reach, so it is labelled “Impact of Our Lessons” by mistake. The body never shows how 144 adds up: the tables give 99 elementary and 28 high school students, and no junior high count. Add the split you already know.",
+      "after": "144 students; 5 schools (3 elementary, 1 junior high, 1 high school)"
+    },
+    {
+      "id": "edu-a09",
+      "zone": "abstract",
+      "type": "mistake",
+      "anchor": "all questions scoring at least an 80% in accuracy",
+      "title": "This is the elementary result only",
+      "body": "The row says every question reached 80%, but the next row says “only 30% of students answering correctly”. The 80% is from the elementary analysis. The high school chart shows some questions at 22 of 28 (79%). Say which level.",
+      "after": "Elementary: every question at least 80% correct after the lesson"
+    },
+    {
+      "id": "edu-a10",
+      "zone": "abstract",
+      "type": "clarify",
+      "anchor": "freely accessible to educators, students",
+      "title": "Say what can be reused",
+      "body": "The line ends after “students,” because it was cut short. A judge wants to know what they could take away. Count your downloads and games.",
+      "after": "2 lesson plans, 3 slide decks, 2 card games, 2 online games and a plant stress simulator, free online",
+      "excerpts": [
+        "edu-2025-ug-queens-02"
+      ],
+      "excerpt_note": "Queens lists exactly which materials were handed over and where they live.",
+      "ballot": "Is it documented in a way that others can build upon?"
+    },
     {
       "id": "edu-001",
       "type": "restructure",

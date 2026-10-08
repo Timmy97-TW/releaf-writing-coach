@@ -18,9 +18,8 @@
     ["clarify", "Clarify"], ["mistake", "Mistake"], ["suggest", "Add"]
   ];
   var TYPE_NAME = {}; TYPES.forEach(function (t) { TYPE_NAME[t[0]] = t[1]; });
-  var LIVE = "https://2026.igem.wiki/gems-taiwan/";
-  var MOCK = ["human-practices", "education", "entrepreneurship", "sustainability",
-              "laws-and-regulations", "geospatial-analysis", "data-physicalization"];
+  var LIVE = C.live;          // pages outside the coach link to the live wiki
+  var MOCK = C.mockPages;     // the pages this site carries, from pages.json
 
   var doc = document, html = doc.documentElement;
   var $ = function (s, r) { return (r || doc).querySelector(s); };
@@ -44,16 +43,24 @@
             .replace(/[–—]/g, "-").replace(/ /g, " ");
   }
 
-  function textIndex() {
+  // The text of one zone of the page: "abstract" is the sheet under the banner,
+  // "body" is everything else. The abstract repeats sentences from the body, so
+  // a note is only ever matched inside its own zone.
+  function textIndex(zone) {
     var root = doc.body, chars = [], map = [];
     var skip = "SCRIPT,STYLE,NOSCRIPT,SVG,BUTTON,TEXTAREA".split(",");
     var w = doc.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
       acceptNode: function (n) {
+        var inAbs = false;
         for (var p = n.parentNode; p && p !== root; p = p.parentNode) {
+          if (p.classList && p.classList.contains("abstract")) inAbs = true;
+        }
+        if ((zone === "abstract") !== inAbs) return NodeFilter.FILTER_REJECT;
+        for (p = n.parentNode; p && p !== root; p = p.parentNode) {
           if (skip.indexOf(p.nodeName.toUpperCase()) >= 0) return NodeFilter.FILTER_REJECT;
           if (p.id === "site-nav" || (p.classList && (p.classList.contains("cx-rail") || p.classList.contains("cx-bar") ||
               p.classList.contains("cx-sum") || p.classList.contains("cx-sheet")))) return NodeFilter.FILTER_REJECT;
-          if (p.nodeName === "FOOTER" || p.nodeName === "NAV") return NodeFilter.FILTER_REJECT;
+          if (p.nodeName === "FOOTER" || (p.nodeName === "NAV" && !inAbs)) return NodeFilter.FILTER_REJECT;
         }
         return NodeFilter.FILTER_ACCEPT;
       }
@@ -95,8 +102,9 @@
 
   function anchorAll() {
     // Wrap from the end of the page backwards so earlier map offsets stay valid.
-    var idx = textIndex(), found = [];
+    var idxs = { body: textIndex("body"), abstract: textIndex("abstract") }, found = [];
     notes.forEach(function (n) {
+      var idx = idxs[n.zone === "abstract" ? "abstract" : "body"];
       var a = norm(n.anchor).replace(/^\s*\|\s*/, "").replace(/\s+/g, " ").trim();
       var at = idx.str.indexOf(a);
       if (at < 0) {
@@ -110,16 +118,18 @@
         } else n.missing = true;
         return;
       }
-      found.push({ n: n, s: at, e: at + a.length });
+      found.push({ n: n, s: at, e: at + a.length, idx: idx });
     });
-    found.sort(function (x, y) { return y.s - x.s; });
-    var last = Infinity;
+    // per zone, wrap from the end backwards so earlier offsets stay valid
+    found.sort(function (x, y) { return x.idx === y.idx ? y.s - x.s : (x.idx === idxs.body ? -1 : 1); });
+    var last = { body: Infinity, abstract: Infinity };
     found.forEach(function (f) {
-      if (f.e > last) f.e = last;  // overlapping anchors: trim the earlier one
+      var z = f.idx === idxs.body ? "body" : "abstract";
+      if (f.e > last[z]) f.e = last[z];  // overlapping anchors: trim the earlier one
       if (f.e <= f.s) { f.n.missing = true; return; }
-      f.n.marks = wrap(idx, f.s, f.e, f.n);
+      f.n.marks = wrap(f.idx, f.s, f.e, f.n);
       if (!f.n.marks.length) f.n.missing = true;
-      else { f.n.marks[0].id = "cx-" + f.n.id; last = f.s; }
+      else { f.n.marks[0].id = "cx-" + f.n.id; last[z] = f.s; }
     });
     notes = notes.filter(function (n) { return !n.missing; });
     notes.sort(function (x, y) {
@@ -433,7 +443,7 @@
       var inner2 = el("div"); inner2.appendChild(k); d2.appendChild(inner2); c.appendChild(d2);
     }
     wrapEl.appendChild(c);
-    var head = $(".pagehead") || $("header");
+    var head = $("section.abstract") || $(".pagehead") || $("header");
     if (head && head.parentNode) head.parentNode.insertBefore(wrapEl, head.nextSibling);
     else doc.body.insertBefore(wrapEl, doc.body.firstChild);
   }

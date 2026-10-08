@@ -12,6 +12,7 @@
     ],
     "priorities": [
       "Make every repeated number agree: the small-farm share (99.15%, 99.18%, 99%), the farmed-land share (86.18%, 86%), the warming period (1991, 1999, 1980), the fertilizer intensity (300 kg/ha, 449 kg/ha) and the sandy-loam cost multiple. Check each one against Entrepreneurship and Sustainability as well.",
+      "Rewrite the abstract sheet so it states what the maps found and decided. The lead points back to nothing, \"This is the strongest argument\" now refers to the routing model, the bolded to-do should give way to the farmers' association decision, and the Findings column opens with a garbled number from a Philippine study.",
       "Add a method and data section. Every layer needs its publisher, period, resolution and version, every threshold needs a source, and the climate volatility index needs its three components and their weights.",
       "Finish or remove the unfinished parts: the LPA table placeholders, the draft sentence in the chlorophyll Results, the empty section 4.3, the empty section 7, and the missing reference list behind the footnote numbers in section 6.",
       "Fix the table in section 5.4, whose headings do not match its columns, and split the 300-word paragraph in 5.2 into the rule and its exceptions.",
@@ -100,10 +101,115 @@
       "The LaTeX source of the chlorophyll formula prints beside the rendered formula. Show the rendered one only.",
       "\"rather than\" appears 25 times. Replace most of them with a full stop and a second sentence.",
       "Section 4.3 Math modeling holds only a link, and the three \"Execution: GIS and ...\" headings are missing from the contents list. Either give 4.3 a summary of the model's result, or fold it into the Dry Lab block.",
-      "The interactive routing map loads its basemap from tile.openstreetmap.org and its routes from router.project-osrm.org. iGEM requires every file to load from iGEM servers, so precompute the routes into a data file and host the basemap image on static.igem.wiki."
+      "The interactive routing map loads its basemap from tile.openstreetmap.org and its routes from router.project-osrm.org. iGEM requires every file to load from iGEM servers, so precompute the routes into a data file and host the basemap image on static.igem.wiki.",
+      "Abstract sheet, \"On this page\": \"Tools and references\" with the line \"LLM broad prompt\", but the section has no references. Add the reference list or rename the section.",
+      "Abstract sheet: \"0.11ºC\" and \"0.29ºC\" use the ordinal sign. Write °C.",
+      "Abstract sheet, Findings: \"Soil classification · Open · replacing the placeholder classification\" repeats the bolded phrase in the paragraph above it word for word. Give the open item its reason: \"Coastal soil types are assigned by a heuristic, not a survey\"."
     ]
   },
   "notes": [
+    {
+      "id": "gis-a01",
+      "zone": "abstract",
+      "type": "restructure",
+      "anchor": "This convergence of stress, vulnerability, and infrastructural mismatch is what ReLeaf answers",
+      "title": "The lead points back to nothing",
+      "body": "In the body this sentence closes a paragraph, so \"this convergence\" refers to what came before it. On the sheet it is the first line a judge reads, and nothing comes before it. Make the lead say what the page shows.",
+      "after": "Our maps show where Taiwan's fastest warming, smallest farms and oldest farmers overlap, and how many bioreactors each township would need.",
+      "excerpts": [
+        "gis-2024-og-marburg-01",
+        "gis-2022-ug-iiser-pune-india-01"
+      ],
+      "excerpt_note": "Marburg's abstract states what was mapped and the result by its second sentence. IISER-Pune-India gives the map its job in its first lines."
+    },
+    {
+      "id": "gis-a02",
+      "zone": "abstract",
+      "type": "mistake",
+      "anchor": "In Taiwan, 99.15% of farms are small-scale (under 2 hectares)",
+      "title": "The sheet fixes one of three numbers",
+      "body": "The sheet now shows \"99.15% of farms\" to every judge first. Section 3 says \"99.18% of farmers\", section 4.4 says \"99% of Taiwanese farmers\", and Entrepreneurship says \"over 90% of agricultural holdings\". Settle the figure and its source once, and the sheet and body will agree.",
+      "after": "In Taiwan, [number]% of farms are under 2 hectares ([source, year]), yet together they work [number]% of the island's farmed land."
+    },
+    {
+      "id": "gis-a03",
+      "zone": "abstract",
+      "type": "praise",
+      "anchor": "since 1991, that rate has nearly tripled to 0.29ºC per decade",
+      "title": "A message worth putting in bold",
+      "body": "This gives both rates and the year the change began, so a judge can remember one clear fact about Taiwan's warming. It is the right thing to bold. Section 3 still dates the same overlay \"from 1999 to 2020\", so change that line to 1991 to match the sheet."
+    },
+    {
+      "id": "gis-a04",
+      "zone": "abstract",
+      "type": "praise",
+      "anchor": "We built a nationwide GIS routing model connecting every one of Taiwan",
+      "title": "Your own work, in countable terms",
+      "body": "This is the one sentence on the sheet about something you made, and it says what the model connects and how many companies it covers. Judges look for the team's own work first. Keep it, and follow it with what the model found."
+    },
+    {
+      "id": "gis-a05",
+      "zone": "abstract",
+      "type": "restructure",
+      "anchor": "This is the strongest argument for replacing",
+      "title": "\"This\" now points at the wrong thing",
+      "body": "In section 4.5 \"this\" means the sandy-loam cost finding. On the sheet it follows the routing model, so it reads as if the routing model argues for new soil data. The bolded phrase is also a to-do. Your strongest message, that the numbers only allow shared units held by farmers' associations, is missing from the sheet.",
+      "after": "Applied to the bioreactor counts, those numbers make individual ownership unaffordable, so **shared units held by farmers' associations** are the only ownership model the numbers permit. Our weakest layer is the soil classification, which we plan to replace with TARI soil survey data.",
+      "excerpts": [
+        "gis-2022-ug-iiser-pune-india-05"
+      ],
+      "excerpt_note": "IISER-Pune-India ends its map work on the decision the map drove. Your sheet can lead with yours."
+    },
+    {
+      "id": "gis-a06",
+      "zone": "abstract",
+      "type": "mistake",
+      "anchor": "a drop in 10 percent yield per each rise in degree",
+      "title": "A garbled line, and not your finding",
+      "body": "This is the unclear phrase from section 3, now under the heading \"Findings\". It does not say what dropped or by how much per degree, and it comes from a study at a Philippine research station, not from your maps. Label it as background, or fix the wording and name the source.",
+      "after": "Rice yield fell about 10% per 1 °C of night warming (Philippine station, 1979 to 2003)"
+    },
+    {
+      "id": "gis-a07",
+      "zone": "abstract",
+      "type": "clarify",
+      "anchor": "2024 becoming Taiwan’s hottest year on record",
+      "title": "Write this as a full fact",
+      "body": "This is half a sentence lifted from the body, and its tag \"Taiwan\" repeats the label. A judge reading only this column needs a complete fact with a number. The body already gives you one.",
+      "after": "2024 was Taiwan's hottest year on record; Taipei logged 63 days above 35 °C"
+    },
+    {
+      "id": "gis-a08",
+      "zone": "abstract",
+      "type": "suggest",
+      "anchor": "2,792,536 individual parcels; 346 demand nodes",
+      "title": "Give the routing result, not its inputs",
+      "body": "Parcels and nodes are what went into the model. A line under \"Findings\" should say what came out. Give the distance or cost the model computed, which also settles the freight question between sections 3 and 6.",
+      "after": "Median trip [number] km from fertilizer company to farm, across 346 townships",
+      "excerpts": [
+        "gis-2025-ug-xjtlu-china-02"
+      ],
+      "excerpt_note": "XJTLU reports its result with a baseline in the same sentence, so the reader knows what the number means.",
+      "ballot": "Has the team's work measurably and significantly addressed one or more SDGs?"
+    },
+    {
+      "id": "gis-a09",
+      "zone": "abstract",
+      "type": "clarify",
+      "anchor": "Basically no, farmers do not manage it [soil]",
+      "title": "Say who said it",
+      "body": "In the body this quote belongs to a cocoa farmer from Nantou. On the sheet it has no speaker, so it reads as a claim about all farmers. Add the speaker, and keep it as a quote.",
+      "after": "\"Basically no, farmers do not manage it [soil]\" (cocoa farmer, Nantou)"
+    },
+    {
+      "id": "gis-a10",
+      "zone": "abstract",
+      "type": "restructure",
+      "anchor": "Taiwan climate stress",
+      "title": "Describe each section, not one subheading",
+      "body": "Three lines of the map just copy one subheading: \"Taiwan climate stress\" for sections 2 and 3, \"Inconsistent soil testing\" for section 5, and \"Current reach\" for section 6. A judge choosing where to click learns nothing from them. Write one line on what each whole section shows.",
+      "after": "2–3 · Introduction and problem · Where warming, small farms and older farmers overlap\n5 · Validation · What farmers told us about soil, testing and organic rules\n6 · Impact · Profit per hectare and payback years by soil type"
+    },
     {
       "id": "gis-001",
       "type": "praise",

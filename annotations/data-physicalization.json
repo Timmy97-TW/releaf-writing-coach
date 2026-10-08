@@ -10,7 +10,8 @@
       "Reusable detail in places: the data-to-element table, the listening website, and the headphones wired to laptops behind the poster."
     ],
     "priorities": [
-      "Say once, at the start of the Impact section, that the survey covered all six booths, and mark which results are about the map. Then match the labels and categories to the IHP page.",
+      "Say once, in the abstract and at the start of the Impact section, that the survey covered all six booths, and mark which results are about the map. Then match the labels and categories to the IHP page.",
+      "Rewrite the abstract so its first sentence names both exhibits and the event, every ledger line is a full sentence, and the Taipei surprise appears as your dialogue example.",
       "Fix the facts that disagree: Yilan alone or Yilan and Nantou, the tourism explanation, “easy to see” against 32 of 62, the Figure 3 labels and caption, and the “most memorable” translation.",
       "Describe each physicalization once. Move the build before the results, and cut 1.4, the repeated concept paragraphs and the repeats in the conclusion.",
       "Name the data (crop, measure, years, source), the exact LED and color rules and the pitch shift, and add a build list so another team could make the board.",
@@ -68,10 +69,115 @@
       "Figure 2 caption: “Showcasing knowledge of the region with the highest stress.” does not say what was asked. Write: “Figure 2. Answers to ‘Which region has the highest plant stress?’ (n = 62). The correct answer, Yilan, is green.”",
       "Figure 4: the chart shows “Selected at least one future sustainable action: 98 percent”, but the text never gives this number. Add it, e.g. “61 of 62 (98.4%) chose at least one action” (61 is the only count out of 62 that rounds to 98%).",
       "Sound of plants concept: “how impactful it would be if the public realizes how plants can also sense stress” mixes tenses and overclaims. Write: “how much it would mean if the public learned that plants respond to stress”.",
-      "Event name: the page says “public forum booth” (Overview), “booth at our public forum” (Figure 1) and “public engagement booth” (Sound of plants). Your IHP page treats the morning forum and the afternoon booths as separate parts. Use one name, e.g. “our booth at the Water Garden Organic Farmers’ Market”."
+      "Event name: the page says “public forum booth” (Overview), “booth at our public forum” (Figure 1) and “public engagement booth” (Sound of plants). Your IHP page treats the morning forum and the afternoon booths as separate parts. Use one name, e.g. “our booth at the Water Garden Organic Farmers’ Market”.",
+      "Abstract ledger: the heading “Results” sits over two rows (“Stress map”, “Sound of plants”) that are exhibits, not results. Rename it, e.g. “What we built and found”.",
+      "Abstract section map: “1 Overview · From data to map” names only the last subsection. Write: “1 Overview · goals, the data, and how we built the map”.",
+      "Abstract section map: “2 Impact · Connecting data to plant stress” names only 2.1. Write: “2 Impact · what 62 visitors knew, felt and planned to do”."
     ]
   },
   "notes": [
+    {
+      "id": "dp-a01",
+      "zone": "abstract",
+      "type": "restructure",
+      "anchor": "We developed a data physicalization map that showcases different stress levels and crop yields throughout Taiwan.",
+      "title": "Lead with both exhibits and the event",
+      "body": "This is the first sentence a judge reads, and it names only the map. It leaves out the sound station, the booth and who came. Say in one sentence what visitors could do and where.",
+      "after": "At our booth on 5 September 2026, we turned plant-stress data into a map of Taiwan that visitors could see and plant recordings they could hear.",
+      "excerpts": [
+        "edu-2025-og-heidelberg-01",
+        "gis-2024-og-marburg-01"
+      ],
+      "excerpt_note": "Both openings say what was done and why in the first sentence or two, before any detail."
+    },
+    {
+      "id": "dp-a02",
+      "zone": "abstract",
+      "type": "restructure",
+      "anchor": "We designed a physical map using styrofoam, colored paper, and LED lights",
+      "title": "Swap materials for what the map shows",
+      "body": "The paragraph is four lines copied from different sections, and this one spends the summary on materials. A judge needs what the colors and lights mean, and one moment of dialogue. Your best one is in the body: visitors expected Taipei to show the most stress.",
+      "after": "Paper color shows crop yield and flashing LEDs show plant stress. Many visitors expected Taipei to show the most stress, and asked why [Yilan] did.",
+      "excerpts": [],
+      "ballot": "How well did their work promote mutual learning and/or a dialogue?"
+    },
+    {
+      "id": "dp-a03",
+      "zone": "abstract",
+      "type": "mistake",
+      "anchor": "We had 62 respondents and a total of 116 people who visited our booth.",
+      "title": "The survey covered the whole event",
+      "body": "The 62 answers come from one survey that visitors filled in after all six booths (IHP page, 5.2), so the sheet should not tie them to this booth alone. The ledger row for the same numbers is tagged “Forum”, but your IHP page treats the morning forum (“more than 50 participants”) and the afternoon booths as separate parts. Give visitors first, then respondents.",
+      "after": "Of the [116] people who visited our booth, 62 answered the event survey, which covered all six booths.",
+      "excerpts": [],
+      "ballot": "Was it thoughtfully implemented?"
+    },
+    {
+      "id": "dp-a04",
+      "zone": "abstract",
+      "type": "praise",
+      "anchor": "59 of 62 participants (95.2%) agreed",
+      "title": "The right number to put in bold",
+      "body": "This is the one survey question that asks only about the map, and you give the count and the base with the percentage. It is the number a judge should remember from this page.",
+      "excerpts": [
+        "ihp-2025-ug-nyuad-03"
+      ],
+      "excerpt_note": "NYU gives the sample size, the count and the percentage together.",
+      "ballot": "Was it thoughtfully implemented?"
+    },
+    {
+      "id": "dp-a05",
+      "zone": "abstract",
+      "type": "clarify",
+      "anchor": "read the map correctly on a single, brief encounter",
+      "title": "Say what “correctly” means",
+      "body": "Putting your weak result in bold is honest, and judges trust a page that does it. On its own, though, “read the map correctly” does not say what visitors had to do. Name the task and the count, and add what you will change.",
+      "after": "Just over half of visitors (32 of 62) found the highest-stress region from the LEDs alone, so we will [change to the board].",
+      "excerpts": [
+        "edu-2025-og-heidelberg-06"
+      ],
+      "excerpt_note": "Heidelberg states a weak result plainly and says what it took from it.",
+      "ballot": "How well did their work promote mutual learning and/or a dialogue?"
+    },
+    {
+      "id": "dp-a06",
+      "zone": "abstract",
+      "type": "praise",
+      "anchor": "More frequent flashing meant more severe stress",
+      "title": "A line that works on its own",
+      "body": "Someone who has not read the page understands this line: it gives the rule for reading the LEDs in seven words. The other ledger lines should do the same.",
+      "excerpts": []
+    },
+    {
+      "id": "dp-a07",
+      "zone": "abstract",
+      "type": "clarify",
+      "anchor": "recordings of drought-stressed tomato and tobacco",
+      "title": "Finish the sound line",
+      "body": "This is a fragment with no verb, so a reader does not know what visitors did. The clicks are ultrasonic, so also say they were pitch-shifted down; otherwise a judge will wonder how anyone heard them.",
+      "after": "Visitors heard drought-stressed tomato and tobacco, pitch-shifted down from ultrasound",
+      "excerpts": []
+    },
+    {
+      "id": "dp-a08",
+      "zone": "abstract",
+      "type": "clarify",
+      "anchor": "32 of 62 respondents (51.6%) correctly identified",
+      "title": "Correctly identified what?",
+      "body": "The line stops before its object. Marking this row “Partial” is honest; finish the sentence so it makes sense on its own.",
+      "after": "32 of 62 (51.6%) picked Yilan as the highest-stress region",
+      "excerpts": []
+    },
+    {
+      "id": "dp-a09",
+      "zone": "abstract",
+      "type": "clarify",
+      "anchor": "60 of 62 participants (96.8%) said they were willing",
+      "title": "Willing to do what?",
+      "body": "The line is cut off before the action. Say what they were willing to do, and keep in mind this question was about the whole event.",
+      "after": "60 of 62 (96.8%) would share what they learned with family or friends",
+      "excerpts": []
+    },
     {
       "id": "dp-001",
       "type": "restructure",

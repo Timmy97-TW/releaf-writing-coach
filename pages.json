@@ -1,0 +1,13 @@
+{
+  "wiki_repo": "https://github.com/Timmy97-TW/releaf-wiki.git",
+  "live_wiki": "https://2026.igem.wiki/gems-taiwan/",
+  "pages": [
+    {"slug": "human-practices", "title": "Integrated Human Practices", "prize": "Best Integrated Human Practices"},
+    {"slug": "education", "title": "Education", "prize": "Best Education", "skip": ["materials"]},
+    {"slug": "entrepreneurship", "title": "Entrepreneurship", "prize": "Best Entrepreneurship"},
+    {"slug": "sustainability", "title": "Sustainability", "prize": "Best Sustainable Development Impact"},
+    {"slug": "laws-and-regulations", "title": "Laws and Regulations", "prize": "Integrated Human Practices, Safety and Security"},
+    {"slug": "geospatial-analysis", "title": "Geospatial Analysis", "prize": "Integrated Human Practices, Sustainable Development"},
+    {"slug": "data-physicalization", "title": "Data Physicalization", "prize": "Education, Integrated Human Practices"}
+  ]
+}

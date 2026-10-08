@@ -11,6 +11,7 @@
     ],
     "priorities": [
       "Fix the claims that contradict other pages: the Arabidopsis \"proven\" claim, \"entirely natural\" protectants, the SDG list, 5 against 6 years, three schools against four visits, organic against natural.",
+      "Rewrite the abstract sheet. Its lead and two bold messages are what a judge remembers, and now they say how you started choosing goals and that your product \"doesn’t promote longevity\". Lead with the four goals and one line each, and give the risk its reason.",
       "Give every goal the same parts: target number, a named stakeholder with what changed, long-term impact, and one risk. Human Practices already holds the material (Gilbert Nkpeniyeng, Ms. Chen's change, Mr. Chen's damage warning, the LINE platform, the seed exchange).",
       "Add a section on other SDGs: who loses and which goal is hurt (power, farm work, older farmers).",
       "Put your own numbers in the text, such as survey gains, price and containment, and use \"could\" for anything not yet tested in the field.",
@@ -73,10 +74,112 @@
       "\"make the resulting crops to be unhealthy\": \"make\" takes no \"to be\". Write \"make the resulting crops unhealthy\".",
       "\"once taken off of our protectants\": drop \"of\". Write \"once taken off our protectants\".",
       "\"small scale farmers\": add a hyphen before a noun. Write \"small-scale farmers\".",
-      "The contents list says \"2. Why these SDGs\", but the heading says \"Why we chose the SDGs that we did\". Use the same short name in both places."
+      "The contents list says \"2. Why these SDGs\", but the heading says \"Why we chose the SDGs that we did\". Use the same short name in both places.",
+      "Abstract sheet, On this page: \"what sustainability is to GEMS-Taiwan\" repeats the hyphen slip. Write \"GEMS Taiwan\" or \"ReLeaf\".",
+      "Abstract sheet, Goals: \"it can prevent further deterioration\" does not say what \"it\" is or what is harmed. Write \"could stop further harm to soil and nearby ecosystems\".",
+      "Abstract sheet: \"all of which are targets\" repeats the body slip. Write \"goals\"."
     ]
   },
   "notes": [
+    {
+      "id": "sus-a01",
+      "zone": "abstract",
+      "type": "restructure",
+      "anchor": "Out of all the 17 SDGs available, we chose our SDGs first based on their relation to our project.",
+      "title": "Lead with your goals",
+      "body": "This is the first sentence a judge reads, and it only says how you started choosing. It does not name your goals or what ReLeaf does. Put the result first.",
+      "after": "We chose SDGs 2, 4, 10 and 15 because our project can make a real impact on them.",
+      "excerpts": [
+        "sus-2025-ug-epfl-01",
+        "sus-2024-og-uzurich-01"
+      ],
+      "excerpt_note": "Both winners open on the problem and what the project does, before any list."
+    },
+    {
+      "id": "sus-a02",
+      "zone": "abstract",
+      "type": "restructure",
+      "anchor": "We ended up with SDGs 2, 4, 10, and 15",
+      "title": "One line per goal",
+      "body": "This paragraph is four sentences copied from different sections, so it reads as pieces. Only SDG 4 and SDG 15 get a line, and SDG 2 and SDG 10 get none. Write one short sentence per goal, then one for the main risk.",
+      "after": "SDG 2: our protectants could help crops keep growing under stress. SDG 4: our education website shares our lessons with teachers. SDG 10: profit from large farms could pay for subsidies or rentals for small farmers. SDG 15: our product could stop further harm to soil. Main risk: plants may come to depend on our protectants."
+    },
+    {
+      "id": "sus-a03",
+      "zone": "abstract",
+      "type": "praise",
+      "anchor": "We have an education website where we compiled all of the education resources",
+      "title": "A good message to make bold",
+      "body": "This is something real that others can use after the season, and you put it in bold. Judges ask whether other teams can build on your work, and this answers it on the first screen. Add the link.",
+      "excerpts": [
+        "edu-2025-ug-queens-02"
+      ],
+      "excerpt_note": "Queens says exactly what it hands over and how others reuse it.",
+      "ballot": "Has the team documented their work against their chosen SDG(s) so that other teams can build upon their work?"
+    },
+    {
+      "id": "sus-a04",
+      "zone": "abstract",
+      "type": "restructure",
+      "anchor": "The usage of our product doesn’t promote longevity.",
+      "title": "Give the bold risk its reason",
+      "body": "This is one of only two bold messages, and on its own it sounds like your product is bad for the long term. Keep the risk, because honest limits earn trust, but say what it is and who raised it.",
+      "after": "One risk: plants that get our protectants may not build their own resilience, as the farmer Ms. Chen warned us.",
+      "excerpts": [
+        "sus-2025-og-aalto-02"
+      ],
+      "excerpt_note": "Aalto states its limits early and plainly, with the reason.",
+      "ballot": "How well has the team considered the positive and/or negative interactions of their work in relation to other SDGs?"
+    },
+    {
+      "id": "sus-a05",
+      "zone": "abstract",
+      "type": "clarify",
+      "anchor": "can directly impact this and increase food production",
+      "title": "Make the SDG 2 line stand alone",
+      "body": "On the sheet, \"this\" has nothing to point to. \"Directly ... increase food production\" also goes past your plant results (see note sus-012). Use a short line that makes sense alone.",
+      "after": "could help crops keep growing under stress"
+    },
+    {
+      "id": "sus-a06",
+      "zone": "abstract",
+      "type": "suggest",
+      "anchor": "basic introductions to synthetic biology",
+      "title": "Use your survey number here",
+      "body": "This line says what is on the website, not what changed for learners. You have a measured result for SDG 4, and it is the strongest number on the page. Put it here.",
+      "after": "biotic vs abiotic stress answers rose from 16% to 91% after our lessons",
+      "excerpts": [
+        "edu-2025-og-heidelberg-02"
+      ],
+      "excerpt_note": "Heidelberg opens each section with a one-line result that has a number.",
+      "ballot": "Has the team's work measurably and significantly addressed one or more SDGs?"
+    },
+    {
+      "id": "sus-a07",
+      "zone": "abstract",
+      "type": "praise",
+      "anchor": "subsidise small farmers’ purchases",
+      "title": "This line works on its own",
+      "body": "Four words give the action and who it helps. A judge sees your SDG 10 plan without opening the section."
+    },
+    {
+      "id": "sus-a08",
+      "zone": "abstract",
+      "type": "mistake",
+      "anchor": "Zero hunger; Quality education",
+      "title": "Name all four goals",
+      "body": "Section 3 covers four goals, but this line names two. A judge may think SDG 10 and SDG 15 are missing.",
+      "after": "SDGs 2, 4, 10 and 15, each with a problem and a solution"
+    },
+    {
+      "id": "sus-a09",
+      "zone": "abstract",
+      "type": "cut",
+      "anchor": "adverse effects to everything",
+      "title": "Name the actual risk",
+      "body": "This fragment, taken from your Negatives intro, says your product harms everything. Replace it with the risk the section is about.",
+      "after": "plants may come to depend on our protectants"
+    },
     {
       "id": "sus-001",
       "type": "cut",

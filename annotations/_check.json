@@ -1,0 +1,33 @@
+{
+ "wiki": "4b52192 2026-10-08 Student banners and a one-screen abstract on 23 pages; Gallery removed",
+ "pages": {
+  "human-practices": {
+   "notes": 80,
+   "broken": []
+  },
+  "education": {
+   "notes": 65,
+   "broken": []
+  },
+  "entrepreneurship": {
+   "notes": 65,
+   "broken": []
+  },
+  "sustainability": {
+   "notes": 39,
+   "broken": []
+  },
+  "laws-and-regulations": {
+   "notes": 48,
+   "broken": []
+  },
+  "geospatial-analysis": {
+   "notes": 49,
+   "broken": []
+  },
+  "data-physicalization": {
+   "notes": 39,
+   "broken": []
+  }
+ }
+}

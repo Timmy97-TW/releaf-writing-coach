@@ -5,15 +5,14 @@ DescriptionThe problem and our answerBiomanufacturingProtectant made on the farm
 ExperimentsEvery protocol we ranPartsOur BioBricks and constructsPlantsSalt and heat stress trialsMeasurementCalibrated, repeatable readoutsSafetyContainment and lab safetyNotebookWet lab records by month
 Math ModelFrom plant stress to lightHardwarePhotometer, LEDs and bioreactorDigital TwinSoftware that watches each batchProtein DesignDesigning the BoPep4 peptideDry Lab NotebookComputational work, week by week
 Integrated Human PracticesVoices that reshaped ReLeafEducationLessons across three school levelsEntrepreneurshipFrom prototype to farm businessSustainabilityOur impact on the SDGsLaws and RegulationsApproval routes, Taiwan and beyondGeospatial AnalysisMapping stress across TaiwanData PhysicalizationStress data you can touch
-MembersThe people behind ReLeafAttributionWho did whatMilestoneOur season, month by monthGalleryPhotos from lab and field
+MembersThe people behind ReLeafAttributionWho did whatMilestoneOur season, month by month
 DescriptionThe problem and our answerBiomanufacturingProtectant made on the farmEngineeringEvery build and test cycleDevelopmentSuccess criteria, stage by stageContributionTools future teams can reuseResultsWhat worked on the bench
 ExperimentsEvery protocol we ranPartsOur BioBricks and constructsPlantsSalt and heat stress trialsMeasurementCalibrated, repeatable readoutsSafetyContainment and lab safetyNotebookWet lab records by month
 Math ModelFrom plant stress to lightHardwarePhotometer, LEDs and bioreactorDigital TwinSoftware that watches each batchProtein DesignDesigning the BoPep4 peptideDry Lab NotebookComputational work, week by week
 Integrated Human PracticesVoices that reshaped ReLeafEducationLessons across three school levelsEntrepreneurshipFrom prototype to farm businessSustainabilityOur impact on the SDGsLaws and RegulationsApproval routes, Taiwan and beyondGeospatial AnalysisMapping stress across TaiwanData PhysicalizationStress data you can touch
-MembersThe people behind ReLeafAttributionWho did whatMilestoneOur season, month by monthGalleryPhotos from lab and field
-[IMG] The styrofoam stress map of Taiwan held up above the booth table. The island is surfaced in dark green, pale yellow-green and brown paper with small red LEDs pushed through it. A visitor points a rolled programme at the board while a student beside her looks up at it.
-ReLeaf / Engagement / Data Physicalization
+MembersThe people behind ReLeafAttributionWho did whatMilestoneOur season, month by month
 # Data Physicalization
+[IMG] Data Physicalization. Team members in matching shirts explain a hand-made green and yellow relief map of Taiwan to visitors crowded around the booth table.
 [FOLD] Contents
 On this page
 - 1. Overview

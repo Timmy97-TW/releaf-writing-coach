@@ -5,15 +5,14 @@ DescriptionThe problem and our answerBiomanufacturingProtectant made on the farm
 ExperimentsEvery protocol we ranPartsOur BioBricks and constructsPlantsSalt and heat stress trialsMeasurementCalibrated, repeatable readoutsSafetyContainment and lab safetyNotebookWet lab records by month
 Math ModelFrom plant stress to lightHardwarePhotometer, LEDs and bioreactorDigital TwinSoftware that watches each batchProtein DesignDesigning the BoPep4 peptideDry Lab NotebookComputational work, week by week
 Integrated Human PracticesVoices that reshaped ReLeafEducationLessons across three school levelsEntrepreneurshipFrom prototype to farm businessSustainabilityOur impact on the SDGsLaws and RegulationsApproval routes, Taiwan and beyondGeospatial AnalysisMapping stress across TaiwanData PhysicalizationStress data you can touch
-MembersThe people behind ReLeafAttributionWho did whatMilestoneOur season, month by monthGalleryPhotos from lab and field
+MembersThe people behind ReLeafAttributionWho did whatMilestoneOur season, month by month
 DescriptionThe problem and our answerBiomanufacturingProtectant made on the farmEngineeringEvery build and test cycleDevelopmentSuccess criteria, stage by stageContributionTools future teams can reuseResultsWhat worked on the bench
 ExperimentsEvery protocol we ranPartsOur BioBricks and constructsPlantsSalt and heat stress trialsMeasurementCalibrated, repeatable readoutsSafetyContainment and lab safetyNotebookWet lab records by month
 Math ModelFrom plant stress to lightHardwarePhotometer, LEDs and bioreactorDigital TwinSoftware that watches each batchProtein DesignDesigning the BoPep4 peptideDry Lab NotebookComputational work, week by week
 Integrated Human PracticesVoices that reshaped ReLeafEducationLessons across three school levelsEntrepreneurshipFrom prototype to farm businessSustainabilityOur impact on the SDGsLaws and RegulationsApproval routes, Taiwan and beyondGeospatial AnalysisMapping stress across TaiwanData PhysicalizationStress data you can touch
-MembersThe people behind ReLeafAttributionWho did whatMilestoneOur season, month by monthGalleryPhotos from lab and field
-[IMG] Satellite view of western and central Taiwan on a dark sea, with hundreds of small yellow polygons marking farmland communities of under 1.1 hectares scattered down the western plain, and three larger red polygons marking the rare holdings above that size.
-ReLeaf / Engagement / Geospatial Analysis
+MembersThe people behind ReLeafAttributionWho did whatMilestoneOur season, month by month
 # Geospatial Analysis
+[IMG] Geospatial Analysis. A team member stands beside a projection screen at the public forum, pointing at a colour-coded map of Taiwan showing 1991 to 2024 mean temperature against county rice yields.
 [FOLD] Contents
 On this page
 - 1. Abstract

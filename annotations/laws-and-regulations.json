@@ -12,11 +12,11 @@
       "40 C.F.R. Part 725 cited where the claim is made, and the Taiwanese category given in Chinese and English."
     ],
     "priorities": [
-      "Fix the page-to-page contradictions first: the market order and the 30-day fertilizer timeline against Entrepreneurship, Taiwan contained-use against Entrepreneurship's \"absolute containment\" certification, ACCD heat against the salinity evidence on Geospatial Analysis, the organic exclusion against Geospatial Analysis, the missing NaD1, and BoPEP4 against BoPep4.",
+      "Fix the page-to-page contradictions first, starting with the market order, which the new abstract sheet now shows on the first screen: EU second here against the Philippines first and the EU at year 5.5 on Entrepreneurship. Then the 30-day fertilizer timeline and \"absolute containment\" certification on Entrepreneurship, ACCD heat against the salinity evidence and the organic exclusion on Geospatial Analysis, the missing NaD1, and BoPEP4 against BoPep4.",
       "Turn section 8 into a real stakeholder entry, and add at least one regulator and one critic. Ask the two questions WageningenUR asked: does each molecule need its own approval, and what residual cell or DNA limit applies to the output.",
       "Name one design change that a rule caused, and write it where a judge will see it. Your Human Practices page already records the move away from direct soil release; that is a legal decision and it belongs here with a link.",
       "Cite rules by article with a link and an access date, and give every unconfirmed item an owner and a next step.",
-      "Cut the repetition: the abstract is restated in section 2, the molecule list appears six times, the Kelpak table is retold in prose, and \"rather than\" carries 18 sentences.",
+      "Cut the repetition: the opening now appears three times (abstract sheet, section 1, start of section 2), the molecule list six times, the Kelpak table is retold in prose, and \"rather than\" carries 18 sentences. Let the sheet carry the summary and cut section 1 to the lines the sheet does not have.",
       "Summarise this page in one line with a link on Human Practices, Safety and Sustainability. Judges only reach it from pages with a Standard URL, and today only Entrepreneurship names it."
     ],
     "ballot": [
@@ -90,10 +90,120 @@
       "The references name the same body twice: \"Environmental Protection Agency. (2020).\" and \"U.S. Environmental Protection Agency. (2025).\" Use one form.",
       "\"Developed by IFFCO, Sagarika is a microbial biostimulant\". Check this against the Fertilizer Control Order source you cite; if Sagarika is seaweed-derived like Kelpak, say so, because your comparison of the two cases depends on it.",
       "Figure 4 labels the Taiwanese category \"plant auxiliary products\" while the text calls it \"植物生長輔助劑類 (Plant Growth Auxiliary Materials)\". Use one label in both places.",
-      "The four United States questions are listed, then only three get an answer; \"Which state-level fertilizer or beneficial-substance requirements apply?\" never gets its own paragraph. Answer all four in the order you asked them."
+      "The four United States questions are listed, then only three get an answer; \"Which state-level fertilizer or beneficial-substance requirements apply?\" never gets its own paragraph. Answer all four in the order you asked them.",
+      "Abstract sheet map, row 4: \"EU reference point\" describes only subsection 4.1. Write \"What each molecule does, and the EU biostimulant category\".",
+      "Abstract sheet map, row 11: \"five questions\" starts in lower case and says little. Write \"Five questions that sum up our strategy\".",
+      "Abstract sheet, Components: \"Bioreactor · Equipment · Separate equipment pathway\" says equipment twice and nothing else. Write \"Own safety and conformity check, set by the final hardware\"."
     ]
   },
   "notes": [
+    {
+      "id": "law-a01",
+      "zone": "abstract",
+      "type": "restructure",
+      "anchor": "ReLeaf is a three-part system: the bioreactor, the engineered production culture",
+      "title": "Lead with what the page found",
+      "body": "This lead describes the product, and a judge already knows the product by now. The first line of a law page should say where ReLeaf stands. Use your own findings from sections 9 and 10.",
+      "after": "Our cell-free output is aimed at fertilizer and biostimulant routes, while the engineered culture and the bioreactor need separate approvals, and Taiwan's contained-use route is still unconfirmed.",
+      "excerpts": [
+        "gis-2024-og-marburg-01",
+        "laws-2025-og-wur-01"
+      ],
+      "excerpt_note": "Marburg gives problem, method, result and risk in four sentences. WageningenUR puts the rule that changes the design in its first sentence."
+    },
+    {
+      "id": "law-a02",
+      "zone": "abstract",
+      "type": "restructure",
+      "anchor": "The same biological output may be treated as a fertilizer, plant biostimulant, or pesticide",
+      "title": "The bold stops before the point",
+      "body": "Only \"The same biological output may be treated\" is bold, so a skimming judge reads half a sentence. The message worth remembering is what decides the category. Bold that part.",
+      "after": "The same output may count as a fertilizer, a biostimulant or a pesticide: **what we claim it does decides which**."
+    },
+    {
+      "id": "law-a03",
+      "zone": "abstract",
+      "type": "suggest",
+      "anchor": "Our analysis focuses on classification, containment, efficacy, and market access",
+      "title": "Show who you asked",
+      "body": "The sheet names laws and markets but no person. Judges look for stakeholders on the first screen. Name the Cheng Han Biotechnology briefing here, and any regulator you ask before the freeze.",
+      "after": "We checked primary legal sources and a regulatory briefing from Yuan Chiu-Ying of Cheng Han Biotechnology (9 July 2026), focusing on classification, containment, efficacy and market access.",
+      "excerpts": [
+        "ihp-2025-og-wur-01"
+      ],
+      "excerpt_note": "WageningenUR's opening states the purpose, how many people the team engaged and of which kinds, all in three sentences.",
+      "ballot": "How well did it incorporate different stakeholder views?"
+    },
+    {
+      "id": "law-a04",
+      "zone": "abstract",
+      "type": "clarify",
+      "anchor": "This makes PFC 6(B) a potential pathway for",
+      "title": "This sentence was cut from its context",
+      "body": "In the body this sentence follows the EU definition of PFC 6. Here \"This\" points at nothing, and PFC 6(B) is never explained. A judge outside the EU will not know the code. Say what it is in the same sentence.",
+      "after": "In the EU, our output could fit PFC 6(B), the category for non-microbial plant biostimulants, but that is **not an automatic classification**."
+    },
+    {
+      "id": "law-a05",
+      "zone": "abstract",
+      "type": "praise",
+      "anchor": "but not an automatic classification",
+      "title": "The right message in bold",
+      "body": "If a judge remembers one thing from this sheet, it should be that a possible route is not an approval. You chose that as your bold message, and it is the line that makes the page trustworthy.",
+      "excerpts": [
+        "laws-2024-ug-waterloo-01"
+      ],
+      "excerpt_note": "Waterloo writes the same caution as an if-then sentence."
+    },
+    {
+      "id": "law-a06",
+      "zone": "abstract",
+      "type": "clarify",
+      "anchor": "Contained-Use / Biotechnology Framework",
+      "title": "These rows read as decided",
+      "body": "This row, and the cell-free row above it (\"Fertilizer/Plant Biostimulant\"), name a route with no hedge. The body calls both routes \"under investigation\", and the last row says contained use in Taiwan is unconfirmed. Add the status to each line.",
+      "after": "Contained-use rules, to be confirmed in each market"
+    },
+    {
+      "id": "law-a07",
+      "zone": "abstract",
+      "type": "mistake",
+      "anchor": "Taiwan → European Union → Philippines",
+      "title": "Market order disagrees with Entrepreneurship",
+      "body": "This row and the paragraph (\"the EU as our current first international market\") both put the EU second. The Entrepreneurship page makes the Philippines the first expansion in year 3 and puts the European Union in \"Global market expansion Year 5.5 - Year 6.0+\". This is now on the first screen of both pages, so fix it first.",
+      "after": "Taiwan → [first market] → [second market], the same order as the Entrepreneurship page"
+    },
+    {
+      "id": "law-a08",
+      "zone": "abstract",
+      "type": "praise",
+      "anchor": "Applicable contained-use framework remains unconfirmed",
+      "title": "An open question on the first screen",
+      "body": "You put an unsolved problem in the summary, marked Open. Most teams hide that kind of line deep in the page. It tells the judge you know where your case is weak.",
+      "excerpts": [
+        "laws-2024-og-uzurich-03"
+      ],
+      "excerpt_note": "UZurich states its hardest legal result in one plain sentence."
+    },
+    {
+      "id": "law-a09",
+      "zone": "abstract",
+      "type": "clarify",
+      "anchor": "Products and industry",
+      "title": "The map hides your only stakeholder",
+      "body": "The name promises industry, but the line lists only Kelpak and Sagarika. Section 8, the Cheng Han Biotechnology briefing, is the one person on the page, and the map is where a judge looks for people. Name it.",
+      "after": "Kelpak; Sagarika; the Cheng Han Biotechnology briefing",
+      "ballot": "How well did it incorporate different stakeholder views?"
+    },
+    {
+      "id": "law-a10",
+      "zone": "abstract",
+      "type": "restructure",
+      "anchor": "Where does ReLeaf sit?",
+      "title": "Describe both sections in this row",
+      "body": "This line is the heading of section 9 copied in. Section 10, your table of what is still unconfirmed, is the strongest part of the page and the map does not mention it. Describe both.",
+      "after": "Where ReLeaf sits now, and what is still unconfirmed"
+    },
     {
       "id": "law-001",
       "type": "praise",

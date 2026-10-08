@@ -5,15 +5,14 @@ DescriptionThe problem and our answerBiomanufacturingProtectant made on the farm
 ExperimentsEvery protocol we ranPartsOur BioBricks and constructsPlantsSalt and heat stress trialsMeasurementCalibrated, repeatable readoutsSafetyContainment and lab safetyNotebookWet lab records by month
 Math ModelFrom plant stress to lightHardwarePhotometer, LEDs and bioreactorDigital TwinSoftware that watches each batchProtein DesignDesigning the BoPep4 peptideDry Lab NotebookComputational work, week by week
 Integrated Human PracticesVoices that reshaped ReLeafEducationLessons across three school levelsEntrepreneurshipFrom prototype to farm businessSustainabilityOur impact on the SDGsLaws and RegulationsApproval routes, Taiwan and beyondGeospatial AnalysisMapping stress across TaiwanData PhysicalizationStress data you can touch
-MembersThe people behind ReLeafAttributionWho did whatMilestoneOur season, month by monthGalleryPhotos from lab and field
+MembersThe people behind ReLeafAttributionWho did whatMilestoneOur season, month by month
 DescriptionThe problem and our answerBiomanufacturingProtectant made on the farmEngineeringEvery build and test cycleDevelopmentSuccess criteria, stage by stageContributionTools future teams can reuseResultsWhat worked on the bench
 ExperimentsEvery protocol we ranPartsOur BioBricks and constructsPlantsSalt and heat stress trialsMeasurementCalibrated, repeatable readoutsSafetyContainment and lab safetyNotebookWet lab records by month
 Math ModelFrom plant stress to lightHardwarePhotometer, LEDs and bioreactorDigital TwinSoftware that watches each batchProtein DesignDesigning the BoPep4 peptideDry Lab NotebookComputational work, week by week
 Integrated Human PracticesVoices that reshaped ReLeafEducationLessons across three school levelsEntrepreneurshipFrom prototype to farm businessSustainabilityOur impact on the SDGsLaws and RegulationsApproval routes, Taiwan and beyondGeospatial AnalysisMapping stress across TaiwanData PhysicalizationStress data you can touch
-MembersThe people behind ReLeafAttributionWho did whatMilestoneOur season, month by monthGalleryPhotos from lab and field
-[IMG] Two ReLeaf team members in cream team shirts stand at a whiteboard in the lab. On the left of the board, ReLeaf is split into bioreactor, culture and output, leading to equipment and CE marking, GMO and containment, and biostimulant or fertilizer, then to Taiwan, the EU, the US and ASEAN; on the right are handwritten lists of rules for Taiwan, the EU, ASEAN and the USA. The bioreactor prototype glows green on the table beside them.
-ReLeaf / Engagement / Laws and Regulations
+MembersThe people behind ReLeafAttributionWho did whatMilestoneOur season, month by month
 # Laws and Regulations
+[IMG] Laws and Regulation. Two team members stand at a whiteboard covered in a hand-drawn regulatory flow chart, one pointing at it while the other reads from a laptop.
 [FOLD] Contents
 On this page
 - 1. Abstract
