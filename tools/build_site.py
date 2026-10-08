@@ -123,12 +123,53 @@ def esc(s):
     return html.escape(s or "", quote=True)
 
 
+TRACK = {"UG": "Undergrad", "OG": "Overgrad"}
+
+
+def winners_html(W, page_titles):
+    """The prize-by-year table: every cell links to the page that won."""
+    cols = [(y, t) for y in (2025, 2024, 2023) for t in ("UG", "OG")]
+    head = "".join(f'<th scope="col"><a href="{W["results"].format(year=y)}">{y}</a><span>{TRACK[t]}</span></th>' for y, t in cols)
+    rows = []
+    for pr in W["prizes"]:
+        cells = []
+        for y, t in cols:
+            ws = [w for w in pr["winners"] if w["year"] == y and w["track"] == t]
+            links = "".join(f'<a href="{w["url"]}">{esc(w["team"])}</a>' for w in ws)
+            cells.append(f'<td>{links}{"<em>tie</em>" if len(ws) > 1 else ""}</td>')
+        coach = f'<a class="lp-win__page" href="{pr["page"]}/">Our {esc(page_titles.get(pr["page"], pr["page"]))} page</a>' if pr["page"] in page_titles else ""
+        rows.append(f'<tr><th scope="row">{esc(pr["name"])}{coach}</th>{"".join(cells)}</tr>')
+    prec = "".join(
+        f'<tr><th scope="row">{esc(x["team"])} {x["year"]}</th>'
+        f'<td>{" · ".join(esc(page_titles.get(f, f)) for f in x["for"])}</td>'
+        f'<td>{"".join(f"<a href=\"{u}\">{esc(n)}</a>" for n, u in x["links"])}</td>'
+        f'<td>{esc(x["standing"])}</td></tr>' for x in W["precedents"])
+    return f'''
+    <section class="lp-win" id="winners">
+      <h2>The winners we compare against</h2>
+      <p>Undergrad and overgrad winners of four iGEM special prizes, 2023 to 2025. Each name opens the page that won the prize; each year opens iGEM's results for that year. In 2025 the overgrad Best Entrepreneurship prize was shared.</p>
+      <div class="lp-win__scroll"><table class="lp-win__table">
+        <thead><tr><th scope="col">Prize</th>{head}</tr></thead>
+        <tbody>{"".join(rows)}</tbody>
+      </table></div>
+      <h3>Law and GIS pages</h3>
+      <p>No prize covers these pages, so their notes quote the closest pages we found. Data Physicalization is compared with the Education and Integrated Human Practices winners.</p>
+      <div class="lp-win__scroll"><table class="lp-win__table lp-win__table--prec">
+        <thead><tr><th scope="col">Team</th><th scope="col">Used for</th><th scope="col">Page</th><th scope="col">Standing</th></tr></thead>
+        <tbody>{prec}</tbody>
+      </table></div>
+      <p class="lp-win__lic">All iGEM wiki text is licensed CC BY 4.0. Every quoted passage in the notes links to its source page.</p>
+    </section>'''
+
+
 def landing(built, bank, wiki=""):
-    teams = sorted({(x["team"], x["year"], x["track"], x["url"].split("/")[2] + "/" + x["url"].split("/")[3])
-                    for x in bank.values()}, key=lambda t: (-t[1], t[0]))
-    win = {(x["team"], x["year"]) for x in bank.values() if x.get("prize") in ("ihp", "education", "entrepreneurship", "sustainability")}
-    prec_set = sorted({(x["team"], x["year"]) for x in bank.values() if x.get("prize") in ("laws", "gis")} - win, key=lambda t: (-t[1], t[0]))
-    prec = ", ".join(f"{t} {y}" for t, y in prec_set)
+    W = json.loads((ROOT / "research/winners.json").read_text())
+    titles = {b[0]: b[1] for b in built}
+    compared = {pr["page"]: [f'{w["team"]} {w["year"]}' for w in pr["winners"]] for pr in W["prizes"]}
+    for x in W["precedents"]:
+        for f in x["for"]:
+            compared.setdefault(f, []).append(f'{x["team"]} {x["year"]}')
+    compared.setdefault("data-physicalization", ["the Education and Integrated Human Practices winners"])
     cards = []
     for slug, title, prize, short, a, counts in built:
         chips = "".join(f'<li class="cx-{t}">{name} {counts[t]}</li>' for t, name in TYPES if counts[t])
@@ -139,6 +180,7 @@ def landing(built, bank, wiki=""):
         <h3>{esc(title)}</h3>
         <p>{esc(a.get("summary", {}).get("verdict", ""))}</p>
         {f'<p class="lp-card__first"><b>Fix first</b>{esc(pri[0])}</p>' if pri else ""}
+        <p class="lp-card__vs"><b>Compared with</b>{esc(", ".join(compared.get(slug, [])))}</p>
         <ul class="cx-sum__counts">{chips}</ul>
       </a>''')
     names = {"human-practices": ["Human Practices", "IHP"], "education": ["Education"],
@@ -158,7 +200,6 @@ def landing(built, bank, wiki=""):
                   f'<ul>{"".join(cross)}</ul></section>') if cross else ""
     waiting = [p for p in PAGES if p[0] not in {b[0] for b in built}]
     wait_html = "".join(f'<li>{esc(p[1])}</li>' for p in waiting)
-    credit = "".join(f'<li><a href="https://{t[3]}/">{esc(t[0])} {t[1]}</a> <span>{"Overgrad" if t[2]=="OG" else "Undergrad" if t[2]=="UG" else esc(t[2])}</span></li>' for t in teams)
     legend = "".join(f'<li class="cx-{t}"><b>{name}</b>{d}</li>' for (t, name), d in zip(TYPES, [
         "writing that already works, and why a judge rewards it",
         "the same facts in a clearer order",
@@ -187,16 +228,12 @@ def landing(built, bank, wiki=""):
   <main class="lp-main">
     <section class="lp-grid">{"".join(cards)}
     </section>
+    {winners_html(W, titles)}
     {f'<section class="lp-wait"><h2>Still in review</h2><ul>{wait_html}</ul></section>' if waiting else ''}
     {cross_html}
     <section class="lp-legend">
       <h2>The six kinds of note</h2>
       <ul>{legend}</ul>
-    </section>
-    <section class="lp-credit">
-      <h2>Teams quoted</h2>
-      <p>Undergrad and overgrad winners of Best Integrated Human Practices, Best Education, Best Entrepreneurship and Best Sustainable Development Impact, 2023 to 2025. No prize covers law or GIS pages, so those notes quote the closest precedents: {esc(prec)}. All iGEM wiki text is licensed CC BY 4.0; every passage links to its source page.</p>
-      <ul>{credit}</ul>
     </section>
     {f'<p class="lp-src">Pages as they stood on the ReLeaf wiki at commit {esc(wiki)}.</p>' if wiki else ''}
   </main>

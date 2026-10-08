@@ -349,8 +349,9 @@
 
   function buildBar() {
     var bar = el("div", "cx-bar"); bar.setAttribute("role", "toolbar");
-    var home = el("a"); home.href = "../"; home.innerHTML = svg("M3 11l9-7 9 7M5 10v10h14V10"); home.title = "All pages";
-    home.setAttribute("aria-label", "All pages");
+    var home = el("a", "cx-home"); home.href = "../";
+    home.innerHTML = svg("M3 11l9-7 9 7M5 10v10h14V10") + "<span>All pages</span>";
+    home.title = "All pages";
     bar.appendChild(home);
     bar.appendChild(el("span", "cx-bar__sep"));
     TYPES.forEach(function (t) {

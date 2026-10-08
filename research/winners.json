@@ -1,0 +1,48 @@
+{
+  "results": "https://competition.igem.org/results/{year}?tab=special-prizes",
+  "prizes": [
+    {"key": "ihp", "name": "Best Integrated Human Practices", "page": "human-practices", "winners": [
+      {"year": 2025, "track": "UG", "team": "NYU-Abu-Dhabi", "url": "https://2025.igem.wiki/nyu-abu-dhabi/human-practices"},
+      {"year": 2025, "track": "OG", "team": "WageningenUR", "url": "https://2025.igem.wiki/wageningenur/human-practices/"},
+      {"year": 2024, "track": "UG", "team": "JU-Krakow", "url": "https://2024.igem.wiki/ju-krakow/human-practices"},
+      {"year": 2024, "track": "OG", "team": "Bielefeld-CeBiTec", "url": "https://2024.igem.wiki/bielefeld-cebitec/human-practices"},
+      {"year": 2023, "track": "UG", "team": "HUST-China", "url": "https://2023.igem.wiki/hust-china/human-practices"},
+      {"year": 2023, "track": "OG", "team": "SDU-Denmark", "url": "https://2023.igem.wiki/sdu-denmark/human-practices"}]},
+    {"key": "education", "name": "Best Education", "page": "education", "winners": [
+      {"year": 2025, "track": "UG", "team": "Queens-Canada", "url": "https://2025.igem.wiki/queens-canada/education"},
+      {"year": 2025, "track": "OG", "team": "Heidelberg", "url": "https://2025.igem.wiki/heidelberg/education"},
+      {"year": 2024, "track": "UG", "team": "CityU-HongKong", "url": "https://2024.igem.wiki/cityu-hongkong/education"},
+      {"year": 2024, "track": "OG", "team": "Aachen", "url": "https://2024.igem.wiki/aachen/education"},
+      {"year": 2023, "track": "UG", "team": "IISER-Pune-India", "url": "https://2023.igem.wiki/iiser-pune-india/education"},
+      {"year": 2023, "track": "OG", "team": "EPFL", "url": "https://2023.igem.wiki/epfl/education"}]},
+    {"key": "entrepreneurship", "name": "Best Entrepreneurship", "page": "entrepreneurship", "winners": [
+      {"year": 2025, "track": "UG", "team": "SUSTech-BIO", "url": "https://2025.igem.wiki/sustech-bio/entrepreneurship"},
+      {"year": 2025, "track": "OG", "team": "UNILausanne", "url": "https://2025.igem.wiki/unilausanne/entrepreneurship"},
+      {"year": 2025, "track": "OG", "team": "WageningenUR", "url": "https://2025.igem.wiki/wageningenur/entrepreneurship/"},
+      {"year": 2024, "track": "UG", "team": "Uni-Padua-IT", "url": "https://2024.igem.wiki/uni-padua-it/entrepreneurship"},
+      {"year": 2024, "track": "OG", "team": "UToronto", "url": "https://2024.igem.wiki/utoronto/entrepreneurship.html"},
+      {"year": 2023, "track": "UG", "team": "Tec-Chihuahua", "url": "https://2023.igem.wiki/tec-chihuahua/entrepreneurship"},
+      {"year": 2023, "track": "OG", "team": "Leiden", "url": "https://2023.igem.wiki/leiden/entrepreneurship"}]},
+    {"key": "sustainability", "name": "Best Sustainable Development Impact", "page": "sustainability", "winners": [
+      {"year": 2025, "track": "UG", "team": "EPFL", "url": "https://2025.igem.wiki/epfl/sustainability"},
+      {"year": 2025, "track": "OG", "team": "Aalto-Helsinki", "url": "https://2025.igem.wiki/aalto-helsinki/sustainability"},
+      {"year": 2024, "track": "UG", "team": "UBC-Vancouver", "url": "https://2024.igem.wiki/ubc-vancouver/sustainable"},
+      {"year": 2024, "track": "OG", "team": "UZurich", "url": "https://2024.igem.wiki/uzurich/sustainable"},
+      {"year": 2023, "track": "UG", "team": "Thessaloniki", "url": "https://2023.igem.wiki/thessaloniki/sustainable"},
+      {"year": 2023, "track": "OG", "team": "Heidelberg", "url": "https://2023.igem.wiki/heidelberg/sustainable"}]}
+  ],
+  "precedents": [
+    {"team": "Marburg", "year": 2024, "for": ["laws-and-regulations", "geospatial-analysis"], "standing": "Best Integrated Human Practices nominee",
+     "links": [["GIS", "https://2024.igem.wiki/marburg/gis"], ["Legal and political", "https://2024.igem.wiki/marburg/human-practices/legal-political"]]},
+    {"team": "WageningenUR", "year": 2025, "for": ["laws-and-regulations"], "standing": "Best Integrated Human Practices and Best Entrepreneurship winner",
+     "links": [["Human Practices", "https://2025.igem.wiki/wageningenur/human-practices/"]]},
+    {"team": "UZurich", "year": 2024, "for": ["laws-and-regulations"], "standing": "Best Sustainable Development Impact winner",
+     "links": [["Integrated Human Practices", "https://2024.igem.wiki/uzurich/integrated-human-practices"]]},
+    {"team": "Waterloo", "year": 2024, "for": ["laws-and-regulations"], "standing": "No award",
+     "links": [["Policy Research", "https://2024.igem.wiki/waterloo/policy-research"]]},
+    {"team": "IISER-Pune-India", "year": 2022, "for": ["geospatial-analysis"], "standing": "No award",
+     "links": [["Model", "https://2022.igem.wiki/iiser-pune-india/model"]]},
+    {"team": "XJTLU-CHINA", "year": 2025, "for": ["geospatial-analysis"], "standing": "No award",
+     "links": [["Model", "https://2025.igem.wiki/xjtlu-china/model"]]}
+  ]
+}
