@@ -7,9 +7,3 @@ We ended up with SDGs 2, 4, 10, and 15, all of which are targets that we activel
 - Reduced inequalities · SDG 10 · subsidise small farmers’ purchases
 - Life on land · SDG 15 · it can prevent further deterioration
 - Negatives · Limit · doesn’t promote longevity
-## On this page
-- 1 · Overview · what sustainability is to GEMS-Taiwan
-- 2 · Why we chose the SDGs that we did · processes of elimination
-- 3 · Our SDGs · Zero hunger; Quality education
-- 4 · Negatives · adverse effects to everything
-- 5 · Long-term impact · impact on future iGEM teams

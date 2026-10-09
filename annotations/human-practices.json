@@ -174,25 +174,6 @@
       "excerpts": []
     },
     {
-      "id": "hp-a09",
-      "type": "praise",
-      "zone": "abstract",
-      "anchor": "how ReLeaf developed over time",
-      "title": "Map names match the headings",
-      "body": "The six section names match the page headings exactly, and this line says what the evolution map does in a few words. A judge can jump straight to the part they need.",
-      "excerpts": []
-    },
-    {
-      "id": "hp-a10",
-      "type": "restructure",
-      "zone": "abstract",
-      "anchor": "every single one of our interactions",
-      "title": "Say what the Conclusion does",
-      "body": "This line describes the whole page, and \"every single one\" is a claim the body does not support. Say what the Conclusion does.",
-      "after": "6 · Conclusion · how stakeholder input shaped ReLeaf overall",
-      "excerpts": []
-    },
-    {
       "id": "hp-001",
       "type": "restructure",
       "anchor": "This page explores how our Human Practices journey has shaped ReLeaf",

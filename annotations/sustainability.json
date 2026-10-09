@@ -163,24 +163,6 @@
       "body": "Four words give the action and who it helps. A judge sees your SDG 10 plan without opening the section."
     },
     {
-      "id": "sus-a08",
-      "zone": "abstract",
-      "type": "mistake",
-      "anchor": "Zero hunger; Quality education",
-      "title": "Name all four goals",
-      "body": "Section 3 covers four goals, but this line names two. A judge may think SDG 10 and SDG 15 are missing.",
-      "after": "SDGs 2, 4, 10 and 15, each with a problem and a solution"
-    },
-    {
-      "id": "sus-a09",
-      "zone": "abstract",
-      "type": "cut",
-      "anchor": "adverse effects to everything",
-      "title": "Name the actual risk",
-      "body": "This fragment, taken from your Negatives intro, says your product harms everything. Replace it with the risk the section is about.",
-      "after": "plants may come to depend on our protectants"
-    },
-    {
       "id": "sus-001",
       "type": "cut",
       "anchor": "Sustainability has always been a topic on the world’s mind, and evident in every sector and corner of our lives.",

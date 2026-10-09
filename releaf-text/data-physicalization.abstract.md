@@ -7,8 +7,3 @@ We designed a physical map using styrofoam, colored paper, and LED lights to rep
 - Booth reach · Forum · 62 respondents and a total of 116 people
 - Highest-stress region · Partial · 32 of 62 respondents (51.6%) correctly identified
 - Willing to share · Survey · 60 of 62 participants (96.8%) said they were willing
-## On this page
-- 1 · Overview · From data to map
-- 2 · Impact · Connecting data to plant stress
-- 3 · Physicalizations · Stress map; Sound of plants
-- 4 · Conclusion · After this event

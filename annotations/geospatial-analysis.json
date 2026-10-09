@@ -11,18 +11,17 @@
       "Section 4.5 and section 8. You name your weakest layer and what would replace it, and you hand other teams a prompt with a reason behind every rule."
     ],
     "priorities": [
-      "Make every repeated number agree: the small-farm share (99.15%, 99.18%, 99%), the farmed-land share (86.18%, 86%), the warming period (1991, 1999, 1980), the fertilizer intensity (300 kg/ha, 449 kg/ha) and the sandy-loam cost multiple. Check each one against Entrepreneurship and Sustainability as well.",
-      "Rewrite the abstract sheet so it states what the maps found and decided. The lead points back to nothing, \"This is the strongest argument\" now refers to the routing model, the bolded to-do should give way to the farmers' association decision, and the Findings column opens with a garbled number from a Philippine study.",
+      "Make every repeated number agree: the small-farm share (99.18%, but 99% in 4.4), the farmed-land share (86.18%, 86%), the warming period (1991, 1999, 1980), the fertilizer intensity (300 kg/ha, 449 kg/ha) and the sandy-loam cost multiple. Check each one against Entrepreneurship and Sustainability as well.",
+      "Finish the abstract sheet. The new lead and the two Findings lines now say what the maps show; next, \"This is the strongest argument\" still refers to the routing model, and the bolded to-do should give way to the farmers' association decision.",
       "Add a method and data section. Every layer needs its publisher, period, resolution and version, every threshold needs a source, and the climate volatility index needs its three components and their weights.",
-      "Finish or remove the unfinished parts: the LPA table placeholders, the draft sentence in the chlorophyll Results, the empty section 4.3, the empty section 7, and the missing reference list behind the footnote numbers in section 6.",
-      "Fix the table in section 5.4, whose headings do not match its columns, and split the 300-word paragraph in 5.2 into the rule and its exceptions.",
+      "Finish or remove the unfinished parts: the LPA table placeholders, the empty section 4.3, the empty section 7, and the missing reference list behind the footnote numbers in section 6.",
       "Tie the page to the Sustainable Development ballot. Name the goals the maps serve, state the long-term and future-scenario picture in section 7, and add one negative interaction, such as power demand or the farms the shared model leaves out."
     ],
     "ballot": [
       {
         "question": "Did the team incorporate feedback from relevant Sustainable Development Goals (SDG) stakeholders into their work?",
         "status": "partial",
-        "where": "3. Problem statement (Taiwan climate stress); 5. Validation",
+        "where": "3. Problem statement (Revealing climate stress and farmland); 5. Validation",
         "note": "Farmers, their regions and their crops are here, and the Nantou farmer's condition changes the product positioning, but no interview is shown changing a map layer, a threshold or a weight."
       },
       {
@@ -54,7 +53,7 @@
       "releaf": [
         "1. Abstract",
         "2. Introduction",
-        "3. Problem statement (global climate stress, Taiwan climate stress, agricultural demographics, centralized vs decentralized)",
+        "3. Problem statement (global climate stress, revealing climate stress and farmland, agricultural demographics, centralized vs decentralized)",
         "4. Execution (4.1 Light Physical Activity, 4.2 Plant assays, 4.3 Math modeling, 4.4 Business plan, 4.5 Back to GIS)",
         "5. Validation (5.1 to 5.4, farmer interviews)",
         "6. Impact (6.1 Current reach)",
@@ -102,35 +101,11 @@
       "\"rather than\" appears 25 times. Replace most of them with a full stop and a second sentence.",
       "Section 4.3 Math modeling holds only a link, and the three \"Execution: GIS and ...\" headings are missing from the contents list. Either give 4.3 a summary of the model's result, or fold it into the Dry Lab block.",
       "The interactive routing map loads its basemap from tile.openstreetmap.org and its routes from router.project-osrm.org. iGEM requires every file to load from iGEM servers, so precompute the routes into a data file and host the basemap image on static.igem.wiki.",
-      "Abstract sheet, \"On this page\": \"Tools and references\" with the line \"LLM broad prompt\", but the section has no references. Add the reference list or rename the section.",
       "Abstract sheet: \"0.11ºC\" and \"0.29ºC\" use the ordinal sign. Write °C.",
       "Abstract sheet, Findings: \"Soil classification · Open · replacing the placeholder classification\" repeats the bolded phrase in the paragraph above it word for word. Give the open item its reason: \"Coastal soil types are assigned by a heuristic, not a survey\"."
     ]
   },
   "notes": [
-    {
-      "id": "gis-a01",
-      "zone": "abstract",
-      "type": "restructure",
-      "anchor": "This convergence of stress, vulnerability, and infrastructural mismatch is what ReLeaf answers",
-      "title": "The lead points back to nothing",
-      "body": "In the body this sentence closes a paragraph, so \"this convergence\" refers to what came before it. On the sheet it is the first line a judge reads, and nothing comes before it. Make the lead say what the page shows.",
-      "after": "Our maps show where Taiwan's fastest warming, smallest farms and oldest farmers overlap, and how many bioreactors each township would need.",
-      "excerpts": [
-        "gis-2024-og-marburg-01",
-        "gis-2022-ug-iiser-pune-india-01"
-      ],
-      "excerpt_note": "Marburg's abstract states what was mapped and the result by its second sentence. IISER-Pune-India gives the map its job in its first lines."
-    },
-    {
-      "id": "gis-a02",
-      "zone": "abstract",
-      "type": "mistake",
-      "anchor": "In Taiwan, 99.15% of farms are small-scale (under 2 hectares)",
-      "title": "The sheet fixes one of three numbers",
-      "body": "The sheet now shows \"99.15% of farms\" to every judge first. Section 3 says \"99.18% of farmers\", section 4.4 says \"99% of Taiwanese farmers\", and Entrepreneurship says \"over 90% of agricultural holdings\". Settle the figure and its source once, and the sheet and body will agree.",
-      "after": "In Taiwan, [number]% of farms are under 2 hectares ([source, year]), yet together they work [number]% of the island's farmed land."
-    },
     {
       "id": "gis-a03",
       "zone": "abstract",
@@ -161,24 +136,6 @@
       "excerpt_note": "IISER-Pune-India ends its map work on the decision the map drove. Your sheet can lead with yours."
     },
     {
-      "id": "gis-a06",
-      "zone": "abstract",
-      "type": "mistake",
-      "anchor": "a drop in 10 percent yield per each rise in degree",
-      "title": "A garbled line, and not your finding",
-      "body": "This is the unclear phrase from section 3, now under the heading \"Findings\". It does not say what dropped or by how much per degree, and it comes from a study at a Philippine research station, not from your maps. Label it as background, or fix the wording and name the source.",
-      "after": "Rice yield fell about 10% per 1 °C of night warming (Philippine station, 1979 to 2003)"
-    },
-    {
-      "id": "gis-a07",
-      "zone": "abstract",
-      "type": "clarify",
-      "anchor": "2024 becoming Taiwan’s hottest year on record",
-      "title": "Write this as a full fact",
-      "body": "This is half a sentence lifted from the body, and its tag \"Taiwan\" repeats the label. A judge reading only this column needs a complete fact with a number. The body already gives you one.",
-      "after": "2024 was Taiwan's hottest year on record; Taipei logged 63 days above 35 °C"
-    },
-    {
       "id": "gis-a08",
       "zone": "abstract",
       "type": "suggest",
@@ -202,15 +159,6 @@
       "after": "\"Basically no, farmers do not manage it [soil]\" (cocoa farmer, Nantou)"
     },
     {
-      "id": "gis-a10",
-      "zone": "abstract",
-      "type": "restructure",
-      "anchor": "Taiwan climate stress",
-      "title": "Describe each section, not one subheading",
-      "body": "Three lines of the map just copy one subheading: \"Taiwan climate stress\" for sections 2 and 3, \"Inconsistent soil testing\" for section 5, and \"Current reach\" for section 6. A judge choosing where to click learns nothing from them. Write one line on what each whole section shows.",
-      "after": "2–3 · Introduction and problem · Where warming, small farms and older farmers overlap\n5 · Validation · What farmers told us about soil, testing and organic rules\n6 · Impact · Profit per hectare and payback years by soil type"
-    },
-    {
       "id": "gis-001",
       "type": "praise",
       "anchor": "Precision agriculture offers compelling logic, but it was built for scale",
@@ -220,14 +168,6 @@
         "gis-2024-og-marburg-01"
       ],
       "excerpt_note": "Marburg's abstract also opens on the problem before any method. Yours is shorter, which is better."
-    },
-    {
-      "id": "gis-002",
-      "type": "mistake",
-      "anchor": "In Taiwan, 99.15% of farms are small-scale (under 2 hectares), yet together they work 86.18%",
-      "title": "One small-farm figure, used everywhere",
-      "body": "The abstract says \"99.15% of farms\"; section 3 says \"99.18% of farmers are small-scale farmers\"; the Business plan section says \"99% of Taiwanese farmers\". Farms and farmers are different counts, so pick one measure, one number and one source, and use it in all three places. Entrepreneurship says \"over 90% of agricultural holdings are small-scale family operations averaging less than 1 hectare\", which also needs to match. Do the same for 86.18% here and \"up to 86%\" in section 3.",
-      "after": "In Taiwan, [number]% of farms are under 2 hectares, and together they work [number]% of the island's farmed land ([source, year])."
     },
     {
       "id": "gis-003",
@@ -263,14 +203,6 @@
       "excerpt_note": "Marburg names the earlier models and the two gaps its page fills, in the same shape as your paragraph."
     },
     {
-      "id": "gis-006",
-      "type": "restructure",
-      "anchor": "Beyond this, overlap doesn't stop at the map: it feeds the dry lab's math model",
-      "title": "Split the overlap sentence into four",
-      "body": "This sentence runs for about 100 words and carries four separate links (math model, wet lab, Human Practices, deployment). A reader loses the first link before reaching the last. Give each link its own short sentence.",
-      "after": "The overlap does not stop at the map. It feeds the dry lab's math model, which turns the flagged conditions into a per-hectare bioreactor count. It is checked against the wet lab's stress-response data, so \"who needs this\" and \"does this work\" answer each other. It is checked again against our farmer interviews, so the pattern in the data is tested against what people live through."
-    },
-    {
       "id": "gis-007",
       "type": "cut",
       "anchor": "A landmark study spearheaded by researchers at UC Davis, the International Rice Research Institute in Manila, and collaborators in Guangzhou and Wuhan",
@@ -287,18 +219,6 @@
       "after": "Between 1979 and 2003, nighttime minimum temperatures rose more than three times faster than daytime maximums, and grain yield fell by about 10% for each 1 degree Celsius rise in nighttime temperature, while daytime heat alone showed almost no effect."
     },
     {
-      "id": "gis-009",
-      "type": "clarify",
-      "anchor": "Figure 1. Global Rice Yield Documentation and Forecasting.",
-      "title": "Read this map's legend in words",
-      "body": "The caption names the subject but not what the picture shows. A reader cannot tell which colours mean what, which years are plotted, or where the data comes from. Add the legend reading and the source to the caption.",
-      "after": "Figure 1. Projected global rice yield to [year]. Darker blue marks the areas where modelled yield falls furthest below the [year] baseline. Source: [dataset, version].",
-      "excerpts": [
-        "gis-2022-ug-iiser-pune-india-04"
-      ],
-      "excerpt_note": "IISER-Pune-India reads one colour of the legend aloud and says why that layer is there. Every caption on your page can do this."
-    },
-    {
       "id": "gis-010",
       "type": "praise",
       "anchor": "Ms. Chen, who has run a natural farm in northwest Taiwan for 25 years",
@@ -309,14 +229,6 @@
       ],
       "excerpt_note": "UZurich names the role and the places the stakeholder pointed to, so the input can be checked.",
       "ballot": "Did the team incorporate feedback from relevant Sustainable Development Goals (SDG) stakeholders into their work?"
-    },
-    {
-      "id": "gis-011",
-      "type": "clarify",
-      "anchor": "soil type shifts block by block along the western plain, from alluvium to schist to mudstone",
-      "title": "Say which soil scheme you are using",
-      "body": "The quote above counts \"soil classification types\", the map legend lists clay loam, loam, sandy loam and silty clay, and this sentence lists alluvium, schist and mudstone. Those are three different things: soil orders, soil texture and parent rock. Name the one scheme the map uses, say who publishes it, and use the same class names in the text, the legend and the caption.",
-      "after": "Figure 2 maps soil series from the [publisher] survey. Soil texture changes from [class] to [class] within the same county, so a method tuned for one farmer can be the wrong answer for another."
     },
     {
       "id": "gis-012",
@@ -333,14 +245,6 @@
       "title": "Define small-scale once, with its source",
       "body": "An international judge does not know whether \"small-scale\" is your threshold or an official class, whether the count is of farms, farmers or households, or which census year it comes from. Say it once here, then use the same words everywhere else on the page.",
       "after": "Taiwan's [year] agricultural census counts a holding under 2 hectares as small-scale. [Number]% of holdings fall in that class, and their average size is 0.9 to 1.1 hectares. Together they work [number]% of arable land."
-    },
-    {
-      "id": "gis-014",
-      "type": "mistake",
-      "anchor": "Overlaying county-level farmer age against temperature increase from 1999 to 2020",
-      "title": "The warming period changes between places",
-      "body": "This sentence says 1999 to 2020. The map beside it is labelled \"temperature change from 1991 to 2020\", and the paragraph above it says \"Since 1991, that rate has nearly tripled\". The Sustainability page uses the same figure with 1991 to 2020. Use 1991 to 2020 in the text if that is what the layer holds, and state the climate surface it comes from.",
-      "after": "Overlaying county-level farmer age against temperature change from 1991 to 2020 shows these two burdens are not independent:"
     },
     {
       "id": "gis-015",
@@ -408,28 +312,12 @@
       "after": "Total yield and production rate are pending the wet lab assay; we expect results by [date]. Light conditions tested: green only, red only, green and red. Sampling interval: [number] hours."
     },
     {
-      "id": "gis-022",
-      "type": "restructure",
-      "anchor": "Regardless if the protectant is highly beneficial to the plant, if it never manages to leave the bioreactor",
-      "title": "Three conditions in one sentence",
-      "body": "The sentence stacks \"regardless if\", \"if\" and \"or\" before it reaches the point, and \"the entire project is still deemed as useless\" is stronger than you need. The idea is good: efficacy and delivery are separate questions.",
-      "after": "A protectant only helps if it reaches the root zone. If it stays in the bioreactor, or arrives and does nothing, the efficacy result means nothing for a field. Functional assay validation tests delivery and effect together."
-    },
-    {
       "id": "gis-023",
       "type": "cut",
       "anchor": "Chlorophyll a+b content was quantified spectrophotometrically (OD645, OD663) following extraction in 80% acetone, using the standard formula",
       "title": "This sentence is already above it",
       "body": "The sentence before says the same thing in the same words: absorbance at 645 and 663 nm after extraction in 80% acetone. Keep one version and lead straight into the formula.",
       "after": "We quantified chlorophyll a+b spectrophotometrically at 645 nm and 663 nm after extraction in 80% acetone, using the standard formula:"
-    },
-    {
-      "id": "gis-024",
-      "type": "mistake",
-      "anchor": "The pattern across groups is consistent and informs are draft here, more or less.",
-      "title": "A draft note is still on the page",
-      "body": "\"informs are draft here, more or less\" is a note to yourselves, and it sits at the top of your Results paragraph. Delete it and state the pattern, which the rest of the paragraph already supports.",
-      "after": "The pattern across groups is consistent."
     },
     {
       "id": "gis-025",
@@ -479,14 +367,6 @@
       "after": "At a public forum we interviewed farmers from Nantou, Hualien, Hsinchu and Yilan growing cocoa, rice, coffee and mixed grains. Across crops and farm sizes we found one pattern: farmers manage soil by habit, because they see soil data as money spent for no return."
     },
     {
-      "id": "gis-030",
-      "type": "restructure",
-      "anchor": "After visiting numerous booths, most of the interviewed farmers applied organic fertilizers based on a fixed annual schedule",
-      "title": "Split this section into rule and exceptions",
-      "body": "This is one paragraph of about 300 words holding two findings: most farmers do not test, and a few test carefully. \"Contrastingly\", \"on the contradictory to people who don't test\" and a list of what farmers value all sit between them. Two short paragraphs make both findings visible.",
-      "after": "Most farmers we interviewed applied organic fertilizer on a fixed annual schedule, not on what the soil needed. Where testing happens it is rare: a mixed grain farmer in Baozhong and farmers in Miaoli each get one free government test a year and would not pay for more, and the cocoa farmer above consults no expert.\n\nA few farmers test closely. Pear and peach growers in Hualien require soil testing and treat calcium deficiency as disqualifying for certification. A persimmon farmer in Hsinchu targets a substrate pH of 5.6 to 6.2, up from 3. These are exceptions, and they show that soil correction works when someone does it. A bioreactor that acts without a diagnosis fits the majority who do not."
-    },
-    {
       "id": "gis-031",
       "type": "praise",
       "anchor": "a natural protectant would be acceptable, provided its compatibility with organic certification requirements could be confirmed",
@@ -497,14 +377,6 @@
       ],
       "excerpt_note": "EPFL's stakeholder entries end on the design consequence, as yours does here.",
       "ballot": "Did the team incorporate feedback from relevant Sustainable Development Goals (SDG) stakeholders into their work?"
-    },
-    {
-      "id": "gis-032",
-      "type": "mistake",
-      "anchor": "| Optimal Temperature for Crop",
-      "title": "This table's columns do not match its headings",
-      "body": "The heading row reads crop, optimal temperature, location average temperature, but the rows hold crop, location, one temperature. So the optimal temperature is missing and the location sits under the wrong heading. Without the optimal figure the table cannot show the gap it is meant to show.",
-      "after": "| Crop | Location | Location average temperature (C) | Optimal temperature for crop (C) |\n| Cocoa | Nantou | 24.3 | [number] |"
     },
     {
       "id": "gis-033",
@@ -548,14 +420,6 @@
       ],
       "excerpt_note": "Marburg reports where its forecast is least certain beside the forecast itself. A page that does this is hard to argue with.",
       "ballot": "Did the team address potential long-term social, environmental and economic impacts of their work (in the context of the SDG(s) they have chosen)?"
-    },
-    {
-      "id": "gis-037",
-      "type": "restructure",
-      "anchor": "If you are unfamiliar, or just starting out with GIS data, you have to understand the core fundamentals",
-      "title": "Say who the guide is for, then teach",
-      "body": "The first sentence of the guide runs about 90 words and ends by pointing at the prompt below, before the reader knows what the guide covers. The paragraph after it is the one that says who it is for. Put that first and break the long sentence into steps.",
-      "after": "This guide is for teams new to GIS. It covers two things: the difference between raster and vector data, and how to import the three formats QGIS accepts (GeoJSON, CSV and shapefiles). If your data is in another form, or its coordinate systems disagree, the prompt below will reformat it."
     },
     {
       "id": "gis-038",

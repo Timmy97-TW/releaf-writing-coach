@@ -211,27 +211,6 @@
       "ballot": "Has the team presented logical product development plans with realistic milestones, timelines, resources and risks?"
     },
     {
-      "id": "ent-a09",
-      "zone": "abstract",
-      "type": "restructure",
-      "anchor": "Product development plan",
-      "title": "Map lines should describe the section",
-      "body": "Each line in the section map names one subsection. Row 5–6 says “Product development plan”, so a judge does not know that your whole marketing strategy, sales plan and funding stages sit there too. Write what the reader will find.",
-      "after": "5–6 · Strategy and plans · Pricing, sales, distribution, six-year roadmap and funding",
-      "excerpts": [],
-      "ballot": "Has the team presented logical product development plans with realistic milestones, timelines, resources and risks?"
-    },
-    {
-      "id": "ent-a10",
-      "zone": "abstract",
-      "type": "mistake",
-      "anchor": "Regulations and risks",
-      "title": "Map names differ from the headings",
-      "body": "The map says “Regulations and risks” and “Strategy and plans”, but the page headings are “Regulations”, “Potential risks”, “Marketing strategy” and “Future plans”. A judge who clicks looks for a heading that does not exist. Use the heading names, or rename the headings to match.",
-      "after": "7–9 · Regulations, risks and conclusion · Approval route, nine risks, conclusion",
-      "excerpts": []
-    },
-    {
       "id": "ent-001",
       "type": "restructure",
       "anchor": "ReLeaf is an optogenetic bioreactor system that enables automated, on-demand protection",
