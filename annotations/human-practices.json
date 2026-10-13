@@ -89,78 +89,12 @@
   },
   "notes": [
     {
-      "id": "hp-a01",
-      "type": "restructure",
-      "zone": "abstract",
-      "anchor": "Human Practices acts as the heart of the team",
-      "title": "Lead with what the page shows",
-      "body": "This is the first sentence a judge reads, and it defines Human Practices. It says nothing about ReLeaf. Use the lead to say who changed your project and how.",
-      "after": "Farmers, scientists and the public moved ReLeaf from bacteria released into soil to a closed bioreactor, and narrowed our stress targets to [stresses].",
-      "excerpts": [
-        "ihp-2025-og-wur-01",
-        "ihp-2025-ug-nyuad-01"
-      ],
-      "excerpt_note": "Both openings are about their own project from the first sentence.",
-      "ballot": "How inspiring an example is it to others?"
-    },
-    {
-      "id": "hp-a02",
-      "type": "mistake",
-      "zone": "abstract",
-      "anchor": "Over the span of seven months, from March to September, our team actively engaged with 20 key stakeholders",
-      "title": "The bold dates are wrong",
-      "body": "\"Over the span of seven months\" is in bold, so judges will remember it, but your first meeting was 1 February (Gilbert Nkpeniyeng). The body Overview and Conclusion repeat the same error. Also say what the 20 counts: the pipelines show about 18 experts and organisations, plus farmers and the public.",
-      "after": "From February to September, we held [number] conversations with [number] people and organisations.",
-      "excerpts": []
-    },
-    {
-      "id": "hp-a03",
-      "type": "praise",
-      "zone": "abstract",
-      "anchor": "our project only took real shape when we went back to our advisors with physical prototypes",
-      "title": "The right message for the top",
-      "body": "Going back to the same experts with prototypes and new data is the clearest sign of integration on your page. It belongs on the first screen. Keep this sentence.",
-      "excerpts": [],
-      "ballot": "How well was the Human Practices work integrated throughout the project?"
-    },
-    {
-      "id": "hp-a04",
-      "type": "restructure",
-      "zone": "abstract",
-      "anchor": "each follow-up meeting pushed us to fix design flaws, refine our controls",
-      "title": "Bold the change you made",
-      "body": "The paragraph is three body sentences glued together with semicolons, so it reads like copied pieces. Break it into short sentences. Then bold the two things to remember: you went back to experts, and their advice changed the design.",
-      "after": "From February to September we met [number] people. We went back to [four] experts with prototypes and new data. **Each return visit changed the design**: for example, [one change, such as dropping soil release for a closed bioreactor].",
-      "excerpts": []
-    },
-    {
-      "id": "hp-a05",
-      "type": "suggest",
-      "zone": "abstract",
-      "anchor": "we consulted experts across six diverse domains",
-      "title": "Make each line say what changed",
-      "body": "The Engagements column lists what you did. It never says what that changed. A judge who reads only this column learns nothing about ReLeaf. Give each line one result from the body.",
-      "after": "Expert engagement · moved our bacteria from the soil into a closed bioreactor, with physical containment as the main safety layer",
-      "excerpts": [],
-      "ballot": "How well was the Human Practices work integrated throughout the project?"
-    },
-    {
       "id": "hp-a06",
       "type": "mistake",
       "zone": "abstract",
       "anchor": "continuous feedback loops with five core experts",
       "title": "Five promised, four shown",
       "body": "Section 3.2 shows four experts: Prof. Cheng, Prof. Chen, Prof. Chang and Dr. Sattely. Either add Prof. Huang Chieh-Chen, who also met you twice, or write \"four\".",
-      "excerpts": []
-    },
-    {
-      "id": "hp-a07",
-      "type": "mistake",
-      "zone": "abstract",
-      "anchor": "we conducted three outreach events",
-      "title": "Count the farmer contacts again",
-      "body": "The farmer section has three events (16 May, 21 July, 5 September) plus a video call with Mr. Chen, and the body says \"May to August\" for them. Match the line to what section 4.1 shows.",
-      "after": "Farmer interviews · three farm and market visits and one video call, May to September",
       "excerpts": []
     },
     {
@@ -174,57 +108,12 @@
       "excerpts": []
     },
     {
-      "id": "hp-001",
-      "type": "restructure",
-      "anchor": "This page explores how our Human Practices journey has shaped ReLeaf",
-      "title": "Open with your own problem",
-      "body": "Your first paragraph says what the page does, and the next two explain what Human Practices is. Judges already know both. Winners open with their own stake and the biggest changes people caused, in two or three short sentences.",
-      "after": "ReLeaf started with one question from farmers in Ghana: is heat really hurting their crops? From February to September we took that question to [number] people, from farmers at a Taipei market to plant biologists at Academia Sinica. Their advice moved our bacteria out of the soil and into a closed bioreactor, narrowed our stress targets to [stresses], and led us to build a LINE tool for farmers.",
-      "excerpts": [
-        "ihp-2025-ug-nyuad-01",
-        "ihp-2025-og-wur-01"
-      ],
-      "excerpt_note": "NYU Abu Dhabi opens on one personal fact. WageningenUR gives purpose, count and fields in three sentences.",
-      "ballot": "How inspiring an example is it to others?"
-    },
-    {
       "id": "hp-002",
       "type": "cut",
-      "anchor": "In our project ReLeaf, Human Practices acts as the heart of the team",
+      "anchor": "In our project ReLEAF, Human Practices acts as the heart of the team",
       "title": "Cut the definition of Human Practices",
       "body": "This paragraph explains what Human Practices is for. The judges wrote that definition, so it tells them nothing new. Keep one sentence at most.",
       "after": "Human Practices let us check each lab choice against what farmers need.",
-      "excerpts": []
-    },
-    {
-      "id": "hp-003",
-      "type": "mistake",
-      "anchor": "Over the span of seven months, from March to September, our team actively engaged with 20 key stakeholders",
-      "title": "Dates and count do not match",
-      "body": "Your first meeting, with Gilbert Nkpeniyeng, was on 1 February, so the work ran February to September. The Conclusion repeats 'seven months from March to September'. Also say what the 20 counts: the pipelines show about 18 experts and organisations, plus farmers, forum speakers and the public. Count once, name the unit, and use that number on every page.",
-      "after": "From February to September, we held [number] conversations with [number] people and organisations.",
-      "excerpts": [
-        "ihp-2024-og-bielefeld-05"
-      ],
-      "excerpt_note": "Even winners slip here: Bielefeld gives four different counts in two sentences and defines none of them."
-    },
-    {
-      "id": "hp-004",
-      "type": "praise",
-      "anchor": "we consulted experts across six diverse domains, including deployment, plant and stress biology",
-      "title": "Your six domains work as a map",
-      "body": "Naming the expert areas here tells the judge how the rest of the page is built before they reach it. WageningenUR does the same in its first paragraph: purpose, count, then the fields the work had to fit.",
-      "excerpts": [
-        "ihp-2025-og-wur-01"
-      ]
-    },
-    {
-      "id": "hp-005",
-      "type": "clarify",
-      "anchor": "narrow our focus from a broad PGPR system targeting multiple stresses",
-      "title": "Spell out PGPR the first time",
-      "body": "PGPR appears here for the first time and is never spelled out on the page. A judge from another field will not know it. Write the full term once, then use the short form.",
-      "after": "...from a broad PGPR (plant growth-promoting rhizobacteria, helpful soil bacteria) system aimed at many stresses to one concept we could test.",
       "excerpts": []
     },
     {
@@ -235,45 +124,6 @@
       "body": "Stage 01 says March to April, but its first card is 1 February. Stage 04 says September, but it holds cards from 16 May, 18 July and 21 July, and Mr. Chen has no date at all. Either widen the stage dates or move each card to the stage its date belongs to.",
       "excerpts": [],
       "ballot": "How well was the Human Practices work integrated throughout the project?"
-    },
-    {
-      "id": "hp-007",
-      "type": "restructure",
-      "anchor": "which makes ReLeaf a more practical solution to farmers",
-      "title": "End each stage on one real change",
-      "body": "'More practical' is a claim the judge cannot check. Each stage summary is stronger when it ends on one change from that stage.",
-      "after": "We collected feedback from forums and experts. Farmers asked whether ReLeaf fits organic certification and how many units a farm needs, and Prof. Chang pushed us toward a replaceable bacterial capsule.",
-      "excerpts": []
-    },
-    {
-      "id": "hp-008",
-      "type": "cut",
-      "anchor": "Beyond all of the experiments and validation of our project in itself",
-      "title": "Shorten the Deployment intro",
-      "body": "This opening says Deployment connects the lab to the real world, which every reader already assumes. One sentence that names the question this pipeline answers is enough.",
-      "after": "Deployment asks whether farmers would use and pay for ReLeaf, and what stands in the way: market, price and law.",
-      "excerpts": []
-    },
-    {
-      "id": "hp-009",
-      "type": "clarify",
-      "anchor": "The organisation that was part of the inspiration for this whole project was USE-GH",
-      "title": "Explain USE-GH in a few words",
-      "body": "USE-GH is never spelled out on this page. The Entrepreneurship page calls it Ubuntu Social Enterprise Ghana. Give the full name and one line on what it does.",
-      "after": "Our project was partly inspired by Ubuntu Social Enterprise Ghana (USE-GH), which [what it does for farmers]. Its leader, Gilbert Nkpeniyeng, ...",
-      "excerpts": []
-    },
-    {
-      "id": "hp-010",
-      "type": "praise",
-      "anchor": "so we contacted him in hopes of verifying the problems we believed were happening",
-      "title": "You say why you contacted him",
-      "body": "This sentence says what you believed and that you went to check it. That is the 'why this person' slot judges look for: the reader knows your question before the answer. NYU Abu Dhabi opens its full entries the same way.",
-      "excerpts": [
-        "ihp-2025-ug-nyuad-h01",
-        "ihp-2024-ug-jukrakow-01"
-      ],
-      "excerpt_note": "Look at how each one states the question before the advice."
     },
     {
       "id": "hp-011",
@@ -316,14 +166,6 @@
       "excerpts": []
     },
     {
-      "id": "hp-015",
-      "type": "mistake",
-      "anchor": "Professor Chang Hong-Hao is part of the Department of Agricultural Economics",
-      "title": "Spell each name one way",
-      "body": "Several names change spelling on this page: Chang Hung-Hao and Hong-Hao, Huang Chieh-Chen and Jie-Chen, Huang Tzu-Pi and Tzu-Bi, Chang Jo-Shu and Jia-Xiu. Lin Wei-Yi is 'Dr.' in the heading and 'Professor' in the text, and Drew Endy is both 'Prof.' and 'Dr.'. Choose one spelling and title per person, ideally the one on their university page.",
-      "excerpts": []
-    },
-    {
       "id": "hp-016",
       "type": "restructure",
       "anchor": "Talking with them also allowed us to receive confirmation that government sectors are willing to help",
@@ -350,29 +192,11 @@
       "excerpts": []
     },
     {
-      "id": "hp-019",
-      "type": "restructure",
-      "anchor": "Consider changing the target plant",
-      "title": "Write what you decided",
-      "body": "Three of the four After points start with 'Consider'. A judge reads these as ideas that may never have happened. You did decide: Arabidopsis became your plant, and hydroponic boxes came in June. Write the decision and its date.",
-      "after": "- Dropped Medicago and moved to Arabidopsis after Prof. Cheng's advice (first plates 12 April)\n- Kept the kill switch question open until Dr. Brophy's meeting (18 April)\n- Built hydroponic boxes to Dr. Lin's suggestion (13 June)",
-      "excerpts": []
-    },
-    {
       "id": "hp-020",
       "type": "mistake",
       "anchor": "Dr. Verslues shifted our direction from simply delivering more protective compounds to regulating the plant’s natural response.",
       "title": "One pivot, described two ways",
       "body": "His bio says he moved you 'from stress protection to stress detection'. This bridge says from delivering compounds to regulating the plant's own response. Those are two different changes. Say which one happened, and use the same words in his bio.",
-      "excerpts": []
-    },
-    {
-      "id": "hp-021",
-      "type": "clarify",
-      "anchor": "On the same day we interviewed Prof. Huang, we also interviewed Prof. Huang Tzu Bi",
-      "title": "Tell the two Prof. Huangs apart",
-      "body": "You met two professors named Huang at NCHU on 6 August, and the timeline lists both as 'Prof. Huang'. Readers will mix them up. Use full names every time, or add the department.",
-      "after": "On the same day we met Prof. Huang Chieh-Chen (Life Sciences), we also met Prof. Huang Tzu-Pi (Plant Pathology).",
       "excerpts": []
     },
     {
@@ -448,16 +272,6 @@
       "excerpts": []
     },
     {
-      "id": "hp-030",
-      "type": "suggest",
-      "anchor": "During our last meeting, we met in-person with Professor Huang Jie-Chen",
-      "title": "Name the strain he gave you",
-      "body": "A photo caption says Prof. Huang gave you the WB800 strain at this meeting, but the text never mentions it. A strain from a stakeholder is direct, physical proof of integration. Say it in the text, with one line on why WB800 suits your goal.",
-      "after": "At this meeting Prof. Huang also gave us B. subtilis WB800, a strain [why it suits secreted proteins], which we then used for [what].",
-      "excerpts": [],
-      "ballot": "How well was the Human Practices work integrated throughout the project?"
-    },
-    {
       "id": "hp-031",
       "type": "praise",
       "anchor": "However, this raised a new question: how could we prevent the engineered B. subtilis from escaping",
@@ -497,14 +311,6 @@
       "excerpts": []
     },
     {
-      "id": "hp-035",
-      "type": "restructure",
-      "anchor": "1 conversation · 20 June",
-      "title": "Merge the one-meeting Modelling tab",
-      "body": "Modelling has one meeting, and it is the same Prof. Chen entry already shown in two other tabs. Counting it as one of six domains makes the Overview look bigger than the work. Fold it into Bioreactor and hardware, or add the other people who checked your model.",
-      "excerpts": []
-    },
-    {
       "id": "hp-036",
       "type": "cut",
       "anchor": "that human practices is an ongoing dialogue that never ends, not just one time meetings",
@@ -519,15 +325,6 @@
       "anchor": "By setting up continuous feedback loops with five core experts",
       "title": "Five experts promised, four shown",
       "body": "This section shows four people: Prof. Cheng, Prof. Chen, Prof. Chang and Dr. Sattely. Prof. Huang Chieh-Chen also met you twice but is not here. Either add him or write 'four'.",
-      "excerpts": []
-    },
-    {
-      "id": "hp-038",
-      "type": "cut",
-      "anchor": "into a fully tested, physically contained agricultural system",
-      "title": "Do not claim more than you showed",
-      "body": "Your own 4 September entry says B. subtilis leaked through the membrane, and the Entrepreneurship page lists membrane leakage as an open risk. 'Fully tested' and 'physically contained' go too far. Say where the reactor is now.",
-      "after": "...we turned a loose idea into a working reactor prototype that we are still testing for leaks.",
       "excerpts": []
     },
     {
@@ -555,48 +352,11 @@
       "excerpt_note": "Every change is written as before and after, with units."
     },
     {
-      "id": "hp-041",
-      "type": "mistake",
-      "anchor": "Professor Chen suggested that we treat our hardware design as a printer and the biofertilizer as the ink",
-      "title": "What is the ink in his analogy?",
-      "body": "Here the ink is 'the biofertilizer'. A photo caption says 'the product'. The Entrepreneurship page says the ink is B. subtilis, swapped like a cartridge. ReLeaf is not called a biofertilizer anywhere else on the wiki. Use one meaning on every page.",
-      "excerpts": []
-    },
-    {
       "id": "hp-042",
       "type": "mistake",
       "anchor": "we narrowed our focus to heat and salinity stress, prioritized direct plant assays",
       "title": "Target stresses differ across the wiki",
       "body": "Here you narrowed to heat and salinity, and earlier you dropped osmotic stress after Prof. Cheng. The Laws page still claims AtLEA14 protects against drought and osmotic stress. Make the stress list match on every page.",
-      "excerpts": []
-    },
-    {
-      "id": "hp-043",
-      "type": "mistake",
-      "anchor": "From May to August, we conducted three outreach events",
-      "title": "Dates and number of events",
-      "body": "The events below are 16 May, 21 July and 5 September, plus an undated call with Mr. Chen. So it is May to September, and four farmer contacts.",
-      "after": "From May to September, we met farmers at three events and in one video call.",
-      "excerpts": []
-    },
-    {
-      "id": "hp-044",
-      "type": "clarify",
-      "anchor": "we interviewed many organic, smallholder farmers to learn about their farming experiences and needs",
-      "title": "Replace 'many' with a number",
-      "body": "How many farmers did you talk to? 'Many' cannot be checked. A count, even a small one, makes the finding about pests believable.",
-      "after": "...we interviewed [number] organic smallholder farmers from [number] regions.",
-      "excerpts": [
-        "ihp-2025-ug-nyuad-03"
-      ],
-      "excerpt_note": "Sample size, raw count and percentage in one sentence."
-    },
-    {
-      "id": "hp-045",
-      "type": "praise",
-      "anchor": "A farmer from Hualien noted, “Diseases and pests have led to a decrease in our crop yields.”",
-      "title": "A real voice, with a place",
-      "body": "A short direct quote with the farmer's region carries more weight than any summary. Quotes like this are rare on the page. Try to give each farmer entry one.",
       "excerpts": []
     },
     {
@@ -611,15 +371,6 @@
       ],
       "excerpt_note": "Both weigh one stakeholder against another by name and say what that meant for the plan.",
       "ballot": "How well did it incorporate different stakeholder views?"
-    },
-    {
-      "id": "hp-047",
-      "type": "clarify",
-      "anchor": "Ms. Chen is a natural farming practice farmer who believes we should not give additional support to crops",
-      "title": "Explain natural farming briefly",
-      "body": "International judges may not know what natural farming means in Taiwan. Add one line on what she does and does not use. The Entrepreneurship page calls her organic, so pick one term.",
-      "after": "Ms. Chen practises natural farming: she uses no [inputs] and gives plants little help, so they build their own resilience.",
-      "excerpts": []
     },
     {
       "id": "hp-048",
@@ -654,15 +405,6 @@
       "ballot": "How well did it incorporate different stakeholder views?"
     },
     {
-      "id": "hp-051",
-      "type": "praise",
-      "anchor": "During our interactions at the Farmer Expo and Ms. Chen’s interview, we realized that although there is information all across the internet",
-      "title": "The tool comes from what farmers said",
-      "body": "You trace the LINE platform back to two named conversations. That makes it an output of Human Practices, which is exactly what the ballot asks for.",
-      "excerpts": [],
-      "ballot": "How inspiring an example is it to others?"
-    },
-    {
       "id": "hp-052",
       "type": "praise",
       "anchor": "However, as our website is not intended to replace professional agricultural expertise",
@@ -690,15 +432,6 @@
       "anchor": "we structured the forum to ensure that every participant’s voice could be heard",
       "title": "The forum format came from advice",
       "body": "You say what Green Media told you in July and how it shaped the forum. That makes the event itself a result of stakeholder input.",
-      "excerpts": []
-    },
-    {
-      "id": "hp-055",
-      "type": "clarify",
-      "anchor": "including Prof. Chen, Dr. Li, and an expert from CH Biotech",
-      "title": "Introduce the forum speakers",
-      "body": "Dr. Li has no full name or role, and the page has three different Chens. Give each speaker a full name and a one-line role so judges can tell who said what.",
-      "after": "...including Prof. [full name] ([role]), Dr. Li [full name] ([role]), and [name], a [role] at CH Biotech.",
       "excerpts": []
     },
     {
@@ -786,15 +519,6 @@
       "excerpts": []
     },
     {
-      "id": "hp-064",
-      "type": "cut",
-      "anchor": "For the purpose of spreading more awareness about plant stress in our daily lives",
-      "title": "Give results or move this event",
-      "body": "This event has no date, no number of posts and no change. As it stands it reads like an announcement. Add what happened, or move it to the Education page.",
-      "after": "From [date] to [date], [number] people posted [number] photos of stressed plants on Instagram.",
-      "excerpts": []
-    },
-    {
       "id": "hp-065",
       "type": "cut",
       "anchor": "every stakeholder’s insights directly impacted and led to changes in research direction",
@@ -809,7 +533,7 @@
     {
       "id": "hp-066",
       "type": "suggest",
-      "anchor": "We provided clear context for each stage of ReLeaf by examining existing agricultural methods, prior work",
+      "anchor": "We provided clear context for each stage of ReLEAF by examining existing agricultural methods, prior work",
       "title": "Show the context you say you gave",
       "body": "The ballot asks how well you explain context, rationale and prior work. This sentence claims it, but no section shows it: what protectants farmers use now, earlier iGEM teams with soil bacteria, Taiwan's GMO rules. Add a short context paragraph after the Overview, with sources.",
       "excerpts": [
@@ -855,7 +579,7 @@
     {
       "id": "hp-070",
       "type": "suggest",
-      "anchor": "Lastly, ReLeaf demonstrates how synthetic biology can move beyond abstract lab research",
+      "anchor": "Lastly, ReLEAF demonstrates how synthetic biology can move beyond abstract lab research",
       "title": "Add limits before the big finish",
       "body": "Both 2025 winners have a section on limitations or negative impacts. Yours could list membrane leakage, the open kill switch decision, no field trial yet, GMO approval, and natural farmers' worry about over-intervention. Put it before this paragraph.",
       "excerpts": [

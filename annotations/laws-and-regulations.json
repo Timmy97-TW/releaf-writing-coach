@@ -98,64 +98,6 @@
   },
   "notes": [
     {
-      "id": "law-a01",
-      "zone": "abstract",
-      "type": "restructure",
-      "anchor": "ReLeaf is a three-part system: the bioreactor, the engineered production culture",
-      "title": "Lead with what the page found",
-      "body": "This lead describes the product, and a judge already knows the product by now. The first line of a law page should say where ReLeaf stands. Use your own findings from sections 9 and 10.",
-      "after": "Our cell-free output is aimed at fertilizer and biostimulant routes, while the engineered culture and the bioreactor need separate approvals, and Taiwan's contained-use route is still unconfirmed.",
-      "excerpts": [
-        "gis-2024-og-marburg-01",
-        "laws-2025-og-wur-01"
-      ],
-      "excerpt_note": "Marburg gives problem, method, result and risk in four sentences. WageningenUR puts the rule that changes the design in its first sentence."
-    },
-    {
-      "id": "law-a02",
-      "zone": "abstract",
-      "type": "restructure",
-      "anchor": "The same biological output may be treated as a fertilizer, plant biostimulant, or pesticide",
-      "title": "The bold stops before the point",
-      "body": "Only \"The same biological output may be treated\" is bold, so a skimming judge reads half a sentence. The message worth remembering is what decides the category. Bold that part.",
-      "after": "The same output may count as a fertilizer, a biostimulant or a pesticide: **what we claim it does decides which**."
-    },
-    {
-      "id": "law-a03",
-      "zone": "abstract",
-      "type": "suggest",
-      "anchor": "Our analysis focuses on classification, containment, efficacy, and market access",
-      "title": "Show who you asked",
-      "body": "The sheet names laws and markets but no person. Judges look for stakeholders on the first screen. Name the Cheng Han Biotechnology briefing here, and any regulator you ask before the freeze.",
-      "after": "We checked primary legal sources and a regulatory briefing from Yuan Chiu-Ying of Cheng Han Biotechnology (9 July 2026), focusing on classification, containment, efficacy and market access.",
-      "excerpts": [
-        "ihp-2025-og-wur-01"
-      ],
-      "excerpt_note": "WageningenUR's opening states the purpose, how many people the team engaged and of which kinds, all in three sentences.",
-      "ballot": "How well did it incorporate different stakeholder views?"
-    },
-    {
-      "id": "law-a04",
-      "zone": "abstract",
-      "type": "clarify",
-      "anchor": "This makes PFC 6(B) a potential pathway for",
-      "title": "This sentence was cut from its context",
-      "body": "In the body this sentence follows the EU definition of PFC 6. Here \"This\" points at nothing, and PFC 6(B) is never explained. A judge outside the EU will not know the code. Say what it is in the same sentence.",
-      "after": "In the EU, our output could fit PFC 6(B), the category for non-microbial plant biostimulants, but that is **not an automatic classification**."
-    },
-    {
-      "id": "law-a05",
-      "zone": "abstract",
-      "type": "praise",
-      "anchor": "but not an automatic classification",
-      "title": "The right message in bold",
-      "body": "If a judge remembers one thing from this sheet, it should be that a possible route is not an approval. You chose that as your bold message, and it is the line that makes the page trustworthy.",
-      "excerpts": [
-        "laws-2024-ug-waterloo-01"
-      ],
-      "excerpt_note": "Waterloo writes the same caution as an if-then sentence."
-    },
-    {
       "id": "law-a06",
       "zone": "abstract",
       "type": "clarify",
@@ -163,15 +105,6 @@
       "title": "These rows read as decided",
       "body": "This row, and the cell-free row above it (\"Fertilizer/Plant Biostimulant\"), name a route with no hedge. The body calls both routes \"under investigation\", and the last row says contained use in Taiwan is unconfirmed. Add the status to each line.",
       "after": "Contained-use rules, to be confirmed in each market"
-    },
-    {
-      "id": "law-a07",
-      "zone": "abstract",
-      "type": "mistake",
-      "anchor": "Taiwan → European Union → Philippines",
-      "title": "Market order disagrees with Entrepreneurship",
-      "body": "This row and the paragraph (\"the EU as our current first international market\") both put the EU second. The Entrepreneurship page makes the Philippines the first expansion in year 3 and puts the European Union in \"Global market expansion Year 5.5 - Year 6.0+\". This is now on the first screen of both pages, so fix it first.",
-      "after": "Taiwan → [first market] → [second market], the same order as the Entrepreneurship page"
     },
     {
       "id": "law-a08",
@@ -186,39 +119,12 @@
       "excerpt_note": "UZurich states its hardest legal result in one plain sentence."
     },
     {
-      "id": "law-001",
-      "type": "praise",
-      "anchor": "We examined how each component is treated in Taiwan, the European Union, the United States",
-      "title": "The page opens with its scope",
-      "body": "Your first two sentences split ReLeaf into three parts and name the four places you checked. A judge reads one line and knows what the page covers and how it is organised. Most law pages open with general sentences about regulation and never say what they examined."
-    },
-    {
-      "id": "law-002",
-      "type": "mistake",
-      "anchor": "with Taiwan as the development environment and the EU as our current first international market",
-      "title": "Market order disagrees with Entrepreneurship",
-      "body": "Here the EU is \"our current first international market to investigate\". The Entrepreneurship page puts the European Union in \"Global market expansion Year 5.5 - Year 6.0+\" and makes the Philippines the first expansion in year 3. Pick one order and write the same one on both pages.",
-      "after": "with Taiwan as the development environment and the EU as the first market we studied in depth. Our planned market order is [order], the same order given on the Entrepreneurship page.",
-      "excerpts": [
-        "laws-2025-og-wur-06"
-      ],
-      "excerpt_note": "WageningenUR repeats the same regulatory figure and the same source on its business page, so the two pages agree."
-    },
-    {
       "id": "law-003",
       "type": "cut",
       "anchor": "We examined these components across Taiwan, the European Union, the United States",
       "title": "This paragraph repeats the abstract",
       "body": "Section 2 opens by saying again what section 1 just said, almost word for word. Cut it and start section 2 with the chain that follows, which is new.",
       "after": "Our regulatory analysis follows: Function - Claim - Classification - Requirement - Market Access."
-    },
-    {
-      "id": "law-004",
-      "type": "clarify",
-      "anchor": "Abiotic-stress positioning makes fertilizer/biostimulant pathways the main strategy under investigation",
-      "title": "Say the principle in plain words",
-      "body": "\"Abiotic-stress positioning\" is your own shorthand, and a judge often reads the table before the prose. Write the principle as cause and effect.",
-      "after": "Because we claim stress tolerance and no pest control, the fertilizer and biostimulant routes are our main strategy."
     },
     {
       "id": "law-005",
@@ -233,49 +139,11 @@
       "ballot": "How well did it incorporate different stakeholder views?"
     },
     {
-      "id": "law-006",
-      "type": "clarify",
-      "anchor": "separately assesses GMO/GMM transport, storage, and waste requirements",
-      "title": "Write out GMM once",
-      "body": "GMO is expanded nowhere on the page and GMM appears only here. An international judge may know GMO and not GMM. Give both in full the first time.",
-      "after": "Keeps the culture inside the production system, and separately assesses transport, storage and waste rules for genetically modified organisms and micro-organisms (GMOs and GMMs)."
-    },
-    {
       "id": "law-007",
       "type": "praise",
       "anchor": "Containment is not only an engineering requirement; it determines the exposure pathway",
       "title": "One sentence carries the whole argument",
       "body": "This sentence ties your hardware to the law: containment decides what a regulator has to consider. Everything later on the page depends on it, and you state it once, clearly. Keep it where it is."
-    },
-    {
-      "id": "law-008",
-      "type": "mistake",
-      "anchor": "also allows the two components be assessed as distinct regulatory questions",
-      "title": "Missing word in the last sentence",
-      "body": "It should read \"to be assessed\". The sentence is also long. Split it.",
-      "after": "Separating the engineered production organism from the cell-free output lets regulators assess the two as distinct questions."
-    },
-    {
-      "id": "law-009",
-      "type": "suggest",
-      "anchor": "The hollow-fiber membrane forms part of this separation",
-      "title": "Name the detail that decides containment",
-      "body": "You say the membrane holds the culture back, but not what a regulator would measure. Give the pore size, say whether live cells or DNA can leave with the output, and name the limit you would have to meet. Link to Safety and Hardware, where the evidence sits.",
-      "after": "The hollow-fiber membrane ([pore size]) retains the production culture and lets the soluble products through. No live cells leave the loop, and residual DNA in the output is [number], measured as described on our Safety page.",
-      "excerpts": [
-        "laws-2024-og-marburg-04",
-        "ihp-2025-og-wur-05"
-      ],
-      "excerpt_note": "Marburg found the one design detail (a 34 bp scar) that decides its legal category. WageningenUR asked its regulator for the residual DNA threshold and got 0.9%, dead or alive cells.",
-      "ballot": "To what extent is the Human Practices work documented so that others can build upon it?"
-    },
-    {
-      "id": "law-010",
-      "type": "restructure",
-      "anchor": "The three molecules are treated as biostimulants",
-      "title": "Two hedges in one paragraph",
-      "body": "This paragraph hedges the word biostimulant twice and in three long sentences. Say it once, in two short ones. The table below also heads its first column \"Biostimulant\", which undoes the hedge; call that column \"Molecule\".",
-      "after": "We call these three molecules biostimulants because of what they do in the plant. No authority has classified them, so the column below gives the category we are aiming at."
     },
     {
       "id": "law-011",
@@ -288,7 +156,7 @@
     {
       "id": "law-012",
       "type": "praise",
-      "anchor": "This makes PFC 6(B) a potential pathway for ReLeaf",
+      "anchor": "This makes PFC 6(B) a potential pathway for ReLEAF",
       "title": "A pathway named without claiming it",
       "body": "You name a route and then refuse to claim it. The difference between a possible route and an approval is exactly what a judge checks on a law page, and you mark it.",
       "excerpts": [
@@ -309,14 +177,6 @@
       "excerpt_note": "This is the question WageningenUR put to RIVM, and the answer it got back decided their downstream processing."
     },
     {
-      "id": "law-014",
-      "type": "cut",
-      "anchor": "current biostimulants are being investigated for complementary abiotic-stress functions",
-      "title": "The molecule list appears six times",
-      "body": "BoPep4 for salinity, AtLEA14 for drought and ACCD for heat are listed in sections 4, 4.1, Taiwan, EU, 9, 10 and 11. Give the list once in the table in section 4 and refer back to it after that.",
-      "after": "The three molecules are being investigated for the abiotic-stress functions in Table [n]. The final product must also satisfy applicable composition, safety, efficacy, labeling, and conformity requirements."
-    },
-    {
       "id": "law-015",
       "type": "clarify",
       "anchor": "Taiwan is our development and validation environment.",
@@ -332,32 +192,6 @@
       "body": "The Chinese category name with an English translation lets a judge outside Taiwan search the real term, and a Taiwanese reader see the exact wording. Do this for every Taiwanese law and category you name."
     },
     {
-      "id": "law-017",
-      "type": "clarify",
-      "anchor": "The final formulation and claims would need to be characterized and confirmed with the Ministry of Agriculture.",
-      "title": "Name the agencies and their laws",
-      "body": "Judges from other countries do not know how Taiwan's Ministry of Agriculture is split. Your Figure 2 has the answer, so put it in the text once, before you rely on it.",
-      "after": "Taiwan's Ministry of Agriculture oversees both routes. The Agriculture and Food Agency registers fertilizers under the Fertilizer Management Act, and the Animal and Plant Health Inspection Agency handles pesticides under the Pesticide Management Act. We would confirm our formulation and claims with the Agriculture and Food Agency.",
-      "excerpts": [
-        "laws-2024-og-marburg-12"
-      ],
-      "excerpt_note": "Marburg says who sets a rule and who decides the details, which is what a reader needs before the rule itself."
-    },
-    {
-      "id": "law-018",
-      "type": "mistake",
-      "anchor": "If registered as a fertilizer, ReLeaf would need to establish a defined and reproducible product composition",
-      "title": "Timeline disagrees with Entrepreneurship",
-      "body": "Your page says the category still needs confirmation from the Ministry of Agriculture. The Entrepreneurship page says the fertilizer route takes \"approximately 20 days for fertilizer specification report plus 7 days for government review\" and brings \"early revenue within 30 days\". Both cannot be true. Carry the same durations and the same source onto both pages.",
-      "after": "If registered as a fertilizer, ReLeaf would need a defined and reproducible composition, safety and quality data, efficacy data, labeling and registration information. [Name] told us the review itself takes about [number] days once the file is complete.",
-      "excerpts": [
-        "laws-2025-og-wur-04",
-        "laws-2025-og-wur-06"
-      ],
-      "excerpt_note": "WageningenUR's 2.5 to 3.5 year approval figure appears on the IHP page and the business timeline with the same attribution.",
-      "ballot": "How well was the Human Practices work integrated throughout the project?"
-    },
-    {
       "id": "law-019",
       "type": "praise",
       "anchor": "Our current review did not identify a general Taiwan contained-use GMO framework",
@@ -367,14 +201,6 @@
         "laws-2024-og-uzurich-03"
       ],
       "excerpt_note": "UZurich states plainly that its product could not be used in its own country. Judges rewarded that page."
-    },
-    {
-      "id": "law-020",
-      "type": "mistake",
-      "anchor": "We therefore treat its regulatory status as unconfirmed.",
-      "title": "Entrepreneurship promises what this page cannot find",
-      "body": "This page finds no Taiwan contained-use framework that resolves your case. The Entrepreneurship page says \"Taiwan's regulatory framework contains a critical pathway: if engineered bacteria never leave the sealed device, the system can be classified as contained-use equipment\", and expects \"absolute containment\" certification by the end of year 2. One page says the route is not there, the other sells a certificate from it. Fix both.",
-      "after": "We therefore treat its regulatory status as unconfirmed. Before commercial deployment we would ask [agency] whether a sealed system counts as contained use, which is the question our business plan depends on."
     },
     {
       "id": "law-021",
@@ -391,14 +217,6 @@
       "title": "ACCD is tested on salt elsewhere",
       "body": "Here ACCD carries the heat claim. The Geospatial Analysis page reports ACCD evidence under salt stress, \"holding onto 86.3% of unstressed performance at moderate salinity\". If your ACCD data is salinity data, the claim you can support today is salinity. Match the claim to the experiment on every page, and link to Results.",
       "after": "The intended claim decides the evidence we need. Our ACCD data so far is [salinity / heat] data, reported on our Results page, and the [other] claim still has no supporting experiment."
-    },
-    {
-      "id": "law-023",
-      "type": "mistake",
-      "anchor": "For ReLeaf, the main question remain:",
-      "title": "Plural verb and a missing word",
-      "body": "Three questions follow, so it should read \"the main questions remain\". There are four bullets under it, not three.",
-      "after": "For ReLeaf, four questions remain:"
     },
     {
       "id": "law-024",
@@ -420,41 +238,9 @@
       "after": "Table [n]. The three target markets compared. First column: Topic. Then Taiwan, European Union, United States."
     },
     {
-      "id": "law-026",
-      "type": "restructure",
-      "anchor": "After Taiwan and the EU, ReLeaf would investigate selected Southeast Asian markets",
-      "title": "Expansion table mixes two lists",
-      "body": "The table under this sentence is headed by priority, yet priority 1 is Taiwan, your development environment, and the EU is missing although your sequence puts it second. Start the table at the Philippines and keep Taiwan and the EU in section 5.",
-      "after": "After Taiwan and the EU, we would enter selected Southeast Asian markets one at a time. The table ranks those markets; Taiwan and the EU are covered in section 5."
-    },
-    {
-      "id": "law-027",
-      "type": "mistake",
-      "anchor": "The horizontal axis represents the clarity with which ReLeaf could identify the competent authority",
-      "title": "Caption does not match the chart",
-      "body": "The chart's own axes are labelled regulatory and commercialization challenge, and strategic market value for ReLeaf. Your caption describes different axes, and it names five markets while the table lists eleven. Rewrite the caption to match the figure. The last sentence, which says the positions are your own synthesis, is the right kind of honesty and should stay.",
-      "after": "Figure 7. Five expansion markets placed by regulatory and commercialization challenge (horizontal) against strategic value for ReLeaf (vertical). The positions are our qualitative synthesis of the frameworks we reviewed, not official ratings or approval predictions."
-    },
-    {
-      "id": "law-028",
-      "type": "cut",
-      "anchor": "Fertilizer regulation exists, but current market and regulatory conditions require further investigation",
-      "title": "Six rows say the same thing",
-      "body": "Rows 6 to 11 all say a fertilizer framework exists and the exact route needs investigation. Keep rows 1 to 5, which carry your priorities, and replace the rest with one sentence.",
-      "after": "Malaysia, Cambodia, Laos, Myanmar, Singapore and Brunei all have fertilizer registration systems, and each would need its own check of product category and GMO requirements. We placed them below our priority markets because of [reason]."
-    },
-    {
-      "id": "law-029",
-      "type": "cut",
-      "anchor": "This sequence is based on regulatory fit and development readiness rather than market size alone.",
-      "title": "Eighteen sentences turn on one phrase",
-      "body": "\"rather than\" appears 18 times on this page. Readers start to hear the same sentence shape every paragraph. Change most of them to a plain statement.",
-      "after": "We ranked this sequence by regulatory fit and development readiness, not by market size."
-    },
-    {
       "id": "law-030",
       "type": "praise",
-      "anchor": "Kelpak provides a useful case study for understanding why ReLeaf cannot assume",
+      "anchor": "Kelpak provides a useful case study for understanding why ReLEAF cannot assume",
       "title": "A real product anchors the argument",
       "body": "You take one product already on the market and show it treated three ways in three places. That proves your point about classification better than any general statement, and it gives a judge something checkable.",
       "excerpts": [
@@ -473,7 +259,7 @@
     {
       "id": "law-032",
       "type": "cut",
-      "anchor": "For ReLeaf, this reinforces the importance of establishing product identity",
+      "anchor": "For ReLEAF, this reinforces the importance of establishing product identity",
       "title": "Duplicate sentence after Sagarika",
       "body": "The paragraph above already says this, with \"defining\" in place of \"establishing\". Cut one of the two.",
       "after": "(Delete this line; the same point is made inside the paragraph above.)"
@@ -491,22 +277,6 @@
       ],
       "excerpt_note": "Both WageningenUR passages run the full entry in under 150 words, ending with what the team changed.",
       "ballot": "How well did it incorporate different stakeholder views?"
-    },
-    {
-      "id": "law-034",
-      "type": "mistake",
-      "anchor": "BoPEP4, AtLEA14, and ACCD are being developed to address complementary abiotic stresses",
-      "title": "Two spellings of the same peptide",
-      "body": "This page writes BoPEP4 seven times and BoPep4 three times. Every other ReLeaf page writes BoPep4. Change all of them to BoPep4 and search the page for the other spelling.",
-      "after": "BoPep4, AtLEA14, and ACCD are being developed to address complementary abiotic stresses."
-    },
-    {
-      "id": "law-035",
-      "type": "mistake",
-      "anchor": "Organic production standards may restrict genetically modified organisms and certain inputs.",
-      "title": "Organic rules are stricter than this",
-      "body": "The Geospatial Analysis page states it as a hard exclusion: \"Taiwan's Organic Agriculture Promotion Act excludes any product of a genetically modified organism from certified organic production, regardless of containment\", and puts the lost land at about 3.7%. Your row says standards \"may restrict\". Name the Act here and state the exclusion, since it is a market limit a judge will look for.",
-      "after": "Taiwan's Organic Agriculture Promotion Act excludes any product of a genetically modified organism from certified organic production, whatever the containment. Certified organic farming is therefore closed to ReLeaf, about 3.7% of cultivated land."
     },
     {
       "id": "law-036",
@@ -533,19 +303,6 @@
         "laws-2024-og-uzurich-01"
       ],
       "excerpt_note": "Both winners open with the questions their page then answers in order."
-    },
-    {
-      "id": "law-038",
-      "type": "suggest",
-      "anchor": "Promulgated June 16, 1999; last amended June 19, 2002",
-      "title": "Add article numbers and real links",
-      "body": "Your references give bare domains, and no claim in the text carries an article number. Put the article beside each claim, give the full link and the date you read it, and add an \"as of\" date for rules still changing, such as Indonesia's PP No. 7/2026. Your casebook found no winning page that does this, so it is the cheapest way for your page to stand out.",
-      "after": "Ministry of Agriculture, Taiwan. Fertilizer Management Act, Article [n] (promulgated 16 June 1999, last amended 19 June 2002). [full URL], accessed [date].",
-      "excerpts": [
-        "laws-2024-ug-waterloo-02"
-      ],
-      "excerpt_note": "Waterloo's numbered, dated government references are the minimum; the article number next to the claim is the part you can beat them on.",
-      "ballot": "To what extent is the Human Practices work documented so that others can build upon it?"
     }
   ]
 }

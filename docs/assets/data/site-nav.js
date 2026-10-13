@@ -21,6 +21,8 @@
                    page's own `data-base`, so the same file works at any depth.
                    Keep `caption` to three to five words: the panel gives each
                    one a single line and clips anything longer.
+   `prize: true` marks the special-prize pages with a faint wash of colour in
+                   their circle (Measurement, Hardware, Human Practices).
    To add an icon: add a key to ICONS in nav.js (inner SVG markup, stroked,
                    24x24 viewBox) and reference it with `icon:`.
    ========================================================================== */
@@ -54,7 +56,7 @@ const NAV = [
         caption: "Our BioBricks and constructs" },
       { title: "Plants",       slug: "plant",               icon: "plants",
         caption: "Salt and heat stress trials" },
-      { title: "Measurement",  slug: "measurement",         icon: "measurement",
+      { title: "Measurement",  slug: "measurement",         icon: "measurement", prize: true,
         caption: "Calibrated, repeatable readouts" },
       { title: "Safety",       slug: "safety-and-security", icon: "safety",
         caption: "Containment and lab safety" },
@@ -68,7 +70,7 @@ const NAV = [
     pages: [
       { title: "Math Model",              slug: "model",                   icon: "model",
         caption: "From plant stress to light" },
-      { title: "Hardware",                slug: "hardware",                icon: "hardware",
+      { title: "Hardware",                slug: "hardware",                icon: "hardware", prize: true,
         caption: "Photometer, LEDs and bioreactor" },
       { title: "Digital Twin",            slug: "software",                icon: "twin",
         caption: "Software that watches each batch" },
@@ -82,8 +84,8 @@ const NAV = [
     id: "engagement",
     name: "Engagement",
     pages: [
-      { title: "Integrated Human Practices", slug: "human-practices",      icon: "ihp",
-        caption: "Voices that reshaped ReLeaf" },
+      { title: "Integrated Human Practices", slug: "human-practices",      icon: "ihp", prize: true,
+        caption: "Voices that reshaped ReLEAF" },
       { title: "Education",                  slug: "education",            icon: "education",
         caption: "Lessons across three school levels" },
       { title: "Entrepreneurship",           slug: "entrepreneurship",     icon: "entrepreneurship",
@@ -103,7 +105,7 @@ const NAV = [
     name: "Team",
     pages: [
       { title: "Members",     slug: "team",         icon: "members",
-        caption: "The people behind ReLeaf" },
+        caption: "The people behind ReLEAF" },
       { title: "Attribution", slug: "attributions", icon: "attribution",
         caption: "Who did what" },
       { title: "Milestone",   slug: "milestone",    icon: "milestone",
@@ -135,7 +137,7 @@ const NAV_UNLISTED = [
    would break an iGEM 2026 wiki rule, with a panel listing them. It is a
    teaching aid for this demo copy. Set to false in the copy that goes to
    gitlab.igem.org, or delete the line and the file.                        */
-window.RULECHECK = true;
+window.RULECHECK = false;
 
 /* Drafting marks: text an AI assistant drafted to fill a page, not yet
    rewritten by a student, carries class="ai" and shows in orange. Set to false

@@ -82,29 +82,6 @@
   },
   "notes": [
     {
-      "id": "sus-a01",
-      "zone": "abstract",
-      "type": "restructure",
-      "anchor": "Out of all the 17 SDGs available, we chose our SDGs first based on their relation to our project.",
-      "title": "Lead with your goals",
-      "body": "This is the first sentence a judge reads, and it only says how you started choosing. It does not name your goals or what ReLeaf does. Put the result first.",
-      "after": "We chose SDGs 2, 4, 10 and 15 because our project can make a real impact on them.",
-      "excerpts": [
-        "sus-2025-ug-epfl-01",
-        "sus-2024-og-uzurich-01"
-      ],
-      "excerpt_note": "Both winners open on the problem and what the project does, before any list."
-    },
-    {
-      "id": "sus-a02",
-      "zone": "abstract",
-      "type": "restructure",
-      "anchor": "We ended up with SDGs 2, 4, 10, and 15",
-      "title": "One line per goal",
-      "body": "This paragraph is four sentences copied from different sections, so it reads as pieces. Only SDG 4 and SDG 15 get a line, and SDG 2 and SDG 10 get none. Write one short sentence per goal, then one for the main risk.",
-      "after": "SDG 2: our protectants could help crops keep growing under stress. SDG 4: our education website shares our lessons with teachers. SDG 10: profit from large farms could pay for subsidies or rentals for small farmers. SDG 15: our product could stop further harm to soil. Main risk: plants may come to depend on our protectants."
-    },
-    {
       "id": "sus-a03",
       "zone": "abstract",
       "type": "praise",
@@ -116,29 +93,6 @@
       ],
       "excerpt_note": "Queens says exactly what it hands over and how others reuse it.",
       "ballot": "Has the team documented their work against their chosen SDG(s) so that other teams can build upon their work?"
-    },
-    {
-      "id": "sus-a04",
-      "zone": "abstract",
-      "type": "restructure",
-      "anchor": "The usage of our product doesn’t promote longevity.",
-      "title": "Give the bold risk its reason",
-      "body": "This is one of only two bold messages, and on its own it sounds like your product is bad for the long term. Keep the risk, because honest limits earn trust, but say what it is and who raised it.",
-      "after": "One risk: plants that get our protectants may not build their own resilience, as the farmer Ms. Chen warned us.",
-      "excerpts": [
-        "sus-2025-og-aalto-02"
-      ],
-      "excerpt_note": "Aalto states its limits early and plainly, with the reason.",
-      "ballot": "How well has the team considered the positive and/or negative interactions of their work in relation to other SDGs?"
-    },
-    {
-      "id": "sus-a05",
-      "zone": "abstract",
-      "type": "clarify",
-      "anchor": "can directly impact this and increase food production",
-      "title": "Make the SDG 2 line stand alone",
-      "body": "On the sheet, \"this\" has nothing to point to. \"Directly ... increase food production\" also goes past your plant results (see note sus-012). Use a short line that makes sense alone.",
-      "after": "could help crops keep growing under stress"
     },
     {
       "id": "sus-a06",
@@ -163,32 +117,11 @@
       "body": "Four words give the action and who it helps. A judge sees your SDG 10 plan without opening the section."
     },
     {
-      "id": "sus-001",
-      "type": "cut",
-      "anchor": "Sustainability has always been a topic on the world’s mind, and evident in every sector and corner of our lives.",
-      "title": "Start with your project",
-      "body": "This first sentence could open any team's page, so a judge learns nothing from it. Start with what ReLeaf does and why sustainability came into it. Winning pages name their project and its problem in the first lines.",
-      "after": "ReLeaf started as a way to help farmers cope with climate stress. As the project grew, we saw that sustainability had to be built into it.",
-      "excerpts": [
-        "sus-2025-ug-epfl-01",
-        "sus-2024-og-uzurich-01"
-      ],
-      "excerpt_note": "Both pages open on the problem and the project. The SDGs come after."
-    },
-    {
       "id": "sus-002",
       "type": "praise",
       "anchor": "Sustainability is not only limited to environmental sustainability, but also the sustainability of our societal structure",
       "title": "Your own definition sets up the goals",
       "body": "You say what sustainability means to your team, and you include people as well as the environment. This explains early why education (SDG 4) and inequality (SDG 10) belong on a page about farm technology. Keep the idea, and split the long sentence after it into two."
-    },
-    {
-      "id": "sus-003",
-      "type": "mistake",
-      "anchor": "agreed upon by the United Nation (UN) to achieve by the year 2050",
-      "title": "Check the SDG deadline and UN name",
-      "body": "The SDGs belong to the UN's 2030 Agenda, and their deadline is 2030. Your page says 2050. Also write \"United Nations\" with an s.",
-      "after": "These are the 17 Sustainable Development Goals (SDGs), which United Nations members agreed to reach by 2030."
     },
     {
       "id": "sus-004",
@@ -202,14 +135,6 @@
       "excerpt_note": "UZurich also explains how it studied the problem before it lists any goal."
     },
     {
-      "id": "sus-005",
-      "type": "restructure",
-      "anchor": "Through the first condition, we can whittle the SDGs down to SDGs 2, 3, 4, 7, 10, 13, and 15.",
-      "title": "Show the shortlist as a table",
-      "body": "You list seven goals, but only SDG 13 gets a reason for being dropped. A reader is left guessing about SDG 3 and SDG 7. A small table answers all of them in less space than the paragraph below.",
-      "after": "| SDG | Link to ReLeaf | Kept? | Why |\n| 3 | [link] | No | [reason] |\n| 7 | [link] | No | [reason] |\n| 13 | Our bioreactor could improve the environment | No | Climate change is not the main problem we solve |"
-    },
-    {
       "id": "sus-006",
       "type": "praise",
       "anchor": "while Climate Action can be affected through improving the environment through using our bioreactor, it isn’t the main point of our project",
@@ -221,89 +146,11 @@
       "excerpt_note": "See how Aalto states its project stage and limits before any goal."
     },
     {
-      "id": "sus-007",
-      "type": "mistake",
-      "anchor": "we ended up with SDGs 2, 4, 10, and 15, all of which are targets that we actively considered",
-      "title": "SDG list differs from Entrepreneurship",
-      "body": "This page claims SDGs 2, 4, 10 and 15 and explains why SDG 13 is left out. The Entrepreneurship page names \"SDGs 2, 8, 11, 12, 13, and 15\" and says the product \"directly aligns\" with SDG 13. Agree on one list, or say on Entrepreneurship why its list is different."
-    },
-    {
-      "id": "sus-008",
-      "type": "cut",
-      "anchor": "while the population grows at an exponential rate",
-      "title": "Remove the unsupported world claim",
-      "body": "World population growth is slowing, so \"exponential\" is wrong, and the sentence has no source. Judges check claims like this. Keep the problem to what you can support, and cite it.",
-      "after": "One factor is food production: climate stress and pollution are lowering crop yields in many regions [source]."
-    },
-    {
       "id": "sus-009",
       "type": "praise",
       "anchor": "This is especially acute for farming families that not only sell their crops, but rely on their farm to feed themselves",
       "title": "A real group with a real trade-off",
       "body": "You name who is hurt most, families who eat what they grow, and the hard choice they face between eating and earning. This turns a world problem into people a judge can picture. It also links SDG 2 to the small farmers you write about under SDG 10."
-    },
-    {
-      "id": "sus-010",
-      "type": "suggest",
-      "anchor": "Early on into the project, we talked with the leader of Ubuntu Social Enterprise Ghana.",
-      "title": "Name the stakeholder and what changed",
-      "body": "This is your only stakeholder under SDG 2, but the reader does not learn his name, when you met, or what you did next. Your Human Practices page has all three: Gilbert Nkpeniyeng, 1 February, and a move to a social enterprise business model. End the entry with that change.",
-      "after": "On 1 February we interviewed Gilbert Nkpeniyeng, leader of Ubuntu Social Enterprise Ghana (USE-GH), which [what USE-GH does]. He confirmed that climate stress is making it harder to farm family land in Ghana. Because of this meeting, we built our business plan as a social enterprise.",
-      "excerpts": [
-        "sus-2025-ug-epfl-02",
-        "sus-2023-og-heidelberg-01"
-      ],
-      "excerpt_note": "Each entry ends with the decision the stakeholder caused. Copy that last step.",
-      "ballot": "Did the team incorporate feedback from relevant Sustainable Development Goals (SDG) stakeholders into their work?"
-    },
-    {
-      "id": "sus-011",
-      "type": "restructure",
-      "anchor": "Our project can directly impact this and increase food production",
-      "title": "Split what you did from what you hope",
-      "body": "This paragraph moves from a lab test to world food supply and healing soil in four sentences. Judges trust you more when what you measured and what you expect sit in separate sentences, with \"could\" for the second. The soil and pollution claim belongs under SDG 15.",
-      "after": "Our protectants are designed to help crops keep growing under stress. If they work in the field, farmers could lose less of their harvest. So far we have [what the plant tests show].",
-      "excerpts": [
-        "ihp-2025-ug-nyuad-05"
-      ],
-      "excerpt_note": "NYU Abu Dhabi keeps what was designed apart from what was proven."
-    },
-    {
-      "id": "sus-012",
-      "type": "mistake",
-      "anchor": "We’ve proven that plants can grow better under stress with our Arabidopsis",
-      "title": "This claim goes past your plant results",
-      "body": "Your Results page says that after six sets, \"we cannot call it a validated positive control\" (trehalose), and the best protectant effect still needs a repeat. The hydroponic photo beside this text used a commercial CH Bio peptide, one box per treatment. Write only what the tests show.",
-      "after": "Our Arabidopsis tests show clear growth loss under salt stress, so we can now measure stress in plants. We have not yet shown that our own protectant helps plants grow under stress. Arabidopsis is in the mustard family, so results could carry over to related crops, but we have not tested this.",
-      "ballot": "Has the team's work measurably and significantly addressed one or more SDGs?"
-    },
-    {
-      "id": "sus-013",
-      "type": "restructure",
-      "anchor": "This may cause them to act maliciously or ignorantly towards new inventions",
-      "title": "Describe the problem without blaming people",
-      "body": "\"Maliciously\" says people mean harm, which is a strong charge you do not show. Say what people do, for example distrust or reject new products, and give one piece of evidence. Your own pre-survey scores can be that evidence.",
-      "after": "Without this knowledge, people may distrust or reject new products made with synthetic biology. Before our lessons, only [number]% of students could [answer which question]."
-    },
-    {
-      "id": "sus-014",
-      "type": "mistake",
-      "anchor": "from four different school visits",
-      "title": "Three schools or four visits?",
-      "body": "The Education page says you \"visited 3 elementary schools\", and its chart combines \"Four Trials\" (a preliminary trial and trials 1 to 3). This caption says four school visits. Use the same count and the same words on both pages."
-    },
-    {
-      "id": "sus-015",
-      "type": "cut",
-      "anchor": "As can be seen, there is a noticeable increase in their knowledge about not only biology but also genetics.",
-      "title": "Let your numbers speak",
-      "body": "\"As can be seen\" and \"noticeable\" are weaker than your own data. Give the two biggest gains and the number of students. Numbers about your own work are rare even on winning pages, so put them in the text.",
-      "after": "The biggest gains were on biotic versus abiotic stress (16% to 91% correct) and DNA codons (25% to 89%), across [number] students.",
-      "excerpts": [
-        "edu-2025-og-heidelberg-05"
-      ],
-      "excerpt_note": "One sentence for the method, one for the result.",
-      "ballot": "Has the team's work measurably and significantly addressed one or more SDGs?"
     },
     {
       "id": "sus-016",
@@ -316,14 +163,6 @@
       ],
       "excerpt_note": "Queens lists exactly what it hands over and how another team can reuse it.",
       "ballot": "Has the team documented their work against their chosen SDG(s) so that other teams can build upon their work?"
-    },
-    {
-      "id": "sus-017",
-      "type": "clarify",
-      "anchor": "Additionally, we’ve done a public forum where we introduce our project and explain about synthetic biology to the public.",
-      "title": "Say when, where and who",
-      "body": "A judge does not know which forum this was. Your Human Practices page has the details: 5 September, at the Taipei Water Garden Organic Farmers' Market, with experts and farmers. Add how many people came if you know.",
-      "after": "On 5 September we held a public forum at the Taipei Water Garden Organic Farmers' Market, where we explained our project and synthetic biology to [number] farmers and visitors."
     },
     {
       "id": "sus-018",
@@ -348,13 +187,6 @@
       "body": "Under SDG 10 you only describe a future plan. Your Human Practices page shows work already done for small farmers: the 農友助手 LINE account, built because many smallholders find it hard to get help online. Add it here, with a number if you have one.",
       "after": "We have also built 農友助手, a LINE account that gives small farmers heat stress alerts and crop advice in an app they already use. [Number] farmers have joined so far.",
       "ballot": "Has the team's work measurably and significantly addressed one or more SDGs?"
-    },
-    {
-      "id": "sus-021",
-      "type": "mistake",
-      "anchor": "The protectants produced from our bioreactor are entirely natural and already exist in plants",
-      "title": "Are all the protectants natural?",
-      "body": "Please check this claim. Human Practices names ACC deaminase as a protectant, and it is an enzyme made by bacteria. The Protein Design page designs new versions of the BoPep4 peptide, and Entrepreneurship lists \"not fully organic\" as a weakness. If any protectant is changed or comes from bacteria, say so here."
     },
     {
       "id": "sus-022",
@@ -395,13 +227,6 @@
       "ballot": "How well has the team considered the positive and/or negative interactions of their work in relation to other SDGs?"
     },
     {
-      "id": "sus-025",
-      "type": "mistake",
-      "anchor": "This was mentioned by an organic farmer, Ms. Chen",
-      "title": "Organic farmer or natural farmer?",
-      "body": "Human Practices calls Ms. Chen \"a natural farming practice farmer\", and Geospatial Analysis says she runs \"a natural farm\". This page and Entrepreneurship say \"organic\". Organic usually means a certified label, so the words are not the same. Pick one and use it on every page."
-    },
-    {
       "id": "sus-026",
       "type": "restructure",
       "anchor": "Plants that use our protectants will have a bit of a hard time building resilience on their own",
@@ -414,30 +239,6 @@
       ],
       "excerpt_note": "Feedback first, then the change it caused, in two or three sentences.",
       "ballot": "Did the team incorporate feedback from relevant Sustainable Development Goals (SDG) stakeholders into their work?"
-    },
-    {
-      "id": "sus-027",
-      "type": "cut",
-      "anchor": "Our team does not only want to give lip service and not actually make any impact on these SDGs",
-      "title": "Cut the double negative",
-      "body": "\"Not only ... lip service and not actually\" is hard to follow, and it answers a charge nobody made. Start with what you want to last.",
-      "after": "We want our work to last beyond this season, for future iGEM teams and for our community."
-    },
-    {
-      "id": "sus-028",
-      "type": "suggest",
-      "anchor": "we also want to have a long-lasting impact on future iGEM teams that may be following a similar path",
-      "title": "Build on earlier iGEM teams",
-      "body": "The prize text asks teams to revisit earlier iGEM projects and to work with other teams on the goals. No winner from 2023 to 2025 did this well, so it is open ground. Name one earlier iGEM project you learned from, and any team you worked with.",
-      "after": "We built on [team, year], who [what they did]. We used their [part, protocol or idea] for [what]. We also worked with [team] on [shared SDG activity].",
-      "ballot": "Has the team documented their work against their chosen SDG(s) so that other teams can build upon their work?"
-    },
-    {
-      "id": "sus-029",
-      "type": "mistake",
-      "anchor": "through the business plan we have laid out development plans for up to 5 years",
-      "title": "Five years or six?",
-      "body": "Entrepreneurship shows a \"Unified 6-year Gantt chart\", and its last stage runs to \"Year 5.5 – Year 6.0+\". This page says up to 5 years. Use the same span on both pages."
     },
     {
       "id": "sus-030",

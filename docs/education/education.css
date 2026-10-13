@@ -1,6 +1,6 @@
 /* Education page only. The soft language (segmented control, chapters, cards,
    folds, blocks, voices, chartboxes, side list) comes from assets/css/engage.css;
-   what is here is what only this page has: the band photo mosaics, the reach
+   what is here is what only this page has: the lesson-step photographs, the reach
    numbers, the download rows, the student-feedback slider, and a few fits.
 
    The three age bands keep one colour everywhere on the page:
@@ -27,32 +27,26 @@
   max-width: 60rem;
 }
 .engage .chap__intro p { max-width: 46rem; }
-.engage .chap__hero + .bento { margin-top: calc(-1 * var(--sp-3)); }
-.engage .chap > .bento + .card,
 .engage .chap > .folds + .card { margin-top: 1.25rem; }
 
-/* ---- the band photographs: one large, the rest small, two rows at most ---- */
-.engage .chap > .bento { grid-template-columns: repeat(4, minmax(0, 1fr)); margin-bottom: 1.25rem; }
-.engage .chap > .bento .fig:first-child { grid-column: span 2; grid-row: span 2; }
-.engage .chap > .bento .fig:first-child img { position: absolute; inset: 0; height: 100%; aspect-ratio: auto; }
-.engage .chap > .bento--4 .fig:first-child { grid-column: auto; grid-row: auto; }
-.engage .chap > .bento--4 .fig:first-child img { position: static; height: auto; aspect-ratio: 4 / 3; border-radius: 12px; }
-/* nine photographs: the first large, eight small, in two rows */
-@media (min-width: 40.01rem) {
-  .engage .chap > .bento--9 { grid-template-columns: repeat(6, minmax(0, 1fr)); }
-}
-@media (max-width: 40rem) {
-  .engage .chap > .bento { grid-template-columns: 1fr 1fr; }
-  .engage .chap > .bento .fig:first-child { grid-column: 1 / -1; grid-row: auto; }
-  .engage .chap > .bento .fig:first-child img { position: static; height: auto; aspect-ratio: 3 / 2; }
-  .engage .chap > .bento--4 .fig:first-child { grid-column: auto; }
-  .engage .chap > .bento--4 .fig:first-child img { aspect-ratio: 4 / 3; }
-}
+/* ---- photographs inside a lesson step: one, two or three to a row ---- */
+.edu-shots { display: grid; gap: .5rem; margin: .9rem 0 0; }
+.edu-shots--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.edu-shots--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.engage .edu-shots .fig { margin: 0; min-width: 0; }
+.engage .edu-shots .fig img { display: block; width: 100%; height: auto; border: 0; border-radius: 12px; background: var(--well); }
+.engage .edu-shots--2 .fig img, .engage .edu-shots--3 .fig img { aspect-ratio: 4 / 3; object-fit: cover; }
+.engage .edu-shots figcaption { margin: .4rem .15rem 0; padding: 0; border: 0; max-width: none; font-size: .78125rem; line-height: 1.4; color: var(--ink-3); }
+.engage .edu-plan > h5 { margin-top: 1.25rem; }
+.engage .edu-plan > h5 + .folds { margin-top: .6rem; }
+@media (max-width: 30rem) { .edu-shots--3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 
 /* ---- the lesson's segments sit two to a row ---- */
 @media (min-width: 62rem) {
   .engage .edu-plan .folds { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
   .engage .edu-plan .fold__sub { flex-basis: 100%; text-align: left; font-size: .78rem; }
+  /* the elementary lesson's ten segments read as one list, top to bottom */
+  .engage .edu-plan .folds.edu-folds1 { grid-template-columns: minmax(0, 1fr); }
 }
 
 @media (min-width: 52rem) {
@@ -101,7 +95,6 @@
 .engage .dl__kind { border-radius: 999px; background: color-mix(in srgb, var(--pl) 12%, #fff); color: var(--pl); font-family: inherit; letter-spacing: .03em; }
 .engage .dl__name { color: var(--ink); }
 .engage .dl__meta { color: var(--ink-3); }
-.engage .card .dl + p.ai { margin-top: .75rem; }
 
 /* the three materials folds carry their band's icon */
 .edu-mats__ico {
@@ -115,14 +108,6 @@
 .engage .rail--app .app__panel > h5:first-child { margin-top: 0; }
 .engage .app__panel ul ul { margin-top: .5rem; }
 .engage .app__panel .dl { margin-top: 1rem; }
-
-/* ---- sustainable education: five cards, three then two ---- */
-@media (min-width: 52rem) {
-  .concl.edu-five { grid-template-columns: repeat(6, minmax(0, 1fr)); }
-  .edu-five > .concl__card, .edu-five > .concl__card:first-child { grid-column: span 2; }
-  .edu-five > .concl__card:nth-child(n+4) { grid-column: span 3; }
-}
-.engage .edu-five > .concl__card:first-child p { font-size: .96875rem; color: var(--ink-2); }
 
 /* ---- feedback slider, soft ---- */
 .fbslider { margin: var(--sp-5) 0 0; }
@@ -165,7 +150,6 @@
   box-shadow: 0 0 0 1px rgb(0 0 0 / .06), 0 24px 44px -34px rgb(0 0 0 / .35);
   overflow: hidden;
 }
-.fbcard:focus-visible { outline: 2px solid var(--pl); outline-offset: 2px; }
 .fbcard__lvl {
   position: absolute; top: .75rem; left: .75rem; z-index: 1;
   padding: .2rem .6rem;
@@ -174,25 +158,16 @@
   color: var(--pl);
   font-size: .75rem; font-weight: 600;
 }
-.fbcard__img { display: flex; align-items: center; justify-content: center; aspect-ratio: 4 / 3; padding: 2.6rem .75rem .75rem; background: #fff; }
-.fbcard__img img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; }
+.fbcard__img { display: flex; align-items: center; justify-content: center; aspect-ratio: 16 / 10; padding: 2.4rem .5rem .25rem; background: #fff; }
+.fbcard__img img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; cursor: zoom-in; }
 .fbcard figcaption {
   padding: .85rem 1.1rem 1rem;
   background: var(--well);
   font-size: .875rem; line-height: 1.5; color: var(--ink-2);
 }
-.fbcard figcaption q { font-style: italic; }
-@media (hover: hover) and (pointer: fine) {
-  .fbcard figcaption {
-    position: absolute; left: 0; right: 0; bottom: 0;
-    opacity: 0; transform: translateY(.5rem);
-    transition: opacity .2s ease, transform .25s var(--ease);
-  }
-  .fbcard:hover figcaption, .fbcard:focus-within figcaption, .fbcard:focus figcaption { opacity: 1; transform: none; }
-}
+.fbcard figcaption b { color: var(--pl); font-weight: 650; }
 @media (prefers-reduced-motion: reduce) {
   .fbtrack { scroll-behavior: auto; }
-  .fbcard figcaption { transition: none; }
 }
 
 /* ---- on a phone the three bands fit the pill without scrolling ---- */
@@ -207,5 +182,12 @@
 /* ---- website architecture: five blocks, the odd last one spans the row ---- */
 @media (min-width: 52rem) { .edu-arch > .blk:last-child:nth-child(odd) { grid-column: 1 / -1; } }
 
-/* ---- the judging criteria close the page ---- */
-.engage .pagebody > .callout--medal { margin-top: var(--sp-8); max-width: var(--measure); }
+/* ---- Education Website and Designing The Lesson sit inside Preparation ---- */
+.subsec { margin-top: var(--sp-8); }
+.engage .subsec > h3 { font-size: clamp(1.5rem, 1.25rem + 1vw, 1.9rem); letter-spacing: -.02em; }
+.engage .sec h4.subsec__h { margin: var(--sp-6) 0 .6rem; font-size: 1.1875rem; font-weight: 650; letter-spacing: -.012em; color: var(--ink); text-transform: none; }
+/* a chapter's number sits small above its title, not beside it */
+.engage .chap__title .sec__no { display: block; margin-bottom: .35rem; font-size: .9375rem; font-weight: 600; letter-spacing: 0; color: var(--pl); }
+.engage .chap__title .anchor { display: none; }
+/* a jump from the contents rail lands with the title clear of the pinned control */
+.engage .chap__title { scroll-margin-top: calc(var(--nav-h) + 7rem); }

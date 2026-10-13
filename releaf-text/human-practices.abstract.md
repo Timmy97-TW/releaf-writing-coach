@@ -1,9 +1,9 @@
 ## Abstract
-Human Practices acts as the heart of the team, connecting the research and work we have done in the lab with the real-world needs that help to shape our project.
-Over the span of seven months, from March to September, our team actively engaged with 20 key stakeholders to refine and guide our project; our project only took real shape when we went back to our advisors with physical prototypes, fresh wet-lab data, and updated circuit designs; each follow-up meeting pushed us to fix design flaws, refine our controls, and make our system realistic for actual farmers.
+Over the span of nine months, from February to October, our team actively engaged with 24 key stakeholders to refine and guide our project.
+Biosafety and how we were able to prevent our Bacillus subtilis from leaking into the environment became a huge concern. We first consulted Professor Chen, who advised us to move toward a bioreactor-based system with clear input output relationships instead of releasing engineered bacteria into the soil. We decided to begin treating physical containment as the primary safety mechanism. As a result of this follow-up loop, we adjusted our membrane parameters to prevent leakage and shifted our hardware architecture toward a modular, farmer-friendly capsule unit.
 ## Engagements
-- Expert engagement · we consulted experts across six diverse domains
+- Expert engagement · we consulted experts across five diverse domains
 - Continuous engagement · continuous feedback loops with five core experts
-- Farmer interviews · we conducted three outreach events
+- Farmer interviews · we conducted four outreach events
 - LINE platform · to make our resources more accessible to users
 - Public forum · successfully engaged more than 50 participants

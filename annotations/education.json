@@ -110,68 +110,6 @@
       "excerpt_note": "Aachen gives the gap and its answer in five sentences. Heidelberg names every activity in its opening paragraph."
     },
     {
-      "id": "edu-a02",
-      "zone": "abstract",
-      "type": "suggest",
-      "anchor": "and learned from survey results and feedback",
-      "title": "Name one thing you changed",
-      "body": "The first ballot question is about mutual learning, and this is the only line on the sheet that touches it. Say one thing you changed because of feedback.",
-      "after": "and changed the lesson after each visit. When students said “too much english”, we broke vocabulary into simpler words.",
-      "excerpts": [
-        "edu-2025-og-heidelberg-08"
-      ],
-      "excerpt_note": "Whose feedback, then what changed, in two sentences.",
-      "ballot": "How well did their work promote mutual learning and/or a dialogue?"
-    },
-    {
-      "id": "edu-a03",
-      "zone": "abstract",
-      "type": "clarify",
-      "anchor": "Our program and lesson plan meaningfully improved students’ understanding of synthetic biology and plant science concepts",
-      "title": "Put a number in bold",
-      "body": "This sentence comes from the elementary summary, but here it speaks for all three levels. “Meaningfully improved” is the bold message, and it has no number. Bold a result a judge can check.",
-      "after": "Correct answers rose from [x]% before the lesson to [y]% after, across [number] students."
-    },
-    {
-      "id": "edu-a04",
-      "zone": "abstract",
-      "type": "praise",
-      "anchor": "DNA base pairing remained a challenging concept",
-      "title": "A weak result on the first screen",
-      "body": "You put a result that did not go well in bold, right at the top. Judges trust a team that shows its weak spots, and it makes your other claims easier to believe.",
-      "excerpts": [
-        "edu-2025-og-heidelberg-06"
-      ],
-      "excerpt_note": "Heidelberg says plainly that an event missed its audience, then what the team took from it."
-    },
-    {
-      "id": "edu-a05",
-      "zone": "abstract",
-      "type": "mistake",
-      "anchor": "with only 30% of students answering correctly after the lesson",
-      "title": "The 30% is junior high only",
-      "body": "Here it reads as if only 30% of all 144 students got DNA base pairing right. In the body, 30% is the junior high result, and the elementary analysis says the DNA question went from “at or below 25% accuracy and jumping to around 90%”. Say which level.",
-      "after": "Junior high students found it hardest: only 30% answered correctly after the lesson."
-    },
-    {
-      "id": "edu-a06",
-      "zone": "abstract",
-      "type": "praise",
-      "anchor": "All three teachers who took the survey indicated they would be willing to continue participating.",
-      "title": "A real count of teachers",
-      "body": "“All three teachers” is a number a judge can check, and it shows others plan to carry on your work. Add that they were elementary teachers, and mention the high school teacher who plans to use your slides.",
-      "ballot": "Did the team convince you that their activities would enable more people to shape, contribute to, and/or participate in synthetic biology?"
-    },
-    {
-      "id": "edu-a07",
-      "zone": "abstract",
-      "type": "mistake",
-      "anchor": "a centralized center where students and educators",
-      "title": "This line stops mid-sentence",
-      "body": "The line is cut from a longer sentence, so it ends on “students and educators” with no verb. “Centralized center” also says the same thing twice. Say what the website gives people.",
-      "after": "free lesson plans, slides and games for teachers and students"
-    },
-    {
       "id": "edu-a08",
       "zone": "abstract",
       "type": "clarify",
@@ -217,43 +155,6 @@
       "excerpt_note": "Queens gives purpose and audience in one paragraph. Heidelberg names every activity in its first lines."
     },
     {
-      "id": "edu-002",
-      "type": "mistake",
-      "anchor": "Through our promotion, we introduce topics like synthetic biology in a simple and engaging way",
-      "title": "“Promotion” sounds like marketing",
-      "body": "The prize text asks for scientific learning and rules out marketing synthetic biology or iGEM. The word “promotion” works against you. Your Entrepreneurship page makes it worse: it calls educational outreach “Another one of our sales strategies”. Use “lessons” here, and ask the Entrepreneurship writers to reword their line.",
-      "after": "In our lessons, we introduce synthetic biology in a simple way, even to students with no biology background."
-    },
-    {
-      "id": "edu-003",
-      "type": "cut",
-      "anchor": "could serve as a centralized center where students and educators alike could easily be able to freely access things",
-      "title": "Say it in fewer words",
-      "body": "“Centralized center” says the same thing twice, and “could easily be able to freely” stacks three soft words. Short sentences are easier for judges to read.",
-      "after": "So we built a website where students and teachers can download our lesson plans, slides and games for free."
-    },
-    {
-      "id": "edu-004",
-      "type": "suggest",
-      "anchor": "Invites teachers, students, and community members to connect with our team directly.",
-      "title": "Show who used the sign-up form",
-      "body": "This form is your best answer to the last ballot question: can more people take part? Right now the page only says the form exists. Add how many teachers or schools used it, even if the number is small.",
-      "after": "Teachers and students can contact us here. By [date], [number] teachers had used this form to ask for a workshop or materials.",
-      "ballot": "Did the team convince you that their activities would enable more people to shape, contribute to, and/or participate in synthetic biology?"
-    },
-    {
-      "id": "edu-005",
-      "type": "praise",
-      "anchor": "we also took the time to verify whether the content we were planning on teaching were already being taught in schools",
-      "title": "You checked the school curriculum first",
-      "body": "You checked what schools already teach, so your lessons add something new. Judges read this as careful design. Add one line naming the curriculum or grades you checked.",
-      "excerpts": [
-        "edu-2024-ug-cityu-01"
-      ],
-      "excerpt_note": "CityU names what the school curriculum leaves out before saying what they did.",
-      "ballot": "Was it thoughtfully implemented?"
-    },
-    {
       "id": "edu-006",
       "type": "restructure",
       "anchor": "In the world we live in nowadays, synthetic biology and other related areas are often associated with negative perceptions",
@@ -278,14 +179,6 @@
       "ballot": "Was it thoughtfully implemented?"
     },
     {
-      "id": "edu-008",
-      "type": "cut",
-      "anchor": "Lastly, to ensure long-term impact, we promoted sustainable education through our website",
-      "title": "This paragraph repeats section 2",
-      "body": "Section 2 already explains the website, and section 7 explains long-term impact. This paragraph says it a third time. Replace it with one line.",
-      "after": "All our materials are free on our education website (see section 6)."
-    },
-    {
       "id": "edu-009",
       "type": "clarify",
       "anchor": "These lessons were made for elementary students ranging from fourth to sixth grade",
@@ -294,27 +187,11 @@
       "after": "These lessons were for students in grades 4 to 6 (ages [9 to 12])."
     },
     {
-      "id": "edu-010",
-      "type": "mistake",
-      "anchor": "we separated the five lessons we held into three different trials",
-      "title": "Three trials or four?",
-      "body": "This sentence says “three different trials” and then lists four: Preliminary, Trial 1, Trial 2 and Trial 3. Your analysis later says “Across our four trials”. Pick one count and use it everywhere.",
-      "after": "We split the five lessons into four trials: Preliminary (June 24th, 2026), Trial 1 (June 25th and 26th), Trial 2 (June 29th) and Trial 3 (July 14th)."
-    },
-    {
       "id": "edu-011",
       "type": "praise",
       "anchor": "To connect back to the core idea of our project, we introduced heat as a variable in the experiment",
       "title": "Heat links the lesson to ReLeaf",
       "body": "The leaf-disk experiment is a classic, but you added heat, the stress your project works on. Students saw the problem with their own eyes. This connects the lesson to your project through science, with no selling."
-    },
-    {
-      "id": "edu-012",
-      "type": "cut",
-      "anchor": "Physical Constraints & Ambient Acoustic Audits: Students noted",
-      "title": "Let the student quotes speak",
-      "body": "Labels like “Ambient Acoustic Audits” and “Technical Scaffolding for Diverse Fine Motor Skills” are harder to read than the problem itself. The students’ own words already say it. Use short labels.",
-      "after": "Sound: students said “the sound could be louder”."
     },
     {
       "id": "edu-013",
@@ -369,15 +246,6 @@
       "excerpt_note": "Heidelberg opens each section with three one-line results a judge can skim."
     },
     {
-      "id": "edu-018",
-      "type": "clarify",
-      "anchor": "Our team visited 1 junior high school this year spanning over the months of June and July.",
-      "title": "Give date, school and class size first",
-      "body": "A judge checks the date, the school and the number of students first. This sentence has none of them, and one visit cannot span “June and July”. The class size never appears in the junior high sections.",
-      "after": "On [date], we taught [number] students in grades 7 to 9 at [school name].",
-      "ballot": "Was it thoughtfully implemented?"
-    },
-    {
       "id": "edu-019",
       "type": "cut",
       "anchor": "We then moved into a hands-on experiment designed to let students actually watch photosynthesis happen in real time.",
@@ -419,22 +287,6 @@
       "ballot": "Is it documented in a way that others can build upon?"
     },
     {
-      "id": "edu-023",
-      "type": "mistake",
-      "anchor": "Lecture pacing: Some students felt that parts of presentation were too long",
-      "title": "This table row is broken",
-      "body": "In the first row, the “Planned Changes” column holds a second issue and no change. So the table never says how you will fix pacing. Move this text to the issue column and write the change.",
-      "after": "Issue: parts of the lesson were too long (“Spoke for a bit too long”). Planned change: [what you will shorten, and by how much]."
-    },
-    {
-      "id": "edu-024",
-      "type": "clarify",
-      "anchor": "During August, our team visited 1 high school to expand our educational initiative.",
-      "title": "Add date, school and class size",
-      "body": "Like the junior high section, this one has no date and no school name, and the class size (28) appears only much later. Put them in the first sentence. “To expand our educational initiative” can go.",
-      "after": "On [date] in August, we taught 28 students in grades 10 to 12 at [school name]."
-    },
-    {
       "id": "edu-025",
       "type": "mistake",
       "anchor": "we designed a short survey that includes six multiple-choice questions on Kahoot",
@@ -447,22 +299,6 @@
       "anchor": "we prepared 3 M and 6 M salt solutions for different groups of students",
       "title": "Please check the salt units",
       "body": "6 M salt is close to the most salt water can hold, so a judge may stop here. If you meant percent (for example 3% and 6%), write that. If 3 M and 6 M is right, keep it and name the salt."
-    },
-    {
-      "id": "edu-027",
-      "type": "mistake",
-      "anchor": "three core categories: Knowledge (K), Attitude (A), and Action (A)",
-      "title": "Practice or Action?",
-      "body": "Everywhere else the survey is K-A-P: Knowledge, Attitude, Practice. Here the third part is “Action (A)”. Use one name for the same part at every level.",
-      "after": "three core categories: Knowledge (K), Attitude (A) and Practice (P)."
-    },
-    {
-      "id": "edu-028",
-      "type": "restructure",
-      "anchor": "At the end of the survey, several students expressed curiosity about how DNA sequences can be modified",
-      "title": "Do not repeat the table",
-      "body": "The first two sentences repeat the table above. Start with your own reflection, which is the new part.",
-      "after": "We taught 28 students in a short time and tried to cover as much as possible. We did not check enough whether they could follow it all. The plasmolysis question had the highest post-survey score, which suggests the hands-on experiment helped."
     },
     {
       "id": "edu-029",
@@ -484,19 +320,6 @@
       "title": "Show how 144 adds up",
       "body": "This sentence tells the reader nothing new. Use it to break down the 144. Your tables give 99 elementary and 28 high school pre-surveys, and the junior high count is never given, so a judge cannot check the total.",
       "after": "We taught 144 students: [99] in elementary school, [number] in junior high and 28 in high school."
-    },
-    {
-      "id": "edu-031",
-      "type": "suggest",
-      "anchor": "5.2Specific feedback from students",
-      "title": "Translate the handwritten feedback",
-      "body": "Most judges cannot read the Chinese handwriting, so these forms prove nothing to them yet. Add one line of English under each, in the student’s own words.",
-      "after": "“[English translation of the student’s answer]” (grade [number] student, [school level])",
-      "excerpts": [
-        "edu-2025-og-heidelberg-03"
-      ],
-      "excerpt_note": "One student quote with a before and after in it carries more weight than a summary.",
-      "ballot": "How well did their work promote mutual learning and/or a dialogue?"
     },
     {
       "id": "edu-032",
@@ -554,21 +377,6 @@
       "after": "Students named the DNA card game and the Kahoot quizzes as their favorites most often."
     },
     {
-      "id": "edu-038",
-      "type": "mistake",
-      "anchor": "The consistent gains across all four trials, paired with the direct link between student and teacher feedback",
-      "title": "“Consistent” clashes with your own data",
-      "body": "Your Fig. 1 text says Q1 dipped in Trial 2. Here you call the gains “consistent” across all four trials. A judge will notice. Keep the claim as strong as the data.",
-      "after": "Scores rose after most lessons, and each change we made between visits is listed in the tables above."
-    },
-    {
-      "id": "edu-039",
-      "type": "mistake",
-      "anchor": "This radar chart plots the percentage of students who agreed with each of six attitude and practice statements",
-      "title": "Text copied from the elementary section",
-      "body": "This paragraph describes a radar chart, but the junior high section has none. It uses labels A1 to A3 and P1 to P3, while your survey list uses A to F and G to H, and “knowledge sharing” is not on the list. The Fig. 2 and Fig. 3 captions also say “Across All Four Trials”, but you visited one junior high school. Rewrite this part from the junior high data."
-    },
-    {
       "id": "edu-040",
       "type": "praise",
       "anchor": "matching ATCG to itself rather than its complement TAGC",
@@ -587,14 +395,6 @@
       "title": "This question is not in the survey",
       "body": "The junior high knowledge list has no question on B. subtilis, so a judge cannot tell where 44% and 80% come from. “Significantly” also suggests a statistics test you do not report. Name the question, or remove the number.",
       "after": "Correct answers on [question name] rose from 44% to 80%."
-    },
-    {
-      "id": "edu-042",
-      "type": "mistake",
-      "anchor": "These findings point to two clear, actionable next steps",
-      "title": "Two steps promised, one given",
-      "body": "You promise two next steps but give only one (more hands-on time). Add the second, which is probably the DNA puzzle kit.",
-      "after": "These findings point to two next steps: more time on hands-on activities, and a color-coded DNA puzzle kit for base pairing."
     },
     {
       "id": "edu-043",
@@ -622,18 +422,6 @@
       "title": "“Despite” changes the meaning",
       "body": "“Despite” means “even though”, so this sentence sounds like the experiment should have stopped students from mentioning the games. You mean “Besides”.",
       "after": "Besides the experiment, several students also mentioned"
-    },
-    {
-      "id": "edu-046",
-      "type": "cut",
-      "anchor": "with a significant majority of the participating students highlighting the card game as the absolute standout",
-      "title": "Replace big words with your numbers",
-      "body": "“Absolute standout” and “much more effectively than standard teaching methods” are claims you did not test. You do have data: how many students named the card game as their favorite, and the base-pairing score. Use those.",
-      "after": "In the elementary post-survey, [number] of [number] students named the card game as their favorite part. Correct answers on base pairing rose from [x]% to [y]%.",
-      "excerpts": [
-        "edu-2024-ug-cityu-05"
-      ],
-      "excerpt_note": "Even winners slip here: CityU gives a postcard swap large claims with no numbers behind them."
     },
     {
       "id": "edu-047",
@@ -679,21 +467,6 @@
       "ballot": "How well did their work promote mutual learning and/or a dialogue?"
     },
     {
-      "id": "edu-052",
-      "type": "mistake",
-      "anchor": "We employed the use of interactive feedback loops post-activity survey forms.",
-      "title": "This sentence is missing words",
-      "body": "“Interactive feedback loops post-activity survey forms” has no joining words, and the next sentence has two main verbs (“allowed” and “guided”). Read it aloud and you will hear it.",
-      "after": "After each activity, students filled in a feedback survey. Their answers about climate change and synthetic biology guided our next lesson."
-    },
-    {
-      "id": "edu-053",
-      "type": "restructure",
-      "anchor": "Below are five of the main points we have identified that make up parts of completely sustainable education",
-      "title": "Merge 7.4 into 7.5",
-      "body": "Section 7.4 defines five general ideas, then 7.5 repeats the same five headings with what you did. Judges want what you did. Drop 7.4 and give each heading in 7.5 one line of definition at most. Section 7.3 also repeats section 3 and could go."
-    },
-    {
       "id": "edu-054",
       "type": "suggest",
       "anchor": "By making these resources available online, teachers can continue incorporating them into their own classrooms",
@@ -705,18 +478,6 @@
       ],
       "excerpt_note": "Queens names the materials, who holds them, and how another team can reuse them.",
       "ballot": "Is it documented in a way that others can build upon?"
-    },
-    {
-      "id": "edu-055",
-      "type": "cut",
-      "anchor": "we hope that the materials and ideas developed through ReLeaf can continue to be shared",
-      "title": "End on a result and a next step",
-      "body": "“We hope” endings carry no information, and judges see them on many pages. End with what you did and who will continue it.",
-      "after": "This year we taught 144 students at five schools and put our lesson plans, slides and games online for free. In [year], [who] will [next step].",
-      "excerpts": [
-        "edu-2023-og-epfl-04"
-      ],
-      "excerpt_note": "Even winners slip here: EPFL closes on “positive response” with no number."
     }
   ]
 }

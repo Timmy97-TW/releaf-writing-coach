@@ -107,22 +107,6 @@
   },
   "notes": [
     {
-      "id": "gis-a03",
-      "zone": "abstract",
-      "type": "praise",
-      "anchor": "since 1991, that rate has nearly tripled to 0.29ºC per decade",
-      "title": "A message worth putting in bold",
-      "body": "This gives both rates and the year the change began, so a judge can remember one clear fact about Taiwan's warming. It is the right thing to bold. Section 3 still dates the same overlay \"from 1999 to 2020\", so change that line to 1991 to match the sheet."
-    },
-    {
-      "id": "gis-a04",
-      "zone": "abstract",
-      "type": "praise",
-      "anchor": "We built a nationwide GIS routing model connecting every one of Taiwan",
-      "title": "Your own work, in countable terms",
-      "body": "This is the one sentence on the sheet about something you made, and it says what the model connects and how many companies it covers. Judges look for the team's own work first. Keep it, and follow it with what the model found."
-    },
-    {
       "id": "gis-a05",
       "zone": "abstract",
       "type": "restructure",
@@ -150,15 +134,6 @@
       "ballot": "Has the team's work measurably and significantly addressed one or more SDGs?"
     },
     {
-      "id": "gis-a09",
-      "zone": "abstract",
-      "type": "clarify",
-      "anchor": "Basically no, farmers do not manage it [soil]",
-      "title": "Say who said it",
-      "body": "In the body this quote belongs to a cocoa farmer from Nantou. On the sheet it has no speaker, so it reads as a claim about all farmers. Add the speaker, and keep it as a quote.",
-      "after": "\"Basically no, farmers do not manage it [soil]\" (cocoa farmer, Nantou)"
-    },
-    {
       "id": "gis-001",
       "type": "praise",
       "anchor": "Precision agriculture offers compelling logic, but it was built for scale",
@@ -180,7 +155,7 @@
     {
       "id": "gis-004",
       "type": "suggest",
-      "anchor": "This convergence of stress, vulnerability, and infrastructural mismatch is what ReLeaf answers",
+      "anchor": "This convergence of stress, vulnerability, and infrastructural mismatch is what ReLEAF answers",
       "title": "Put the finding in the abstract",
       "body": "The abstract says what you mapped but not what you found or what changed because of it. Judges read the abstract first and look for the result. Add one sentence with your main number and one with the decision it drove, such as the ownership model or the township rollout.",
       "after": "This convergence is what ReLeaf answers. Across [number] townships the maps flag [number] hectares as highest need, and that result is why we moved from single-farm ownership to shared units held by farmers' associations.",
@@ -239,14 +214,6 @@
       "after": "Nearly half of flash droughts now develop inside five days. Ms. Chen's three-week clock was built when they took weeks, so \"right on schedule\" can now mean \"already too late\"."
     },
     {
-      "id": "gis-013",
-      "type": "clarify",
-      "anchor": "In Taiwan, 99.18% of farmers are small-scale farmers (< 2 hectares of land)",
-      "title": "Define small-scale once, with its source",
-      "body": "An international judge does not know whether \"small-scale\" is your threshold or an official class, whether the count is of farms, farmers or households, or which census year it comes from. Say it once here, then use the same words everywhere else on the page.",
-      "after": "Taiwan's [year] agricultural census counts a holding under 2 hectares as small-scale. [Number]% of holdings fall in that class, and their average size is 0.9 to 1.1 hectares. Together they work [number]% of arable land."
-    },
-    {
       "id": "gis-015",
       "type": "suggest",
       "anchor": "the same areas that overlap with higher climate volatility index bands",
@@ -290,7 +257,7 @@
     {
       "id": "gis-019",
       "type": "restructure",
-      "anchor": "By incorporating GIS into ReLeaf—from LPA measurement and plant assays—the team is able to analyze lab-scale efficacy test results",
+      "anchor": "By incorporating GIS into ReLEAF—from LPA measurement and plant assays—the team is able to analyze lab-scale efficacy test results",
       "title": "Say who does what to what",
       "body": "This is the opening sentence of your longest section, and it never says what GIS actually does with the lab data. \"The team is able to analyze\" also hides the result. Name the input, the step and the output.",
       "after": "Two lab measurements feed the map: how much protectant our culture makes under light, and whether that protectant protects plants in soil. GIS turns those two results into a bioreactor count for each township."
@@ -302,14 +269,6 @@
       "title": "Explain what the LPA is",
       "body": "A reader meeting \"Light Physical Activity\" for the first time cannot tell whether it is a device, an assay or a measurement. In human health the same phrase means something else entirely. Say in one line what the hardware is and what it records. If this is the light plate apparatus from the Hardware page, use that page's name for it so the two agree.",
       "after": "The Light Physical Activity rig (LPA) is a [description] that lights each well of a plate at a set intensity, duration and colour, and samples the culture over time."
-    },
-    {
-      "id": "gis-021",
-      "type": "mistake",
-      "anchor": "| Pending wet lab assay data",
-      "title": "Placeholders are still in this table",
-      "body": "The table carries \"X hours\" for the sampling interval and \"Pending wet lab assay data\" instead of a yield, so a judge sees an unfinished page. One row also has three cells in a two-column table, so it renders out of line. Either fill the cells, or state in a sentence that the assay is pending and give the date you expect it.",
-      "after": "Total yield and production rate are pending the wet lab assay; we expect results by [date]. Light conditions tested: green only, red only, green and red. Sampling interval: [number] hours."
     },
     {
       "id": "gis-023",
@@ -411,7 +370,7 @@
     {
       "id": "gis-036",
       "type": "suggest",
-      "anchor": "Figure 10. Farm Calculator: What ReLeaf Means For Your Field.",
+      "anchor": "Figure 10. Farm Calculator: What ReLEAF Means For Your Field.",
       "title": "Section 7 has no text",
       "body": "Future prospect holds one figure and no writing, so the page ends without saying where the maps point next or how sure you are. This is the section judges read for long-term impact. Write three short paragraphs: what the maps would show under a future warming scenario, where your layers are least certain and why, and the next two things you would add.",
       "after": "Future prospect. Under [scenario] to [year], the counties flagged highest need shift [direction], because [reason]. Our least certain layer is the soil classification, which is a geomorphology heuristic and not a survey, so township-level unit counts in coastal areas may be wrong by [range]. Next we would add parcel-resolved TARI soil data and a second climate surface, and report where the two surfaces disagree.",

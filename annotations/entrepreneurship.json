@@ -117,40 +117,6 @@
   },
   "notes": [
     {
-      "id": "ent-a01",
-      "zone": "abstract",
-      "type": "restructure",
-      "anchor": "ReLeaf is an optogenetic bioreactor system that enables automated, on-demand protection",
-      "title": "Say what this page shows",
-      "body": "This lead is the same sentence that opens your Overview, and it describes the technology. On the Entrepreneurship page a judge wants the business in one line: who it is for, how it reaches them, and what it costs.",
-      "after": "ReLeaf is a farm bioreactor that makes crop protectants on site. This page shows how a social enterprise would sell it to [first customer group] at about NT$[price], and our six-year plan to get there.",
-      "excerpts": [
-        "ent-2023-og-leiden-31"
-      ],
-      "excerpt_note": "Leiden's first four sentences give the number, the harm and the gap before the product appears.",
-      "ballot": "Has the team identified their first potential customers and their unmet need(s) that are not yet covered by existing solutions?"
-    },
-    {
-      "id": "ent-a02",
-      "zone": "abstract",
-      "type": "restructure",
-      "anchor": "Our vision is to empower every farmer to have their small bacteria factory",
-      "title": "Bold your five-word vision",
-      "body": "“to empower every farmer” is the vaguest phrase in the paragraph, and it is the one in bold. Your body has a much better line, “Every farmer is a biomanufacturer.” Use that, and bold all five words.",
-      "after": "Our vision: every farmer is a biomanufacturer, with a small bacteria factory on the farm that makes biostimulants.",
-      "excerpts": []
-    },
-    {
-      "id": "ent-a03",
-      "zone": "abstract",
-      "type": "clarify",
-      "anchor": "The team is aware that not a lot of money can be made out of it.",
-      "title": "Finish the money sentence",
-      "body": "On its own this line tells a judge the business cannot earn money, which is a hard first impression for an Entrepreneurship prize. In section 3.2 it is the reason you chose a social enterprise. Bring the reason with it.",
-      "after": "Little profit is possible from small farmers alone, so we chose a social enterprise: larger farms, the government and NGOs pay, and small farmers buy at a lower price.",
-      "excerpts": []
-    },
-    {
       "id": "ent-a04",
       "zone": "abstract",
       "type": "praise",
@@ -161,20 +127,6 @@
         "ent-2025-og-wur-02"
       ],
       "excerpt_note": "WageningenUR admits the method that does not scale yet, then says which product it will sell first because of it."
-    },
-    {
-      "id": "ent-a05",
-      "zone": "abstract",
-      "type": "suggest",
-      "anchor": "our vision is to have a social impact",
-      "title": "Use this slot for who pays",
-      "body": "This line repeats the vision and gives a judge nothing to check. The ballot asks about customers, and your clearest body sentence says the people who pay are not the people who benefit. Put that here.",
-      "after": "Larger farms, grants and NGOs pay; small farmers get it at a lower price.",
-      "excerpts": [
-        "ent-2023-ug-tec-27"
-      ],
-      "excerpt_note": "Tec-Chihuahua splits its customers by who actually pays, and names the buyer that creates.",
-      "ballot": "Has the team identified their first potential customers and their unmet need(s) that are not yet covered by existing solutions?"
     },
     {
       "id": "ent-a06",
@@ -209,47 +161,6 @@
       "after": "Cost may exceed small farmers' budgets; we answer with shared ownership, seasonal rental or subsidy.",
       "excerpts": [],
       "ballot": "Has the team presented logical product development plans with realistic milestones, timelines, resources and risks?"
-    },
-    {
-      "id": "ent-001",
-      "type": "restructure",
-      "anchor": "ReLeaf is an optogenetic bioreactor system that enables automated, on-demand protection",
-      "title": "Start with the farmer's problem",
-      "body": "The page opens with your machine. Your best numbers about crop loss sit in the folded box below, so a judge who does not open the fold never sees why this matters. Move one sourced sentence up here, then say what ReLeaf is.",
-      "after": "Heat and salt already cause about half of the world's crop losses each year (Bray et al., 2000). ReLeaf is a bioreactor that makes crop protectants on the farm, only when sensors show stress.",
-      "excerpts": [
-        "ent-2023-og-leiden-31"
-      ],
-      "excerpt_note": "Leiden gives the number, the harm and the gap in four sentences before naming its own product.",
-      "ballot": "Has the team identified their first potential customers and their unmet need(s) that are not yet covered by existing solutions?"
-    },
-    {
-      "id": "ent-002",
-      "type": "mistake",
-      "anchor": "automatically produces and releases protective proteins directly to the crop root zone",
-      "title": "Root zone or spraying, pick one",
-      "body": "Here the protectant goes into the root zone through irrigation. In section 2.2 it is “a cell-free liquid that the farmer can then use to spray on their crops”, and Fig. 2 step 3 says “spray in fields”. A judge will see two different products. Decide which one you built and use it everywhere.",
-      "excerpts": []
-    },
-    {
-      "id": "ent-003",
-      "type": "mistake",
-      "anchor": "LEA 14 (abiotic stress protection), ACCD (ethylene reduction), and NaD1 (antifungal defense)",
-      "title": "Third protein has two names",
-      "body": "The antifungal protein is NaD1 here and in Stage 1 of the funding plan, but BoPep4 in the Year 1 roadmap and in the summary at the end of section 6.1. The Laws and Regulations page uses only BoPep4. Pick one name for this page and say in one clause how it relates to the other, if they are related.",
-      "excerpts": [
-        "ent-2025-ug-sustech-16"
-      ],
-      "excerpt_note": "A prize-winning page let one organism carry several names in one block. It is the first thing a careful reader notices."
-    },
-    {
-      "id": "ent-004",
-      "type": "cut",
-      "anchor": "Mission statement: ReLeaf strengthens agricultural resilience by enabling automated, on-demand protection",
-      "title": "Mission repeats the first paragraph",
-      "body": "This sentence says the same thing as the first two sentences of the Overview, in almost the same words. Keep one of them.",
-      "after": "Delete this line and keep the Overview paragraph, which already states the mission.",
-      "excerpts": []
     },
     {
       "id": "ent-005",
@@ -296,30 +207,12 @@
       "excerpts": []
     },
     {
-      "id": "ent-010",
-      "type": "restructure",
-      "anchor": "Consult with someone from our team/company to see the soil quality and condition of your farm",
-      "title": "Shorten the first setup step",
-      "body": "Step 1 is one 40-word sentence with “to see” twice. Shorter steps are easier for a farmer, and for a judge reading quickly.",
-      "after": "Ask our team to survey your farm. We check how many soil types you have and whether conditions change from one area to another.",
-      "excerpts": []
-    },
-    {
       "id": "ent-011",
       "type": "clarify",
       "anchor": "If you add the our line channel, you will be able to send messages/requests",
       "title": "Fix the typo and explain LINE",
       "body": "“add the our line channel” has an extra word. An international judge also will not know that LINE is the messaging app almost everyone in Taiwan uses, or what the Chinese account name means.",
       "after": "You can also add our LINE account (LINE is the main messaging app in Taiwan) and send us questions or requests. Account name: 農友助手 (Farmer's Helper).",
-      "excerpts": []
-    },
-    {
-      "id": "ent-012",
-      "type": "restructure",
-      "anchor": "What they do is instead of making farmers have to go through middlemen in order to sell their product",
-      "title": "Split this spoken sentence",
-      "body": "This sentence runs for about 60 words and holds three ideas, so the reader loses the thread. Say one thing per sentence.",
-      "after": "USE-GH buys crops from farmers directly, at a much lower fee than middlemen charge. It also teaches farmers to process their raw materials into finished products, so they earn more from the same harvest.",
       "excerpts": []
     },
     {
@@ -332,14 +225,6 @@
         "ent-2025-ug-sustech-15"
       ],
       "excerpt_note": "SUSTech-BIO writes each weakness as a process that goes wrong, in one line each."
-    },
-    {
-      "id": "ent-014",
-      "type": "mistake",
-      "anchor": "The global push to meet UN Sustainability Goals (particularly SDGs 2, 8, 11, 12, 13, and 15)",
-      "title": "SDG numbers clash with Sustainability",
-      "body": "This page claims SDGs 2, 8, 11, 12, 13 and 15, and the SDG box lower down repeats them. The Sustainability page chooses SDG 2, 4, 10 and 15, and says plainly that Climate Action “isn’t the main point of our project”. Two pages cannot pick different goals. Use the Sustainability page's four and link to it.",
-      "excerpts": []
     },
     {
       "id": "ent-015",
@@ -531,24 +416,6 @@
       "ballot": "Has the team identified their first potential customers and their unmet need(s) that are not yet covered by existing solutions?"
     },
     {
-      "id": "ent-032",
-      "type": "cut",
-      "anchor": "A possible solution would be a reusable drive and a replaceable cartridge system that aligns best with farmer spending behavior",
-      "title": "Last sentence repeats the second",
-      "body": "The paragraph already said the system is a low-cost reusable base unit with replaceable seasonal cartridges. This sentence says it again and calls it only a possibility, which weakens the earlier decision.",
-      "after": "Delete this sentence.",
-      "excerpts": []
-    },
-    {
-      "id": "ent-033",
-      "type": "mistake",
-      "anchor": "First commercial pilot programs will launch in 2026",
-      "title": "2026 here, 2027 in the timeline",
-      "body": "This objective puts the first pilots in 2026. The marketing timeline says “Our sales strategy will launch in 2027” under a chart titled 2027 Marketing Strategy, and the roadmap puts the Taiwan field pilot in Year 1.5 to 2.5. Fix the dates so the three agree, and state which year is Year 1.",
-      "excerpts": [],
-      "ballot": "Has the team presented logical product development plans with realistic milestones, timelines, resources and risks?"
-    },
-    {
       "id": "ent-034",
       "type": "mistake",
       "anchor": "These locations have looser laws on GMOs and AgTech than areas such as Europe or Japan",
@@ -556,27 +423,6 @@
       "body": "The sentence before this one lists the European Union as a first, easier market, then this sentence contrasts those markets with Europe. The roadmap also puts the EU last, in Year 5.5 and later, and the Laws and Regulations page gives the order as Taiwan, European Union, Philippines, Vietnam, Thailand, Indonesia. Three different orders exist across two pages. Agree one order and repeat it.",
       "excerpts": [],
       "ballot": "Has the team presented logical product development plans with realistic milestones, timelines, resources and risks?"
-    },
-    {
-      "id": "ent-035",
-      "type": "mistake",
-      "anchor": "uses a heavy-duty, single-button system with mechanically keyed cartridges to prove the device requires no digital skills",
-      "title": "One button here, a phone app earlier",
-      "body": "Section 2.2 says “The App brings everything together on the farmer’s phone”, with one-click ordering and an AIoT screen for setup. This paragraph says the device needs no digital skills and has one button. Both cannot be the product. If the app is optional, say so in section 2.2.",
-      "excerpts": []
-    },
-    {
-      "id": "ent-036",
-      "type": "clarify",
-      "anchor": "Once these target farmers see a 10% to 15% increase in crop yields and a 20% to 30% drop in chemical spraying",
-      "title": "Say these are targets, not results",
-      "body": "A judge reading quickly will take these as measured results. Nothing on the page shows a field trial yet, so label them and say where they come from.",
-      "after": "Once our pilot farms reach our target of [number]% higher yield and [number]% less spraying, measured against their own previous season, we will launch a referral discount.",
-      "excerpts": [
-        "sus-2025-og-aalto-02"
-      ],
-      "excerpt_note": "Aalto states what stage the project is at before it makes any claim, so the reader knows how to weigh the numbers.",
-      "ballot": "Has the team shown that their solution is possible, scalable and inventive?"
     },
     {
       "id": "ent-037",
@@ -675,16 +521,6 @@
       "ballot": "Has the team presented logical product development plans with realistic milestones, timelines, resources and risks?"
     },
     {
-      "id": "ent-047",
-      "type": "mistake",
-      "anchor": "The engineered bacteria remain physically confined via the 0.22 micrometer hollow-fiber membrane with redundant genetic kill switches",
-      "title": "The kill switch may not exist yet",
-      "body": "Your Human Practices page says Dr. Brophy warned that biological switches mutate and fail, and that the team then decided to “treat physical containment as the primary biosafety mechanism, while evaluating whether an additional kill switch is necessary”. This page, the risk table and the conclusion all describe a built CRISPR kill switch as one of three layers. Say what is built and what is planned.",
-      "after": "The engineered bacteria are held inside by the 0.22 micrometer hollow-fiber membrane and the sealed housing. We are still evaluating whether to add a genetic kill switch.",
-      "excerpts": [],
-      "ballot": "Has the team considered the positive and negative long-term impacts of their fully developed solution?"
-    },
-    {
       "id": "ent-048",
       "type": "suggest",
       "anchor": "we anticipate securing “absolute containment” certification by end of Phase 2 (Year 2)",
@@ -719,16 +555,6 @@
       "ballot": "Has the team presented logical product development plans with realistic milestones, timelines, resources and risks?"
     },
     {
-      "id": "ent-051",
-      "type": "suggest",
-      "anchor": "Genetic containment failure (CRISPR kill switch)",
-      "title": "Tie each risk to a phase",
-      "body": "Your nine risks each have a probability, an impact and a mitigation, which is already good. Add the phase of the roadmap when each risk matters, so the risk list and section 6 line up and a judge can see when you would act.",
-      "after": "Add one line to each risk: Phase: Year 2 field pilot (20–50 units).",
-      "excerpts": [],
-      "ballot": "Has the team presented logical product development plans with realistic milestones, timelines, resources and risks?"
-    },
-    {
       "id": "ent-052",
       "type": "praise",
       "anchor": "Conduct simple visual/functional tests monthly with farmers or extension officers",
@@ -743,20 +569,11 @@
     {
       "id": "ent-053",
       "type": "cut",
-      "anchor": "ReLeaf represents a transformative approach to agricultural resilience in the face of accelerating climate change",
+      "anchor": "ReLEAF represents a transformative approach to agricultural resilience in the face of accelerating climate change",
       "title": "Open the conclusion on a fact",
       "body": "The conclusion starts with the vaguest sentence on the page, then repeats the mission for a third time. Your three containment layers and your regulatory choice are the things worth restating.",
       "after": "ReLeaf makes crop protectants on the farm, only when sensors show stress. Three layers hold the bacteria inside: the membrane, the sealed housing, and the genetic controls we are still testing.",
       "excerpts": []
-    },
-    {
-      "id": "ent-054",
-      "type": "mistake",
-      "anchor": "reaching Brazil and Ghana in Phase 4+ for global scaling",
-      "title": "Brazil and Ghana appear only here",
-      "body": "The roadmap in section 6 ends with Thailand and Indonesia, then the European Union and the United States. Brazil and Ghana are named nowhere else on the page, and the phase numbers in this sentence do not match the five phases in the roadmap. Use the roadmap's own markets and phase numbers.",
-      "excerpts": [],
-      "ballot": "Has the team presented logical product development plans with realistic milestones, timelines, resources and risks?"
     },
     {
       "id": "ent-055",
